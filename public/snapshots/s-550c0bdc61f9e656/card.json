@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "title": "전쟁 날까",
+  "assessed_at": null,
+  "coverage_as_of": "2026-11-01T07:12:04Z",
+  "generated_at": "2026-11-01T07:12:07+00:00",
+  "release_id": "r-5660089fdd457f66",
+  "snapshot_id": "s-550c0bdc61f9e656",
+  "headline": "새로 수집한 공식 자료를 확인하고 있습니다.",
+  "summary": "아래 원문 링크를 먼저 확인할 수 있습니다. 아직 승인된 사건 요약은 없으며, 자료 수가 사건 수나 위험도를 뜻하지 않습니다.",
+  "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
+  "unknowns": [
+    "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
+  ],
+  "method_version": "1.0",
+  "coverage": {
+    "ok": 3,
+    "total": 3,
+    "pending": 11,
+    "status": "partial"
+  },
+  "sources": [
+    {
+      "id": "govuk-korea",
+      "name": "영국 외무부 한국 여행정보",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+      "status": "ok",
+      "checked_at": "2026-11-01T07:12:04Z",
+      "coverage_at": "2026-11-01T07:12:04Z",
+      "error": null,
+      "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
+      "scope_note": "한국 여행정보의 현재 공개 문서 1개. 최신 변경이 입국·보건 정보일 수도 있습니다."
+    },
+    {
+      "id": "korea-briefing",
+      "name": "대한민국 정책브리핑",
+      "url": "https://www.korea.kr/briefing/pressReleaseList.do",
+      "status": "ok",
+      "checked_at": "2026-11-01T07:12:06Z",
+      "coverage_at": "2026-11-01T07:12:06Z",
+      "error": null,
+      "permission_note": "공개 목록의 제목·출처 링크만 발견합니다. 개별 공공누리 표식 확인 전 본문 수집·AI 요약은 보류합니다.",
+      "scope_note": "최신 보도자료 목록 1페이지의 국방·통일·외교 관련 항목만. 전체 보도자료나 속보를 포괄하지 않습니다."
+    },
+    {
+      "id": "japan-jso",
+      "name": "일본 방위성 통합막료감부",
+      "url": "https://www.mod.go.jp/js/press/index-en.html",
+      "status": "ok",
+      "checked_at": "2026-11-01T07:12:06Z",
+      "coverage_at": "2026-11-01T07:12:06Z",
+      "error": null,
+      "permission_note": "공개 영문 목록의 한반도 관련 링크만 발견합니다. 이용조건 확인 전 PDF 본문 수집·AI 요약은 보류합니다.",
+      "scope_note": "현재 연도 영문 보도자료 목록의 Korea·DPRK·ballistic·missile 제목. 영문에 없는 발표를 포함하지 않습니다."
+    }
+  ],
+  "events": [],
+  "changes": [],
+  "notices": [
+    {
+      "id": "doc-0980bd405b22a933ad5a",
+      "title": "Feb 20 Press Release Regarding the FY 2025 Japan–U.S. Joint Integrated Air and Missile Defense (Defensive) Exercise",
+      "url": "https://www.mod.go.jp/js/pdf/2026/p20260220_01e.pdf",
+      "source_name": "일본 방위성 통합막료감부",
+      "published_at": "2026-02-19T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:12:06Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ec96639996457cf172ab",
+      "title": "Jul 16 Press Release United States–Japan-Republic of Korea Trilateral Chiefs of Defense Joint Press Statement",
+      "url": "https://www.mod.go.jp/js/pdf/2026/p20260716_01e.pdf",
+      "source_name": "일본 방위성 통합막료감부",
+      "published_at": "2026-07-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:12:06Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-d26622eb6cc1183c5fe3",
+      "title": "외교부 2030 청년자문단 3기 역량강화 연수 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787394",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-07933ed385a58e8bb22c",
+      "title": "한-독일 외교장관회담(10.30.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-6c80cdbe33d01b0cbbc3",
+      "title": "한-폴란드 외교장관회담(10.30.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787403",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-3cf1de681d9342c45a19",
+      "title": "한국-영국 외교장관 회담(10.31.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-75a89f70457be4f964be",
+      "title": "한국-멕시코 외교장관 회담(10.31.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787405",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-791dfa09c35582d36a6b",
+      "title": "한국-EU 외교장관 회담(10.31.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787406",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4be607f6b920091af1f2",
+      "title": "한국-인도 외교장관 회담(10.31.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787407",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-22e5195df02b1241ffe8",
+      "title": "조현 장관, G20 외교장관회의(10.30-31, 애틀랜타) 참석",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787408",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-a7053a57fcd895a3762e",
+      "title": "한국 여행정보 — South Korea travel advice",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+      "source_name": "영국 외무부 한국 여행정보",
+      "published_at": "2026-05-14T10:06:39Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "pending"
+    }
+  ],
+  "demo_enabled": true
+}

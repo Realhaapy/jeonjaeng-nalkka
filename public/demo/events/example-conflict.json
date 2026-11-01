@@ -1,0 +1,41 @@
+{
+  "id": "example-conflict",
+  "title": "서로 다른 발표는 확인 중으로 남깁니다.",
+  "summary": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다.",
+  "kind": "official_statement",
+  "occurred_at": null,
+  "time_precision": "unknown",
+  "reported_at": "2026-01-15T05:17:00+00:00",
+  "updated_at": "2026-01-15T05:17:00+00:00",
+  "status": "disputed",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "실제 발생 시각을 확인할 추가 근거가 필요하다는 가정입니다."
+  ],
+  "revision": 1,
+  "sources": [
+    {
+      "name": "예시 기관 · 가상 자료",
+      "url": "https://example.org/",
+      "published_at": "2026-01-15T05:17:00+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "text": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다.",
+      "state": "disputed",
+      "evidence_urls": [
+        "https://example.org/"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-01-15T05:17:00+00:00",
+      "type": "update",
+      "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "example-exercise",
+  "title": "예고된 훈련과 새로운 군사행동을 구분합니다.",
+  "summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
+  "kind": "exercise",
+  "occurred_at": null,
+  "time_precision": "unknown",
+  "reported_at": "2026-01-15T05:17:00+00:00",
+  "updated_at": "2026-01-15T05:17:00+00:00",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "이 항목은 실제 훈련 일정이 아닙니다."
+  ],
+  "revision": 1,
+  "sources": [
+    {
+      "name": "예시 기관 · 가상 자료",
+      "url": "https://example.org/",
+      "published_at": "2026-01-15T05:17:00+00:00"
+    }
+  ],
+  "facts": [
+    {
+      "text": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://example.org/"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "at": "2026-01-15T05:17:00+00:00",
+      "type": "new",
+      "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+    }
+  ]
+}
