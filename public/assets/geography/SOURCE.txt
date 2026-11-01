@@ -1,0 +1,4 @@
+Natural Earth 1:50m Admin 0 countries. Public domain. Downloaded 2026-11-01.
+https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson
+https://www.naturalearthdata.com/about/terms-of-use/
+Display is geographic context only; boundaries do not assert a political position.

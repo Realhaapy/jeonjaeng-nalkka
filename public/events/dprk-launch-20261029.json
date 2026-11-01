@@ -1,0 +1,54 @@
+{
+  "id": "dprk-launch-20261029",
+  "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
+  "summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다.",
+  "kind": "missile_test",
+  "occurred_at": "2026-10-29T03:36:00Z",
+  "time_precision": "minute",
+  "reported_at": "2026-10-29T05:21:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "ended",
+  "important": true,
+  "unknowns": [
+    "일본 측 발표는 탄도미사일의 가능성이 있는 물체라고 표현합니다. 종류·의도·정확한 발사지점은 이 기록으로 확정하지 않습니다.",
+    "낙하 추정은 해당 비행에 대한 발표입니다. 군사적 긴장의 종료나 모든 피해의 부재를 뜻하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "새로운 발사 발표와 이후 외교 대응을 별개의 변화로 볼 필요가 있습니다. 물체의 종류에 남아 있는 추정을 그대로 유지하며 전쟁 가능성 수치로 환산하지 않습니다.",
+  "significance": "major",
+  "sources": [
+    {
+      "name": "일본 방위성·내각관방",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
+      "published_at": "2026-10-29T05:21:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "일본 방위성 발표에 따르면 발사 추정 시각은 10월 29일 12시 36분경입니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+      ]
+    },
+    {
+      "text": "일본 방위성은 일본 영역·배타적경제수역으로의 비래와 주변 항공기·선박 피해 보고는 당시 확인되지 않았다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "trilateral-response-20261030",
+  "title": "한·미·일, 10월 29일 발사 뒤 전화 협의",
+  "summary": "일본 외무성은 한·미·일 외교 당국이 북한의 10월 29일 발사에 대응해 30일 전화 협의를 했다고 발표했습니다.",
+  "kind": "diplomatic_change",
+  "occurred_at": "2026-10-29T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-29T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "일본 외무성 발표를 확인한 기록입니다. 별개의 관측 자료로 발사 성능이나 피해를 추가 검증한 것은 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "발사 다음 날의 외교 대응을 연결해 보여줍니다. 전화 협의가 새로운 발사나 군사 충돌 한 건으로 중복 계산되지 않도록 구분합니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "일본 외무성",
+      "url": "https://www.mofa.go.jp/press/release/pressite_000001_02804.html",
+      "published_at": "2026-10-29T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "일본 외무성은 한국·미국·일본 담당자들이 10월 30일 북한 문제에 관해 통화했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02804.html"
+      ]
+    },
+    {
+      "text": "발표문에는 북한의 발사에 대한 입장과 세 나라의 긴밀한 공조를 재확인했다는 내용이 담겼습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02804.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

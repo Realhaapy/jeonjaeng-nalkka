@@ -1,0 +1,53 @@
+{
+  "id": "dprk-sanctions-statement-20261028",
+  "title": "대북 제재에 관한 다국적 공동성명 발표",
+  "summary": "일본 외무성은 다국적 제재모니터링팀 참여국과 EU가 10월 28일 대북 제재 공동성명을 발표했다고 전했습니다.",
+  "kind": "official_measure",
+  "occurred_at": "2026-10-27T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-27T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "개별 제재의 대상·발효일·집행 효과는 이 짧은 기록에서 검증하지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "군사행동과 제재·정책 조치를 분리해 상황을 읽도록 하는 기록입니다. 공동성명 발표일을 모든 개별 제재의 시행일로 해석하지 않습니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "일본 외무성",
+      "url": "https://www.mofa.go.jp/press/release/pressite_000001_02798.html",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "공동성명은 북한의 해외 노동, 사이버 활동, 북·러 협력 관련 행위자를 대상으로 한 EU·호주·미국의 제재 조치를 언급했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02798.html"
+      ]
+    },
+    {
+      "text": "일본 외무성은 참여국과 EU의 유엔 제재 이행 및 제재 회피 대응 의지를 재확인했다고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02798.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

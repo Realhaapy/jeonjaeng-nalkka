@@ -1,0 +1,53 @@
+{
+  "id": "dprk-launch-20261003",
+  "title": "10월 3일, 북한 동해안 부근 미사일 발사 발표",
+  "summary": "일본 방위성은 10월 3일 오전 북한 동해안 부근에서 최소 한 발의 탄도미사일이 발사됐으며, 일본 배타적경제수역 밖에 낙하한 것으로 추정했습니다.",
+  "kind": "missile_test",
+  "occurred_at": "2026-10-02T21:36:00Z",
+  "time_precision": "minute",
+  "reported_at": "2026-10-02T23:15:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "ended",
+  "important": true,
+  "unknowns": [
+    "발사지점은 북한 동해안 부근이라는 지역 수준만 공개됐습니다. 도시나 발사대 좌표를 추정하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "10월의 발사 발표를 날짜별로 비교하기 위한 과거 기록입니다. 오늘 새롭게 발생한 사건이나 검증된 전쟁 확률로 표시하지 않습니다.",
+  "significance": "major",
+  "sources": [
+    {
+      "name": "일본 방위성·내각관방",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/03d.html",
+      "published_at": "2026-10-02T23:15:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "일본 방위성 발표는 발사 시각을 6시 36분경, 최고 고도를 약 90km, 비행 거리를 약 680km로 추정했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+      ]
+    },
+    {
+      "text": "당시 항공기·선박 피해 보고가 확인되지 않았고 세 나라가 세부 내용을 분석 중이라고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

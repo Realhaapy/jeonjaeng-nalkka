@@ -1,0 +1,46 @@
+{
+  "id": "trilateral-response-20261003",
+  "title": "한·미·일, 10월 3일 발사 당일 전화 협의",
+  "summary": "일본 외무성은 10월 3일 북한의 발사에 대응해 같은 날 한·미·일 외교 당국이 전화 협의를 했다고 발표했습니다.",
+  "kind": "diplomatic_change",
+  "occurred_at": "2026-10-02T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-02T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "정확한 통화 시각은 원문에서 확인되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "발사와 외교 대응의 시간 순서를 보여주는 기록입니다. 같은 사건을 다루는 기사 수를 위험의 크기로 사용하지 않습니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "일본 외무성",
+      "url": "https://www.mofa.go.jp/press/release/pressite_000001_02703.html",
+      "published_at": "2026-10-02T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "발표문은 당일 발사에 대한 세 나라의 입장과 공조 재확인을 설명합니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02703.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

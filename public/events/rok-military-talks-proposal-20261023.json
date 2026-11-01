@@ -1,0 +1,67 @@
+{
+  "id": "rok-military-talks-proposal-20261023",
+  "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+  "summary": "국방부는 10월 23일 군사분계선 위치 확인, 군통신선 복원과 접경지역 우발충돌 방지 방안을 논의할 군사당국회담을 북한에 제안했습니다.",
+  "kind": "diplomatic_change",
+  "occurred_at": "2026-10-22T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-22T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "회담 수락·개최·합의 이행 여부는 이 발표만으로 확인되지 않습니다.",
+    "지도는 발표가 이뤄진 서울의 도시 범위를 표시합니다. 군사분계선이나 부대 위치가 아닙니다.",
+    "두 링크는 같은 담화와 이를 소개한 기사입니다. 독립적으로 확인한 기관 두 곳이라는 뜻이 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "대화 제안은 실제 회담 개최나 군통신선 복원과 구분해야 합니다. 접경지역 긴장 완화로 이어졌는지는 북측 반응과 후속 조치를 더 확인해야 합니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "대한민국 국방부·정책브리핑",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228",
+      "published_at": "2026-10-22T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "대한민국 국방부 · 담화 원문",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
+      "published_at": "2026-10-22T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 남북이 인식하는 군사분계선 위치를 상호 확인하고 우발충돌을 방지하기 위한 회담을 제안했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+      ]
+    },
+    {
+      "text": "발표에는 필요하면 유엔군사령부를 포함하는 회담도 가능하며, 구체적 일정·장소는 협의할 수 있다는 내용이 포함됐습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+      ]
+    }
+  ],
+  "location": {
+    "name": "서울 · 국방부 발표 도시",
+    "lat": 37.5665,
+    "lon": 126.978,
+    "precision": "city",
+    "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+  },
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}

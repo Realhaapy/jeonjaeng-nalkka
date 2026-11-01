@@ -1,0 +1,53 @@
+{
+  "id": "trilateral-response-20261013",
+  "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
+  "summary": "일본 외무성은 10월 13일 한·미·일 당국이 전날 북한의 발사에 관해 전화 협의를 했다고 발표했습니다.",
+  "kind": "diplomatic_change",
+  "occurred_at": "2026-10-12T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-12T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-01T09:30:00Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "통화의 비공개 세부 내용이나 추가 군사 조치가 있었다는 근거는 이 발표에 제시되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "10월 12일 발사에 이어진 외교 대응을 연결합니다. 후속 협의 보도를 별도의 군사행동으로 세지 않습니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "일본 외무성",
+      "url": "https://www.mofa.go.jp/press/release/pressite_000001_02732.html",
+      "published_at": "2026-10-12T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "발표문은 10월 12일 발사에 대응하는 세 나라 외교 당국의 통화라고 설명합니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02732.html"
+      ]
+    },
+    {
+      "text": "관련 유엔 안전보장이사회 결의에 대한 입장과 공조를 재확인했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.jp/press/release/pressite_000001_02732.html"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    }
+  ]
+}
