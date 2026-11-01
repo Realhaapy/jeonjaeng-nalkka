@@ -4,9 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "generated_at": "2026-11-01T19:28:32+00:00",
-  "release_id": "r-916dfdda565637db",
-  "snapshot_id": "s-46af14c302337907",
+  "collection_checked_at": "2026-11-01T19:50:45Z",
+  "generated_at": "2026-11-01T19:52:29+00:00",
+  "release_id": "r-f099133638d1b40f",
+  "snapshot_id": "s-c7593fb3bbce1066",
   "headline": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
   "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +19,8 @@
     "ok": 4,
     "total": 4,
     "pending": 58,
-    "status": "partial"
+    "status": "partial",
+    "scope_limited": 1
   },
   "sources": [
     {
@@ -26,8 +28,10 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-01T19:17:03Z",
-      "coverage_at": "2026-11-01T19:17:03Z",
+      "checked_at": "2026-11-01T19:50:45Z",
+      "last_success_at": "2026-11-01T19:50:45Z",
+      "coverage_at": "2026-11-01T19:50:45Z",
+      "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
       "scope_note": "한국 여행정보의 현재 공개 문서 1개. 최신 변경이 입국·보건 정보일 수도 있습니다."
@@ -37,8 +41,10 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-01T19:17:04Z",
+      "checked_at": "2026-11-01T19:50:46Z",
+      "last_success_at": "2026-11-01T19:50:46Z",
       "coverage_at": "2026-11-01T14:17:05Z",
+      "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형 또는 제2유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일 검색별 앞 2페이지, 국방·외교·통일·방위사업 관련 최대 40건. 전체 군사 사건을 포괄하지 않습니다."
@@ -49,7 +55,9 @@
       "url": "https://www.mod.go.jp/js/press/index-en.html",
       "status": "disabled",
       "checked_at": "2026-11-01T08:17:02Z",
+      "last_success_at": "2026-11-01T08:17:02Z",
       "coverage_at": "2026-11-01T08:17:02Z",
+      "scope_complete": true,
       "error": null,
       "permission_note": "한반도 핵심 미사일 발표를 다루는 방위성 북한 동향 목록으로 수집 경로를 전환했습니다. 이 영문 목록은 현재 자동 수집하지 않습니다.",
       "scope_note": "현재 연도 영문 보도자료 목록의 Korea·DPRK·ballistic·missile 제목. 영문에 없는 발표를 포함하지 않습니다."
@@ -59,8 +67,10 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-01T19:17:30Z",
-      "coverage_at": "2026-11-01T19:17:30Z",
+      "checked_at": "2026-11-01T19:51:12Z",
+      "last_success_at": "2026-11-01T19:51:12Z",
+      "coverage_at": "2026-11-01T19:51:12Z",
+      "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
       "scope_note": "USFK 단위 RSS 앞 30개 중 최근 30일 /news/ 기사. 사진·영상·다른 미군 기관·전군 발표는 포함하지 않습니다. 훈련·행사 공지도 포함될 수 있습니다."
@@ -71,7 +81,9 @@
       "url": "https://www.bbc.com/news/world/asia",
       "status": "disabled",
       "checked_at": null,
+      "last_success_at": null,
       "coverage_at": null,
+      "scope_complete": false,
       "error": null,
       "permission_note": "RSS 접근은 확인했으나 BBC 개인 이용 조건의 피드 변경 금지·메타데이터 추출 제한 때문에 현재 선별 저장 방식은 비활성화했습니다. 허용되는 피드 표시 방식 또는 별도 이용 허락 확인 후 연결합니다.",
       "scope_note": "아시아 뉴스 RSS 후보. 현재 자동 수집·분석하지 않으며 자료 점검률에도 포함하지 않습니다."
@@ -81,8 +93,10 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-01T19:17:33Z",
-      "coverage_at": "2026-11-01T19:17:33Z",
+      "checked_at": "2026-11-01T19:51:14Z",
+      "last_success_at": "2026-11-01T19:51:14Z",
+      "coverage_at": "2026-11-01T19:51:14Z",
+      "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
       "scope_note": "북한 동향 공식 목록 중 최근 30일 발표 링크, 최대 30건. 접근이 막히면 점검 실패로 표시합니다. 별도로 직접 열람한 사건은 출처를 붙여 검토 등록할 수 있습니다."
@@ -1020,7 +1034,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-01T19:28:32+00:00",
+    "as_of": "2026-11-01T19:52:29+00:00",
     "assessment_label": "최근 군사 발표와 후속 대응",
     "assessment_summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다. 같은 기간의 외교 발표도 아래 사건 기록에서 따로 확인할 수 있습니다.",
     "assessment_note": "공개된 기관 발표와 검토 기록을 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
@@ -1714,8 +1728,9 @@
     ],
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-01T19:17:33+00:00"
+    "last_attempt_at": "2026-11-01T19:51:14+00:00"
   },
   "demo_enabled": true,
-  "snapshot_coverage_as_of": "2026-11-01T14:17:05Z"
+  "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
+  "snapshot_collection_checked_at": "2026-11-01T19:50:45Z"
 }
