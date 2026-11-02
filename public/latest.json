@@ -5,9 +5,9 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-02T17:17:04Z",
-  "generated_at": "2026-11-02T17:19:12+00:00",
-  "release_id": "r-2eec5c0765b5a859",
-  "snapshot_id": "s-a6b64aea6615b0a6",
+  "generated_at": "2026-11-02T17:51:31+00:00",
+  "release_id": "r-568ece6e979d721e",
+  "snapshot_id": "s-327d8406650f1cff",
   "headline": "후속 확인이 필요한 중요 사건이 있습니다.",
   "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -1239,7 +1239,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-02T17:19:12+00:00",
+    "as_of": "2026-11-02T17:51:31+00:00",
     "assessment_label": "후속 확인이 필요한 주요 기록",
     "assessment_summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
     "brief": {
@@ -2028,5 +2028,5 @@
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-02T16:12:11Z"
+  "snapshot_collection_checked_at": "2026-11-02T17:17:04Z"
 }

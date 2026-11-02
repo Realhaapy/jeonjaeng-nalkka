@@ -62,4 +62,17 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
  .site-footer{margin-top:64px;padding-block:36px 24px}.footer-main{grid-template-columns:1fr;gap:18px;padding-bottom:28px}.footer-main .brand{font-size:clamp(2.75rem,12vw,4rem)}.footer-main>a:not(.brand){grid-column:1;grid-row:auto;font-size:.8125rem}.footer-main p{font-size:.8125rem}.footer-meta{gap:14px;font-size:.8125rem;line-height:1.8}.footer-meta>*{width:100%}.toast{bottom:16px;font-size:.875rem}.demo-strip .wrap,.archive-strip .wrap{font-size:.8125rem;gap:6px 12px}.demo-strip a,.archive-strip a{margin-left:0}.latest-notice{align-items:flex-start;flex-direction:column;gap:4px;padding:16px;font-size:.875rem}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Each square is one reviewed event; values stay explicit for all six types. */
+.brief-counts{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.brief-count-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;align-items:center}
+.brief-count-label{font-size:1rem;line-height:1.5}
+.brief-count-value{grid-column:2;grid-row:1 / span 2;font-size:1.5rem;line-height:1.2;font-weight:650;font-variant-numeric:tabular-nums;white-space:nowrap}
+.brief-count-value small{font-size:.8125rem;font-weight:400;margin-left:4px}
+.brief-count-marks{display:flex;align-items:center;flex-wrap:wrap;gap:4px;min-height:8px;font-size:.8125rem;line-height:1.2;color:var(--accent)}
+.brief-count-marks i{display:block;width:8px;height:8px;background:currentColor}
+.brief-count-row.is-zero{color:#c3c9b9}
+.brief-lines .brief-count-key,.brief-lines .brief-comparison-note{font-size:.8125rem;line-height:1.7;color:#c3c9b9;font-weight:400}
+.brief-count-key{margin-top:20px}.brief-lines .brief-comparison-note{margin-top:8px}
+@media(max-width:680px){.brief-lines>.brief-period{grid-template-columns:minmax(0,1fr);gap:16px}.brief-period>dt{font-size:1rem;color:var(--paper)}.brief-counts{gap:16px}}
 @media print{body{background:white;color:black}.wrap{width:100%}.site-header,.site-footer,.hero-actions,.event-tools,.change-filters,.segmented,.toast,.main-nav{display:none!important}.atlas-hero,.records-grid,.event-layout,.about-layout{display:block}.hero-map{max-width:600px;break-inside:avoid}.briefing-band{background:white;color:black;border:1px solid #777}.brief-lines dt,.brief-note,.brief-heading h2{color:#444}.changes-section{padding-left:0;border-left:0}.event-row,.fact-block{break-inside:avoid}.event-summary,.hero-lead .assessment-copy{display:block;overflow:visible}}
