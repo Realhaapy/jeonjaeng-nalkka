@@ -1,0 +1,2174 @@
+{
+  "schema_version": 1,
+  "mode": "live",
+  "title": "전쟁 날까",
+  "assessed_at": null,
+  "coverage_as_of": "2026-11-01T14:17:05Z",
+  "collection_checked_at": "2026-11-02T18:17:02Z",
+  "generated_at": "2026-11-02T18:36:19+00:00",
+  "release_id": "r-581ea3a434839065",
+  "snapshot_id": "s-b53104223304666e",
+  "headline": "후속 확인이 필요한 중요 사건이 있습니다.",
+  "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+  "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
+  "unknowns": [
+    "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
+  ],
+  "method_version": "1.0",
+  "coverage": {
+    "ok": 9,
+    "total": 9,
+    "pending": 88,
+    "status": "partial",
+    "scope_limited": 1
+  },
+  "sources": [
+    {
+      "id": "govuk-korea",
+      "name": "영국 외무부 한국 여행정보",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:02Z",
+      "last_success_at": "2026-11-02T18:17:02Z",
+      "coverage_at": "2026-11-02T18:17:02Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
+      "scope_note": "한국 여행정보의 현재 공개 문서 1개. 최신 변경이 입국·보건 정보일 수도 있습니다."
+    },
+    {
+      "id": "korea-briefing",
+      "name": "대한민국 정책브리핑",
+      "url": "https://www.korea.kr/briefing/pressReleaseList.do",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:03Z",
+      "last_success_at": "2026-11-02T18:17:03Z",
+      "coverage_at": "2026-11-01T14:17:05Z",
+      "scope_complete": false,
+      "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "permission_note": "개별 상세 페이지의 공공누리 제1유형 또는 제2유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
+      "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
+    },
+    {
+      "id": "japan-jso",
+      "name": "일본 방위성 통합막료감부",
+      "url": "https://www.mod.go.jp/js/press/index-en.html",
+      "status": "disabled",
+      "checked_at": "2026-11-01T08:17:02Z",
+      "last_success_at": "2026-11-01T08:17:02Z",
+      "coverage_at": "2026-11-01T08:17:02Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "한반도 핵심 미사일 발표를 다루는 방위성 북한 동향 목록으로 수집 경로를 전환했습니다. 이 영문 목록은 현재 자동 수집하지 않습니다.",
+      "scope_note": "현재 연도 영문 보도자료 목록의 Korea·DPRK·ballistic·missile 제목. 영문에 없는 발표를 포함하지 않습니다."
+    },
+    {
+      "id": "usfk-dvids",
+      "name": "주한미군 공식 발표 · DVIDS",
+      "url": "https://www.dvidshub.net/unit/USFK",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:35Z",
+      "last_success_at": "2026-11-02T18:17:35Z",
+      "coverage_at": "2026-11-02T18:17:35Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
+      "scope_note": "USFK 단위 RSS 앞 30개 중 최근 30일 /news/ 기사. 사진·영상·다른 미군 기관·전군 발표는 포함하지 않습니다. 훈련·행사 공지도 포함될 수 있습니다."
+    },
+    {
+      "id": "bbc-asia",
+      "name": "BBC News Asia · 수집 보류",
+      "url": "https://www.bbc.com/news/world/asia",
+      "status": "disabled",
+      "checked_at": null,
+      "last_success_at": null,
+      "coverage_at": null,
+      "scope_complete": false,
+      "error": null,
+      "permission_note": "RSS 접근은 확인했으나 BBC 개인 이용 조건의 피드 변경 금지·메타데이터 추출 제한 때문에 현재 선별 저장 방식은 비활성화했습니다. 허용되는 피드 표시 방식 또는 별도 이용 허락 확인 후 연결합니다.",
+      "scope_note": "아시아 뉴스 RSS 후보. 현재 자동 수집·분석하지 않으며 자료 점검률에도 포함하지 않습니다."
+    },
+    {
+      "id": "japan-mod-northkorea",
+      "name": "일본 방위성 · 북한 미사일 발표",
+      "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:37Z",
+      "last_success_at": "2026-11-02T18:17:37Z",
+      "coverage_at": "2026-11-02T18:17:37Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
+      "scope_note": "북한 동향 공식 목록 중 최근 30일 발표 링크, 최대 30건. 접근이 막히면 점검 실패로 표시합니다. 별도로 직접 열람한 사건은 출처를 붙여 검토 등록할 수 있습니다."
+    },
+    {
+      "id": "sbs-politics-discovery",
+      "name": "SBS 정치 · 비공개 뉴스 발견",
+      "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:37Z",
+      "last_success_at": "2026-11-02T18:17:37Z",
+      "coverage_at": "2026-11-02T18:17:37Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다. RSS 시각은 피드가 제공한 시각이며 원문 최초 게시가 아닌 수정 시각일 수 있습니다."
+    },
+    {
+      "id": "sbs-society-discovery",
+      "name": "SBS 사회 · 비공개 뉴스 발견",
+      "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:37Z",
+      "last_success_at": "2026-11-02T18:17:37Z",
+      "coverage_at": "2026-11-02T18:17:37Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다. RSS 시각은 피드가 제공한 시각이며 원문 최초 게시가 아닌 수정 시각일 수 있습니다."
+    },
+    {
+      "id": "jtbc-politics-discovery",
+      "name": "JTBC 정치 · 비공개 뉴스 발견",
+      "url": "https://news.jtbc.co.kr/section/politics",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:38Z",
+      "last_success_at": "2026-11-02T18:17:38Z",
+      "coverage_at": "2026-11-02T18:17:38Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다. RSS 시각은 피드가 제공한 시각이며 원문 최초 게시가 아닌 수정 시각일 수 있습니다."
+    },
+    {
+      "id": "us-state-korea",
+      "name": "미국 국무부 · 한국 여행경보",
+      "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:38Z",
+      "last_success_at": "2026-11-02T18:17:38Z",
+      "coverage_at": "2026-11-02T18:17:38Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
+      "scope_note": "공식 여행경보 RSS의 South Korea 항목 1개를 매시간 확인합니다. 한국 경보 발행일과 이 사이트의 확인 시각을 따로 표시하며, 전 세계 공지와 대사관 개별 안내는 별도 자료입니다."
+    },
+    {
+      "id": "korea-disaster-messages",
+      "name": "행정안전부 국민안전24 · 재난문자",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:39Z",
+      "last_success_at": "2026-11-02T18:17:39Z",
+      "coverage_at": "2026-11-02T18:17:39Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
+      "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
+    }
+  ],
+  "official_observations": [
+    {
+      "source_id": "govuk-korea",
+      "name": "영국 외무부 한국 여행정보",
+      "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:02Z",
+      "last_success_at": "2026-11-02T18:17:02Z",
+      "observed_at": "2026-11-02T18:17:02Z",
+      "observation": {
+        "kind": "travel_advice",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+        "label": "한국 여행정보",
+        "note": "Updated information about submitting e-Arrivals cards when arriving in Korea (‘Entry requirements’ page).",
+        "published_at": "2026-05-14T10:06:39Z",
+        "published_precision": "minute"
+      }
+    },
+    {
+      "source_id": "us-state-korea",
+      "name": "미국 국무부 · 한국 여행경보",
+      "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:38Z",
+      "last_success_at": "2026-11-02T18:17:38Z",
+      "observed_at": "2026-11-02T18:17:38Z",
+      "observation": {
+        "kind": "travel_advisory",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+        "label": "일반적인 주의",
+        "note": "미국 시민의 한국 여행 권고입니다. 전쟁 확률이나 대한민국 주민 대피 경보가 아닙니다.",
+        "level": 1,
+        "published_at": "2025-05-28T00:00:00Z",
+        "published_precision": "day"
+      }
+    },
+    {
+      "source_id": "korea-disaster-messages",
+      "name": "행정안전부 국민안전24 · 재난문자",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+      "status": "ok",
+      "checked_at": "2026-11-02T18:17:39Z",
+      "last_success_at": "2026-11-02T18:17:39Z",
+      "observed_at": "2026-11-02T18:17:39Z",
+      "observation": {
+        "kind": "disaster_messages",
+        "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+        "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
+        "window_start": "2026-11-01T18:17:39Z",
+        "window_end": "2026-11-02T18:17:39Z",
+        "total_count": 14,
+        "matched_count": 0,
+        "complete": true,
+        "items": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "sacheon-kt1-collision-20260901",
+      "title": "9월 사천 KT-1 훈련기 2대 충돌…11월 보도로 확인",
+      "summary": "JTBC와 SBS는 9월 1일 오전 경남 사천 공군기지 인근에서 KT-1 훈련기 2대가 충돌했다고 보도했습니다. 두 기체는 비상착륙했고 인명피해는 없었지만 기체 일부가 손상됐다는 내용입니다. 11월에 확인한 보도이며, 사고 발생일은 9월 1일로 구분합니다.",
+      "kind": "military_incident",
+      "occurred_at": "2026-08-31T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-01T21:12:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-02T16:18:51Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "공군의 사고 조사 보고서와 관련 문책 절차 결과 원문은 확보하지 못했습니다. 원인 설명은 공군 관계자 설명을 인용한 보도로 구분합니다.",
+        "확인한 두 기사에서 발생일과 오전이라는 범위는 확인했으나, 이 기록에는 정확한 발생 분 단위를 확정하지 않았습니다.",
+        "발표·게시 시각은 이 기록에서 직접 확인한 출처 중 가장 이른 기사 시각이며, 최초 보도 시각을 뜻하지 않습니다.",
+        "복수 보도가 동일 공군 설명을 인용할 수 있으므로 링크 수를 독립 확인 횟수로 계산하지 않습니다.",
+        "정확한 충돌 지점의 좌표는 확인하지 않아 지도에 임의 표식을 넣지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "비행 훈련 중 사고와 후속 공개 과정을 확인할 군 안전 기록입니다. 인명피해가 없었다는 설명과 기체 손상은 구분해야 하며, 뒤늦은 보도를 새 군사 충돌 발생으로 계산하지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "JTBC · 공군 설명 인용, 11월 2일 14:17 수정",
+          "url": "https://news.jtbc.co.kr/article/NB12326002",
+          "published_at": "2026-11-02T05:02:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 훈련기 충돌 사고 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420",
+          "published_at": "2026-11-01T21:12:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "JTBC와 SBS는 9월 1일 오전 사천 공군기지 인근 상공에서 제3훈련비행단 소속 KT-1 훈련기 2대가 충돌했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326002",
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420"
+          ]
+        },
+        {
+          "text": "두 보도는 훈련기들이 비상착륙해 인명피해는 없었으나 날개와 동체가 손상됐다고 전했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326002",
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420"
+          ]
+        },
+        {
+          "text": "JTBC는 공군이 조종사들의 전방 주시 미흡을 사고 원인으로 설명했다고 전했습니다. 공군 관계자는 안전하게 착륙했고 조종사 부상이 없어 별도 언론 공지를 하지 않았다고 설명했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326002"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-02T16:18:51Z",
+          "type": "new",
+          "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
+        }
+      ]
+    },
+    {
+      "id": "cheorwon-sergeant-death-20261102",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+      "kind": "military_incident",
+      "occurred_at": "2026-11-01T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-02T06:50:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-02T16:12:48Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+        "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+        "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+        "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+        "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "주간조선 · 육군 발표 인용",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+          "published_at": "2026-11-02T06:50:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 육군 발표 인용",
+          "url": "https://news.jtbc.co.kr/article/NB12326047",
+          "published_at": "2026-11-02T07:32:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 2일 21:26 수정 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+          "published_at": "2026-11-02T07:58:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-02T16:12:48Z",
+          "type": "new",
+          "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "trilateral-ministers-20261030",
+      "title": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
+      "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-29T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-30T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "공개된 외교적 입장과 현장의 군사적 변화는 구분해야 합니다. 정확한 회의 시작 시각은 확인되지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "외교적 입장과 협의의 기록입니다. 같은 날 실무 당국의 전화 협의와는 별도 회의이며, 공동 입장만으로 실제 긴장이 낮아졌다고 판정하지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "대한민국 외교부 · 정책브리핑",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391",
+          "published_at": "2026-10-30T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "발표문은 세 장관이 대북 억제 태세를 유지하면서 대화와 외교를 통한 한반도 평화·안정 및 비핵화 목표를 위한 노력을 계속하기로 했다고 설명합니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391"
+          ]
+        },
+        {
+          "text": "회의는 10월 30일 개최됐으며 이 보도자료는 10월 31일 게시됐습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "trilateral-response-20261003",
+      "title": "한·미·일, 10월 3일 발사 당일 전화 협의",
+      "summary": "일본 외무성은 10월 3일 북한의 발사에 대응해 같은 날 한·미·일 외교 당국이 전화 협의를 했다고 발표했습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-02T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-02T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "정확한 통화 시각은 원문에서 확인되지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "발사와 외교 대응의 시간 순서를 보여주는 기록입니다. 같은 사건을 다루는 기사 수를 위험의 크기로 사용하지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "일본 외무성",
+          "url": "https://www.mofa.go.jp/press/release/pressite_000001_02703.html",
+          "published_at": "2026-10-02T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "발표문은 당일 발사에 대한 세 나라의 입장과 공조 재확인을 설명합니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02703.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "dprk-launch-20261003",
+      "title": "10월 3일, 북한 동해안 부근 미사일 발사 발표",
+      "summary": "일본 방위성은 10월 3일 오전 북한 동해안 부근에서 최소 한 발의 탄도미사일이 발사됐으며, 일본 배타적경제수역 밖에 낙하한 것으로 추정했습니다.",
+      "kind": "missile_test",
+      "occurred_at": "2026-10-02T21:36:00Z",
+      "time_precision": "minute",
+      "reported_at": "2026-10-02T23:15:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "ended",
+      "important": true,
+      "unknowns": [
+        "발사지점은 북한 동해안 부근이라는 지역 수준만 공개됐습니다. 도시나 발사대 좌표를 추정하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "10월의 발사 발표를 날짜별로 비교하기 위한 과거 기록입니다. 오늘 새롭게 발생한 사건이나 검증된 전쟁 확률로 표시하지 않습니다.",
+      "significance": "major",
+      "sources": [
+        {
+          "name": "일본 방위성·내각관방",
+          "url": "https://www.mod.go.jp/j/press/news/2026/10/03d.html",
+          "published_at": "2026-10-02T23:15:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "일본 방위성 발표는 발사 시각을 6시 36분경, 최고 고도를 약 90km, 비행 거리를 약 680km로 추정했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+          ]
+        },
+        {
+          "text": "당시 항공기·선박 피해 보고가 확인되지 않았고 세 나라가 세부 내용을 분석 중이라고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "trilateral-response-20261013",
+      "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
+      "summary": "일본 외무성은 10월 13일 한·미·일 당국이 전날 북한의 발사에 관해 전화 협의를 했다고 발표했습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-12T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-12T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "통화의 비공개 세부 내용이나 추가 군사 조치가 있었다는 근거는 이 발표에 제시되지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "10월 12일 발사에 이어진 외교 대응을 연결합니다. 후속 협의 보도를 별도의 군사행동으로 세지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "일본 외무성",
+          "url": "https://www.mofa.go.jp/press/release/pressite_000001_02732.html",
+          "published_at": "2026-10-12T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "발표문은 10월 12일 발사에 대응하는 세 나라 외교 당국의 통화라고 설명합니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02732.html"
+          ]
+        },
+        {
+          "text": "관련 유엔 안전보장이사회 결의에 대한 입장과 공조를 재확인했다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02732.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "dprk-launch-20261012",
+      "title": "10월 12일, 최소 두 발의 탄도미사일 발사 발표",
+      "summary": "일본 방위성은 10월 12일 오전 북한 내륙에서 최소 두 발의 탄도미사일이 발사됐다고 발표했습니다. 연속된 발사 발표들을 하나의 사건 기록으로 묶었습니다.",
+      "kind": "missile_test",
+      "occurred_at": "2026-10-12T00:19:00Z",
+      "time_precision": "minute",
+      "reported_at": "2026-10-12T03:21:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "ended",
+      "important": true,
+      "unknowns": [
+        "거리와 궤도는 일본 방위성의 추정입니다. 이 서비스가 독립적으로 궤도를 측정한 것은 아닙니다.",
+        "정확한 발사 지점은 확인되지 않아 지도에 표시하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "발사체 수와 사건 기록 수는 다릅니다. 같은 날의 연속 발사와 그 후속 보도들을 더해 여러 독립 사건처럼 보이게 하지 않습니다.",
+      "significance": "major",
+      "sources": [
+        {
+          "name": "일본 방위성·내각관방",
+          "url": "https://www.mod.go.jp/j/press/news/2026/10/12e.html",
+          "published_at": "2026-10-12T03:21:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "일본 방위성은 각각 9시 19분경과 9시 36분경 발사를 보고했으며, 비행 거리는 약 220km와 910km 초과로 추정했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/12e.html"
+          ]
+        },
+        {
+          "text": "발표 당시 일본 영역·배타적경제수역으로의 비래와 피해 보고는 확인되지 않았고, 변칙 궤도 가능성을 분석 중이라고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/12e.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "rok-military-talks-proposal-20261023",
+      "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+      "summary": "국방부는 10월 23일 군사분계선 위치 확인, 군통신선 복원과 접경지역 우발충돌 방지 방안을 논의할 군사당국회담을 북한에 제안했습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-22T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-22T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "회담 수락·개최·합의 이행 여부는 이 발표만으로 확인되지 않습니다.",
+        "지도는 발표가 이뤄진 서울의 도시 범위를 표시합니다. 군사분계선이나 부대 위치가 아닙니다.",
+        "두 링크는 같은 담화와 이를 소개한 기사입니다. 독립적으로 확인한 기관 두 곳이라는 뜻이 아닙니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "대화 제안은 실제 회담 개최나 군통신선 복원과 구분해야 합니다. 접경지역 긴장 완화로 이어졌는지는 북측 반응과 후속 조치를 더 확인해야 합니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "대한민국 국방부·정책브리핑",
+          "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228",
+          "published_at": "2026-10-22T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "대한민국 국방부 · 담화 원문",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
+          "published_at": "2026-10-22T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "국방부는 남북이 인식하는 군사분계선 위치를 상호 확인하고 우발충돌을 방지하기 위한 회담을 제안했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+          ]
+        },
+        {
+          "text": "발표에는 필요하면 유엔군사령부를 포함하는 회담도 가능하며, 구체적 일정·장소는 협의할 수 있다는 내용이 포함됐습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+          ]
+        }
+      ],
+      "location": {
+        "name": "서울 · 국방부 발표 도시",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "precision": "city",
+        "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+      },
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "dprk-sanctions-statement-20261028",
+      "title": "대북 제재에 관한 다국적 공동성명 발표",
+      "summary": "일본 외무성은 다국적 제재모니터링팀 참여국과 EU가 10월 28일 대북 제재 공동성명을 발표했다고 전했습니다.",
+      "kind": "official_measure",
+      "occurred_at": "2026-10-27T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-27T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "개별 제재의 대상·발효일·집행 효과는 이 짧은 기록에서 검증하지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "군사행동과 제재·정책 조치를 분리해 상황을 읽도록 하는 기록입니다. 공동성명 발표일을 모든 개별 제재의 시행일로 해석하지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "일본 외무성",
+          "url": "https://www.mofa.go.jp/press/release/pressite_000001_02798.html",
+          "published_at": "2026-10-27T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "공동성명은 북한의 해외 노동, 사이버 활동, 북·러 협력 관련 행위자를 대상으로 한 EU·호주·미국의 제재 조치를 언급했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02798.html"
+          ]
+        },
+        {
+          "text": "일본 외무성은 참여국과 EU의 유엔 제재 이행 및 제재 회피 대응 의지를 재확인했다고 설명했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02798.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "trilateral-response-20261030",
+      "title": "한·미·일, 10월 29일 발사 뒤 전화 협의",
+      "summary": "일본 외무성은 한·미·일 외교 당국이 북한의 10월 29일 발사에 대응해 30일 전화 협의를 했다고 발표했습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-29T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-29T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "일본 외무성 발표를 확인한 기록입니다. 별개의 관측 자료로 발사 성능이나 피해를 추가 검증한 것은 아닙니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "발사 다음 날의 외교 대응을 연결해 보여줍니다. 전화 협의가 새로운 발사나 군사 충돌 한 건으로 중복 계산되지 않도록 구분합니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "일본 외무성",
+          "url": "https://www.mofa.go.jp/press/release/pressite_000001_02804.html",
+          "published_at": "2026-10-29T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "일본 외무성은 한국·미국·일본 담당자들이 10월 30일 북한 문제에 관해 통화했다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02804.html"
+          ]
+        },
+        {
+          "text": "발표문에는 북한의 발사에 대한 입장과 세 나라의 긴밀한 공조를 재확인했다는 내용이 담겼습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mofa.go.jp/press/release/pressite_000001_02804.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "dprk-launch-20261029",
+      "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
+      "summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다.",
+      "kind": "missile_test",
+      "occurred_at": "2026-10-29T03:36:00Z",
+      "time_precision": "minute",
+      "reported_at": "2026-10-29T05:21:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-01T09:30:00Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "ended",
+      "important": true,
+      "unknowns": [
+        "일본 측 발표는 탄도미사일의 가능성이 있는 물체라고 표현합니다. 종류·의도·정확한 발사지점은 이 기록으로 확정하지 않습니다.",
+        "낙하 추정은 해당 비행에 대한 발표입니다. 군사적 긴장의 종료나 모든 피해의 부재를 뜻하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "새로운 발사 발표와 이후 외교 대응을 별개의 변화로 볼 필요가 있습니다. 물체의 종류에 남아 있는 추정을 그대로 유지하며 전쟁 가능성 수치로 환산하지 않습니다.",
+      "significance": "major",
+      "sources": [
+        {
+          "name": "일본 방위성·내각관방",
+          "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
+          "published_at": "2026-10-29T05:21:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "일본 방위성 발표에 따르면 발사 추정 시각은 10월 29일 12시 36분경입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+          ]
+        },
+        {
+          "text": "일본 방위성은 일본 영역·배타적경제수역으로의 비래와 주변 항공기·선박 피해 보고는 당시 확인되지 않았다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T09:30:00Z",
+          "type": "new",
+          "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "korea-uk-foreign-ministers-20261031",
+      "title": "한·영 외교장관, 한반도 정세 논의 발표",
+      "summary": "외교부가 10월 31일 한·영 외교장관 회담에서 한반도 정세를 논의했다고 발표했습니다. 이 발표만으로 군사적 위험의 상승이나 하락을 판단하지 않습니다.",
+      "kind": "diplomatic_change",
+      "occurred_at": "2026-10-31T04:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-31T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-01T07:21:11Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "한반도 정세 논의의 세부 내용이나 새로운 군사 조치·합의는 이 자료에 제시되어 있지 않습니다.",
+        "외교부의 발표를 확인한 기록이며, 별개의 독립 출처로 회담 내용을 교차 확인한 것은 아닙니다.",
+        "발생일은 애틀랜타 현지 날짜입니다. 정확한 회담 시각과 보도자료 게시 시각은 확인되지 않았습니다."
+      ],
+      "revision": 1,
+      "sources": [
+        {
+          "name": "대한민국 외교부 · 정책브리핑 전재",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404",
+          "published_at": "2026-10-31T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "외교부 보도자료 원문 PDF · 같은 발표의 첨부자료",
+          "url": "https://www.korea.kr/common/download.do?fileId=198581776&tblKey=GMN",
+          "published_at": "2026-10-31T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "외교부는 한국과 영국의 외교장관이 미국 애틀랜타 현지 시간 10월 31일 오전 회담했다고 발표했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404"
+          ]
+        },
+        {
+          "text": "같은 발표에는 양측이 한반도와 우크라이나 등 지역 정세에 관해 의견을 나눴다는 내용이 포함되어 있습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/common/download.do?fileId=198581776&tblKey=GMN"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-01T07:21:11Z",
+          "type": "new",
+          "text": "외교부 보도자료의 공개일과 첨부 원문을 대조해 첫 기록을 등록했습니다. 같은 발표의 본문과 첨부자료는 하나의 출처 계통으로 취급합니다."
+        }
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "c-44fb15dbf804ffdd712f",
+      "event_id": "sacheon-kt1-collision-20260901",
+      "at": "2026-11-02T16:18:51Z",
+      "type": "new",
+      "title": "9월 사천 KT-1 훈련기 2대 충돌…11월 보도로 확인",
+      "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
+    },
+    {
+      "id": "c-dfb4f1ca04c96b56db61",
+      "event_id": "cheorwon-sergeant-death-20261102",
+      "at": "2026-11-02T16:12:48Z",
+      "type": "new",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+    },
+    {
+      "id": "c-cf17a67741a7b3ef2793",
+      "event_id": "trilateral-ministers-20261030",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-7d1a8b022eb6d1ec534e",
+      "event_id": "trilateral-response-20261003",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "한·미·일, 10월 3일 발사 당일 전화 협의",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-e3a49690c4abc5336c72",
+      "event_id": "dprk-launch-20261003",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "10월 3일, 북한 동해안 부근 미사일 발사 발표",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-623b84371aada2551c95",
+      "event_id": "trilateral-response-20261013",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-4abf13cc5c0b4c12fa12",
+      "event_id": "dprk-launch-20261012",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "10월 12일, 최소 두 발의 탄도미사일 발사 발표",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-e00ff570bf45bab3b6ee",
+      "event_id": "rok-military-talks-proposal-20261023",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-f383e6b188b280f4dc83",
+      "event_id": "dprk-sanctions-statement-20261028",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "대북 제재에 관한 다국적 공동성명 발표",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-ab05608780151885b9bf",
+      "event_id": "trilateral-response-20261030",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "한·미·일, 10월 29일 발사 뒤 전화 협의",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-d4d40d11246b74af7692",
+      "event_id": "dprk-launch-20261029",
+      "at": "2026-11-01T09:30:00Z",
+      "type": "new",
+      "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
+      "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "id": "c-b4b010e8e913981ef154",
+      "event_id": "korea-uk-foreign-ministers-20261031",
+      "at": "2026-11-01T07:21:11Z",
+      "type": "new",
+      "title": "한·영 외교장관, 한반도 정세 논의 발표",
+      "text": "외교부 보도자료의 공개일과 첨부 원문을 대조해 첫 기록을 등록했습니다. 같은 발표의 본문과 첨부자료는 하나의 출처 계통으로 취급합니다."
+    }
+  ],
+  "notices": [
+    {
+      "id": "doc-67c038ca0bbd2031bf30",
+      "title": "국방부-대한암협회·유한재단, '부사관 암 치료비' 기부금 전달식 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785005",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-100881f2a7e93cbba40b",
+      "title": "예멘 후티 반군의 사우디아라비아 민간 시설 및 민간인 공격에 대한 외교부 대변인 논평",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785157",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-175dca01b872777e23ee",
+      "title": "조현 외교부 장관, 남수단 대통령특사 면담(10.14.)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785129",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4494590edaedbd0dbb25",
+      "title": "「2026 병영문학상·독후감 경연대회」 시상식 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785160",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-81907b12d8cf1d717531",
+      "title": "국방부장관, 공군 제1전투비행단 대비태세 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785162",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-acabf66b8b2173609964",
+      "title": "국방부장관 해병대사령부/서북도서방위사령부 대비태세 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785444",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-341c930adbc694688786",
+      "title": "초국가범죄 범정부 대응 1년, \"국경 넘어 끝까지 추적\"… 기관 간 공조 강화로 초국가범죄 대응의 틀 바꿨다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785963",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-a2689fcfcddeb366e016",
+      "title": "국방부, 금융위원회와장병금융워크숍 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785987",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-6425386f94e9d7bc31aa",
+      "title": "국방부, '군내 자살사고 예방체계 점검 회의' 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786043",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-9a152f2f1a2549638692",
+      "title": "제9회 서울아프리카대화 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786159",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-21T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-e1fa653d807e759d9fe5",
+      "title": "2026 국방인공지능 추진평가 회의",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786154",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-21T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-b7c2ab4ab285d1933d17",
+      "title": "국방부차관, 육군 15사단 급수시설 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786296",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-22T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-aa98abc858c0f6b21a37",
+      "title": "비대면 마라톤 「평화 이어달리기 챌린지」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786750",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-a21d6917be900e0d8314",
+      "title": "국방부, 「2026 국방AI 활용 아이디어 챔피언십」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787473",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-52ad360f7cf46a43fe5c",
+      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한·베트남 국방장관회담 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787566",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T04:17:33Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-f8b5945d63235d3d2b8f",
+      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한-싱가포르 국방장관회담 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787567",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T04:17:33Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-253a6c9c4a64b039a530",
+      "title": "사이버작전사령부, 국제 사이버대회 사이버넷(CyberNet) 5년 연속 우승",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787474",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T00:17:31Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ab1892288eecf9699ae7",
+      "title": "조현 장관, G20 외교장관회의(10.30-31, 애틀랜타) 참석",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787408",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-31T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T18:59:01Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-18c73b3c2b085cf55380",
+      "title": "お知らせ（速報）｜令和8年10月3日（土）06:39",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/03a.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-02T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-540b793faadd0438562a",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月3日（土）06:50",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/03b.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-02T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-8627b64ed4e9c447904e",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月3日（土）07:12",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/03c.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-02T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-866866ac42e96369fe3b",
+      "title": "お知らせ（続報）｜令和8年10月3日（土）08:15",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/03d.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-02T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "reviewed"
+    },
+    {
+      "id": "doc-1d25e7d09c4f4186b681",
+      "title": "お知らせ（速報）｜令和8年10月12日（月）09:23",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12a.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-bf1797cbb81f0c835c54",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月12日（月）09:29",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12b.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4b80b67b443a0ad13416",
+      "title": "お知らせ（速報）｜令和8年10月12日（月）09:41",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12c.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-218b9a689a6c427a8e7a",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月12日（月）09:51",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12d.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-135bd8224dcda2041aef",
+      "title": "お知らせ（続報）｜令和8年10月12日（月）12:21",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12e.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "reviewed"
+    },
+    {
+      "id": "doc-394c6dca13685a006128",
+      "title": "お知らせ（速報）｜令和8年10月29日（木）12:39",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/29b.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-50dc838d590739f5d4a2",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月29日（木）12:46",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/29c.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4155a6c8aeb097e75191",
+      "title": "お知らせ（続報）｜令和8年10月29日（木）14:21",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "reviewed"
+    }
+  ],
+  "dashboard": {
+    "as_of": "2026-11-02T18:36:19+00:00",
+    "assessment_label": "후속 확인이 필요한 주요 기록",
+    "assessment_summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+    "brief": {
+      "recent": "검토된 기록 군 사망·사고 1건 · 외교 대응 1건 (최근 11/2)",
+      "recent_main": "검토된 기록 군 사망·사고 1건 · 외교 대응 1건",
+      "recent_note": "(최근 11/2)",
+      "period": "미사일 발사 2건 · 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 1건 · 외교 대응 5건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
+      "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+      "official_items": [
+        {
+          "name": "행정안전부 국민안전24 · 재난문자",
+          "kind": "disaster_messages",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+          "observed_at": "2026-11-02T18:17:39Z",
+          "published_at": null,
+          "published_precision": "unknown",
+          "status": "ok",
+          "stale": false,
+          "state": "",
+          "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
+          "items": [],
+          "window_start": "2026-11-01T18:17:39Z",
+          "window_end": "2026-11-02T18:17:39Z",
+          "title": "국내 · 재난문자 발송기록",
+          "value": "민방공 관련 0건",
+          "detail": "최근 24시간 · 전국 문자 14건 확인"
+        },
+        {
+          "name": "미국 국무부 · 한국 여행경보",
+          "kind": "travel_advisory",
+          "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
+          "observed_at": "2026-11-02T18:17:38Z",
+          "published_at": "2025-05-28T00:00:00Z",
+          "published_precision": "day",
+          "status": "ok",
+          "stale": false,
+          "state": "",
+          "note": "미국 시민의 한국 여행 권고입니다. 전쟁 확률이나 대한민국 주민 대피 경보가 아닙니다.",
+          "items": [],
+          "window_start": null,
+          "window_end": null,
+          "title": "미국 · 한국 여행경보",
+          "value": "1단계 · 일반적인 주의",
+          "detail": "미국 국무부의 한국 여행 주의등급"
+        },
+        {
+          "name": "영국 외무부 한국 여행정보",
+          "kind": "travel_advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
+          "observed_at": "2026-11-02T18:17:02Z",
+          "published_at": "2026-05-14T10:06:39Z",
+          "published_precision": "minute",
+          "status": "ok",
+          "stale": false,
+          "state": "",
+          "note": "Updated information about submitting e-Arrivals cards when arriving in Korea (‘Entry requirements’ page).",
+          "items": [],
+          "window_start": null,
+          "window_end": null,
+          "title": "영국 · 한국 여행정보",
+          "value": "여행 안내 최신판 확인",
+          "detail": "입국·현지 상황 등 여행 전반의 안내"
+        }
+      ]
+    },
+    "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
+    "analysis_method": "reviewed_records",
+    "lead_event": {
+      "id": "cheorwon-sergeant-death-20261102",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+      "kind": "military_incident",
+      "occurred_at": "2026-11-01T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-02T06:50:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-02T16:12:48Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+        "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+        "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+        "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+        "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "주간조선 · 육군 발표 인용",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+          "published_at": "2026-11-02T06:50:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 육군 발표 인용",
+          "url": "https://news.jtbc.co.kr/article/NB12326047",
+          "published_at": "2026-11-02T07:32:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 2일 21:26 수정 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+          "published_at": "2026-11-02T07:58:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-02T16:12:48Z",
+          "type": "new",
+          "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+        }
+      ]
+    },
+    "metrics": {
+      "events_24h": 0,
+      "events_24h_uncertain": 1,
+      "changes_24h": 2,
+      "corrections_24h": 0,
+      "active_major": 1
+    },
+    "periods": {
+      "7": {
+        "label": "최근 7일",
+        "current": 6,
+        "previous": 1,
+        "comparable": false,
+        "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
+        "start": "2026-10-28",
+        "end": "2026-11-03",
+        "days": [
+          {
+            "date": "2026-10-28",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-29",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-30",
+            "count": 2,
+            "prior": null
+          },
+          {
+            "date": "2026-10-31",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-11-01",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-02",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-11-03",
+            "count": 0,
+            "prior": null
+          }
+        ],
+        "categories": [
+          {
+            "key": "missile",
+            "label": "미사일 발사",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "military",
+            "label": "군사 활동",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "statement",
+            "label": "공식 발언·조치",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "diplomacy",
+            "label": "외교 대응",
+            "current": 3,
+            "previous": 1,
+            "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          }
+        ]
+      },
+      "30": {
+        "label": "최근 30일",
+        "current": 9,
+        "previous": 2,
+        "comparable": false,
+        "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
+        "start": "2026-10-05",
+        "end": "2026-11-03",
+        "days": [
+          {
+            "date": "2026-10-05",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-06",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-07",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-08",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-09",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-10",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-11",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-12",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-13",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-14",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-15",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-16",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-17",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-18",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-19",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-20",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-21",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-22",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-23",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-24",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-25",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-26",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-27",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-10-28",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-29",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-10-30",
+            "count": 2,
+            "prior": null
+          },
+          {
+            "date": "2026-10-31",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-11-01",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-02",
+            "count": 1,
+            "prior": null
+          },
+          {
+            "date": "2026-11-03",
+            "count": 0,
+            "prior": null
+          }
+        ],
+        "categories": [
+          {
+            "key": "missile",
+            "label": "미사일 발사",
+            "current": 2,
+            "previous": 1,
+            "delta": null
+          },
+          {
+            "key": "military",
+            "label": "군사 활동",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "statement",
+            "label": "공식 발언·조치",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "diplomacy",
+            "label": "외교 대응",
+            "current": 5,
+            "previous": 1,
+            "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          }
+        ]
+      }
+    },
+    "recent_changes": [
+      {
+        "id": "c-44fb15dbf804ffdd712f",
+        "event_id": "sacheon-kt1-collision-20260901",
+        "at": "2026-11-02T16:18:51Z",
+        "type": "new",
+        "title": "9월 사천 KT-1 훈련기 2대 충돌…11월 보도로 확인",
+        "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
+      },
+      {
+        "id": "c-dfb4f1ca04c96b56db61",
+        "event_id": "cheorwon-sergeant-death-20261102",
+        "at": "2026-11-02T16:12:48Z",
+        "type": "new",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+      }
+    ],
+    "important_events": [
+      {
+        "id": "dprk-launch-20261029",
+        "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
+        "summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다.",
+        "kind": "missile_test",
+        "occurred_at": "2026-10-29T03:36:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-10-29T05:21:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-01T09:30:00Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": true,
+        "unknowns": [
+          "일본 측 발표는 탄도미사일의 가능성이 있는 물체라고 표현합니다. 종류·의도·정확한 발사지점은 이 기록으로 확정하지 않습니다.",
+          "낙하 추정은 해당 비행에 대한 발표입니다. 군사적 긴장의 종료나 모든 피해의 부재를 뜻하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "새로운 발사 발표와 이후 외교 대응을 별개의 변화로 볼 필요가 있습니다. 물체의 종류에 남아 있는 추정을 그대로 유지하며 전쟁 가능성 수치로 환산하지 않습니다.",
+        "significance": "major",
+        "sources": [
+          {
+            "name": "일본 방위성·내각관방",
+            "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
+            "published_at": "2026-10-29T05:21:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "일본 방위성 발표에 따르면 발사 추정 시각은 10월 29일 12시 36분경입니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+            ]
+          },
+          {
+            "text": "일본 방위성은 일본 영역·배타적경제수역으로의 비래와 주변 항공기·선박 피해 보고는 당시 확인되지 않았다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/29d.html"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-01T09:30:00Z",
+            "type": "new",
+            "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dprk-launch-20261012",
+        "title": "10월 12일, 최소 두 발의 탄도미사일 발사 발표",
+        "summary": "일본 방위성은 10월 12일 오전 북한 내륙에서 최소 두 발의 탄도미사일이 발사됐다고 발표했습니다. 연속된 발사 발표들을 하나의 사건 기록으로 묶었습니다.",
+        "kind": "missile_test",
+        "occurred_at": "2026-10-12T00:19:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-10-12T03:21:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-01T09:30:00Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": true,
+        "unknowns": [
+          "거리와 궤도는 일본 방위성의 추정입니다. 이 서비스가 독립적으로 궤도를 측정한 것은 아닙니다.",
+          "정확한 발사 지점은 확인되지 않아 지도에 표시하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "발사체 수와 사건 기록 수는 다릅니다. 같은 날의 연속 발사와 그 후속 보도들을 더해 여러 독립 사건처럼 보이게 하지 않습니다.",
+        "significance": "major",
+        "sources": [
+          {
+            "name": "일본 방위성·내각관방",
+            "url": "https://www.mod.go.jp/j/press/news/2026/10/12e.html",
+            "published_at": "2026-10-12T03:21:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "일본 방위성은 각각 9시 19분경과 9시 36분경 발사를 보고했으며, 비행 거리는 약 220km와 910km 초과로 추정했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/12e.html"
+            ]
+          },
+          {
+            "text": "발표 당시 일본 영역·배타적경제수역으로의 비래와 피해 보고는 확인되지 않았고, 변칙 궤도 가능성을 분석 중이라고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/12e.html"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-01T09:30:00Z",
+            "type": "new",
+            "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dprk-launch-20261003",
+        "title": "10월 3일, 북한 동해안 부근 미사일 발사 발표",
+        "summary": "일본 방위성은 10월 3일 오전 북한 동해안 부근에서 최소 한 발의 탄도미사일이 발사됐으며, 일본 배타적경제수역 밖에 낙하한 것으로 추정했습니다.",
+        "kind": "missile_test",
+        "occurred_at": "2026-10-02T21:36:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-10-02T23:15:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-01T09:30:00Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": true,
+        "unknowns": [
+          "발사지점은 북한 동해안 부근이라는 지역 수준만 공개됐습니다. 도시나 발사대 좌표를 추정하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "10월의 발사 발표를 날짜별로 비교하기 위한 과거 기록입니다. 오늘 새롭게 발생한 사건이나 검증된 전쟁 확률로 표시하지 않습니다.",
+        "significance": "major",
+        "sources": [
+          {
+            "name": "일본 방위성·내각관방",
+            "url": "https://www.mod.go.jp/j/press/news/2026/10/03d.html",
+            "published_at": "2026-10-02T23:15:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "일본 방위성 발표는 발사 시각을 6시 36분경, 최고 고도를 약 90km, 비행 거리를 약 680km로 추정했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+            ]
+          },
+          {
+            "text": "당시 항공기·선박 피해 보고가 확인되지 않았고 세 나라가 세부 내용을 분석 중이라고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.mod.go.jp/j/press/news/2026/10/03d.html"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-01T09:30:00Z",
+            "type": "new",
+            "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "cheorwon-sergeant-death-20261102",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+        "kind": "military_incident",
+        "occurred_at": "2026-11-01T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-02T06:50:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-02T16:12:48Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": true,
+        "unknowns": [
+          "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+          "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+          "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+          "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+          "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "주간조선 · 육군 발표 인용",
+            "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "published_at": "2026-11-02T06:50:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "JTBC · 육군 발표 인용",
+            "url": "https://news.jtbc.co.kr/article/NB12326047",
+            "published_at": "2026-11-02T07:32:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "SBS · 11월 2일 21:26 수정 보도",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+            "published_at": "2026-11-02T07:58:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+              "https://news.jtbc.co.kr/article/NB12326047"
+            ]
+          },
+          {
+            "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+              "https://news.jtbc.co.kr/article/NB12326047"
+            ]
+          },
+          {
+            "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-02T16:12:48Z",
+            "type": "new",
+            "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "korea-uk-foreign-ministers-20261031",
+        "title": "한·영 외교장관, 한반도 정세 논의 발표",
+        "summary": "외교부가 10월 31일 한·영 외교장관 회담에서 한반도 정세를 논의했다고 발표했습니다. 이 발표만으로 군사적 위험의 상승이나 하락을 판단하지 않습니다.",
+        "kind": "diplomatic_change",
+        "occurred_at": "2026-10-31T04:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-31T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-01T07:21:11Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "한반도 정세 논의의 세부 내용이나 새로운 군사 조치·합의는 이 자료에 제시되어 있지 않습니다.",
+          "외교부의 발표를 확인한 기록이며, 별개의 독립 출처로 회담 내용을 교차 확인한 것은 아닙니다.",
+          "발생일은 애틀랜타 현지 날짜입니다. 정확한 회담 시각과 보도자료 게시 시각은 확인되지 않았습니다."
+        ],
+        "revision": 1,
+        "sources": [
+          {
+            "name": "대한민국 외교부 · 정책브리핑 전재",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404",
+            "published_at": "2026-10-31T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "외교부 보도자료 원문 PDF · 같은 발표의 첨부자료",
+            "url": "https://www.korea.kr/common/download.do?fileId=198581776&tblKey=GMN",
+            "published_at": "2026-10-31T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "외교부는 한국과 영국의 외교장관이 미국 애틀랜타 현지 시간 10월 31일 오전 회담했다고 발표했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404"
+            ]
+          },
+          {
+            "text": "같은 발표에는 양측이 한반도와 우크라이나 등 지역 정세에 관해 의견을 나눴다는 내용이 포함되어 있습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/common/download.do?fileId=198581776&tblKey=GMN"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-01T07:21:11Z",
+            "type": "new",
+            "text": "외교부 보도자료의 공개일과 첨부 원문을 대조해 첫 기록을 등록했습니다. 같은 발표의 본문과 첨부자료는 하나의 출처 계통으로 취급합니다."
+          }
+        ]
+      }
+    ],
+    "recent_events": [],
+    "lanes": [
+      {
+        "key": "missile",
+        "label": "미사일 발사",
+        "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
+        "text": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다.",
+        "event_ids": [
+          "dprk-launch-20261029"
+        ],
+        "state": "recorded"
+      },
+      {
+        "key": "military",
+        "label": "군사 활동",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      },
+      {
+        "key": "incident",
+        "label": "군 사망·사고",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "text": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+        "event_ids": [
+          "cheorwon-sergeant-death-20261102"
+        ],
+        "state": "ongoing"
+      },
+      {
+        "key": "statement",
+        "label": "공식 발언·조치",
+        "title": "대북 제재에 관한 다국적 공동성명 발표",
+        "text": "일본 외무성은 다국적 제재모니터링팀 참여국과 EU가 10월 28일 대북 제재 공동성명을 발표했다고 전했습니다.",
+        "event_ids": [
+          "dprk-sanctions-statement-20261028"
+        ],
+        "state": "recorded"
+      },
+      {
+        "key": "diplomacy",
+        "label": "외교 대응",
+        "title": "한·영 외교장관, 한반도 정세 논의 발표",
+        "text": "외교부가 10월 31일 한·영 외교장관 회담에서 한반도 정세를 논의했다고 발표했습니다. 이 발표만으로 군사적 위험의 상승이나 하락을 판단하지 않습니다.",
+        "event_ids": [
+          "korea-uk-foreign-ministers-20261031",
+          "trilateral-ministers-20261030",
+          "trilateral-response-20261030"
+        ],
+        "state": "recorded"
+      },
+      {
+        "key": "other",
+        "label": "그 밖의 기록",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      }
+    ],
+    "map_points": [
+      {
+        "event_id": "rok-military-talks-proposal-20261023",
+        "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+        "date_label": "2026.10.23 · 발생일",
+        "lat": 37.5665,
+        "lon": 126.978,
+        "place": "서울 · 국방부 발표 도시",
+        "precision": "city",
+        "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
+      }
+    ],
+    "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
+    "coverage_start": null,
+    "last_attempt_at": "2026-11-02T18:17:39+00:00"
+  },
+  "demo_enabled": true,
+  "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
+  "snapshot_collection_checked_at": "2026-11-02T18:17:02Z"
+}
