@@ -1,5 +1,15 @@
 (()=>{'use strict';
 const body=document.body,demo=body.dataset.mode==='demo',toastEl=document.getElementById('toast');let toastTimer;
+function openGuideTopic(hash){
+let id;try{id=decodeURIComponent(hash.replace(/^#/,''))}catch{return}
+const target=document.getElementById(id),topic=target?.closest('details.guide-topic');
+if(!topic)return;topic.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}));
+}
+if(document.querySelector('.guide-page')){
+openGuideTopic(location.hash);
+window.addEventListener('hashchange',()=>openGuideTopic(location.hash));
+document.querySelectorAll('.guide-page a[href^="#"]').forEach(link=>link.addEventListener('click',()=>openGuideTopic(link.hash)));
+}
 function toast(message){if(!toastEl)return;clearTimeout(toastTimer);toastEl.textContent=message;toastEl.hidden=false;toastTimer=setTimeout(()=>{toastEl.hidden=true},4500)}
 async function copy(text){try{if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(text);else{const t=document.createElement('textarea');t.value=text;t.setAttribute('readonly','');t.style.position='fixed';t.style.top='-1000px';document.body.append(t);t.select();if(!document.execCommand('copy'))throw new Error('clipboard');t.remove()}toast('기준시각과 주소를 복사했습니다.')}catch{toast('복사할 수 없습니다. 주소창의 주소를 복사해 주세요.')}}
 function clockLabel(value,label='수집 확인'){if(!value)return label+' 시각 미확인';const date=new Date(value);if(Number.isNaN(date.getTime()))return label+' 시각 미확인';return label+' '+new Intl.DateTimeFormat('ko-KR',{timeZone:'Asia/Seoul',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(date)+' KST'}

@@ -84,3 +84,64 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
 .official-messages{font-size:.875rem;margin-top:12px}.official-messages summary{cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:space-between;gap:8px}.official-messages article{padding-block:12px;border-top:1px solid #50584a}.official-messages article strong{font-size:.875rem}.official-messages article p{font-size:1rem}.brief-lines dd .official-messages a{display:inline-block;white-space:normal;min-height:44px;padding-top:8px}
 @media(max-width:680px){.brief-lines>.brief-official{grid-template-columns:minmax(0,1fr);gap:16px}.brief-official>dt{font-size:1rem;color:var(--paper)}}
 @media print{body{background:white;color:black}.wrap{width:100%}.site-header,.site-footer,.hero-actions,.event-tools,.change-filters,.segmented,.toast,.main-nav{display:none!important}.atlas-hero,.records-grid,.event-layout,.about-layout{display:block}.hero-map{max-width:600px;break-inside:avoid}.briefing-band{background:white;color:black;border:1px solid #777}.brief-lines dt,.brief-note,.brief-heading h2{color:#444}.changes-section{padding-left:0;border-left:0}.event-row,.fact-block{break-inside:avoid}.event-summary,.hero-lead .assessment-copy{display:block;overflow:visible}}
+
+/* Reading guide: essential facts first, optional detail on demand. */
+.guide-page{max-width:880px;margin-inline:auto;padding-bottom:80px}
+.guide-header{padding:56px 0 32px}
+.guide-header h1{font-size:clamp(2.25rem,4vw,3rem);font-weight:680;line-height:1.3;letter-spacing:-.035em;text-wrap:balance}
+.guide-header p{margin-top:20px;color:var(--muted);font-size:1.0625rem;line-height:1.8}
+.guide-essentials{border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.guide-essentials>div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:28px;padding-block:22px}
+.guide-essentials>div+div{border-top:1px solid var(--line)}
+.guide-essentials dt{font-size:1.0625rem;font-weight:650;line-height:1.7;word-break:keep-all}
+.guide-essentials dd{font-size:1rem;line-height:1.8;color:var(--muted)}
+.guide-essentials dd strong{color:var(--ink);font-weight:550}
+.guide-topics{margin-top:56px}
+.guide-topics-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px 24px;margin-bottom:20px}
+.guide-topics-heading h2{font-size:1.375rem;font-weight:650}
+.guide-topics-heading>span{font-size:.875rem;color:var(--muted)}
+.guide-topic{border-top:1px solid var(--line);scroll-margin-top:28px}
+.guide-topic:last-child{border-bottom:1px solid var(--line)}
+.guide-topic>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:92px;padding-block:20px;list-style:none;cursor:pointer}
+.guide-topic>summary::-webkit-details-marker,.guide-source-policy>summary::-webkit-details-marker,.guide-paused>summary::-webkit-details-marker{display:none}
+.guide-topic>summary strong{display:block;font-size:1.125rem;font-weight:650;line-height:1.5}
+.guide-topic>summary small{display:block;margin-top:4px;color:var(--muted);font-size:.9375rem;line-height:1.65}
+.guide-topic>summary>.icon{flex-shrink:0;width:20px;height:20px;transition:transform 160ms ease}
+.guide-topic[open]>summary>.icon,.guide-source-policy[open]>summary>.icon,.guide-paused[open]>summary>.icon{transform:rotate(180deg)}
+.guide-topic>summary:hover strong{text-decoration:underline;text-underline-offset:5px}
+.guide-answer{max-width:70ch;padding:0 0 32px;font-size:1rem;line-height:1.85;overflow-wrap:anywhere}
+.guide-answer p{line-height:1.85}
+.guide-answer p+p{margin-top:20px}
+.guide-answer h3{font-size:1.125rem;font-weight:650;margin:32px 0 16px}
+.guide-definitions{margin-block:4px 24px}
+.guide-definitions>div{display:grid;grid-template-columns:160px minmax(0,1fr);gap:20px;padding-block:16px}
+.guide-definitions>div+div{border-top:1px solid var(--line)}
+.guide-definitions dt{font-weight:600;line-height:1.7}
+.guide-definitions dd{color:var(--muted);line-height:1.85}
+.guide-steps{margin:0 0 24px;padding-left:24px}
+.guide-steps li{padding-left:8px}
+.guide-steps li+li{margin-top:20px}
+.guide-steps strong{font-weight:600}
+.guide-steps p{margin-top:4px;color:var(--muted)}
+.guide-source{padding-block:18px;border-top:1px solid var(--line)}
+.guide-source-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px 20px;flex-wrap:wrap}
+.guide-source-heading>a{font-weight:600;text-decoration:none;line-height:1.7}
+.guide-source-heading>a:hover{text-decoration:underline}
+.guide-source-heading .icon{width:14px;height:14px;margin-left:4px}
+.guide-source-heading>span{font-size:.875rem;color:var(--muted)}
+.guide-source-policy>summary,.guide-paused>summary{display:flex;align-items:center;gap:8px;width:fit-content;min-height:44px;list-style:none;cursor:pointer;font-size:.9375rem;color:var(--muted)}
+.guide-source-policy>summary .icon,.guide-paused>summary .icon{width:15px;height:15px;transition:transform 160ms ease}
+.guide-source-policy p{padding-top:8px;color:var(--muted);font-size:1rem}
+.guide-paused{border-top:1px solid var(--line);padding-top:8px;margin-top:8px}
+.guide-answer .button{margin-top:20px}
+.guide-meta{color:var(--muted);font-size:.875rem;margin-top:24px}
+.guide-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px 28px;margin-top:40px}
+.guide-actions>a:not(.button){display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:.9375rem}
+@media(max-width:680px){
+ .guide-page{padding-bottom:48px}.guide-header{padding:32px 0 24px}.guide-header h1{max-width:9em;font-size:2.25rem}.guide-header p{font-size:1rem;margin-top:16px}
+ .guide-essentials>div{grid-template-columns:1fr;gap:7px;padding-block:19px}.guide-essentials dt{font-size:1rem}.guide-essentials dd{font-size:1rem;line-height:1.8}
+ .guide-topics{margin-top:38px}.guide-topics-heading{display:block;margin-bottom:16px}.guide-topics-heading>span{display:block;margin-top:8px}.guide-topic>summary{min-height:88px;gap:16px;padding-block:18px}
+ .guide-topic>summary strong{font-size:1.0625rem}.guide-topic>summary small{font-size:.9375rem}.guide-answer{padding-bottom:26px}.guide-definitions>div{grid-template-columns:1fr;gap:7px;padding-block:16px}.guide-source-heading{display:block}.guide-source-heading>span{display:block;margin-top:5px}
+ .guide-actions{align-items:flex-start;flex-direction:column;gap:14px;margin-top:30px}
+}
+@media print{.guide-page{max-width:none}.guide-header{padding-top:0}.guide-topic>summary,.guide-source-policy>summary{break-after:avoid}.guide-actions{display:none}}
