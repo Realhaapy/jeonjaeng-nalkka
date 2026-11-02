@@ -145,3 +145,5 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
  .guide-actions{align-items:flex-start;flex-direction:column;gap:14px;margin-top:30px}
 }
 @media print{.guide-page{max-width:none}.guide-header{padding-top:0}.guide-topic>summary,.guide-source-policy>summary{break-after:avoid}.guide-actions{display:none}}
+
+.map-selection .map-event-date{font-size:.875rem;line-height:1.6;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;margin-top:8px}
