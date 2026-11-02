@@ -5,9 +5,9 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-02T15:23:05Z",
-  "generated_at": "2026-11-02T15:23:38+00:00",
-  "release_id": "r-38dad0324c0fd971",
-  "snapshot_id": "s-465d958e9cd63f54",
+  "generated_at": "2026-11-02T15:31:19+00:00",
+  "release_id": "r-da42719564e58ee7",
+  "snapshot_id": "s-b167f8b8ebc4dc09",
   "headline": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
   "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -1034,7 +1034,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-02T15:23:38+00:00",
+    "as_of": "2026-11-02T15:31:19+00:00",
     "assessment_label": "최근 군사 발표와 후속 대응",
     "assessment_summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다. 같은 기간의 외교 발표도 아래 사건 기록에서 따로 확인할 수 있습니다.",
     "brief": {
@@ -1657,5 +1657,5 @@
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-02T14:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-02T15:23:05Z"
 }
