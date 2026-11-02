@@ -4,21 +4,21 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-02T15:23:05Z",
-  "generated_at": "2026-11-02T15:31:19+00:00",
-  "release_id": "r-da42719564e58ee7",
-  "snapshot_id": "s-b167f8b8ebc4dc09",
-  "headline": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
-  "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
+  "collection_checked_at": "2026-11-02T16:12:11Z",
+  "generated_at": "2026-11-02T16:13:35+00:00",
+  "release_id": "r-3267abb8d73c45a7",
+  "snapshot_id": "s-992bdc6f704f830b",
+  "headline": "후속 확인이 필요한 중요 사건이 있습니다.",
+  "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
   ],
   "method_version": "1.0",
   "coverage": {
-    "ok": 4,
-    "total": 4,
-    "pending": 61,
+    "ok": 7,
+    "total": 7,
+    "pending": 88,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-02T15:23:05Z",
-      "last_success_at": "2026-11-02T15:23:05Z",
-      "coverage_at": "2026-11-02T15:23:05Z",
+      "checked_at": "2026-11-02T16:12:11Z",
+      "last_success_at": "2026-11-02T16:12:11Z",
+      "coverage_at": "2026-11-02T16:12:11Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,13 +41,13 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-02T15:23:07Z",
-      "last_success_at": "2026-11-02T15:23:07Z",
+      "checked_at": "2026-11-02T16:12:12Z",
+      "last_success_at": "2026-11-02T16:12:12Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "검색 페이지 상한으로 목록 일부만 확인했습니다.",
+      "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형 또는 제2유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
-      "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일 검색별 앞 2페이지, 국방·외교·통일·방위사업 관련 최대 40건. 전체 군사 사건을 포괄하지 않습니다."
+      "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
     {
       "id": "japan-jso",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-02T15:23:35Z",
-      "last_success_at": "2026-11-02T15:23:35Z",
-      "coverage_at": "2026-11-02T15:23:35Z",
+      "checked_at": "2026-11-02T16:12:45Z",
+      "last_success_at": "2026-11-02T16:12:45Z",
+      "coverage_at": "2026-11-02T16:12:45Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,16 +93,133 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-02T15:23:37Z",
-      "last_success_at": "2026-11-02T15:23:37Z",
-      "coverage_at": "2026-11-02T15:23:37Z",
+      "checked_at": "2026-11-02T16:12:47Z",
+      "last_success_at": "2026-11-02T16:12:47Z",
+      "coverage_at": "2026-11-02T16:12:47Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
       "scope_note": "북한 동향 공식 목록 중 최근 30일 발표 링크, 최대 30건. 접근이 막히면 점검 실패로 표시합니다. 별도로 직접 열람한 사건은 출처를 붙여 검토 등록할 수 있습니다."
+    },
+    {
+      "id": "sbs-politics-discovery",
+      "name": "SBS 정치 · 비공개 뉴스 발견",
+      "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
+      "status": "ok",
+      "checked_at": "2026-11-02T16:12:47Z",
+      "last_success_at": "2026-11-02T16:12:47Z",
+      "coverage_at": "2026-11-02T16:12:47Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다."
+    },
+    {
+      "id": "sbs-society-discovery",
+      "name": "SBS 사회 · 비공개 뉴스 발견",
+      "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
+      "status": "ok",
+      "checked_at": "2026-11-02T16:12:48Z",
+      "last_success_at": "2026-11-02T16:12:48Z",
+      "coverage_at": "2026-11-02T16:12:48Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다."
+    },
+    {
+      "id": "jtbc-politics-discovery",
+      "name": "JTBC 정치 · 비공개 뉴스 발견",
+      "url": "https://news.jtbc.co.kr/section/politics",
+      "status": "ok",
+      "checked_at": "2026-11-02T16:12:48Z",
+      "last_success_at": "2026-11-02T16:12:48Z",
+      "coverage_at": "2026-11-02T16:12:48Z",
+      "scope_complete": true,
+      "error": null,
+      "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
+      "scope_note": "RSS 최신 목록 최대 100개 중 최근 7일 군사·장병·접경 관련 제목 최대 30개를 비공개 검토용으로 발견합니다. 사망·부상·지뢰 등 제목을 먼저 검토하며 이는 사실 확인이나 적대행위 판정이 아닙니다. RSS에 없거나 제목에 단서가 없는 보도, PC 중지 중 목록에서 사라진 기사, 과거 전체 기사는 포괄하지 않습니다."
     }
   ],
   "events": [
+    {
+      "id": "cheorwon-sergeant-death-20261102",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+      "kind": "military_incident",
+      "occurred_at": "2026-11-01T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-02T06:50:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-02T16:12:48Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+        "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+        "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+        "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+        "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "주간조선 · 육군 발표 인용",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+          "published_at": "2026-11-02T06:50:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 육군 발표 인용",
+          "url": "https://news.jtbc.co.kr/article/NB12326047",
+          "published_at": "2026-11-02T07:32:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 2일 21:26 수정 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+          "published_at": "2026-11-02T07:58:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-02T16:12:48Z",
+          "type": "new",
+          "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+        }
+      ]
+    },
     {
       "id": "trilateral-ministers-20261030",
       "title": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
@@ -651,6 +768,14 @@
   ],
   "changes": [
     {
+      "id": "c-dfb4f1ca04c96b56db61",
+      "event_id": "cheorwon-sergeant-death-20261102",
+      "at": "2026-11-02T16:12:48Z",
+      "type": "new",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+    },
+    {
       "id": "c-cf17a67741a7b3ef2793",
       "event_id": "trilateral-ministers-20261030",
       "at": "2026-11-01T09:30:00Z",
@@ -732,6 +857,146 @@
     }
   ],
   "notices": [
+    {
+      "id": "doc-67c038ca0bbd2031bf30",
+      "title": "국방부-대한암협회·유한재단, '부사관 암 치료비' 기부금 전달식 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785005",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-100881f2a7e93cbba40b",
+      "title": "예멘 후티 반군의 사우디아라비아 민간 시설 및 민간인 공격에 대한 외교부 대변인 논평",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785157",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-175dca01b872777e23ee",
+      "title": "조현 외교부 장관, 남수단 대통령특사 면담(10.14.)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785129",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4494590edaedbd0dbb25",
+      "title": "「2026 병영문학상·독후감 경연대회」 시상식 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785160",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-81907b12d8cf1d717531",
+      "title": "국방부장관, 공군 제1전투비행단 대비태세 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785162",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-13T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-acabf66b8b2173609964",
+      "title": "국방부장관 해병대사령부/서북도서방위사령부 대비태세 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785444",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-341c930adbc694688786",
+      "title": "초국가범죄 범정부 대응 1년, \"국경 넘어 끝까지 추적\"… 기관 간 공조 강화로 초국가범죄 대응의 틀 바꿨다",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785963",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-a2689fcfcddeb366e016",
+      "title": "국방부, 금융위원회와장병금융워크숍 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785987",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-6425386f94e9d7bc31aa",
+      "title": "국방부, '군내 자살사고 예방체계 점검 회의' 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786043",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-20T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-9a152f2f1a2549638692",
+      "title": "제9회 서울아프리카대화 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786159",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-21T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-e1fa653d807e759d9fe5",
+      "title": "2026 국방인공지능 추진평가 회의",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786154",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-21T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-b7c2ab4ab285d1933d17",
+      "title": "국방부차관, 육군 15사단 급수시설 현장점검",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786296",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-22T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-aa98abc858c0f6b21a37",
+      "title": "비대면 마라톤 「평화 이어달리기 챌린지」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786750",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-a21d6917be900e0d8314",
+      "title": "국방부, 「2026 국방AI 활용 아이디어 챔피언십」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787473",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-02T16:12:45Z",
+      "status": "pending"
+    },
     {
       "id": "doc-52ad360f7cf46a43fe5c",
       "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한·베트남 국방장관회담 개최",
@@ -891,171 +1156,31 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-01T09:28:32Z",
       "status": "reviewed"
-    },
-    {
-      "id": "doc-b6ef6c805556de233749",
-      "title": "Gen. Brunson Reinforces ROK-U.S. Alliance, Future Readiness in D.C.",
-      "url": "https://www.dvidshub.net/news/577450/gen-brunson-reinforces-rok-us-alliance-future-readiness-dc",
-      "source_name": "주한미군 공식 발표 · DVIDS",
-      "published_at": "2026-10-20T18:07:15Z",
-      "published_precision": "minute",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-82bd28ef077c1c123648",
-      "title": "Brunson tells AMCHAM Korea that industrial strength sustains credible deterrence",
-      "url": "https://www.dvidshub.net/news/577572/brunson-tells-amcham-korea-industrial-strength-sustains-credible-deterrence",
-      "source_name": "주한미군 공식 발표 · DVIDS",
-      "published_at": "2026-10-21T22:50:05Z",
-      "published_precision": "minute",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-6c5db2d6b78353540088",
-      "title": "USFK and Gyeonggi Province Reaffirm \"Bedrock\" of Alliance at 2026 Counterpart Connect Day",
-      "url": "https://www.dvidshub.net/news/577937/usfk-and-gyeonggi-province-reaffirm-bedrock-alliance-2026-counterpart-connect-day",
-      "source_name": "주한미군 공식 발표 · DVIDS",
-      "published_at": "2026-10-27T01:09:28Z",
-      "published_precision": "minute",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-050680dc652d1669288f",
-      "title": "국립외교원-정보세계정치학회 공동 컨퍼런스 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784200",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-01T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-69830a5257a7f130b55d",
-      "title": "북한탄도미사일 발사 관련 국방부 입장",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784297",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-05T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-4602d7f55dd4af2fb449",
-      "title": "한-캐나다 외교장관통화(10.7.) 결과",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784493",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-06T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-611a38cfff82a86051e8",
-      "title": "외교전략정보본부장, 국제원자력기구(IAEA) 사무차장 접견(10.7.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784488",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-06T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-901d94e45838f34e8ef0",
-      "title": "국방부장관, 데이브 맥코믹 美 상원의원 접견",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784652",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-07T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-fc4521e7cc687518e4df",
-      "title": "조현 장관, 데이브 맥코믹 미국 상원의원 면담(10.8.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784670",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-07T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-474efb8beb4598586eb0",
-      "title": "이태우 극지협력대표, 2026 북극서클총회 참석",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784875",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-4fe44e3269932441cb89",
-      "title": "북한이탈주민지원재단 신임이사장 임명",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784876",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-914235e8d499520c1896",
-      "title": "국방부차관, 방일 및 한일 국방차관회담 실시",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784787",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-9875b5896b3977fde39c",
-      "title": "조현 장관, 메릴린 스트릭랜드 미국 하원의원 면담(10.14.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785223",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-13T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-c552a7a0af366c0b4d38",
-      "title": "외교부 특별성과 포상금 지급",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785327",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-14T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-02T15:31:19+00:00",
-    "assessment_label": "최근 군사 발표와 후속 대응",
-    "assessment_summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다. 같은 기간의 외교 발표도 아래 사건 기록에서 따로 확인할 수 있습니다.",
+    "as_of": "2026-11-02T16:13:35+00:00",
+    "assessment_label": "후속 확인이 필요한 주요 기록",
+    "assessment_summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
     "brief": {
-      "recent": "등록된 공식 발표 외교 대응 1건 (최근 10/31)",
-      "period": "미사일 발사 2건 · 군사 활동 0건 · 공식 발언·조치 1건 · 외교 대응 5건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 군 사망·사고 1건 · 외교 대응 1건 (최근 11/2)",
+      "period": "미사일 발사 2건 · 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 1건 · 외교 대응 5건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "영국 외무부 한국 여행정보 11/3 확인 · 민방공 경보 문자·미국 여행경보는 아직 수집하지 않음",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea"
     },
-    "assessment_note": "공개된 기관 발표와 검토 기록을 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
+    "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "metrics": {
       "events_24h": 0,
-      "events_24h_uncertain": 0,
-      "changes_24h": 0,
+      "events_24h_uncertain": 1,
+      "changes_24h": 1,
       "corrections_24h": 0,
-      "active_major": 0
+      "active_major": 1
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 5,
+        "current": 6,
         "previous": 1,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -1089,7 +1214,7 @@
           },
           {
             "date": "2026-11-02",
-            "count": 0,
+            "count": 1,
             "prior": null
           },
           {
@@ -1114,6 +1239,13 @@
             "delta": null
           },
           {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
             "key": "statement",
             "label": "공식 발언·조치",
             "current": 1,
@@ -1126,12 +1258,19 @@
             "current": 3,
             "previous": 1,
             "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
+            "current": 0,
+            "previous": 0,
+            "delta": null
           }
         ]
       },
       "30": {
         "label": "최근 30일",
-        "current": 8,
+        "current": 9,
         "previous": 2,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -1280,7 +1419,7 @@
           },
           {
             "date": "2026-11-02",
-            "count": 0,
+            "count": 1,
             "prior": null
           },
           {
@@ -1305,6 +1444,13 @@
             "delta": null
           },
           {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 1,
+            "previous": 0,
+            "delta": null
+          },
+          {
             "key": "statement",
             "label": "공식 발언·조치",
             "current": 1,
@@ -1317,11 +1463,27 @@
             "current": 5,
             "previous": 1,
             "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
+            "current": 0,
+            "previous": 0,
+            "delta": null
           }
         ]
       }
     },
-    "recent_changes": [],
+    "recent_changes": [
+      {
+        "id": "c-dfb4f1ca04c96b56db61",
+        "event_id": "cheorwon-sergeant-death-20261102",
+        "at": "2026-11-02T16:12:48Z",
+        "type": "new",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+      }
+    ],
     "important_events": [
       {
         "id": "dprk-launch-20261029",
@@ -1485,6 +1647,84 @@
         ]
       },
       {
+        "id": "cheorwon-sergeant-death-20261102",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+        "kind": "military_incident",
+        "occurred_at": "2026-11-01T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-02T06:50:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-02T16:12:48Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": true,
+        "unknowns": [
+          "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+          "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+          "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+          "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+          "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "주간조선 · 육군 발표 인용",
+            "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "published_at": "2026-11-02T06:50:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "JTBC · 육군 발표 인용",
+            "url": "https://news.jtbc.co.kr/article/NB12326047",
+            "published_at": "2026-11-02T07:32:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "SBS · 11월 2일 21:26 수정 보도",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+            "published_at": "2026-11-02T07:58:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+              "https://news.jtbc.co.kr/article/NB12326047"
+            ]
+          },
+          {
+            "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+              "https://news.jtbc.co.kr/article/NB12326047"
+            ]
+          },
+          {
+            "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-02T16:12:48Z",
+            "type": "new",
+            "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+          }
+        ]
+      },
+      {
         "id": "korea-uk-foreign-ministers-20261031",
         "title": "한·영 외교장관, 한반도 정세 논의 발표",
         "summary": "외교부가 10월 31일 한·영 외교장관 회담에서 한반도 정세를 논의했다고 발표했습니다. 이 발표만으로 군사적 위험의 상승이나 하락을 판단하지 않습니다.",
@@ -1542,59 +1782,6 @@
             "text": "외교부 보도자료의 공개일과 첨부 원문을 대조해 첫 기록을 등록했습니다. 같은 발표의 본문과 첨부자료는 하나의 출처 계통으로 취급합니다."
           }
         ]
-      },
-      {
-        "id": "trilateral-ministers-20261030",
-        "title": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
-        "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
-        "kind": "diplomatic_change",
-        "occurred_at": "2026-10-29T15:00:00Z",
-        "time_precision": "day",
-        "reported_at": "2026-10-30T15:00:00Z",
-        "reported_precision": "day",
-        "updated_at": "2026-11-01T09:30:00Z",
-        "status": "reported",
-        "primary_status": "primary_seen",
-        "lifecycle": "unknown",
-        "important": false,
-        "unknowns": [
-          "공개된 외교적 입장과 현장의 군사적 변화는 구분해야 합니다. 정확한 회의 시작 시각은 확인되지 않았습니다."
-        ],
-        "revision": 1,
-        "why_it_matters": "외교적 입장과 협의의 기록입니다. 같은 날 실무 당국의 전화 협의와는 별도 회의이며, 공동 입장만으로 실제 긴장이 낮아졌다고 판정하지 않습니다.",
-        "significance": "notable",
-        "sources": [
-          {
-            "name": "대한민국 외교부 · 정책브리핑",
-            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391",
-            "published_at": "2026-10-30T15:00:00Z",
-            "published_precision": "day"
-          }
-        ],
-        "facts": [
-          {
-            "text": "발표문은 세 장관이 대북 억제 태세를 유지하면서 대화와 외교를 통한 한반도 평화·안정 및 비핵화 목표를 위한 노력을 계속하기로 했다고 설명합니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391"
-            ]
-          },
-          {
-            "text": "회의는 10월 30일 개최됐으며 이 보도자료는 10월 31일 게시됐습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391"
-            ]
-          }
-        ],
-        "location": null,
-        "changes": [
-          {
-            "at": "2026-11-01T09:30:00Z",
-            "type": "new",
-            "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-          }
-        ]
       }
     ],
     "recent_events": [],
@@ -1618,6 +1805,16 @@
         "state": "unobserved"
       },
       {
+        "key": "incident",
+        "label": "군 사망·사고",
+        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+        "text": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+        "event_ids": [
+          "cheorwon-sergeant-death-20261102"
+        ],
+        "state": "ongoing"
+      },
+      {
         "key": "statement",
         "label": "공식 발언·조치",
         "title": "대북 제재에 관한 다국적 공동성명 발표",
@@ -1638,6 +1835,14 @@
           "trilateral-response-20261030"
         ],
         "state": "recorded"
+      },
+      {
+        "key": "other",
+        "label": "그 밖의 기록",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
       }
     ],
     "map_points": [
@@ -1653,9 +1858,9 @@
     ],
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-02T15:23:37+00:00"
+    "last_attempt_at": "2026-11-02T16:12:48+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-02T15:23:05Z"
+  "snapshot_collection_checked_at": "2026-11-02T16:12:11Z"
 }

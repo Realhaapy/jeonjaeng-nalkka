@@ -1,0 +1,72 @@
+{
+  "id": "sacheon-kt1-collision-20260901",
+  "title": "9월 사천 KT-1 훈련기 2대 충돌…11월 보도로 확인",
+  "summary": "JTBC와 SBS는 9월 1일 오전 경남 사천 공군기지 인근에서 KT-1 훈련기 2대가 충돌했다고 보도했습니다. 두 기체는 비상착륙했고 인명피해는 없었지만 기체 일부가 손상됐다는 내용입니다. 11월에 확인한 보도이며, 사고 발생일은 9월 1일로 구분합니다.",
+  "kind": "military_incident",
+  "occurred_at": "2026-08-31T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-01T21:12:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-02T16:18:51Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "공군의 사고 조사 보고서와 관련 문책 절차 결과 원문은 확보하지 못했습니다. 원인 설명은 공군 관계자 설명을 인용한 보도로 구분합니다.",
+    "확인한 두 기사에서 발생일과 오전이라는 범위는 확인했으나, 이 기록에는 정확한 발생 분 단위를 확정하지 않았습니다.",
+    "발표·게시 시각은 이 기록에서 직접 확인한 출처 중 가장 이른 기사 시각이며, 최초 보도 시각을 뜻하지 않습니다.",
+    "복수 보도가 동일 공군 설명을 인용할 수 있으므로 링크 수를 독립 확인 횟수로 계산하지 않습니다.",
+    "정확한 충돌 지점의 좌표는 확인하지 않아 지도에 임의 표식을 넣지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "비행 훈련 중 사고와 후속 공개 과정을 확인할 군 안전 기록입니다. 인명피해가 없었다는 설명과 기체 손상은 구분해야 하며, 뒤늦은 보도를 새 군사 충돌 발생으로 계산하지 않습니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "JTBC · 공군 설명 인용, 11월 2일 14:17 수정",
+      "url": "https://news.jtbc.co.kr/article/NB12326002",
+      "published_at": "2026-11-02T05:02:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "SBS · 훈련기 충돌 사고 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420",
+      "published_at": "2026-11-01T21:12:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "JTBC와 SBS는 9월 1일 오전 사천 공군기지 인근 상공에서 제3훈련비행단 소속 KT-1 훈련기 2대가 충돌했다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326002",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420"
+      ]
+    },
+    {
+      "text": "두 보도는 훈련기들이 비상착륙해 인명피해는 없었으나 날개와 동체가 손상됐다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326002",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008825420"
+      ]
+    },
+    {
+      "text": "JTBC는 공군이 조종사들의 전방 주시 미흡을 사고 원인으로 설명했다고 전했습니다. 공군 관계자는 안전하게 착륙했고 조종사 부상이 없어 별도 언론 공지를 하지 않았다고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326002"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-02T16:18:51Z",
+      "type": "new",
+      "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
+    }
+  ]
+}

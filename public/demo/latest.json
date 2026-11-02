@@ -4,9 +4,9 @@
   "title": "전쟁 날까",
   "assessed_at": "2026-01-15T05:17:00+00:00",
   "coverage_as_of": "2026-01-15T05:17:00+00:00",
-  "generated_at": "2026-11-02T15:31:19+00:00",
-  "release_id": "r-f1cda9d06d01673d",
-  "snapshot_id": "demo-a1fcb969fe2b58b3",
+  "generated_at": "2026-11-02T16:18:53+00:00",
+  "release_id": "r-5980199b385360c6",
+  "snapshot_id": "demo-d2447dfb19b14986",
   "headline": "달라진 사실을 먼저, 판단의 근거는 바로 옆에.",
   "summary": "아래는 정정·훈련·상충하는 발표를 어떻게 구분하는지 보여주는 가상 예시입니다. 실제 현재 상황이 아닙니다.",
   "official_note": "가상 예시에서는 공식 발표의 변경 내용만 구분합니다. 실제 경보나 조치가 아닙니다.",
@@ -214,12 +214,12 @@
     "assessment_label": "최근 군사 발표와 후속 대응",
     "assessment_summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
     "brief": {
-      "recent": "등록된 공식 발표 군사 활동 1건 · 공식 발언·조치 2건 (최근 1/15)",
-      "period": "미사일 발사 0건 · 군사 활동 1건 · 공식 발언·조치 2건 · 외교 대응 0건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 군사 활동 1건 · 공식 발언·조치 2건 (최근 1/15)",
+      "period": "미사일 발사 0건 · 군사 활동 1건 · 군 사망·사고 0건 · 공식 발언·조치 2건 · 외교 대응 0건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "여행경보·민방공 경보 문자는 아직 수집하지 않음",
       "official_url": null
     },
-    "assessment_note": "공개된 기관 발표와 검토 기록을 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
+    "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "metrics": {
       "events_24h": 0,
@@ -290,6 +290,13 @@
             "delta": null
           },
           {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
             "key": "statement",
             "label": "공식 발언·조치",
             "current": 2,
@@ -299,6 +306,13 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
             "current": 0,
             "previous": 0,
             "delta": null
@@ -481,6 +495,13 @@
             "delta": null
           },
           {
+            "key": "incident",
+            "label": "군 사망·사고",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
             "key": "statement",
             "label": "공식 발언·조치",
             "current": 2,
@@ -490,6 +511,13 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
+            "current": 0,
+            "previous": 0,
+            "delta": null
+          },
+          {
+            "key": "other",
+            "label": "그 밖의 기록",
             "current": 0,
             "previous": 0,
             "delta": null
@@ -672,6 +700,14 @@
         "state": "recorded"
       },
       {
+        "key": "incident",
+        "label": "군 사망·사고",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      },
+      {
         "key": "statement",
         "label": "공식 발언·조치",
         "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
@@ -685,6 +721,14 @@
       {
         "key": "diplomacy",
         "label": "외교 대응",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      },
+      {
+        "key": "other",
+        "label": "그 밖의 기록",
         "title": "최근 7일 검토 기록 없음",
         "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
         "event_ids": [],
