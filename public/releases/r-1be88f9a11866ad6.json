@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-02T09:17:04Z",
-  "generated_at": "2026-11-02T09:17:34+00:00",
-  "release_id": "r-14109db71823a774",
-  "snapshot_id": "s-492d6e08b52897a5",
+  "collection_checked_at": "2026-11-02T10:17:04Z",
+  "generated_at": "2026-11-02T10:17:35+00:00",
+  "release_id": "r-1be88f9a11866ad6",
+  "snapshot_id": "s-16ac6c05c6c48b5b",
   "headline": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
   "summary": "한국 외교부는 10월 30일 미국 애틀랜타에서 한·미·일 외교장관회의가 열렸으며, 한반도 정세와 외교적 노력을 논의했다고 발표했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-02T09:17:04Z",
-      "last_success_at": "2026-11-02T09:17:04Z",
-      "coverage_at": "2026-11-02T09:17:04Z",
+      "checked_at": "2026-11-02T10:17:04Z",
+      "last_success_at": "2026-11-02T10:17:04Z",
+      "coverage_at": "2026-11-02T10:17:04Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-02T09:17:05Z",
-      "last_success_at": "2026-11-02T09:17:05Z",
+      "checked_at": "2026-11-02T10:17:05Z",
+      "last_success_at": "2026-11-02T10:17:05Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-02T09:17:32Z",
-      "last_success_at": "2026-11-02T09:17:32Z",
-      "coverage_at": "2026-11-02T09:17:32Z",
+      "checked_at": "2026-11-02T10:17:33Z",
+      "last_success_at": "2026-11-02T10:17:33Z",
+      "coverage_at": "2026-11-02T10:17:33Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-02T09:17:34Z",
-      "last_success_at": "2026-11-02T09:17:34Z",
-      "coverage_at": "2026-11-02T09:17:34Z",
+      "checked_at": "2026-11-02T10:17:35Z",
+      "last_success_at": "2026-11-02T10:17:35Z",
+      "coverage_at": "2026-11-02T10:17:35Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -1034,7 +1034,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-02T09:17:34+00:00",
+    "as_of": "2026-11-02T10:17:35+00:00",
     "assessment_label": "최근 군사 발표와 후속 대응",
     "assessment_summary": "일본 방위성은 10월 29일 낮 북한이 탄도미사일로 추정되는 물체를 발사했다고 발표했습니다. 해당 발표는 한반도 동해안 부근에 낙하한 것으로 추정했습니다. 같은 기간의 외교 발표도 아래 사건 기록에서 따로 확인할 수 있습니다.",
     "brief": {
@@ -1048,7 +1048,7 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 0,
-      "changes_24h": 9,
+      "changes_24h": 0,
       "corrections_24h": 0,
       "active_major": 0
     },
@@ -1321,80 +1321,7 @@
         ]
       }
     },
-    "recent_changes": [
-      {
-        "id": "c-cf17a67741a7b3ef2793",
-        "event_id": "trilateral-ministers-20261030",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "한·미·일 외교장관, 억제 태세와 대화 노력 재확인",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-7d1a8b022eb6d1ec534e",
-        "event_id": "trilateral-response-20261003",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "한·미·일, 10월 3일 발사 당일 전화 협의",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-e3a49690c4abc5336c72",
-        "event_id": "dprk-launch-20261003",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "10월 3일, 북한 동해안 부근 미사일 발사 발표",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-623b84371aada2551c95",
-        "event_id": "trilateral-response-20261013",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-4abf13cc5c0b4c12fa12",
-        "event_id": "dprk-launch-20261012",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "10월 12일, 최소 두 발의 탄도미사일 발사 발표",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-e00ff570bf45bab3b6ee",
-        "event_id": "rok-military-talks-proposal-20261023",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-f383e6b188b280f4dc83",
-        "event_id": "dprk-sanctions-statement-20261028",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "대북 제재에 관한 다국적 공동성명 발표",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-ab05608780151885b9bf",
-        "event_id": "trilateral-response-20261030",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "한·미·일, 10월 29일 발사 뒤 전화 협의",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      },
-      {
-        "id": "c-d4d40d11246b74af7692",
-        "event_id": "dprk-launch-20261029",
-        "at": "2026-11-01T09:30:00Z",
-        "type": "new",
-        "title": "10월 29일, 북한 탄도미사일 추정 발사 발표",
-        "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
-      }
-    ],
+    "recent_changes": [],
     "important_events": [
       {
         "id": "dprk-launch-20261029",
@@ -1726,9 +1653,9 @@
     ],
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-02T09:17:34+00:00"
+    "last_attempt_at": "2026-11-02T10:17:35+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-02T08:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-02T10:17:04Z"
 }
