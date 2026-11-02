@@ -5,9 +5,9 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-02T16:12:11Z",
-  "generated_at": "2026-11-02T16:18:53+00:00",
-  "release_id": "r-3c8dd8185a184db8",
-  "snapshot_id": "s-9d2f891bcd120184",
+  "generated_at": "2026-11-02T16:59:01+00:00",
+  "release_id": "r-31b7d1f3c21e7bfc",
+  "snapshot_id": "s-a6b64aea6615b0a6",
   "headline": "후속 확인이 필요한 중요 사건이 있습니다.",
   "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -1239,7 +1239,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-02T16:18:53+00:00",
+    "as_of": "2026-11-02T16:59:01+00:00",
     "assessment_label": "후속 확인이 필요한 주요 기록",
     "assessment_summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
     "brief": {
@@ -1250,6 +1250,84 @@
     },
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
+    "lead_event": {
+      "id": "cheorwon-sergeant-death-20261102",
+      "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
+      "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+      "kind": "military_incident",
+      "occurred_at": "2026-11-01T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-02T06:50:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-02T16:12:48Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
+        "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
+        "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
+        "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
+        "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "주간조선 · 육군 발표 인용",
+          "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+          "published_at": "2026-11-02T06:50:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 육군 발표 인용",
+          "url": "https://news.jtbc.co.kr/article/NB12326047",
+          "published_at": "2026-11-02T07:32:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 2일 21:26 수정 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
+          "published_at": "2026-11-02T07:58:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://weekly.chosun.com/news/articleView.html?idxno=56797",
+            "https://news.jtbc.co.kr/article/NB12326047"
+          ]
+        },
+        {
+          "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-02T16:12:48Z",
+          "type": "new",
+          "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
+        }
+      ]
+    },
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 1,
