@@ -18,7 +18,16 @@ const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
 function revealMapSelection(){const selection=document.getElementById('map-selection');if(selection&&!reducedMotion.matches&&selection.animate)selection.animate([{opacity:.45,transform:'translateY(5px)'},{opacity:1,transform:'translateY(0)'}],{duration:220,easing:'cubic-bezier(.2,.7,.3,1)'});}
 marks.forEach(mark=>mark.setAttribute('aria-pressed','false'));
 marks.forEach(btn=>btn.addEventListener('click',()=>{marks.forEach(mark=>{mark.classList.toggle('is-active',mark===btn);mark.setAttribute('aria-pressed',String(mark===btn))});document.getElementById('map-selection-title').textContent=btn.dataset.mapTitle;document.getElementById('map-selection-note').textContent=btn.dataset.mapPlace+' · 공개된 도시·지역 단위 위치입니다.';const link=document.getElementById('map-selection-link');link.href=btn.dataset.mapUrl;link.textContent='이 사건의 근거와 변화 보기 →';eventRows.forEach(row=>row.classList.toggle('is-selected',row.dataset.eventId===btn.dataset.mapEvent));revealMapSelection()}));
+function officialFreshness(){
+if(demo||body.dataset.snapshot==='true')return;
+document.querySelectorAll('[data-official-state]').forEach(node=>{
+const at=Date.parse(node.dataset.observedAt||''),failed=node.dataset.sourceStatus!=='ok';
+let message=failed?(Number.isFinite(at)?'최근 확인 실패 · 마지막 확인 자료':'확인 실패 · 원문 확인 필요'):!Number.isFinite(at)?'확인 시각 미상 · 원문 확인 필요':Date.now()-at>=7200000?'갱신 지연 · 마지막 확인 자료':'';
+node.textContent=message;node.hidden=!message;
+});
+}
 function freshness(){
+officialFreshness();
 const badge=document.querySelector('[data-freshness]');if(!badge)return;
 if(demo){badge.textContent='가상 데이터 · 실제 상황 아님';badge.classList.remove('is-old');return}
 if(body.dataset.snapshot==='true'){badge.textContent='보존본 · 실시간 갱신 아님';badge.classList.remove('is-old');return}
