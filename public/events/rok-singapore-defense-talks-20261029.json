@@ -1,0 +1,65 @@
+{
+  "id": "rok-singapore-defense-talks-20261029",
+  "title": "10월 29일 한·싱가포르 국방장관회담…국방·방산 협력 논의",
+  "summary": "국방부는 강신철 장관이 10월 29일 싱가포르 찬 춘 싱 국방장관과 만나 국방·방산 협력을 논의했다고 발표했습니다. 인적 교류를 활성화하고 사이버·AI 등 협력 분야를 발굴하기로 했다는 내용입니다. 11월 2일 게시된 자료를 뒤늦게 확인한 과거 회담 기록입니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-28T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-29T11:30:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-03T13:35:13Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "회담 시각은 확인하지 못해 발생일만 표시합니다. 보도자료 배포 시각과 정책브리핑 게시일은 다릅니다.",
+    "협력 논의가 실제 군사작전이나 배치 변경으로 이행됐다는 확인은 아닙니다.",
+    "자료가 언급한 10월 29일 미사일과 9월 지뢰 사건은 회담의 배경입니다. 11월 2일 새 군사사건으로 세지 않습니다.",
+    "게시 페이지와 첨부파일은 같은 국방부 발표로, 독립 출처 두 개가 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "국방부 · 한·싱가포르 국방장관회담 자료 게시",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787567",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부 · 10월 29일 20:30 배포 보도자료",
+      "url": "https://www.korea.kr/common/download.do?fileId=198582476&tblKey=GMN",
+      "published_at": "2026-10-29T11:30:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 강신철 장관과 싱가포르 찬 춘 싱 국방장관이 10월 29일 아세안 확대 국방장관회의를 계기로 회담했다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787567",
+        "https://www.korea.kr/common/download.do?fileId=198582476&tblKey=GMN"
+      ]
+    },
+    {
+      "text": "국방부는 두 장관이 국방·방산 협력과 인적 교류 활성화를 논의하고 사이버·AI 등 협력 분야를 발굴하기로 했다고 설명했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787567",
+        "https://www.korea.kr/common/download.do?fileId=198582476&tblKey=GMN"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T13:35:13Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 11월 2일 게시 페이지와 10월 29일 배포 첨부 원문을 대조해 10월 29일 회담으로 소급 등록했습니다. GPT 후보가 잡은 미사일 배경 설명을 새 발사로 승인하지 않았습니다."
+    }
+  ]
+}
