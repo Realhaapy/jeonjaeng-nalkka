@@ -4,11 +4,11 @@
   "title": "전쟁 날까",
   "assessed_at": "2026-01-15T05:17:00+00:00",
   "coverage_as_of": "2026-01-15T05:17:00+00:00",
-  "generated_at": "2026-11-03T10:34:54+00:00",
-  "release_id": "r-c4c78b9c0ffd507f",
-  "snapshot_id": "demo-752617e5d8f078c4",
-  "headline": "달라진 사실을 먼저, 판단의 근거는 바로 옆에.",
-  "summary": "아래는 정정·훈련·상충하는 발표를 어떻게 구분하는지 보여주는 가상 예시입니다. 실제 현재 상황이 아닙니다.",
+  "generated_at": "2026-11-03T11:17:51+00:00",
+  "release_id": "r-90c5054506dd36d2",
+  "snapshot_id": "demo-8ec6cfaa64ba2195",
+  "headline": "최근 발표·보도 · 발생일 미상",
+  "summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
   "official_note": "가상 예시에서는 공식 발표의 변경 내용만 구분합니다. 실제 경보나 조치가 아닙니다.",
   "unknowns": [
     "공개 자료에 없는 내용은 추정하지 않습니다.",
@@ -57,49 +57,6 @@
   "official_observations": [],
   "events": [
     {
-      "id": "example-correction",
-      "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
-      "summary": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
-      "kind": "official_statement",
-      "occurred_at": null,
-      "time_precision": "unknown",
-      "reported_at": "2026-01-15T05:17:00+00:00",
-      "updated_at": "2026-01-15T05:17:00+00:00",
-      "status": "reported",
-      "primary_status": "primary_seen",
-      "lifecycle": "unknown",
-      "important": false,
-      "unknowns": [
-        "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
-      ],
-      "revision": 2,
-      "military_actor": "unknown",
-      "sources": [
-        {
-          "name": "예시 기관 · 가상 자료",
-          "url": "https://example.org/",
-          "published_at": "2026-01-15T05:17:00+00:00"
-        }
-      ],
-      "facts": [
-        {
-          "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://example.org/"
-          ]
-        }
-      ],
-      "location": null,
-      "changes": [
-        {
-          "at": "2026-01-15T05:17:00+00:00",
-          "type": "correction",
-          "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
-        }
-      ]
-    },
-    {
       "id": "example-exercise",
       "title": "예고된 훈련과 새로운 군사행동을 구분합니다.",
       "summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
@@ -138,6 +95,49 @@
         {
           "at": "2026-01-15T05:17:00+00:00",
           "type": "new",
+          "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+        }
+      ]
+    },
+    {
+      "id": "example-correction",
+      "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
+      "summary": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+      "kind": "official_statement",
+      "occurred_at": null,
+      "time_precision": "unknown",
+      "reported_at": "2026-01-15T05:17:00+00:00",
+      "updated_at": "2026-01-15T05:17:00+00:00",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
+      ],
+      "revision": 2,
+      "military_actor": "unknown",
+      "sources": [
+        {
+          "name": "예시 기관 · 가상 자료",
+          "url": "https://example.org/",
+          "published_at": "2026-01-15T05:17:00+00:00"
+        }
+      ],
+      "facts": [
+        {
+          "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://example.org/"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-01-15T05:17:00+00:00",
+          "type": "correction",
           "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
         }
       ]
@@ -215,7 +215,7 @@
   "notices": [],
   "dashboard": {
     "as_of": "2026-01-15T05:17:00+00:00",
-    "assessment_label": "최근 군사 발표와 후속 대응",
+    "assessment_label": "최근 발표·보도 · 발생일 미상",
     "assessment_summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
     "brief": {
       "recent": "검토된 기록 주체 미확인 군사 활동 1건 · 공식 발언·조치 2건 (최근 1/15)",
@@ -270,6 +270,166 @@
           "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
         }
       ]
+    },
+    "ordered_events": [
+      {
+        "id": "example-exercise",
+        "title": "예고된 훈련과 새로운 군사행동을 구분합니다.",
+        "summary": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
+        "kind": "exercise",
+        "occurred_at": null,
+        "time_precision": "unknown",
+        "reported_at": "2026-01-15T05:17:00+00:00",
+        "updated_at": "2026-01-15T05:17:00+00:00",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "이 항목은 실제 훈련 일정이 아닙니다."
+        ],
+        "revision": 1,
+        "military_actor": "unknown",
+        "sources": [
+          {
+            "name": "예시 기관 · 가상 자료",
+            "url": "https://example.org/",
+            "published_at": "2026-01-15T05:17:00+00:00"
+          }
+        ],
+        "facts": [
+          {
+            "text": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://example.org/"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-01-15T05:17:00+00:00",
+            "type": "new",
+            "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+          }
+        ]
+      },
+      {
+        "id": "example-correction",
+        "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
+        "summary": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+        "kind": "official_statement",
+        "occurred_at": null,
+        "time_precision": "unknown",
+        "reported_at": "2026-01-15T05:17:00+00:00",
+        "updated_at": "2026-01-15T05:17:00+00:00",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
+        ],
+        "revision": 2,
+        "military_actor": "unknown",
+        "sources": [
+          {
+            "name": "예시 기관 · 가상 자료",
+            "url": "https://example.org/",
+            "published_at": "2026-01-15T05:17:00+00:00"
+          }
+        ],
+        "facts": [
+          {
+            "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://example.org/"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-01-15T05:17:00+00:00",
+            "type": "correction",
+            "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+          }
+        ]
+      },
+      {
+        "id": "example-conflict",
+        "title": "서로 다른 발표는 확인 중으로 남깁니다.",
+        "summary": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다.",
+        "kind": "official_statement",
+        "occurred_at": null,
+        "time_precision": "unknown",
+        "reported_at": "2026-01-15T05:17:00+00:00",
+        "updated_at": "2026-01-15T05:17:00+00:00",
+        "status": "disputed",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "실제 발생 시각을 확인할 추가 근거가 필요하다는 가정입니다."
+        ],
+        "revision": 1,
+        "military_actor": "unknown",
+        "sources": [
+          {
+            "name": "예시 기관 · 가상 자료",
+            "url": "https://example.org/",
+            "published_at": "2026-01-15T05:17:00+00:00"
+          }
+        ],
+        "facts": [
+          {
+            "text": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다.",
+            "state": "disputed",
+            "evidence_urls": [
+              "https://example.org/"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-01-15T05:17:00+00:00",
+            "type": "update",
+            "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+          }
+        ]
+      }
+    ],
+    "event_timing": {
+      "example-exercise": {
+        "date_label": "발생·게시 날짜 미확인",
+        "date_basis": "reported",
+        "is_backfill": false,
+        "registration_kind": "unknown",
+        "first_recorded_at": "2026-01-15T05:17:00+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발표"
+      },
+      "example-correction": {
+        "date_label": "발생·게시 날짜 미확인",
+        "date_basis": "reported",
+        "is_backfill": false,
+        "registration_kind": "unknown",
+        "first_recorded_at": null,
+        "is_new_record": false,
+        "recency_label": "최근 발표"
+      },
+      "example-conflict": {
+        "date_label": "발생·게시 날짜 미확인",
+        "date_basis": "reported",
+        "is_backfill": false,
+        "registration_kind": "unknown",
+        "first_recorded_at": null,
+        "is_new_record": false,
+        "recency_label": "최근 발표"
+      }
     },
     "metrics": {
       "events_24h": 0,
@@ -610,7 +770,10 @@
         "at": "2026-01-15T05:17:00+00:00",
         "type": "correction",
         "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
-        "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다."
+        "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+        "display_label": "정정",
+        "event_date_label": "발생·게시 날짜 미확인",
+        "registration_kind": null
       },
       {
         "id": "change-1",
@@ -618,7 +781,10 @@
         "at": "2026-01-15T05:17:00+00:00",
         "type": "new",
         "title": "예고된 훈련과 새로운 군사행동을 구분합니다.",
-        "text": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다."
+        "text": "예시 기관 B가 정례훈련 일정을 공지한 상황입니다. 훈련 기사가 늘어도 비정례 군사행동으로 바꾸어 표시하지 않습니다.",
+        "display_label": "발생일 미상 기록",
+        "event_date_label": "발생·게시 날짜 미확인",
+        "registration_kind": "unknown"
       },
       {
         "id": "change-2",
@@ -626,53 +792,13 @@
         "at": "2026-01-15T05:17:00+00:00",
         "type": "update",
         "title": "서로 다른 발표는 확인 중으로 남깁니다.",
-        "text": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다."
+        "text": "두 예시 자료의 발생 시각이 서로 다른 상황입니다. 한쪽 시각을 임의로 고르지 않고 발생 시각을 미상으로 둡니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "발생·게시 날짜 미확인",
+        "registration_kind": null
       }
     ],
     "important_events": [
-      {
-        "id": "example-correction",
-        "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
-        "summary": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
-        "kind": "official_statement",
-        "occurred_at": null,
-        "time_precision": "unknown",
-        "reported_at": "2026-01-15T05:17:00+00:00",
-        "updated_at": "2026-01-15T05:17:00+00:00",
-        "status": "reported",
-        "primary_status": "primary_seen",
-        "lifecycle": "unknown",
-        "important": false,
-        "unknowns": [
-          "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
-        ],
-        "revision": 2,
-        "military_actor": "unknown",
-        "sources": [
-          {
-            "name": "예시 기관 · 가상 자료",
-            "url": "https://example.org/",
-            "published_at": "2026-01-15T05:17:00+00:00"
-          }
-        ],
-        "facts": [
-          {
-            "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://example.org/"
-            ]
-          }
-        ],
-        "location": null,
-        "changes": [
-          {
-            "at": "2026-01-15T05:17:00+00:00",
-            "type": "correction",
-            "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
-          }
-        ]
-      },
       {
         "id": "example-exercise",
         "title": "예고된 훈련과 새로운 군사행동을 구분합니다.",
@@ -712,6 +838,49 @@
           {
             "at": "2026-01-15T05:17:00+00:00",
             "type": "new",
+            "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
+          }
+        ]
+      },
+      {
+        "id": "example-correction",
+        "title": "발표가 정정됐습니다. 사건이 추가된 것은 아닙니다.",
+        "summary": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+        "kind": "official_statement",
+        "occurred_at": null,
+        "time_precision": "unknown",
+        "reported_at": "2026-01-15T05:17:00+00:00",
+        "updated_at": "2026-01-15T05:17:00+00:00",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
+        ],
+        "revision": 2,
+        "military_actor": "unknown",
+        "sources": [
+          {
+            "name": "예시 기관 · 가상 자료",
+            "url": "https://example.org/",
+            "published_at": "2026-01-15T05:17:00+00:00"
+          }
+        ],
+        "facts": [
+          {
+            "text": "예시 기관 A가 앞선 발표의 수량을 수정한 상황입니다. 같은 사건의 정정으로 기록하고 새 사건으로 세지 않습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://example.org/"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-01-15T05:17:00+00:00",
+            "type": "correction",
             "text": "가상 데이터로 변경 기록의 표시 방식을 설명합니다."
           }
         ]

@@ -155,7 +155,7 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
 .event-detail .event-header h1{max-width:22em;font-size:clamp(2rem,4vw,3.25rem);line-height:1.32;text-wrap:balance;overflow-wrap:anywhere}
 .event-detail .event-tags{margin:18px 0 0}
 .event-detail .event-deck{max-width:72ch;margin-top:22px;font-size:1.0625rem;line-height:1.85;color:var(--ink)}
-.event-detail .event-dates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 24px;margin-top:30px;padding-block:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.event-detail .event-dates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 24px;margin-top:30px;padding-block:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .event-detail .event-dates>div{display:block;min-width:0}
 .event-dates dt{font-size:.875rem;color:var(--muted);margin-bottom:7px}
 .event-dates dd{margin:0;font-size:.9375rem;line-height:1.65;font-weight:550;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
@@ -216,6 +216,10 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
 .event-row--new:hover{border-color:#46533a}
 .event-row--important:hover{border-color:#59451d}
 .tag--new{color:var(--ink);border-color:#8e9783;background:var(--subtle)}
+.tag--backfill{color:var(--muted);border-color:var(--line);background:transparent}
+.change-type--backfill{color:var(--muted)}
+.event-registration{margin-top:8px;font-size:.8125rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.change-row .change-event-date{font-size:.8125rem;line-height:1.6;color:var(--ink);font-variant-numeric:tabular-nums;margin-top:8px}
 .category-mark--military_north,.category-mark--military_south,.category-mark--military_unknown{background:var(--category-military)}
 
 @media(max-width:900px){
