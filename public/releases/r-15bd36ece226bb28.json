@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-03T15:17:03Z",
-  "generated_at": "2026-11-03T15:17:53+00:00",
-  "release_id": "r-3b1711a10f6aad8f",
-  "snapshot_id": "s-e4366e6caa6b5129",
+  "collection_checked_at": "2026-11-03T15:28:13Z",
+  "generated_at": "2026-11-03T15:29:01+00:00",
+  "release_id": "r-15bd36ece226bb28",
+  "snapshot_id": "s-e91970a816a4b4e0",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "SBS는 김여정 노동당 총무부장이 11월 3일 담화에서 FBI의 바이낸스 해킹 북한 배후 지목을 반박했다고 보도했습니다. FBI가 10월 31일 공개한 원문도 대조했습니다. 북한의 반박 발언에 관한 기록이며, 11월 3일 새 해킹이 발생했다는 뜻은 아닙니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 81,
+    "pending": 76,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:03Z",
-      "last_success_at": "2026-11-03T15:17:03Z",
-      "coverage_at": "2026-11-03T15:17:03Z",
+      "checked_at": "2026-11-03T15:28:13Z",
+      "last_success_at": "2026-11-03T15:28:13Z",
+      "coverage_at": "2026-11-03T15:28:13Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:05Z",
-      "last_success_at": "2026-11-03T15:17:05Z",
+      "checked_at": "2026-11-03T15:28:14Z",
+      "last_success_at": "2026-11-03T15:28:14Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:47Z",
-      "last_success_at": "2026-11-03T15:17:47Z",
-      "coverage_at": "2026-11-03T15:17:47Z",
+      "checked_at": "2026-11-03T15:28:56Z",
+      "last_success_at": "2026-11-03T15:28:56Z",
+      "coverage_at": "2026-11-03T15:28:56Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:51Z",
-      "last_success_at": "2026-11-03T15:17:51Z",
-      "coverage_at": "2026-11-03T15:17:51Z",
+      "checked_at": "2026-11-03T15:29:00Z",
+      "last_success_at": "2026-11-03T15:29:00Z",
+      "coverage_at": "2026-11-03T15:29:00Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:40Z",
-      "last_success_at": "2026-11-03T15:17:40Z",
-      "coverage_at": "2026-11-03T15:17:40Z",
+      "checked_at": "2026-11-03T15:28:50Z",
+      "last_success_at": "2026-11-03T15:28:50Z",
+      "coverage_at": "2026-11-03T15:28:50Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "coverage_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "coverage_at": "2026-11-03T15:28:59Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:03Z",
-      "last_success_at": "2026-11-03T15:17:03Z",
-      "observed_at": "2026-11-03T15:17:03Z",
+      "checked_at": "2026-11-03T15:28:13Z",
+      "last_success_at": "2026-11-03T15:28:13Z",
+      "observed_at": "2026-11-03T15:28:13Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:50Z",
-      "last_success_at": "2026-11-03T15:17:50Z",
-      "observed_at": "2026-11-03T15:17:50Z",
+      "checked_at": "2026-11-03T15:28:59Z",
+      "last_success_at": "2026-11-03T15:28:59Z",
+      "observed_at": "2026-11-03T15:28:59Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T15:17:51Z",
-      "last_success_at": "2026-11-03T15:17:51Z",
-      "observed_at": "2026-11-03T15:17:51Z",
+      "checked_at": "2026-11-03T15:29:00Z",
+      "last_success_at": "2026-11-03T15:29:00Z",
+      "observed_at": "2026-11-03T15:29:00Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-02T15:17:51Z",
-        "window_end": "2026-11-03T15:17:51Z",
+        "window_start": "2026-11-02T15:29:00Z",
+        "window_end": "2026-11-03T15:29:00Z",
         "total_count": 14,
         "matched_count": 0,
         "complete": true,
@@ -1209,6 +1209,133 @@
       ]
     },
     {
+      "id": "jcs-mdl-activity-briefing-20261029",
+      "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
+      "summary": "합참은 10월 29일 브리핑에서 북한군의 군사분계선(MDL) 근접 활동이 지속되고 있으며 침범이 의심되는 지역을 유엔사와 협의 중이라고 설명했습니다. 한강 하구 중립수역 이북의 구형 자주포 노출도 언급했습니다. 새로운 침범이나 배치의 발생일을 확정한 기록이 아닙니다.",
+      "kind": "official_statement",
+      "military_actor": "unknown",
+      "occurred_at": "2026-10-28T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-28T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-03T15:28:02Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "발생일은 합참이 설명한 10월 29일입니다. 실제 활동 시작일·배치일·대수·개별 침범 시각은 공개 답변에서 확인하지 못했습니다.",
+        "경고방송·경고사격에 관한 답변은 대응 원칙 설명입니다. 10월 29일 새 교전이 발생했다는 확인으로 세지 않습니다.",
+        "공식 발언 기록으로 분류하며, 새 군사활동의 발생 건수나 위험 변화로 자동 계산하지 않습니다.",
+        "공개 원문에는 부처 요청에 따른 일부 삭제·수정 고지가 있습니다. 삭제된 내용이나 정확한 배치 좌표를 추정하지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "국방부·합참 · 10월 29일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+          "published_at": "2026-10-28T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "합참은 10월 29일 북한군의 MDL 근접 활동이 지속 중이며, 침범 의심지역에 관해 유엔사와 협의하고 있다고 밝혔다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+          ]
+        },
+        {
+          "text": "합참은 북한이 한강 하구 중립수역 이북에 기존 구형 자주포를 배치해 노출하고 있다고 설명했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-03T15:28:02Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+        }
+      ]
+    },
+    {
+      "id": "rok-us-defense-talks-20261028",
+      "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
+      "summary": "국방부는 10월 28일 한미 국방장관회담에서 12월 워싱턴 장관회담과 2027년 초 한미안보협의회의(SCM)를 열기로 했다고 발표했습니다. 10월 29일 브리핑에서는 단계별 협의 계획이라고 설명했습니다. 과거 회담 기록이며 예정된 회의의 개최 완료나 전작권 전환일 확정을 뜻하지 않습니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": "2026-10-27T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-28T09:30:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-03T15:28:01Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "자료는 10월 28~29일에 발표된 계획입니다. 12월 회담과 2027년 초 SCM의 개최 완료·최종 의제·이후 일정 변경은 이 기록만으로 확인하지 않습니다.",
+        "전작권 전환일이 확정되거나 연기됐다는 판단은 하지 않습니다. 한미 간 이견에 대한 기자 질문을 확인된 사실로 옮기지 않았습니다.",
+        "한국 국방부 원문을 확인했으며 미국 측 별도 발표문은 확보하지 못했습니다. 보도자료와 첨부는 같은 근거입니다.",
+        "10월 29일 속기록에는 부처 요청에 따른 삭제·수정 고지가 있습니다. 현재 공개 문구만 사용했습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "국방부 · 10월 28일 한미 국방장관회담 발표",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+          "published_at": "2026-10-27T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "국방부 · 10월 28일 18:30 배포 보도자료",
+          "url": "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN",
+          "published_at": "2026-10-28T09:30:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국방부·합참 · 10월 29일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+          "published_at": "2026-10-28T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "국방부는 강신철 장관과 피트 헤그세스 미 전쟁부 장관이 10월 28일 필리핀에서 회담했으며, 12월 워싱턴 장관회담과 2027년 초 SCM 개최에 합의했다고 밝혔다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+            "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN"
+          ]
+        },
+        {
+          "text": "국방부는 10월 29일 브리핑에서 12월 장관 협의에 이어 내년 초 SCM으로 연결하는 단계별 접근이라고 설명했다. 전작권 전환을 늦춘다는 의미는 아니라는 정부 입장도 밝혔다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-03T15:28:01Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다."
+        }
+      ]
+    },
+    {
       "id": "dprk-sanctions-statement-20261028",
       "title": "대북 제재에 관한 다국적 공동성명 발표",
       "summary": "일본 외무성은 다국적 제재모니터링팀 참여국과 EU가 10월 28일 대북 제재 공동성명을 발표했다고 전했습니다.",
@@ -1267,24 +1394,24 @@
       "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
       "summary": "국방부는 10월 23일 군사분계선 위치 확인, 군통신선 복원과 접경지역 우발충돌 방지 방안을 논의할 군사당국회담을 북한에 제안했습니다.",
       "kind": "diplomatic_change",
+      "military_actor": "unknown",
       "occurred_at": "2026-10-22T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-10-22T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-01T09:30:00Z",
+      "updated_at": "2026-11-03T15:28:03Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "회담 수락·개최·합의 이행 여부는 이 발표만으로 확인되지 않습니다.",
+        "10월 29일 당시 북한의 호응이 없었다는 국방부 설명을 확인했습니다. 이후 수락·개최·합의 이행 여부는 별도 근거가 필요합니다.",
         "지도는 발표가 이뤄진 서울의 도시 범위를 표시합니다. 군사분계선이나 부대 위치가 아닙니다.",
-        "두 링크는 같은 담화와 이를 소개한 기사입니다. 독립적으로 확인한 기관 두 곳이라는 뜻이 아닙니다."
+        "국방부 발표와 이를 소개한 기사, 후속 브리핑을 연결했습니다. 링크 수를 독립적으로 확인한 기관 수로 세지 않습니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "대화 제안은 실제 회담 개최나 군통신선 복원과 구분해야 합니다. 접경지역 긴장 완화로 이어졌는지는 북측 반응과 후속 조치를 더 확인해야 합니다.",
       "significance": "notable",
-      "military_actor": "unknown",
       "sources": [
         {
           "name": "대한민국 국방부·정책브리핑",
@@ -1296,6 +1423,12 @@
           "name": "대한민국 국방부 · 담화 원문",
           "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
           "published_at": "2026-10-22T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "국방부·합참 · 10월 29일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+          "published_at": "2026-10-28T15:00:00Z",
           "published_precision": "day"
         }
       ],
@@ -1313,6 +1446,13 @@
           "evidence_urls": [
             "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
           ]
+        },
+        {
+          "text": "국방부는 10월 29일 정례브리핑에서 두 번째 군사회담 제안에 당시까지 북한의 호응이 없었다고 설명했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+          ]
         }
       ],
       "location": {
@@ -1327,6 +1467,11 @@
           "at": "2026-11-01T09:30:00Z",
           "type": "new",
           "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+        },
+        {
+          "at": "2026-11-03T15:28:03Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다."
         }
       ]
     },
@@ -1550,18 +1695,19 @@
       "time_precision": "day",
       "reported_at": "2026-10-05T12:42:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-03T12:35:22Z",
+      "updated_at": "2026-11-03T15:28:03Z",
       "status": "reported",
-      "primary_status": "quoted_only",
+      "primary_status": "primary_seen",
       "lifecycle": "unknown",
       "important": true,
       "unknowns": [
-        "합참 발표를 인용한 보도 원문을 확인했습니다. 합참 발표문, 유엔사 조사자료와 국과수 감정자료 자체는 직접 확보하지 못했습니다.",
+        "10월 29일 합참 답변 원문은 직접 확인했습니다. 10월 5일 최종 조사 발표문과 유엔사 조사자료·국과수 감정자료 자체는 확보하지 못했습니다.",
         "11월 3일 병원 위문 보도를 확인했지만, 개별 장병의 회복 정도·퇴원 여부는 이 자료만으로 확인할 수 없습니다.",
         "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
-        "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다."
+        "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
+        "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다."
       ],
-      "revision": 3,
+      "revision": 4,
       "why_it_matters": "",
       "significance": "major",
       "sources": [
@@ -1582,6 +1728,12 @@
           "url": "https://nwww.newsis.com/view/NISX20261103_0003852807",
           "published_at": "2026-11-03T06:08:44Z",
           "published_precision": "minute"
+        },
+        {
+          "name": "국방부·합참 · 10월 29일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+          "published_at": "2026-10-28T15:00:00Z",
+          "published_precision": "day"
         }
       ],
       "facts": [
@@ -1619,6 +1771,13 @@
           "evidence_urls": [
             "https://nwww.newsis.com/view/NISX20261103_0003852807"
           ]
+        },
+        {
+          "text": "합참은 10월 29일 브리핑에서 지뢰 폭발의 조사 결과와 별개로 의도에 대한 분석과 군사분계선 인식 차 등에 관한 유엔사 협의가 계속되고 있다고 답했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+          ]
         }
       ],
       "location": null,
@@ -1637,6 +1796,11 @@
           "at": "2026-11-03T12:35:22Z",
           "type": "update",
           "text": "Codex 정기 원문 검토: 11월 3일 뉴시스 보도에서 10월 22일 정부의 유엔 서한과 북한의 반박을 확인해 기존 사고에 연결했습니다. 상충하는 입장을 명시하며, 서한 제출일·기사 게시일·9월 사고일을 구분하고 별도 사고나 새 경고사격으로 세지 않습니다."
+        },
+        {
+          "at": "2026-11-03T15:28:03Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다."
         }
       ]
     },
@@ -1715,6 +1879,38 @@
     }
   ],
   "changes": [
+    {
+      "id": "c-342aab37da444887d6e0",
+      "event_id": "rok-military-talks-proposal-20261023",
+      "at": "2026-11-03T15:28:03Z",
+      "type": "update",
+      "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+      "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다."
+    },
+    {
+      "id": "c-8ef9e3f839c2dc5182bd",
+      "event_id": "dmz-landmine-injuries-20260921",
+      "at": "2026-11-03T15:28:03Z",
+      "type": "update",
+      "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+      "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다."
+    },
+    {
+      "id": "c-e9411a844c08bd070f30",
+      "event_id": "jcs-mdl-activity-briefing-20261029",
+      "at": "2026-11-03T15:28:02Z",
+      "type": "new",
+      "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
+      "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+    },
+    {
+      "id": "c-ae18541dbfcafce4f653",
+      "event_id": "rok-us-defense-talks-20261028",
+      "at": "2026-11-03T15:28:01Z",
+      "type": "new",
+      "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
+      "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다."
+    },
     {
       "id": "c-7b782713348718f6d07b",
       "event_id": "rok-vietnam-defense-talks-20261029",
@@ -1943,7 +2139,7 @@
       "published_at": "2026-10-28T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "pending"
+      "status": "reviewed"
     },
     {
       "id": "doc-890014b3c7ee32d053c2",
@@ -2227,14 +2423,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-03T15:17:53+00:00",
+    "as_of": "2026-11-03T15:29:01+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "SBS는 김여정 노동당 총무부장이 11월 3일 담화에서 FBI의 바이낸스 해킹 북한 배후 지목을 반박했다고 보도했습니다. FBI가 10월 31일 공개한 원문도 대조했습니다. 북한의 반박 발언에 관한 기록이며, 11월 3일 새 해킹이 발생했다는 뜻은 아닙니다.",
     "brief": {
       "recent": "검토된 기록 미사일 발사 1건 · 군 사망·사고 1건 · 공식 발언·조치 5건 (최근 11/3)",
       "recent_main": "검토된 기록 미사일 발사 1건 · 군 사망·사고 1건 · 공식 발언·조치 5건",
       "recent_note": "(최근 11/3)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 0건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 6건 · 외교 대응 7건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 0건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 7건 · 외교 대응 8건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -2242,7 +2438,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-03T15:17:51Z",
+          "observed_at": "2026-11-03T15:29:00Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -2250,8 +2446,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-02T15:17:51Z",
-          "window_end": "2026-11-03T15:17:51Z",
+          "window_start": "2026-11-02T15:29:00Z",
+          "window_end": "2026-11-03T15:29:00Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 14건 확인"
@@ -2260,7 +2456,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-03T15:17:50Z",
+          "observed_at": "2026-11-03T15:28:59Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -2278,7 +2474,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-03T15:17:03Z",
+          "observed_at": "2026-11-03T15:28:13Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -3319,6 +3515,133 @@
         ]
       },
       {
+        "id": "jcs-mdl-activity-briefing-20261029",
+        "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
+        "summary": "합참은 10월 29일 브리핑에서 북한군의 군사분계선(MDL) 근접 활동이 지속되고 있으며 침범이 의심되는 지역을 유엔사와 협의 중이라고 설명했습니다. 한강 하구 중립수역 이북의 구형 자주포 노출도 언급했습니다. 새로운 침범이나 배치의 발생일을 확정한 기록이 아닙니다.",
+        "kind": "official_statement",
+        "military_actor": "unknown",
+        "occurred_at": "2026-10-28T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-28T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-03T15:28:02Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "발생일은 합참이 설명한 10월 29일입니다. 실제 활동 시작일·배치일·대수·개별 침범 시각은 공개 답변에서 확인하지 못했습니다.",
+          "경고방송·경고사격에 관한 답변은 대응 원칙 설명입니다. 10월 29일 새 교전이 발생했다는 확인으로 세지 않습니다.",
+          "공식 발언 기록으로 분류하며, 새 군사활동의 발생 건수나 위험 변화로 자동 계산하지 않습니다.",
+          "공개 원문에는 부처 요청에 따른 일부 삭제·수정 고지가 있습니다. 삭제된 내용이나 정확한 배치 좌표를 추정하지 않았습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "국방부·합참 · 10월 29일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+            "published_at": "2026-10-28T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "합참은 10월 29일 북한군의 MDL 근접 활동이 지속 중이며, 침범 의심지역에 관해 유엔사와 협의하고 있다고 밝혔다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
+          },
+          {
+            "text": "합참은 북한이 한강 하구 중립수역 이북에 기존 구형 자주포를 배치해 노출하고 있다고 설명했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-03T15:28:02Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+          }
+        ]
+      },
+      {
+        "id": "rok-us-defense-talks-20261028",
+        "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
+        "summary": "국방부는 10월 28일 한미 국방장관회담에서 12월 워싱턴 장관회담과 2027년 초 한미안보협의회의(SCM)를 열기로 했다고 발표했습니다. 10월 29일 브리핑에서는 단계별 협의 계획이라고 설명했습니다. 과거 회담 기록이며 예정된 회의의 개최 완료나 전작권 전환일 확정을 뜻하지 않습니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-10-27T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-28T09:30:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-03T15:28:01Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "자료는 10월 28~29일에 발표된 계획입니다. 12월 회담과 2027년 초 SCM의 개최 완료·최종 의제·이후 일정 변경은 이 기록만으로 확인하지 않습니다.",
+          "전작권 전환일이 확정되거나 연기됐다는 판단은 하지 않습니다. 한미 간 이견에 대한 기자 질문을 확인된 사실로 옮기지 않았습니다.",
+          "한국 국방부 원문을 확인했으며 미국 측 별도 발표문은 확보하지 못했습니다. 보도자료와 첨부는 같은 근거입니다.",
+          "10월 29일 속기록에는 부처 요청에 따른 삭제·수정 고지가 있습니다. 현재 공개 문구만 사용했습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "국방부 · 10월 28일 한미 국방장관회담 발표",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+            "published_at": "2026-10-27T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "국방부 · 10월 28일 18:30 배포 보도자료",
+            "url": "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN",
+            "published_at": "2026-10-28T09:30:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국방부·합참 · 10월 29일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+            "published_at": "2026-10-28T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "국방부는 강신철 장관과 피트 헤그세스 미 전쟁부 장관이 10월 28일 필리핀에서 회담했으며, 12월 워싱턴 장관회담과 2027년 초 SCM 개최에 합의했다고 밝혔다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+              "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN"
+            ]
+          },
+          {
+            "text": "국방부는 10월 29일 브리핑에서 12월 장관 협의에 이어 내년 초 SCM으로 연결하는 단계별 접근이라고 설명했다. 전작권 전환을 늦춘다는 의미는 아니라는 정부 입장도 밝혔다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-03T15:28:01Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다."
+          }
+        ]
+      },
+      {
         "id": "dprk-sanctions-statement-20261028",
         "title": "대북 제재에 관한 다국적 공동성명 발표",
         "summary": "일본 외무성은 다국적 제재모니터링팀 참여국과 EU가 10월 28일 대북 제재 공동성명을 발표했다고 전했습니다.",
@@ -3377,24 +3700,24 @@
         "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
         "summary": "국방부는 10월 23일 군사분계선 위치 확인, 군통신선 복원과 접경지역 우발충돌 방지 방안을 논의할 군사당국회담을 북한에 제안했습니다.",
         "kind": "diplomatic_change",
+        "military_actor": "unknown",
         "occurred_at": "2026-10-22T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-10-22T15:00:00Z",
         "reported_precision": "day",
-        "updated_at": "2026-11-01T09:30:00Z",
+        "updated_at": "2026-11-03T15:28:03Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "회담 수락·개최·합의 이행 여부는 이 발표만으로 확인되지 않습니다.",
+          "10월 29일 당시 북한의 호응이 없었다는 국방부 설명을 확인했습니다. 이후 수락·개최·합의 이행 여부는 별도 근거가 필요합니다.",
           "지도는 발표가 이뤄진 서울의 도시 범위를 표시합니다. 군사분계선이나 부대 위치가 아닙니다.",
-          "두 링크는 같은 담화와 이를 소개한 기사입니다. 독립적으로 확인한 기관 두 곳이라는 뜻이 아닙니다."
+          "국방부 발표와 이를 소개한 기사, 후속 브리핑을 연결했습니다. 링크 수를 독립적으로 확인한 기관 수로 세지 않습니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "대화 제안은 실제 회담 개최나 군통신선 복원과 구분해야 합니다. 접경지역 긴장 완화로 이어졌는지는 북측 반응과 후속 조치를 더 확인해야 합니다.",
         "significance": "notable",
-        "military_actor": "unknown",
         "sources": [
           {
             "name": "대한민국 국방부·정책브리핑",
@@ -3406,6 +3729,12 @@
             "name": "대한민국 국방부 · 담화 원문",
             "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
             "published_at": "2026-10-22T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "국방부·합참 · 10월 29일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+            "published_at": "2026-10-28T15:00:00Z",
             "published_precision": "day"
           }
         ],
@@ -3423,6 +3752,13 @@
             "evidence_urls": [
               "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
             ]
+          },
+          {
+            "text": "국방부는 10월 29일 정례브리핑에서 두 번째 군사회담 제안에 당시까지 북한의 호응이 없었다고 설명했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
           }
         ],
         "location": {
@@ -3437,6 +3773,11 @@
             "at": "2026-11-01T09:30:00Z",
             "type": "new",
             "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+          },
+          {
+            "at": "2026-11-03T15:28:03Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다."
           }
         ]
       },
@@ -3660,18 +4001,19 @@
         "time_precision": "day",
         "reported_at": "2026-10-05T12:42:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-03T12:35:22Z",
+        "updated_at": "2026-11-03T15:28:03Z",
         "status": "reported",
-        "primary_status": "quoted_only",
+        "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": true,
         "unknowns": [
-          "합참 발표를 인용한 보도 원문을 확인했습니다. 합참 발표문, 유엔사 조사자료와 국과수 감정자료 자체는 직접 확보하지 못했습니다.",
+          "10월 29일 합참 답변 원문은 직접 확인했습니다. 10월 5일 최종 조사 발표문과 유엔사 조사자료·국과수 감정자료 자체는 확보하지 못했습니다.",
           "11월 3일 병원 위문 보도를 확인했지만, 개별 장병의 회복 정도·퇴원 여부는 이 자료만으로 확인할 수 없습니다.",
           "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
-          "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다."
+          "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
+          "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다."
         ],
-        "revision": 3,
+        "revision": 4,
         "why_it_matters": "",
         "significance": "major",
         "sources": [
@@ -3692,6 +4034,12 @@
             "url": "https://nwww.newsis.com/view/NISX20261103_0003852807",
             "published_at": "2026-11-03T06:08:44Z",
             "published_precision": "minute"
+          },
+          {
+            "name": "국방부·합참 · 10월 29일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+            "published_at": "2026-10-28T15:00:00Z",
+            "published_precision": "day"
           }
         ],
         "facts": [
@@ -3729,6 +4077,13 @@
             "evidence_urls": [
               "https://nwww.newsis.com/view/NISX20261103_0003852807"
             ]
+          },
+          {
+            "text": "합참은 10월 29일 브리핑에서 지뢰 폭발의 조사 결과와 별개로 의도에 대한 분석과 군사분계선 인식 차 등에 관한 유엔사 협의가 계속되고 있다고 답했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
           }
         ],
         "location": null,
@@ -3747,6 +4102,11 @@
             "at": "2026-11-03T12:35:22Z",
             "type": "update",
             "text": "Codex 정기 원문 검토: 11월 3일 뉴시스 보도에서 10월 22일 정부의 유엔 서한과 북한의 반박을 확인해 기존 사고에 연결했습니다. 상충하는 입장을 명시하며, 서한 제출일·기사 게시일·9월 사고일을 구분하고 별도 사고나 새 경고사격으로 세지 않습니다."
+          },
+          {
+            "at": "2026-11-03T15:28:03Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다."
           }
         ]
       },
@@ -3951,6 +4311,24 @@
         "is_new_record": true,
         "recency_label": ""
       },
+      "jcs-mdl-activity-briefing-20261029": {
+        "date_label": "2026.10.29 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": true,
+        "registration_kind": "backfill",
+        "first_recorded_at": "2026-11-03T15:28:02+00:00",
+        "is_new_record": true,
+        "recency_label": ""
+      },
+      "rok-us-defense-talks-20261028": {
+        "date_label": "2026.10.28 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": true,
+        "registration_kind": "backfill",
+        "first_recorded_at": "2026-11-03T15:28:01+00:00",
+        "is_new_record": true,
+        "recency_label": ""
+      },
       "dprk-sanctions-statement-20261028": {
         "date_label": "2026.10.28 · 발생일",
         "date_basis": "occurred",
@@ -4027,15 +4405,15 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 2,
-      "changes_24h": 16,
+      "changes_24h": 20,
       "corrections_24h": 0,
       "active_major": 4
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 14,
-        "previous": 2,
+        "current": 15,
+        "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
         "start": "2026-10-29",
@@ -4043,7 +4421,7 @@
         "days": [
           {
             "date": "2026-10-29",
-            "count": 3,
+            "count": 4,
             "prior": null
           },
           {
@@ -4116,7 +4494,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 5,
+            "current": 6,
             "previous": 1,
             "delta": null
           },
@@ -4124,7 +4502,7 @@
             "key": "diplomacy",
             "label": "외교 대응",
             "current": 5,
-            "previous": 1,
+            "previous": 2,
             "delta": null
           },
           {
@@ -4138,7 +4516,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 18,
+        "current": 20,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -4257,12 +4635,12 @@
           },
           {
             "date": "2026-10-28",
-            "count": 1,
+            "count": 2,
             "prior": null
           },
           {
             "date": "2026-10-29",
-            "count": 3,
+            "count": 4,
             "prior": null
           },
           {
@@ -4335,14 +4713,14 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 6,
+            "current": 7,
             "previous": 0,
             "delta": null
           },
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 7,
+            "current": 8,
             "previous": 1,
             "delta": null
           },
@@ -4357,6 +4735,50 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-342aab37da444887d6e0",
+        "event_id": "rok-military-talks-proposal-20261023",
+        "at": "2026-11-03T15:28:03Z",
+        "type": "update",
+        "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
+        "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.10.23 · 발생일",
+        "registration_kind": null
+      },
+      {
+        "id": "c-8ef9e3f839c2dc5182bd",
+        "event_id": "dmz-landmine-injuries-20260921",
+        "at": "2026-11-03T15:28:03Z",
+        "type": "update",
+        "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+        "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.09.21 · 발생일",
+        "registration_kind": null
+      },
+      {
+        "id": "c-e9411a844c08bd070f30",
+        "event_id": "jcs-mdl-activity-briefing-20261029",
+        "at": "2026-11-03T15:28:02Z",
+        "type": "new",
+        "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
+        "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다.",
+        "display_label": "과거 기록 추가",
+        "event_date_label": "2026.10.29 · 발생일",
+        "registration_kind": "backfill"
+      },
+      {
+        "id": "c-ae18541dbfcafce4f653",
+        "event_id": "rok-us-defense-talks-20261028",
+        "at": "2026-11-03T15:28:01Z",
+        "type": "new",
+        "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
+        "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다.",
+        "display_label": "과거 기록 추가",
+        "event_date_label": "2026.10.28 · 발생일",
+        "registration_kind": "backfill"
+      },
       {
         "id": "c-7b782713348718f6d07b",
         "event_id": "rok-vietnam-defense-talks-20261029",
@@ -4709,18 +5131,19 @@
         "time_precision": "day",
         "reported_at": "2026-10-05T12:42:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-03T12:35:22Z",
+        "updated_at": "2026-11-03T15:28:03Z",
         "status": "reported",
-        "primary_status": "quoted_only",
+        "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": true,
         "unknowns": [
-          "합참 발표를 인용한 보도 원문을 확인했습니다. 합참 발표문, 유엔사 조사자료와 국과수 감정자료 자체는 직접 확보하지 못했습니다.",
+          "10월 29일 합참 답변 원문은 직접 확인했습니다. 10월 5일 최종 조사 발표문과 유엔사 조사자료·국과수 감정자료 자체는 확보하지 못했습니다.",
           "11월 3일 병원 위문 보도를 확인했지만, 개별 장병의 회복 정도·퇴원 여부는 이 자료만으로 확인할 수 없습니다.",
           "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
-          "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다."
+          "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
+          "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다."
         ],
-        "revision": 3,
+        "revision": 4,
         "why_it_matters": "",
         "significance": "major",
         "sources": [
@@ -4741,6 +5164,12 @@
             "url": "https://nwww.newsis.com/view/NISX20261103_0003852807",
             "published_at": "2026-11-03T06:08:44Z",
             "published_precision": "minute"
+          },
+          {
+            "name": "국방부·합참 · 10월 29일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+            "published_at": "2026-10-28T15:00:00Z",
+            "published_precision": "day"
           }
         ],
         "facts": [
@@ -4778,6 +5207,13 @@
             "evidence_urls": [
               "https://nwww.newsis.com/view/NISX20261103_0003852807"
             ]
+          },
+          {
+            "text": "합참은 10월 29일 브리핑에서 지뢰 폭발의 조사 결과와 별개로 의도에 대한 분석과 군사분계선 인식 차 등에 관한 유엔사 협의가 계속되고 있다고 답했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+            ]
           }
         ],
         "location": null,
@@ -4796,6 +5232,11 @@
             "at": "2026-11-03T12:35:22Z",
             "type": "update",
             "text": "Codex 정기 원문 검토: 11월 3일 뉴시스 보도에서 10월 22일 정부의 유엔 서한과 북한의 반박을 확인해 기존 사고에 연결했습니다. 상충하는 입장을 명시하며, 서한 제출일·기사 게시일·9월 사고일을 구분하고 별도 사고나 새 경고사격으로 세지 않습니다."
+          },
+          {
+            "at": "2026-11-03T15:28:03Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다."
           }
         ]
       },
@@ -4928,7 +5369,8 @@
           "rok-seo-hui-launch-announcement-20261103",
           "dprk-kim-jongsik-iron-mace-statement-20261102",
           "rok-defense-drone-headquarters-20261102",
-          "rok-airforce-gathering-inquiry-20261102"
+          "rok-airforce-gathering-inquiry-20261102",
+          "jcs-mdl-activity-briefing-20261029"
         ],
         "state": "recorded"
       },
@@ -4982,6 +5424,8 @@
       "dprk-launch-20261029": "missile",
       "rok-vietnam-defense-talks-20261029": "diplomacy",
       "rok-singapore-defense-talks-20261029": "diplomacy",
+      "jcs-mdl-activity-briefing-20261029": "statement",
+      "rok-us-defense-talks-20261028": "diplomacy",
       "dprk-sanctions-statement-20261028": "statement",
       "rok-military-talks-proposal-20261023": "diplomacy",
       "trilateral-response-20261013": "diplomacy",
@@ -4993,9 +5437,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-03T15:17:51+00:00"
+    "last_attempt_at": "2026-11-03T15:29:00+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-03T15:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-03T15:28:13Z"
 }

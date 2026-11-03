@@ -3,24 +3,24 @@
   "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
   "summary": "국방부는 10월 23일 군사분계선 위치 확인, 군통신선 복원과 접경지역 우발충돌 방지 방안을 논의할 군사당국회담을 북한에 제안했습니다.",
   "kind": "diplomatic_change",
+  "military_actor": "unknown",
   "occurred_at": "2026-10-22T15:00:00Z",
   "time_precision": "day",
   "reported_at": "2026-10-22T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-01T09:30:00Z",
+  "updated_at": "2026-11-03T15:28:03Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
   "important": false,
   "unknowns": [
-    "회담 수락·개최·합의 이행 여부는 이 발표만으로 확인되지 않습니다.",
+    "10월 29일 당시 북한의 호응이 없었다는 국방부 설명을 확인했습니다. 이후 수락·개최·합의 이행 여부는 별도 근거가 필요합니다.",
     "지도는 발표가 이뤄진 서울의 도시 범위를 표시합니다. 군사분계선이나 부대 위치가 아닙니다.",
-    "두 링크는 같은 담화와 이를 소개한 기사입니다. 독립적으로 확인한 기관 두 곳이라는 뜻이 아닙니다."
+    "국방부 발표와 이를 소개한 기사, 후속 브리핑을 연결했습니다. 링크 수를 독립적으로 확인한 기관 수로 세지 않습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "대화 제안은 실제 회담 개최나 군통신선 복원과 구분해야 합니다. 접경지역 긴장 완화로 이어졌는지는 북측 반응과 후속 조치를 더 확인해야 합니다.",
   "significance": "notable",
-  "military_actor": "unknown",
   "sources": [
     {
       "name": "대한민국 국방부·정책브리핑",
@@ -32,6 +32,12 @@
       "name": "대한민국 국방부 · 담화 원문",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
       "published_at": "2026-10-22T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부·합참 · 10월 29일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+      "published_at": "2026-10-28T15:00:00Z",
       "published_precision": "day"
     }
   ],
@@ -49,6 +55,13 @@
       "evidence_urls": [
         "https://www.korea.kr/news/policyNewsView.do?newsId=148974228"
       ]
+    },
+    {
+      "text": "국방부는 10월 29일 정례브리핑에서 두 번째 군사회담 제안에 당시까지 북한의 호응이 없었다고 설명했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+      ]
     }
   ],
   "location": {
@@ -63,6 +76,11 @@
       "at": "2026-11-01T09:30:00Z",
       "type": "new",
       "text": "과거 공식 발표를 원문과 대조해 소급 등록했습니다. 지금 발생한 사건으로 표시하지 않습니다."
+    },
+    {
+      "at": "2026-11-03T15:28:03Z",
+      "type": "update",
+      "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다."
     }
   ]
 }

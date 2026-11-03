@@ -1,0 +1,57 @@
+{
+  "id": "jcs-mdl-activity-briefing-20261029",
+  "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
+  "summary": "합참은 10월 29일 브리핑에서 북한군의 군사분계선(MDL) 근접 활동이 지속되고 있으며 침범이 의심되는 지역을 유엔사와 협의 중이라고 설명했습니다. 한강 하구 중립수역 이북의 구형 자주포 노출도 언급했습니다. 새로운 침범이나 배치의 발생일을 확정한 기록이 아닙니다.",
+  "kind": "official_statement",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-28T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-28T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T15:28:02Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "발생일은 합참이 설명한 10월 29일입니다. 실제 활동 시작일·배치일·대수·개별 침범 시각은 공개 답변에서 확인하지 못했습니다.",
+    "경고방송·경고사격에 관한 답변은 대응 원칙 설명입니다. 10월 29일 새 교전이 발생했다는 확인으로 세지 않습니다.",
+    "공식 발언 기록으로 분류하며, 새 군사활동의 발생 건수나 위험 변화로 자동 계산하지 않습니다.",
+    "공개 원문에는 부처 요청에 따른 일부 삭제·수정 고지가 있습니다. 삭제된 내용이나 정확한 배치 좌표를 추정하지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "국방부·합참 · 10월 29일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "합참은 10월 29일 북한군의 MDL 근접 활동이 지속 중이며, 침범 의심지역에 관해 유엔사와 협의하고 있다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+      ]
+    },
+    {
+      "text": "합참은 북한이 한강 하구 중립수역 이북에 기존 구형 자주포를 배치해 노출하고 있다고 설명했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T15:28:02Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+    }
+  ]
+}

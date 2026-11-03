@@ -1,0 +1,70 @@
+{
+  "id": "rok-us-defense-talks-20261028",
+  "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
+  "summary": "국방부는 10월 28일 한미 국방장관회담에서 12월 워싱턴 장관회담과 2027년 초 한미안보협의회의(SCM)를 열기로 했다고 발표했습니다. 10월 29일 브리핑에서는 단계별 협의 계획이라고 설명했습니다. 과거 회담 기록이며 예정된 회의의 개최 완료나 전작권 전환일 확정을 뜻하지 않습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-27T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-28T09:30:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-03T15:28:01Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "자료는 10월 28~29일에 발표된 계획입니다. 12월 회담과 2027년 초 SCM의 개최 완료·최종 의제·이후 일정 변경은 이 기록만으로 확인하지 않습니다.",
+    "전작권 전환일이 확정되거나 연기됐다는 판단은 하지 않습니다. 한미 간 이견에 대한 기자 질문을 확인된 사실로 옮기지 않았습니다.",
+    "한국 국방부 원문을 확인했으며 미국 측 별도 발표문은 확보하지 못했습니다. 보도자료와 첨부는 같은 근거입니다.",
+    "10월 29일 속기록에는 부처 요청에 따른 삭제·수정 고지가 있습니다. 현재 공개 문구만 사용했습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "국방부 · 10월 28일 한미 국방장관회담 발표",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부 · 10월 28일 18:30 배포 보도자료",
+      "url": "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN",
+      "published_at": "2026-10-28T09:30:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "국방부·합참 · 10월 29일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 강신철 장관과 피트 헤그세스 미 전쟁부 장관이 10월 28일 필리핀에서 회담했으며, 12월 워싱턴 장관회담과 2027년 초 SCM 개최에 합의했다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
+        "https://www.korea.kr/common/download.do?fileId=198579256&tblKey=GMN"
+      ]
+    },
+    {
+      "text": "국방부는 10월 29일 브리핑에서 12월 장관 협의에 이어 내년 초 SCM으로 연결하는 단계별 접근이라고 설명했다. 전작권 전환을 늦춘다는 의미는 아니라는 정부 입장도 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T15:28:01Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다."
+    }
+  ]
+}
