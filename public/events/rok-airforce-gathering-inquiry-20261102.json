@@ -1,13 +1,14 @@
 {
   "id": "rok-airforce-gathering-inquiry-20261102",
-  "title": "국방부, 공군 음주 간담회 관련 사실관계 확인 지시",
-  "summary": "국방부는 11월 2일, 공군 부대 음주 간담회 보도와 관련해 장관이 감사관실에 사실관계를 확인하도록 지시했다고 발표했습니다. 사실 확인 뒤 필요한 조치를 하겠다는 입장이며, 조사 결론이나 징계가 확정됐다는 뜻은 아닙니다.",
+  "title": "공군 음주 간담회 감사 착수 보도…대상·경위 확인 중",
+  "summary": "국방부는 11월 2일 공군 음주 간담회에 대한 사실관계 확인을 지시했다고 발표했습니다. SBS 후속 보도는 이런 간담회가 상반기 모든 비행단에서 열렸다는 공군 설명과, 공군본부·교육사령부·제3훈련비행단 등에 대한 감사 착수 소식을 전했습니다. 조사 결론과 징계 여부는 이번 근거에서 확인되지 않았습니다.",
   "kind": "official_measure",
+  "military_actor": "unknown",
   "occurred_at": "2026-11-01T15:00:00Z",
   "time_precision": "day",
   "reported_at": "2026-11-01T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-03T08:35:18Z",
+  "updated_at": "2026-11-03T10:33:59Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
@@ -15,12 +16,13 @@
   "unknowns": [
     "조사 결론과 징계 여부는 이 근거에서 확인되지 않았습니다.",
     "이 기록의 날짜는 11월 2일 확인 지시 발표일이며, 보도된 회식의 발생일과 다릅니다.",
-    "같은 국방부 브리핑을 인용한 보도를 독립 확인으로 세지 않습니다."
+    "같은 국방부 브리핑을 인용한 보도를 독립 확인으로 세지 않습니다.",
+    "감사 대상과 상반기 간담회 범위는 SBS 후속 보도에 귀속합니다. 감사 착수 공문이나 공군의 해당 설명 원문은 직접 확보하지 못했습니다.",
+    "두 SBS 후속 기사는 같은 취재 내용을 다뤄 독립 확인 두 건으로 세지 않습니다. 11월 2일 기사에는 11월 3일 01:03 수정 시각도 표시돼 있습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "notable",
-  "military_actor": "unknown",
   "sources": [
     {
       "name": "국방부 정례브리핑 · 정책브리핑",
@@ -38,6 +40,18 @@
       "name": "JTBC",
       "url": "https://news.jtbc.co.kr/article/NB12326106",
       "published_at": "2026-11-02T11:03:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "SBS · 11월 2일 감사 착수 후속 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+      "published_at": "2026-11-02T11:33:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "SBS · 11월 3일 아침 후속 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324",
+      "published_at": "2026-11-02T21:57:00Z",
       "published_precision": "minute"
     }
   ],
@@ -59,6 +73,22 @@
         "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826231",
         "https://news.jtbc.co.kr/article/NB12326106"
       ]
+    },
+    {
+      "text": "SBS는 공군이 해당 음주 간담회를 올해 상반기 모든 비행단에서 실시했다고 설명했다고 보도했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324"
+      ]
+    },
+    {
+      "text": "SBS는 국방부가 공군본부·교육사령부·제3훈련비행단 등을 대상으로 감사에 착수했으며, 군악대 병사 동원 규정과 일과시간 침해 여부 등을 확인할 방침이라고 보도했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324"
+      ]
     }
   ],
   "location": null,
@@ -67,6 +97,11 @@
       "at": "2026-11-03T08:35:18Z",
       "type": "new",
       "text": "Codex 정기 원문 검토: 공식 브리핑과 이를 인용한 보도를 대조해 사실관계 확인 지시를 등록했습니다."
+    },
+    {
+      "at": "2026-11-03T10:33:59Z",
+      "type": "update",
+      "text": "Codex 정기 원문 검토: SBS 후속 보도에서 확인한 상반기 간담회 범위와 감사 착수·대상을 같은 사건에 추가했습니다. 새로운 사고로 중복 등록하지 않았으며 보도 내용과 확정된 조사 결론을 구분합니다."
     }
   ]
 }

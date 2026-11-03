@@ -4,12 +4,12 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-03T10:17:03Z",
-  "generated_at": "2026-11-03T10:17:48+00:00",
-  "release_id": "r-9925347f368bfde9",
-  "snapshot_id": "s-f6625d22fd6f7903",
+  "collection_checked_at": "2026-11-03T10:34:07Z",
+  "generated_at": "2026-11-03T10:34:54+00:00",
+  "release_id": "r-0d072586797802af",
+  "snapshot_id": "s-59338e2e04a93a4b",
   "headline": "후속 확인이 필요한 중요 사건이 있습니다.",
-  "summary": "북한이 10월 31일 전술탄도미사일 집속탄두 시험을 했다고 밝혔다는 보도가 나왔습니다. 합참은 11월 2일 공식 브리핑에서 관련 발사를 사전 포착해 감시·추적했고, 한미가 특성과 제원을 정밀 분석 중이었다고 설명했습니다. 탄두의 위력 주장은 별도로 검증되지 않았습니다.",
+  "summary": "지난 9월 21일 서부전선 비무장지대에서 발생한 지뢰 폭발로 장병 3명이 다쳤다는 보도가 확인됐습니다. 뉴시스는 10월 5일 합참이 북한군이 매설한 지뢰를 원인으로 최종 판단했다고 보도했습니다. 11월에 새로 발생한 사고가 아니라, 누락된 과거 사건을 소급 등록한 기록입니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 97,
+    "pending": 92,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:03Z",
-      "last_success_at": "2026-11-03T10:17:03Z",
-      "coverage_at": "2026-11-03T10:17:03Z",
+      "checked_at": "2026-11-03T10:34:07Z",
+      "last_success_at": "2026-11-03T10:34:07Z",
+      "coverage_at": "2026-11-03T10:34:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:04Z",
-      "last_success_at": "2026-11-03T10:17:04Z",
+      "checked_at": "2026-11-03T10:34:08Z",
+      "last_success_at": "2026-11-03T10:34:08Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:43Z",
-      "last_success_at": "2026-11-03T10:17:43Z",
-      "coverage_at": "2026-11-03T10:17:43Z",
+      "checked_at": "2026-11-03T10:34:48Z",
+      "last_success_at": "2026-11-03T10:34:48Z",
+      "coverage_at": "2026-11-03T10:34:48Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:51Z",
+      "last_success_at": "2026-11-03T10:34:51Z",
+      "coverage_at": "2026-11-03T10:34:51Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "coverage_at": "2026-11-03T10:34:52Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "coverage_at": "2026-11-03T10:34:52Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "coverage_at": "2026-11-03T10:34:52Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "coverage_at": "2026-11-03T10:34:52Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:47Z",
-      "last_success_at": "2026-11-03T10:17:47Z",
-      "coverage_at": "2026-11-03T10:17:47Z",
+      "checked_at": "2026-11-03T10:34:53Z",
+      "last_success_at": "2026-11-03T10:34:53Z",
+      "coverage_at": "2026-11-03T10:34:53Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:36Z",
-      "last_success_at": "2026-11-03T10:17:36Z",
-      "coverage_at": "2026-11-03T10:17:36Z",
+      "checked_at": "2026-11-03T10:34:41Z",
+      "last_success_at": "2026-11-03T10:34:41Z",
+      "coverage_at": "2026-11-03T10:34:41Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "coverage_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "coverage_at": "2026-11-03T10:34:52Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:03Z",
-      "last_success_at": "2026-11-03T10:17:03Z",
-      "observed_at": "2026-11-03T10:17:03Z",
+      "checked_at": "2026-11-03T10:34:07Z",
+      "last_success_at": "2026-11-03T10:34:07Z",
+      "observed_at": "2026-11-03T10:34:07Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:46Z",
-      "last_success_at": "2026-11-03T10:17:46Z",
-      "observed_at": "2026-11-03T10:17:46Z",
+      "checked_at": "2026-11-03T10:34:52Z",
+      "last_success_at": "2026-11-03T10:34:52Z",
+      "observed_at": "2026-11-03T10:34:52Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T10:17:47Z",
-      "last_success_at": "2026-11-03T10:17:47Z",
-      "observed_at": "2026-11-03T10:17:47Z",
+      "checked_at": "2026-11-03T10:34:53Z",
+      "last_success_at": "2026-11-03T10:34:53Z",
+      "observed_at": "2026-11-03T10:34:53Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-02T10:17:47Z",
-        "window_end": "2026-11-03T10:17:47Z",
+        "window_start": "2026-11-02T10:34:53Z",
+        "window_end": "2026-11-03T10:34:53Z",
         "total_count": 14,
         "matched_count": 0,
         "complete": true,
@@ -251,6 +251,62 @@
     }
   ],
   "events": [
+    {
+      "id": "dmz-landmine-injuries-20260921",
+      "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+      "summary": "지난 9월 21일 서부전선 비무장지대에서 발생한 지뢰 폭발로 장병 3명이 다쳤다는 보도가 확인됐습니다. 뉴시스는 10월 5일 합참이 북한군이 매설한 지뢰를 원인으로 최종 판단했다고 보도했습니다. 11월에 새로 발생한 사고가 아니라, 누락된 과거 사건을 소급 등록한 기록입니다.",
+      "kind": "military_incident",
+      "military_actor": "unknown",
+      "occurred_at": "2026-09-20T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-05T12:42:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-03T10:33:59Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "합참 발표를 인용한 보도 원문을 확인했습니다. 합참 발표문, 유엔사 조사자료와 국과수 감정자료 자체는 직접 확보하지 못했습니다.",
+        "부상 상태는 10월 5일 보도 기준이며, 이후 치료 경과는 이 기록에서 확인되지 않았습니다.",
+        "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "major",
+      "sources": [
+        {
+          "name": "뉴시스 · 합참 최종 조사 발표 인용",
+          "url": "https://nwww.newsis.com/view/NISX20261005_0003814618",
+          "published_at": "2026-10-05T12:42:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "뉴시스는 9월 21일 서부전선 DMZ에서 지뢰 폭발이 발생했으며, 합참의 10월 5일 설명 기준으로 중상자 2명과 경상자 1명이 있었다고 보도했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://nwww.newsis.com/view/NISX20261005_0003814618"
+          ]
+        },
+        {
+          "text": "보도에 따르면 합참은 유엔사 공동 현장조사와 국립과학수사연구원 감정 결과를 토대로 북한군이 군사분계선 이남에 매설한 지뢰가 폭발 원인이라고 최종 판단했다고 발표했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://nwww.newsis.com/view/NISX20261005_0003814618"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-03T10:33:59Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 군 인명피해 검색에서 발견한 10월 5일 보도 원문을 대조해 9월 21일 사건을 소급 등록했습니다. 현재의 신규 사고로 세지 않으며, 북한 관련 판단은 보도가 인용한 합참의 판단으로 귀속합니다."
+        }
+      ]
+    },
     {
       "id": "rok-defense-drone-headquarters-20261102",
       "title": "국방드론본부 출범…드론 확보·공급 중심으로 개편",
@@ -321,14 +377,15 @@
     },
     {
       "id": "rok-airforce-gathering-inquiry-20261102",
-      "title": "국방부, 공군 음주 간담회 관련 사실관계 확인 지시",
-      "summary": "국방부는 11월 2일, 공군 부대 음주 간담회 보도와 관련해 장관이 감사관실에 사실관계를 확인하도록 지시했다고 발표했습니다. 사실 확인 뒤 필요한 조치를 하겠다는 입장이며, 조사 결론이나 징계가 확정됐다는 뜻은 아닙니다.",
+      "title": "공군 음주 간담회 감사 착수 보도…대상·경위 확인 중",
+      "summary": "국방부는 11월 2일 공군 음주 간담회에 대한 사실관계 확인을 지시했다고 발표했습니다. SBS 후속 보도는 이런 간담회가 상반기 모든 비행단에서 열렸다는 공군 설명과, 공군본부·교육사령부·제3훈련비행단 등에 대한 감사 착수 소식을 전했습니다. 조사 결론과 징계 여부는 이번 근거에서 확인되지 않았습니다.",
       "kind": "official_measure",
+      "military_actor": "unknown",
       "occurred_at": "2026-11-01T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-11-01T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-03T08:35:18Z",
+      "updated_at": "2026-11-03T10:33:59Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
@@ -336,12 +393,13 @@
       "unknowns": [
         "조사 결론과 징계 여부는 이 근거에서 확인되지 않았습니다.",
         "이 기록의 날짜는 11월 2일 확인 지시 발표일이며, 보도된 회식의 발생일과 다릅니다.",
-        "같은 국방부 브리핑을 인용한 보도를 독립 확인으로 세지 않습니다."
+        "같은 국방부 브리핑을 인용한 보도를 독립 확인으로 세지 않습니다.",
+        "감사 대상과 상반기 간담회 범위는 SBS 후속 보도에 귀속합니다. 감사 착수 공문이나 공군의 해당 설명 원문은 직접 확보하지 못했습니다.",
+        "두 SBS 후속 기사는 같은 취재 내용을 다뤄 독립 확인 두 건으로 세지 않습니다. 11월 2일 기사에는 11월 3일 01:03 수정 시각도 표시돼 있습니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "notable",
-      "military_actor": "unknown",
       "sources": [
         {
           "name": "국방부 정례브리핑 · 정책브리핑",
@@ -359,6 +417,18 @@
           "name": "JTBC",
           "url": "https://news.jtbc.co.kr/article/NB12326106",
           "published_at": "2026-11-02T11:03:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 2일 감사 착수 후속 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+          "published_at": "2026-11-02T11:33:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "SBS · 11월 3일 아침 후속 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324",
+          "published_at": "2026-11-02T21:57:00Z",
           "published_precision": "minute"
         }
       ],
@@ -380,6 +450,22 @@
             "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826231",
             "https://news.jtbc.co.kr/article/NB12326106"
           ]
+        },
+        {
+          "text": "SBS는 공군이 해당 음주 간담회를 올해 상반기 모든 비행단에서 실시했다고 설명했다고 보도했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324"
+          ]
+        },
+        {
+          "text": "SBS는 국방부가 공군본부·교육사령부·제3훈련비행단 등을 대상으로 감사에 착수했으며, 군악대 병사 동원 규정과 일과시간 침해 여부 등을 확인할 방침이라고 보도했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827040",
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827324"
+          ]
         }
       ],
       "location": null,
@@ -388,6 +474,11 @@
           "at": "2026-11-03T08:35:18Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 공식 브리핑과 이를 인용한 보도를 대조해 사실관계 확인 지시를 등록했습니다."
+        },
+        {
+          "at": "2026-11-03T10:33:59Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: SBS 후속 보도에서 확인한 상반기 간담회 범위와 감사 착수·대상을 같은 사건에 추가했습니다. 새로운 사고로 중복 등록하지 않았으며 보도 내용과 확정된 조사 결론을 구분합니다."
         }
       ]
     },
@@ -1247,6 +1338,22 @@
   ],
   "changes": [
     {
+      "id": "c-2702984bb1e22d07c742",
+      "event_id": "rok-airforce-gathering-inquiry-20261102",
+      "at": "2026-11-03T10:33:59Z",
+      "type": "update",
+      "title": "공군 음주 간담회 감사 착수 보도…대상·경위 확인 중",
+      "text": "Codex 정기 원문 검토: SBS 후속 보도에서 확인한 상반기 간담회 범위와 감사 착수·대상을 같은 사건에 추가했습니다. 새로운 사고로 중복 등록하지 않았으며 보도 내용과 확정된 조사 결론을 구분합니다."
+    },
+    {
+      "id": "c-86ed2a9ab2ab626744d3",
+      "event_id": "dmz-landmine-injuries-20260921",
+      "at": "2026-11-03T10:33:59Z",
+      "type": "new",
+      "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+      "text": "Codex 정기 원문 검토: 군 인명피해 검색에서 발견한 10월 5일 보도 원문을 대조해 9월 21일 사건을 소급 등록했습니다. 현재의 신규 사고로 세지 않으며, 북한 관련 판단은 보도가 인용한 합참의 판단으로 귀속합니다."
+    },
+    {
       "id": "c-9962de75c03f6ac48452",
       "event_id": "rok-defense-drone-headquarters-20261102",
       "at": "2026-11-03T09:34:49Z",
@@ -1678,7 +1785,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-03T10:17:48+00:00",
+    "as_of": "2026-11-03T10:34:54+00:00",
     "assessment_label": "후속 확인이 필요한 주요 기록",
     "assessment_summary": "헤럴드경제는 11월 3일 북한 발표를 인용해 전날 순항미사일 시험을 했다고 보도했습니다. 합참은 이날 공식 브리핑에서 한미가 관련 동향을 정밀 분석 중이며 특정 발사체의 포착 여부는 공개하지 않겠다고 답했습니다. 한국군이 북한의 시험 내용이나 성능을 확인한 것으로 해석하지 않습니다.",
     "brief": {
@@ -1693,7 +1800,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-03T10:17:47Z",
+          "observed_at": "2026-11-03T10:34:53Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -1701,8 +1808,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-02T10:17:47Z",
-          "window_end": "2026-11-03T10:17:47Z",
+          "window_start": "2026-11-02T10:34:53Z",
+          "window_end": "2026-11-03T10:34:53Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 14건 확인"
@@ -1711,7 +1818,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-03T10:17:46Z",
+          "observed_at": "2026-11-03T10:34:52Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -1729,7 +1836,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-03T10:17:03Z",
+          "observed_at": "2026-11-03T10:34:07Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -1820,9 +1927,9 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 4,
-      "changes_24h": 6,
+      "changes_24h": 8,
       "corrections_24h": 0,
-      "active_major": 3
+      "active_major": 4
     },
     "periods": {
       "7": {
@@ -1932,7 +2039,7 @@
       "30": {
         "label": "최근 30일",
         "current": 13,
-        "previous": 2,
+        "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
         "start": "2026-10-05",
@@ -2122,7 +2229,7 @@
             "key": "incident",
             "label": "군 사망·사고",
             "current": 1,
-            "previous": 0,
+            "previous": 1,
             "delta": null
           },
           {
@@ -2150,6 +2257,22 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-2702984bb1e22d07c742",
+        "event_id": "rok-airforce-gathering-inquiry-20261102",
+        "at": "2026-11-03T10:33:59Z",
+        "type": "update",
+        "title": "공군 음주 간담회 감사 착수 보도…대상·경위 확인 중",
+        "text": "Codex 정기 원문 검토: SBS 후속 보도에서 확인한 상반기 간담회 범위와 감사 착수·대상을 같은 사건에 추가했습니다. 새로운 사고로 중복 등록하지 않았으며 보도 내용과 확정된 조사 결론을 구분합니다."
+      },
+      {
+        "id": "c-86ed2a9ab2ab626744d3",
+        "event_id": "dmz-landmine-injuries-20260921",
+        "at": "2026-11-03T10:33:59Z",
+        "type": "new",
+        "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+        "text": "Codex 정기 원문 검토: 군 인명피해 검색에서 발견한 10월 5일 보도 원문을 대조해 9월 21일 사건을 소급 등록했습니다. 현재의 신규 사고로 세지 않으며, 북한 관련 판단은 보도가 인용한 합참의 판단으로 귀속합니다."
+      },
       {
         "id": "c-9962de75c03f6ac48452",
         "event_id": "rok-defense-drone-headquarters-20261102",
@@ -2365,6 +2488,62 @@
         ]
       },
       {
+        "id": "dmz-landmine-injuries-20260921",
+        "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+        "summary": "지난 9월 21일 서부전선 비무장지대에서 발생한 지뢰 폭발로 장병 3명이 다쳤다는 보도가 확인됐습니다. 뉴시스는 10월 5일 합참이 북한군이 매설한 지뢰를 원인으로 최종 판단했다고 보도했습니다. 11월에 새로 발생한 사고가 아니라, 누락된 과거 사건을 소급 등록한 기록입니다.",
+        "kind": "military_incident",
+        "military_actor": "unknown",
+        "occurred_at": "2026-09-20T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-05T12:42:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-03T10:33:59Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": true,
+        "unknowns": [
+          "합참 발표를 인용한 보도 원문을 확인했습니다. 합참 발표문, 유엔사 조사자료와 국과수 감정자료 자체는 직접 확보하지 못했습니다.",
+          "부상 상태는 10월 5일 보도 기준이며, 이후 치료 경과는 이 기록에서 확인되지 않았습니다.",
+          "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "major",
+        "sources": [
+          {
+            "name": "뉴시스 · 합참 최종 조사 발표 인용",
+            "url": "https://nwww.newsis.com/view/NISX20261005_0003814618",
+            "published_at": "2026-10-05T12:42:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "뉴시스는 9월 21일 서부전선 DMZ에서 지뢰 폭발이 발생했으며, 합참의 10월 5일 설명 기준으로 중상자 2명과 경상자 1명이 있었다고 보도했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://nwww.newsis.com/view/NISX20261005_0003814618"
+            ]
+          },
+          {
+            "text": "보도에 따르면 합참은 유엔사 공동 현장조사와 국립과학수사연구원 감정 결과를 토대로 북한군이 군사분계선 이남에 매설한 지뢰가 폭발 원인이라고 최종 판단했다고 발표했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://nwww.newsis.com/view/NISX20261005_0003814618"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-03T10:33:59Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 군 인명피해 검색에서 발견한 10월 5일 보도 원문을 대조해 9월 21일 사건을 소급 등록했습니다. 현재의 신규 사고로 세지 않으며, 북한 관련 판단은 보도가 인용한 합참의 판단으로 귀속합니다."
+          }
+        ]
+      },
+      {
         "id": "dprk-cruise-test-claim-20261102",
         "title": "북한, 11월 2일 순항미사일 시험 주장…합참 분석 중",
         "summary": "헤럴드경제는 11월 3일 북한 발표를 인용해 전날 순항미사일 시험을 했다고 보도했습니다. 합참은 이날 공식 브리핑에서 한미가 관련 동향을 정밀 분석 중이며 특정 발사체의 포착 여부는 공개하지 않겠다고 답했습니다. 한국군이 북한의 시험 내용이나 성능을 확인한 것으로 해석하지 않습니다.",
@@ -2431,85 +2610,6 @@
             "at": "2026-11-03T08:35:18Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 북한의 시험 주장에 관한 보도와 합참의 정밀 분석 입장을 구분해 등록했습니다."
-          }
-        ]
-      },
-      {
-        "id": "cheorwon-sergeant-death-20261102",
-        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
-        "summary": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
-        "kind": "military_incident",
-        "occurred_at": "2026-11-01T15:00:00Z",
-        "time_precision": "day",
-        "reported_at": "2026-11-02T06:50:00Z",
-        "reported_precision": "minute",
-        "updated_at": "2026-11-02T16:12:48Z",
-        "status": "reported",
-        "primary_status": "quoted_only",
-        "lifecycle": "unknown",
-        "important": true,
-        "unknowns": [
-          "정확한 사망 원인과 경위는 조사 중입니다. 보도된 정황만으로 사망 원인이나 공격 여부를 확정하지 않습니다.",
-          "발견·신고 시각과 부상·사망 발생 시각은 다릅니다. 이 기록은 발생일만 표시합니다.",
-          "육군 언론 공지의 공개 웹 원문은 확보하지 못했습니다. 기관 발표를 인용한 보도로 구분합니다.",
-          "여러 기사가 같은 육군 공지를 인용합니다. 출처 수를 독립 확인 횟수로 계산하지 않습니다.",
-          "강원 철원군이라는 지역만 확인했습니다. 정확한 부대 위치와 지도용 좌표는 확인되지 않아 지도에 임의 표식을 넣지 않았습니다."
-        ],
-        "revision": 1,
-        "why_it_matters": "전방부대의 인명피해로 사망 경위와 후속 조사 발표를 확인할 필요가 있습니다. 사망 사실만으로 북한의 공격이나 군사적 긴장 고조를 판단할 수 없습니다.",
-        "significance": "notable",
-        "military_actor": "unknown",
-        "sources": [
-          {
-            "name": "주간조선 · 육군 발표 인용",
-            "url": "https://weekly.chosun.com/news/articleView.html?idxno=56797",
-            "published_at": "2026-11-02T06:50:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 육군 발표 인용",
-            "url": "https://news.jtbc.co.kr/article/NB12326047",
-            "published_at": "2026-11-02T07:32:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 11월 2일 21:26 수정 보도",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820",
-            "published_at": "2026-11-02T07:58:00Z",
-            "published_precision": "minute"
-          }
-        ],
-        "facts": [
-          {
-            "text": "주간조선과 JTBC는 육군 발표를 인용해 11월 2일 철원 소재 전방부대 하사 1명이 사망했다고 보도했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
-              "https://news.jtbc.co.kr/article/NB12326047"
-            ]
-          },
-          {
-            "text": "두 보도에 따르면 군과 민간 수사기관이 정확한 사고 원인과 경위를 조사 중입니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://weekly.chosun.com/news/articleView.html?idxno=56797",
-              "https://news.jtbc.co.kr/article/NB12326047"
-            ]
-          },
-          {
-            "text": "SBS의 11월 2일 후속 보도에 따르면 육군은 당시까지 대북 용의점이 없는 것으로 보고 있었습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826820"
-            ]
-          }
-        ],
-        "location": null,
-        "changes": [
-          {
-            "at": "2026-11-02T16:12:48Z",
-            "type": "new",
-            "text": "사용자가 제보한 주간조선·JTBC 기사와 SBS 후속 보도를 대조해 동일 사건 1건으로 등록했습니다. 사망 경위는 조사 중이며, 전쟁 위험을 판정하지 않습니다."
           }
         ]
       }
@@ -2608,6 +2708,7 @@
       }
     ],
     "event_categories": {
+      "dmz-landmine-injuries-20260921": "incident",
       "rok-defense-drone-headquarters-20261102": "statement",
       "rok-airforce-gathering-inquiry-20261102": "statement",
       "dprk-launch-20261031": "missile",
@@ -2627,9 +2728,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-03T10:17:47+00:00"
+    "last_attempt_at": "2026-11-03T10:34:53+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-03T10:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-03T10:34:07Z"
 }
