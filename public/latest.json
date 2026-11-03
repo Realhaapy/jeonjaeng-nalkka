@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-03T17:17:05Z",
-  "generated_at": "2026-11-03T17:17:51+00:00",
-  "release_id": "r-2cc2296d8ecce2b8",
-  "snapshot_id": "s-0b2ec404dc472b8f",
+  "collection_checked_at": "2026-11-03T17:27:34Z",
+  "generated_at": "2026-11-03T17:28:20+00:00",
+  "release_id": "r-ac5cb2bae68bce76",
+  "snapshot_id": "s-3c4b0c8a4a90317c",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "SBS는 김여정 노동당 총무부장이 11월 3일 담화에서 FBI의 바이낸스 해킹 북한 배후 지목을 반박했다고 보도했습니다. FBI가 10월 31일 공개한 원문도 대조했습니다. 북한의 반박 발언에 관한 기록이며, 11월 3일 새 해킹이 발생했다는 뜻은 아닙니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 71,
+    "pending": 66,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:05Z",
-      "last_success_at": "2026-11-03T17:17:05Z",
-      "coverage_at": "2026-11-03T17:17:05Z",
+      "checked_at": "2026-11-03T17:27:34Z",
+      "last_success_at": "2026-11-03T17:27:34Z",
+      "coverage_at": "2026-11-03T17:27:34Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:05Z",
-      "last_success_at": "2026-11-03T17:17:05Z",
+      "checked_at": "2026-11-03T17:27:34Z",
+      "last_success_at": "2026-11-03T17:27:34Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:45Z",
-      "last_success_at": "2026-11-03T17:17:45Z",
-      "coverage_at": "2026-11-03T17:17:45Z",
+      "checked_at": "2026-11-03T17:28:14Z",
+      "last_success_at": "2026-11-03T17:28:14Z",
+      "coverage_at": "2026-11-03T17:28:14Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:48Z",
-      "last_success_at": "2026-11-03T17:17:48Z",
-      "coverage_at": "2026-11-03T17:17:48Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:48Z",
-      "last_success_at": "2026-11-03T17:17:48Z",
-      "coverage_at": "2026-11-03T17:17:48Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "coverage_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "coverage_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "coverage_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "coverage_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:18Z",
+      "last_success_at": "2026-11-03T17:28:18Z",
+      "coverage_at": "2026-11-03T17:28:18Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:39Z",
-      "last_success_at": "2026-11-03T17:17:39Z",
-      "coverage_at": "2026-11-03T17:17:39Z",
+      "checked_at": "2026-11-03T17:28:08Z",
+      "last_success_at": "2026-11-03T17:28:08Z",
+      "coverage_at": "2026-11-03T17:28:08Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "coverage_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "coverage_at": "2026-11-03T17:28:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:05Z",
-      "last_success_at": "2026-11-03T17:17:05Z",
-      "observed_at": "2026-11-03T17:17:05Z",
+      "checked_at": "2026-11-03T17:27:34Z",
+      "last_success_at": "2026-11-03T17:27:34Z",
+      "observed_at": "2026-11-03T17:27:34Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "observed_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:17Z",
+      "last_success_at": "2026-11-03T17:28:17Z",
+      "observed_at": "2026-11-03T17:28:17Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T17:17:49Z",
-      "last_success_at": "2026-11-03T17:17:49Z",
-      "observed_at": "2026-11-03T17:17:49Z",
+      "checked_at": "2026-11-03T17:28:18Z",
+      "last_success_at": "2026-11-03T17:28:18Z",
+      "observed_at": "2026-11-03T17:28:18Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-02T17:17:49Z",
-        "window_end": "2026-11-03T17:17:49Z",
+        "window_start": "2026-11-02T17:28:18Z",
+        "window_end": "2026-11-03T17:28:18Z",
         "total_count": 16,
         "matched_count": 0,
         "complete": true,
@@ -317,26 +317,27 @@
     },
     {
       "id": "rok-seo-hui-launch-announcement-20261103",
-      "title": "해군·방사청, 3,600톤급 서희함 진수 계획 발표",
-      "summary": "해군과 방위사업청은 11월 3일 공동자료에서 당일 오후 거제 옥포조선소에서 3,600톤급 잠수함 서희함의 진수식을 연다고 발표했습니다. 시운전을 거쳐 2028년 해군에 인도한 뒤 전력화할 계획입니다. 진수 계획 발표이며 현재 취역·실전 배치를 뜻하지 않습니다.",
+      "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
+      "summary": "해군·방위사업청이 예고했던 3,600톤급 디젤잠수함 서희함 진수식이 11월 3일 거제 옥포조선소에서 열렸다고 후속 보도가 전했습니다. 기존 진수 계획 기록에 개최 보도를 연결했습니다. 시운전 뒤 2028년 인도할 계획이며 취역·실전 배치 완료를 뜻하지 않습니다.",
       "kind": "official_measure",
-      "military_actor": "unknown",
-      "occurred_at": null,
-      "time_precision": "unknown",
+      "military_actor": "south_korea",
+      "occurred_at": "2026-11-02T15:00:00Z",
+      "time_precision": "day",
       "reported_at": "2026-11-02T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-03T13:35:13Z",
+      "updated_at": "2026-11-03T17:27:25Z",
       "status": "reported",
-      "primary_status": "primary_seen",
+      "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "확인한 공식 원문은 진수식 개최를 예고한 자료입니다. 실제 행사 완료 시각을 확인하지 않아 발생 시각은 비워 두고 발표일 기준으로 표시합니다.",
+        "공식 공동보도자료는 진수식 개최를 예고한 자료입니다. 실제 개최는 기관 발표를 인용한 후속 보도로 확인했으며, 정확한 행사 시각과 별도의 사후 공식 발표 원문은 확보하지 못했습니다.",
         "2028년 인도와 이후 실전 배치는 계획입니다. 취역이나 작전 투입 완료로 기록하지 않습니다.",
         "자료의 성능·우수성 평가는 기관의 설명이며 독립적인 성능 검증으로 사용하지 않습니다.",
-        "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다."
+        "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다.",
+        "진수 계획과 개최 보도는 같은 함정·행사의 후속 기록입니다. 별도 사건이나 독립 성능 검증으로 세지 않습니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "notable",
       "sources": [
@@ -351,6 +352,12 @@
           "url": "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN",
           "published_at": "2026-11-02T15:00:00Z",
           "published_precision": "day"
+        },
+        {
+          "name": "뉴스핌 · 해군·방사청 인용, 11월 3일 16:58 수정 본문",
+          "url": "https://member.newspim.com/news/view/20261103000783",
+          "published_at": "2026-11-03T04:52:00Z",
+          "published_precision": "minute"
         }
       ],
       "facts": [
@@ -369,6 +376,13 @@
             "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
             "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN"
           ]
+        },
+        {
+          "text": "뉴스핌은 11월 3일 16:58 수정 보도에서 해군과 방위사업청이 당일 오후 거제 옥포조선소에서 서희함 진수식을 거행했다고 전했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://member.newspim.com/news/view/20261103000783"
+          ]
         }
       ],
       "location": null,
@@ -377,6 +391,11 @@
           "at": "2026-11-03T13:35:13Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 공식 공동보도자료와 첨부 원문을 확인해 진수 계획 발표로 등록했습니다. 실제 행사 완료·취역·실전 배치는 확인된 사실로 쓰지 않았습니다."
+        },
+        {
+          "at": "2026-11-03T17:27:25Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다."
         }
       ]
     },
@@ -2195,6 +2214,14 @@
   ],
   "changes": [
     {
+      "id": "c-8241f1f2815b9ebd9271",
+      "event_id": "rok-seo-hui-launch-announcement-20261103",
+      "at": "2026-11-03T17:27:25Z",
+      "type": "update",
+      "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
+      "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다."
+    },
+    {
       "id": "c-b100a0a0e94ca245699c",
       "event_id": "rok-joint-cadet-cruise-training-20261103",
       "at": "2026-11-03T16:33:44Z",
@@ -2637,16 +2664,6 @@
       "status": "pending"
     },
     {
-      "id": "doc-a2689fcfcddeb366e016",
-      "title": "국방부, 금융위원회와장병금융워크숍 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785987",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-20T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-02T16:12:45Z",
-      "status": "pending"
-    },
-    {
       "id": "doc-6425386f94e9d7bc31aa",
       "title": "국방부, '군내 자살사고 예방체계 점검 회의' 개최",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786043",
@@ -2660,16 +2677,6 @@
       "id": "doc-9a152f2f1a2549638692",
       "title": "제9회 서울아프리카대화 개최",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786159",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-21T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-02T16:12:45Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-e1fa653d807e759d9fe5",
-      "title": "2026 국방인공지능 추진평가 회의",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786154",
       "source_name": "대한민국 정책브리핑",
       "published_at": "2026-10-21T15:00:00Z",
       "published_precision": "day",
@@ -2775,10 +2782,30 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-01T09:28:32Z",
       "status": "pending"
+    },
+    {
+      "id": "doc-bf1797cbb81f0c835c54",
+      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月12日（月）09:29",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12b.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-4b80b67b443a0ad13416",
+      "title": "お知らせ（速報）｜令和8年10月12日（月）09:41",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/12c.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-03T17:17:51+00:00",
+    "as_of": "2026-11-03T17:28:20+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "SBS는 김여정 노동당 총무부장이 11월 3일 담화에서 FBI의 바이낸스 해킹 북한 배후 지목을 반박했다고 보도했습니다. FBI가 10월 31일 공개한 원문도 대조했습니다. 북한의 반박 발언에 관한 기록이며, 11월 3일 새 해킹이 발생했다는 뜻은 아닙니다.",
     "brief": {
@@ -2793,7 +2820,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-03T17:17:49Z",
+          "observed_at": "2026-11-03T17:28:18Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -2801,8 +2828,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-02T17:17:49Z",
-          "window_end": "2026-11-03T17:17:49Z",
+          "window_start": "2026-11-02T17:28:18Z",
+          "window_end": "2026-11-03T17:28:18Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 16건 확인"
@@ -2811,7 +2838,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-03T17:17:49Z",
+          "observed_at": "2026-11-03T17:28:17Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -2829,7 +2856,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-03T17:17:05Z",
+          "observed_at": "2026-11-03T17:27:34Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -2978,26 +3005,27 @@
       },
       {
         "id": "rok-seo-hui-launch-announcement-20261103",
-        "title": "해군·방사청, 3,600톤급 서희함 진수 계획 발표",
-        "summary": "해군과 방위사업청은 11월 3일 공동자료에서 당일 오후 거제 옥포조선소에서 3,600톤급 잠수함 서희함의 진수식을 연다고 발표했습니다. 시운전을 거쳐 2028년 해군에 인도한 뒤 전력화할 계획입니다. 진수 계획 발표이며 현재 취역·실전 배치를 뜻하지 않습니다.",
+        "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
+        "summary": "해군·방위사업청이 예고했던 3,600톤급 디젤잠수함 서희함 진수식이 11월 3일 거제 옥포조선소에서 열렸다고 후속 보도가 전했습니다. 기존 진수 계획 기록에 개최 보도를 연결했습니다. 시운전 뒤 2028년 인도할 계획이며 취역·실전 배치 완료를 뜻하지 않습니다.",
         "kind": "official_measure",
-        "military_actor": "unknown",
-        "occurred_at": null,
-        "time_precision": "unknown",
+        "military_actor": "south_korea",
+        "occurred_at": "2026-11-02T15:00:00Z",
+        "time_precision": "day",
         "reported_at": "2026-11-02T15:00:00Z",
         "reported_precision": "day",
-        "updated_at": "2026-11-03T13:35:13Z",
+        "updated_at": "2026-11-03T17:27:25Z",
         "status": "reported",
-        "primary_status": "primary_seen",
+        "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "확인한 공식 원문은 진수식 개최를 예고한 자료입니다. 실제 행사 완료 시각을 확인하지 않아 발생 시각은 비워 두고 발표일 기준으로 표시합니다.",
+          "공식 공동보도자료는 진수식 개최를 예고한 자료입니다. 실제 개최는 기관 발표를 인용한 후속 보도로 확인했으며, 정확한 행사 시각과 별도의 사후 공식 발표 원문은 확보하지 못했습니다.",
           "2028년 인도와 이후 실전 배치는 계획입니다. 취역이나 작전 투입 완료로 기록하지 않습니다.",
           "자료의 성능·우수성 평가는 기관의 설명이며 독립적인 성능 검증으로 사용하지 않습니다.",
-          "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다."
+          "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다.",
+          "진수 계획과 개최 보도는 같은 함정·행사의 후속 기록입니다. 별도 사건이나 독립 성능 검증으로 세지 않습니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "notable",
         "sources": [
@@ -3012,6 +3040,12 @@
             "url": "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN",
             "published_at": "2026-11-02T15:00:00Z",
             "published_precision": "day"
+          },
+          {
+            "name": "뉴스핌 · 해군·방사청 인용, 11월 3일 16:58 수정 본문",
+            "url": "https://member.newspim.com/news/view/20261103000783",
+            "published_at": "2026-11-03T04:52:00Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
@@ -3030,6 +3064,13 @@
               "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
               "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN"
             ]
+          },
+          {
+            "text": "뉴스핌은 11월 3일 16:58 수정 보도에서 해군과 방위사업청이 당일 오후 거제 옥포조선소에서 서희함 진수식을 거행했다고 전했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://member.newspim.com/news/view/20261103000783"
+            ]
           }
         ],
         "location": null,
@@ -3038,6 +3079,11 @@
             "at": "2026-11-03T13:35:13Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 공식 공동보도자료와 첨부 원문을 확인해 진수 계획 발표로 등록했습니다. 실제 행사 완료·취역·실전 배치는 확인된 사실로 쓰지 않았습니다."
+          },
+          {
+            "at": "2026-11-03T17:27:25Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다."
           }
         ]
       },
@@ -4865,13 +4911,13 @@
         "recency_label": "최근 발생"
       },
       "rok-seo-hui-launch-announcement-20261103": {
-        "date_label": "2026.11.03 · 발표·게시일",
-        "date_basis": "reported",
+        "date_label": "2026.11.03 · 발생일",
+        "date_basis": "occurred",
         "is_backfill": false,
-        "registration_kind": "unknown",
+        "registration_kind": "recent",
         "first_recorded_at": "2026-11-03T13:35:13+00:00",
         "is_new_record": true,
-        "recency_label": "최근 발표"
+        "recency_label": "최근 발생"
       },
       "rok-joint-cadet-cruise-training-20261103": {
         "date_label": "2026.11.03 · 발생일",
@@ -5120,7 +5166,7 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 3,
-      "changes_24h": 23,
+      "changes_24h": 24,
       "corrections_24h": 0,
       "active_major": 4
     },
@@ -5451,6 +5497,17 @@
     },
     "recent_changes": [
       {
+        "id": "c-8241f1f2815b9ebd9271",
+        "event_id": "rok-seo-hui-launch-announcement-20261103",
+        "at": "2026-11-03T17:27:25Z",
+        "type": "update",
+        "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
+        "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.11.03 · 발생일",
+        "registration_kind": null
+      },
+      {
         "id": "c-b100a0a0e94ca245699c",
         "event_id": "rok-joint-cadet-cruise-training-20261103",
         "at": "2026-11-03T16:33:44Z",
@@ -5578,9 +5635,9 @@
         "type": "new",
         "title": "해군·방사청, 3,600톤급 서희함 진수 계획 발표",
         "text": "Codex 정기 원문 검토: 공식 공동보도자료와 첨부 원문을 확인해 진수 계획 발표로 등록했습니다. 실제 행사 완료·취역·실전 배치는 확인된 사실로 쓰지 않았습니다.",
-        "display_label": "발생일 미상 기록",
-        "event_date_label": "2026.11.03 · 발표·게시일",
-        "registration_kind": "unknown"
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.03 · 발생일",
+        "registration_kind": "recent"
       },
       {
         "id": "c-b965ee2dddd2f331fefd",
@@ -6192,9 +6249,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-03T17:17:49+00:00"
+    "last_attempt_at": "2026-11-03T17:28:18+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-03T17:17:05Z"
+  "snapshot_collection_checked_at": "2026-11-03T17:27:34Z"
 }

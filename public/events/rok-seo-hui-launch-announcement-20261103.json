@@ -1,25 +1,26 @@
 {
   "id": "rok-seo-hui-launch-announcement-20261103",
-  "title": "해군·방사청, 3,600톤급 서희함 진수 계획 발표",
-  "summary": "해군과 방위사업청은 11월 3일 공동자료에서 당일 오후 거제 옥포조선소에서 3,600톤급 잠수함 서희함의 진수식을 연다고 발표했습니다. 시운전을 거쳐 2028년 해군에 인도한 뒤 전력화할 계획입니다. 진수 계획 발표이며 현재 취역·실전 배치를 뜻하지 않습니다.",
+  "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
+  "summary": "해군·방위사업청이 예고했던 3,600톤급 디젤잠수함 서희함 진수식이 11월 3일 거제 옥포조선소에서 열렸다고 후속 보도가 전했습니다. 기존 진수 계획 기록에 개최 보도를 연결했습니다. 시운전 뒤 2028년 인도할 계획이며 취역·실전 배치 완료를 뜻하지 않습니다.",
   "kind": "official_measure",
-  "military_actor": "unknown",
-  "occurred_at": null,
-  "time_precision": "unknown",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-02T15:00:00Z",
+  "time_precision": "day",
   "reported_at": "2026-11-02T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-03T13:35:13Z",
+  "updated_at": "2026-11-03T17:27:25Z",
   "status": "reported",
-  "primary_status": "primary_seen",
+  "primary_status": "quoted_only",
   "lifecycle": "unknown",
   "important": false,
   "unknowns": [
-    "확인한 공식 원문은 진수식 개최를 예고한 자료입니다. 실제 행사 완료 시각을 확인하지 않아 발생 시각은 비워 두고 발표일 기준으로 표시합니다.",
+    "공식 공동보도자료는 진수식 개최를 예고한 자료입니다. 실제 개최는 기관 발표를 인용한 후속 보도로 확인했으며, 정확한 행사 시각과 별도의 사후 공식 발표 원문은 확보하지 못했습니다.",
     "2028년 인도와 이후 실전 배치는 계획입니다. 취역이나 작전 투입 완료로 기록하지 않습니다.",
     "자료의 성능·우수성 평가는 기관의 설명이며 독립적인 성능 검증으로 사용하지 않습니다.",
-    "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다."
+    "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다.",
+    "진수 계획과 개최 보도는 같은 함정·행사의 후속 기록입니다. 별도 사건이나 독립 성능 검증으로 세지 않습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "notable",
   "sources": [
@@ -34,6 +35,12 @@
       "url": "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN",
       "published_at": "2026-11-02T15:00:00Z",
       "published_precision": "day"
+    },
+    {
+      "name": "뉴스핌 · 해군·방사청 인용, 11월 3일 16:58 수정 본문",
+      "url": "https://member.newspim.com/news/view/20261103000783",
+      "published_at": "2026-11-03T04:52:00Z",
+      "published_precision": "minute"
     }
   ],
   "facts": [
@@ -52,6 +59,13 @@
         "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
         "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN"
       ]
+    },
+    {
+      "text": "뉴스핌은 11월 3일 16:58 수정 보도에서 해군과 방위사업청이 당일 오후 거제 옥포조선소에서 서희함 진수식을 거행했다고 전했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://member.newspim.com/news/view/20261103000783"
+      ]
     }
   ],
   "location": null,
@@ -60,6 +74,11 @@
       "at": "2026-11-03T13:35:13Z",
       "type": "new",
       "text": "Codex 정기 원문 검토: 공식 공동보도자료와 첨부 원문을 확인해 진수 계획 발표로 등록했습니다. 실제 행사 완료·취역·실전 배치는 확인된 사실로 쓰지 않았습니다."
+    },
+    {
+      "at": "2026-11-03T17:27:25Z",
+      "type": "update",
+      "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다."
     }
   ]
 }
