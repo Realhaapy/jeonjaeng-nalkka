@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-03T21:17:03Z",
-  "generated_at": "2026-11-03T21:17:48+00:00",
-  "release_id": "r-904698fc03b7b011",
-  "snapshot_id": "s-4f74f63697ab92ba",
+  "collection_checked_at": "2026-11-03T21:34:50Z",
+  "generated_at": "2026-11-03T21:35:37+00:00",
+  "release_id": "r-fed53cc1e4fa6684",
+  "snapshot_id": "s-ed1b6aa122773ab3",
   "headline": "최근 발표·보도 · 발생일 미상",
   "summary": "11월 3일 보도들은 김여정이 FBI의 바이낸스 해킹 북한 배후 지목을 반박한 담화를 전했습니다. 담화의 표기 날짜와 공개 시점에 관한 보도 표현이 달라 정확한 발표일은 확정하지 않고 보도 시각을 표시합니다. 새 해킹 발생 기록은 아닙니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 50,
+    "pending": 44,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:03Z",
-      "last_success_at": "2026-11-03T21:17:03Z",
-      "coverage_at": "2026-11-03T21:17:03Z",
+      "checked_at": "2026-11-03T21:34:50Z",
+      "last_success_at": "2026-11-03T21:34:50Z",
+      "coverage_at": "2026-11-03T21:34:50Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:03Z",
-      "last_success_at": "2026-11-03T21:17:03Z",
+      "checked_at": "2026-11-03T21:34:51Z",
+      "last_success_at": "2026-11-03T21:34:51Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:42Z",
-      "last_success_at": "2026-11-03T21:17:42Z",
-      "coverage_at": "2026-11-03T21:17:42Z",
+      "checked_at": "2026-11-03T21:35:32Z",
+      "last_success_at": "2026-11-03T21:35:32Z",
+      "coverage_at": "2026-11-03T21:35:32Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:45Z",
-      "last_success_at": "2026-11-03T21:17:45Z",
-      "coverage_at": "2026-11-03T21:17:45Z",
+      "checked_at": "2026-11-03T21:35:35Z",
+      "last_success_at": "2026-11-03T21:35:35Z",
+      "coverage_at": "2026-11-03T21:35:35Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:45Z",
-      "last_success_at": "2026-11-03T21:17:45Z",
-      "coverage_at": "2026-11-03T21:17:45Z",
+      "checked_at": "2026-11-03T21:35:35Z",
+      "last_success_at": "2026-11-03T21:35:35Z",
+      "coverage_at": "2026-11-03T21:35:35Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:45Z",
-      "last_success_at": "2026-11-03T21:17:45Z",
-      "coverage_at": "2026-11-03T21:17:45Z",
+      "checked_at": "2026-11-03T21:35:35Z",
+      "last_success_at": "2026-11-03T21:35:35Z",
+      "coverage_at": "2026-11-03T21:35:35Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:45Z",
-      "last_success_at": "2026-11-03T21:17:45Z",
-      "coverage_at": "2026-11-03T21:17:45Z",
+      "checked_at": "2026-11-03T21:35:35Z",
+      "last_success_at": "2026-11-03T21:35:35Z",
+      "coverage_at": "2026-11-03T21:35:35Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:46Z",
-      "last_success_at": "2026-11-03T21:17:46Z",
-      "coverage_at": "2026-11-03T21:17:46Z",
+      "checked_at": "2026-11-03T21:35:36Z",
+      "last_success_at": "2026-11-03T21:35:36Z",
+      "coverage_at": "2026-11-03T21:35:36Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:47Z",
-      "last_success_at": "2026-11-03T21:17:47Z",
-      "coverage_at": "2026-11-03T21:17:47Z",
+      "checked_at": "2026-11-03T21:35:36Z",
+      "last_success_at": "2026-11-03T21:35:36Z",
+      "coverage_at": "2026-11-03T21:35:36Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:37Z",
-      "last_success_at": "2026-11-03T21:17:37Z",
-      "coverage_at": "2026-11-03T21:17:37Z",
+      "checked_at": "2026-11-03T21:35:26Z",
+      "last_success_at": "2026-11-03T21:35:26Z",
+      "coverage_at": "2026-11-03T21:35:26Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:45Z",
-      "last_success_at": "2026-11-03T21:17:45Z",
-      "coverage_at": "2026-11-03T21:17:45Z",
+      "checked_at": "2026-11-03T21:35:36Z",
+      "last_success_at": "2026-11-03T21:35:36Z",
+      "coverage_at": "2026-11-03T21:35:36Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:03Z",
-      "last_success_at": "2026-11-03T21:17:03Z",
-      "observed_at": "2026-11-03T21:17:03Z",
+      "checked_at": "2026-11-03T21:34:50Z",
+      "last_success_at": "2026-11-03T21:34:50Z",
+      "observed_at": "2026-11-03T21:34:50Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:46Z",
-      "last_success_at": "2026-11-03T21:17:46Z",
-      "observed_at": "2026-11-03T21:17:46Z",
+      "checked_at": "2026-11-03T21:35:36Z",
+      "last_success_at": "2026-11-03T21:35:36Z",
+      "observed_at": "2026-11-03T21:35:36Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-03T21:17:47Z",
-      "last_success_at": "2026-11-03T21:17:47Z",
-      "observed_at": "2026-11-03T21:17:47Z",
+      "checked_at": "2026-11-03T21:35:36Z",
+      "last_success_at": "2026-11-03T21:35:36Z",
+      "observed_at": "2026-11-03T21:35:36Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-02T21:17:47Z",
-        "window_end": "2026-11-03T21:17:47Z",
-        "total_count": 16,
+        "window_start": "2026-11-02T21:35:36Z",
+        "window_end": "2026-11-03T21:35:36Z",
+        "total_count": 15,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -1919,6 +1919,75 @@
       ]
     },
     {
+      "id": "swiss-pyongyang-office-resumption-20261019",
+      "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
+      "summary": "스위스 외교부는 평양 외교사무소가 10월 19일부터 운영 중이라고 10월 31일 발표했습니다. 카시스 외교장관은 10월 29~30일 평양을 방문해 사무소를 공식 재개방하고 북한 고위 인사들과 만났다고 설명했습니다. 11월에 새로 발생한 일이 아닌 과거 외교 변화 기록입니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": "2026-10-18T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-30T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-03T21:34:41Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "10월 19일은 스위스 공식 발표가 밝힌 사무소 운영 시작일입니다. 방북과 공식 재개방은 10월 29~30일 기간으로만 확인돼 개별 일자·시각을 확정하지 않습니다.",
+        "스위스 외교부 발표일은 10월 31일이며 정확한 게시 시각은 확인하지 못했습니다. 통일부의 11월 2일 언급을 사무소 개설일로 사용하지 않습니다.",
+        "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "스위스 외교부 · 평양 외교사무소와 남북 방문 공식 발표",
+          "url": "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW",
+          "published_at": "2026-10-30T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "통일부 · 11월 2일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539",
+          "published_at": "2026-11-01T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "스위스 외교부는 10월 31일 발표에서 베이징 주재 스위스 대사관 소속 평양 외교사무소가 10월 19일부터 운영 중이라고 밝혔다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+          ]
+        },
+        {
+          "text": "같은 발표에 따르면 카시스 외교장관은 10월 29~30일 평양 방문 중 사무소를 공식 재개방하고 최선희 외무상과 조용원 당 비서를 만나 한반도 안보 상황 등을 논의했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+          ]
+        },
+        {
+          "text": "통일부는 11월 2일 브리핑에서 스위스 사무소 개설과 외교장관 방북을 언급하고, 한반도 평화 공존을 위해 유관국과 필요한 소통·협력을 해 나간다는 정부 입장을 밝혔다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-03T21:34:41Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다."
+        }
+      ]
+    },
+    {
       "id": "trilateral-response-20261013",
       "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
       "summary": "일본 외무성은 10월 13일 한·미·일 당국이 전날 북한의 발사에 관해 전화 협의를 했다고 발표했습니다.",
@@ -2342,6 +2411,14 @@
   ],
   "changes": [
     {
+      "id": "c-226af0c08353e051a22e",
+      "event_id": "swiss-pyongyang-office-resumption-20261019",
+      "at": "2026-11-03T21:34:41Z",
+      "type": "new",
+      "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
+      "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다."
+    },
+    {
       "id": "c-415297cb85da29e92c93",
       "event_id": "rok-presidential-flight-data-leak-inquiry-20261103",
       "at": "2026-11-03T20:38:21Z",
@@ -2721,7 +2798,7 @@
       "published_at": "2026-11-01T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "held"
+      "status": "reviewed"
     },
     {
       "id": "doc-ba36767a3da2dab93a9c",
@@ -2752,16 +2829,6 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-03T08:31:37Z",
       "status": "reviewed"
-    },
-    {
-      "id": "doc-8fab2dcb676daa813e26",
-      "title": "김진아 2차관, 국제해양법재판소(ITLOS) 소장 접견(11.3.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787805",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:17:38Z",
-      "status": "pending"
     },
     {
       "id": "doc-175dca01b872777e23ee",
@@ -2842,16 +2909,6 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-02T04:17:33Z",
       "status": "reviewed"
-    },
-    {
-      "id": "doc-ab1892288eecf9699ae7",
-      "title": "조현 장관, G20 외교장관회의(10.30-31, 애틀랜타) 참석",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787408",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-31T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T18:59:01Z",
-      "status": "pending"
     },
     {
       "id": "doc-18c73b3c2b085cf55380",
@@ -2962,17 +3019,37 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-01T09:28:32Z",
       "status": "pending"
+    },
+    {
+      "id": "doc-4155a6c8aeb097e75191",
+      "title": "お知らせ（続報）｜令和8年10月29日（木）14:21",
+      "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
+      "source_name": "일본 방위성 · 북한 미사일 발표",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "reviewed"
+    },
+    {
+      "id": "doc-82bd28ef077c1c123648",
+      "title": "Brunson tells AMCHAM Korea that industrial strength sustains credible deterrence",
+      "url": "https://www.dvidshub.net/news/577572/brunson-tells-amcham-korea-industrial-strength-sustains-credible-deterrence",
+      "source_name": "주한미군 공식 발표 · DVIDS",
+      "published_at": "2026-10-21T22:50:05Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-01T09:28:32Z",
+      "status": "pending"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-03T21:17:48+00:00",
+    "as_of": "2026-11-03T21:35:37+00:00",
     "assessment_label": "최근 발표·보도 · 발생일 미상",
     "assessment_summary": "11월 3일 보도들은 김여정이 FBI의 바이낸스 해킹 북한 배후 지목을 반박한 담화를 전했습니다. 담화의 표기 날짜와 공개 시점에 관한 보도 표현이 달라 정확한 발표일은 확정하지 않고 보도 시각을 표시합니다. 새 해킹 발생 기록은 아닙니다.",
     "brief": {
       "recent": "검토된 기록 미사일 발사 1건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건 (최근 11/3)",
       "recent_main": "검토된 기록 미사일 발사 1건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건",
       "recent_note": "(최근 11/3)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 11건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 12건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -2980,7 +3057,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-03T21:17:47Z",
+          "observed_at": "2026-11-03T21:35:36Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -2988,17 +3065,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-02T21:17:47Z",
-          "window_end": "2026-11-03T21:17:47Z",
+          "window_start": "2026-11-02T21:35:36Z",
+          "window_end": "2026-11-03T21:35:36Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 16건 확인"
+          "detail": "최근 24시간 · 전국 문자 15건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-03T21:17:46Z",
+          "observed_at": "2026-11-03T21:35:36Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -3016,7 +3093,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-03T21:17:03Z",
+          "observed_at": "2026-11-03T21:34:50Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4794,6 +4871,75 @@
         ]
       },
       {
+        "id": "swiss-pyongyang-office-resumption-20261019",
+        "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
+        "summary": "스위스 외교부는 평양 외교사무소가 10월 19일부터 운영 중이라고 10월 31일 발표했습니다. 카시스 외교장관은 10월 29~30일 평양을 방문해 사무소를 공식 재개방하고 북한 고위 인사들과 만났다고 설명했습니다. 11월에 새로 발생한 일이 아닌 과거 외교 변화 기록입니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-10-18T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-30T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-03T21:34:41Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "10월 19일은 스위스 공식 발표가 밝힌 사무소 운영 시작일입니다. 방북과 공식 재개방은 10월 29~30일 기간으로만 확인돼 개별 일자·시각을 확정하지 않습니다.",
+          "스위스 외교부 발표일은 10월 31일이며 정확한 게시 시각은 확인하지 못했습니다. 통일부의 11월 2일 언급을 사무소 개설일로 사용하지 않습니다.",
+          "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "스위스 외교부 · 평양 외교사무소와 남북 방문 공식 발표",
+            "url": "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW",
+            "published_at": "2026-10-30T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "통일부 · 11월 2일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539",
+            "published_at": "2026-11-01T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "스위스 외교부는 10월 31일 발표에서 베이징 주재 스위스 대사관 소속 평양 외교사무소가 10월 19일부터 운영 중이라고 밝혔다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+            ]
+          },
+          {
+            "text": "같은 발표에 따르면 카시스 외교장관은 10월 29~30일 평양 방문 중 사무소를 공식 재개방하고 최선희 외무상과 조용원 당 비서를 만나 한반도 안보 상황 등을 논의했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+            ]
+          },
+          {
+            "text": "통일부는 11월 2일 브리핑에서 스위스 사무소 개설과 외교장관 방북을 언급하고, 한반도 평화 공존을 위해 유관국과 필요한 소통·협력을 해 나간다는 정부 입장을 밝혔다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-03T21:34:41Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다."
+          }
+        ]
+      },
+      {
         "id": "trilateral-response-20261013",
         "title": "한·미·일, 10월 12일 발사 관련 공조 협의",
         "summary": "일본 외무성은 10월 13일 한·미·일 당국이 전날 북한의 발사에 관해 전화 협의를 했다고 발표했습니다.",
@@ -5432,6 +5578,15 @@
         "is_new_record": false,
         "recency_label": ""
       },
+      "swiss-pyongyang-office-resumption-20261019": {
+        "date_label": "2026.10.19 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": true,
+        "registration_kind": "backfill",
+        "first_recorded_at": "2026-11-03T21:34:41+00:00",
+        "is_new_record": true,
+        "recency_label": ""
+      },
       "trilateral-response-20261013": {
         "date_label": "2026.10.13 · 발생일",
         "date_basis": "occurred",
@@ -5490,7 +5645,7 @@
     "metrics": {
       "events_24h": 1,
       "events_24h_uncertain": 3,
-      "changes_24h": 28,
+      "changes_24h": 29,
       "corrections_24h": 1,
       "active_major": 4
     },
@@ -5601,7 +5756,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 26,
+        "current": 27,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -5675,7 +5830,7 @@
           },
           {
             "date": "2026-10-19",
-            "count": 0,
+            "count": 1,
             "prior": null
           },
           {
@@ -5805,7 +5960,7 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 11,
+            "current": 12,
             "previous": 1,
             "delta": null
           },
@@ -5820,6 +5975,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-226af0c08353e051a22e",
+        "event_id": "swiss-pyongyang-office-resumption-20261019",
+        "at": "2026-11-03T21:34:41Z",
+        "type": "new",
+        "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
+        "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다.",
+        "display_label": "과거 기록 추가",
+        "event_date_label": "2026.10.19 · 발생일",
+        "registration_kind": "backfill"
+      },
       {
         "id": "c-415297cb85da29e92c93",
         "event_id": "rok-presidential-flight-data-leak-inquiry-20261103",
@@ -6721,6 +6887,7 @@
       "dprk-sanctions-statement-20261028": "statement",
       "cheorwon-boundary-access-investigation-20261025": "other",
       "rok-military-talks-proposal-20261023": "diplomacy",
+      "swiss-pyongyang-office-resumption-20261019": "diplomacy",
       "trilateral-response-20261013": "diplomacy",
       "dprk-launch-20261012": "missile",
       "dprk-launch-20261003": "missile",
@@ -6730,9 +6897,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-03T21:17:47+00:00"
+    "last_attempt_at": "2026-11-03T21:35:36+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-03T21:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-03T21:34:50Z"
 }

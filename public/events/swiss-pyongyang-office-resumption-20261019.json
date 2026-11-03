@@ -1,0 +1,69 @@
+{
+  "id": "swiss-pyongyang-office-resumption-20261019",
+  "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
+  "summary": "스위스 외교부는 평양 외교사무소가 10월 19일부터 운영 중이라고 10월 31일 발표했습니다. 카시스 외교장관은 10월 29~30일 평양을 방문해 사무소를 공식 재개방하고 북한 고위 인사들과 만났다고 설명했습니다. 11월에 새로 발생한 일이 아닌 과거 외교 변화 기록입니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-18T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-30T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T21:34:41Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "10월 19일은 스위스 공식 발표가 밝힌 사무소 운영 시작일입니다. 방북과 공식 재개방은 10월 29~30일 기간으로만 확인돼 개별 일자·시각을 확정하지 않습니다.",
+    "스위스 외교부 발표일은 10월 31일이며 정확한 게시 시각은 확인하지 못했습니다. 통일부의 11월 2일 언급을 사무소 개설일로 사용하지 않습니다.",
+    "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "스위스 외교부 · 평양 외교사무소와 남북 방문 공식 발표",
+      "url": "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "통일부 · 11월 2일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "스위스 외교부는 10월 31일 발표에서 베이징 주재 스위스 대사관 소속 평양 외교사무소가 10월 19일부터 운영 중이라고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+      ]
+    },
+    {
+      "text": "같은 발표에 따르면 카시스 외교장관은 10월 29~30일 평양 방문 중 사무소를 공식 재개방하고 최선희 외무상과 조용원 당 비서를 만나 한반도 안보 상황 등을 논의했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.eda.admin.ch/de/newnsb/tTt86k6kzUJW"
+      ]
+    },
+    {
+      "text": "통일부는 11월 2일 브리핑에서 스위스 사무소 개설과 외교장관 방북을 언급하고, 한반도 평화 공존을 위해 유관국과 필요한 소통·협력을 해 나간다는 정부 입장을 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T21:34:41Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다."
+    }
+  ]
+}
