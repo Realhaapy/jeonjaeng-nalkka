@@ -2,3 +2,15 @@ Natural Earth 1:50m Admin 0 countries. Public domain. Downloaded 2026-11-01.
 https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson
 https://www.naturalearthdata.com/about/terms-of-use/
 Display is geographic context only; boundaries do not assert a political position.
+
+Dokdo location marker added in peninsula-v5.svg and peninsula-v5-mobile.svg, 2026-11-03.
+The Natural Earth 1:50m dataset used above includes Ulleungdo but omits a Dokdo polygon.
+Source: Ministry of Oceans and Fisheries, "독도의 주소와 위치는 어떻게 되나요?"
+https://www.mof.go.kr/doc/ko/selectDoc.do?bbsSeq=27&docSeq=20937&menuSeq=929
+Cross-check: Korea Institute of Ocean Science and Technology, Dokdo Integrated Information System.
+https://www.dokdo.re.kr/home/cms/cmsCont.do?cntnts_sn=63
+Both pages checked 2026-11-03. Dongdo coordinate: 37°14′26.8″N, 131°52′10.4″E.
+Decimal degrees: latitude 37.240777778, longitude 131.869555556.
+Projection retained: x=(longitude-120)/20*600; y=(44-latitude)/12*455.
+The location marker is enlarged for legibility; its area is not an island footprint or an event marker.
+Existing v4 assets remain unchanged for archived briefings.

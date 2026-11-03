@@ -15,6 +15,7 @@
     "수정된 수량의 독립 확인은 아직 없다는 가정입니다."
   ],
   "revision": 2,
+  "military_actor": "unknown",
   "sources": [
     {
       "name": "예시 기관 · 가상 자료",

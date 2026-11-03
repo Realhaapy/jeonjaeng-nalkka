@@ -18,6 +18,7 @@
   "revision": 1,
   "why_it_matters": "10월의 발사 발표를 날짜별로 비교하기 위한 과거 기록입니다. 오늘 새롭게 발생한 사건이나 검증된 전쟁 확률로 표시하지 않습니다.",
   "significance": "major",
+  "military_actor": "unknown",
   "sources": [
     {
       "name": "일본 방위성·내각관방",

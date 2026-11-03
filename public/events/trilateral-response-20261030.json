@@ -18,6 +18,7 @@
   "revision": 1,
   "why_it_matters": "발사 다음 날의 외교 대응을 연결해 보여줍니다. 전화 협의가 새로운 발사나 군사 충돌 한 건으로 중복 계산되지 않도록 구분합니다.",
   "significance": "notable",
+  "military_actor": "unknown",
   "sources": [
     {
       "name": "일본 외무성",

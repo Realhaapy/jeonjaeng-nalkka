@@ -1,0 +1,72 @@
+{
+  "id": "rok-airforce-gathering-inquiry-20261102",
+  "title": "국방부, 공군 음주 간담회 관련 사실관계 확인 지시",
+  "summary": "국방부는 11월 2일, 공군 부대 음주 간담회 보도와 관련해 장관이 감사관실에 사실관계를 확인하도록 지시했다고 발표했습니다. 사실 확인 뒤 필요한 조치를 하겠다는 입장이며, 조사 결론이나 징계가 확정됐다는 뜻은 아닙니다.",
+  "kind": "official_measure",
+  "occurred_at": "2026-11-01T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-01T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T08:35:18Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "조사 결론과 징계 여부는 이 근거에서 확인되지 않았습니다.",
+    "이 기록의 날짜는 11월 2일 확인 지시 발표일이며, 보도된 회식의 발생일과 다릅니다.",
+    "같은 국방부 브리핑을 인용한 보도를 독립 확인으로 세지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "military_actor": "unknown",
+  "sources": [
+    {
+      "name": "국방부 정례브리핑 · 정책브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787549",
+      "published_at": "2026-11-01T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "SBS",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826231",
+      "published_at": "2026-11-02T03:10:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "JTBC",
+      "url": "https://news.jtbc.co.kr/article/NB12326106",
+      "published_at": "2026-11-02T11:03:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부 대변인은 11월 2일 브리핑에서 장관이 감사관실에 관련 사실관계 확인을 지시했다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787549",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826231",
+        "https://news.jtbc.co.kr/article/NB12326106"
+      ]
+    },
+    {
+      "text": "국방부는 사실관계를 확인한 뒤 필요한 조치를 시행하겠다는 입장을 설명했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787549",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008826231",
+        "https://news.jtbc.co.kr/article/NB12326106"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T08:35:18Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 공식 브리핑과 이를 인용한 보도를 대조해 사실관계 확인 지시를 등록했습니다."
+    }
+  ]
+}
