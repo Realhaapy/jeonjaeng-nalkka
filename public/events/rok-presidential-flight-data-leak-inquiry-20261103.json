@@ -1,14 +1,14 @@
 {
   "id": "rok-presidential-flight-data-leak-inquiry-20261103",
   "title": "공군 1호기 탑승정보 유출…외교부, 조사·피해 차단 조치 발표",
-  "summary": "외교부는 11월 3일 브리핑에서 공군 1호기 탑승자 개인정보가 유출됐으며 관계기관과 경위를 조사 중이라고 발표했습니다. 정보 삭제 등 피해 차단 조치와 여권 재발급 지원도 설명했습니다. 유출이 이날 새로 발생했다는 뜻은 아닙니다.",
+  "summary": "외교부는 11월 3일 공군 1호기 탑승자 개인정보 유출 경위를 관계기관과 조사 중이라고 발표했습니다. 같은 날 정례브리핑에서는 대통령 내외의 여권 재발급은 완료됐고 다른 대상자 재발급 조치는 진행 중이라고 설명했습니다. 유출이 이날 새로 발생했다는 뜻은 아닙니다.",
   "kind": "official_measure",
   "military_actor": "unknown",
   "occurred_at": null,
   "time_precision": "unknown",
   "reported_at": "2026-11-02T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-03T18:31:54Z",
+  "updated_at": "2026-11-03T20:38:21Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
@@ -17,10 +17,10 @@
     "유출·인지·수사 의뢰의 정확한 시점은 공식 브리핑에서 확정되지 않았습니다. 발생일은 비워 두고 11월 3일 공식 발표일을 표시합니다.",
     "외교부는 당시 해킹보다는 유출로 파악한다고 설명했으며 원인과 경위는 조사 중입니다. 특정 직원의 고의·실수나 북한 관련성을 확정하지 않습니다.",
     "추가 확산이 파악되지 않았다는 당시 설명이 추가 피해가 전혀 없다는 보장은 아닙니다. 피해 범위와 최종 조사 결과는 확인되지 않았습니다.",
-    "정보 삭제 등 차단 조치와 여권 재발급 지원은 정부 설명이며, 모든 정보의 회수·모든 여권 재발급 완료를 확인한 것은 아닙니다.",
+    "대통령 내외의 여권 재발급 완료와 다른 대상자 재발급 조치 진행은 11월 3일 외교부 설명입니다. 모든 대상자의 재발급 완료나 유출 정보의 전량 회수를 확인한 것은 아닙니다.",
     "기사와 공식 브리핑은 별개의 독립 조사 결과로 세지 않습니다. 유출된 개인정보·명단·원문 파일은 수집하거나 공개하지 않습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "notable",
   "sources": [
@@ -35,6 +35,12 @@
       "url": "https://member.newspim.com/news/view/20261103000341",
       "published_at": "2026-11-03T01:28:00Z",
       "published_precision": "minute"
+    },
+    {
+      "name": "외교부 · 11월 3일 정례브리핑 후속 설명",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787797",
+      "published_at": "2026-11-02T15:00:00Z",
+      "published_precision": "day"
     }
   ],
   "facts": [
@@ -51,6 +57,13 @@
       "evidence_urls": [
         "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787725"
       ]
+    },
+    {
+      "text": "외교부는 11월 3일 정례브리핑에서 대통령 내외의 여권 재발급은 완료됐고, 다른 대상자에 대한 재발급 조치는 진행 중이라고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787797"
+      ]
     }
   ],
   "location": null,
@@ -59,6 +72,11 @@
       "at": "2026-11-03T18:31:54Z",
       "type": "new",
       "text": "Codex 정기 원문 검토: 외교부 현안 브리핑의 전체 질문·답변을 대조해 공군 1호기 정보유출 조사 발표를 등록했습니다. 질문에 제시된 유출 날짜·인원·원인·책임을 확인 사실로 옮기지 않았으며 실제 유출일과 발표일을 구분했습니다."
+    },
+    {
+      "at": "2026-11-03T20:38:21Z",
+      "type": "update",
+      "text": "Codex 정기 원문 검토: 11월 3일 외교부 정례브리핑의 후속 설명을 연결했습니다. 대통령 내외 여권 재발급 완료와 다른 대상자 재발급 조치 진행을 구분했으며, 새로운 유출 사건이나 최종 조사 결과로 등록하지 않았습니다."
     }
   ]
 }
