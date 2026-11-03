@@ -1,0 +1,50 @@
+{
+  "id": "dprk-kim-jongsik-iron-mace-statement-20261102",
+  "title": "북한 김정식, 한미 아이언메이스 연습 비난 담화 보도",
+  "summary": "JTBC는 11월 2일 조선중앙통신 보도를 인용해 김정식 노동당 군수공업부 제1부부장이 담화에서 한미 아이언메이스 연습을 비난하고 핵수단 강화를 주장했다고 전했습니다. 북한 인사의 발언에 관한 기록이며, 실제 작전이나 핵 배치가 달라졌다는 확인은 아닙니다.",
+  "kind": "official_statement",
+  "military_actor": "unknown",
+  "occurred_at": null,
+  "time_precision": "unknown",
+  "reported_at": "2026-11-02T02:28:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-03T12:35:22Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "조선중앙통신 담화 원문 자체는 확보하지 못했습니다. 해당 기관을 인용한 JTBC 보도로 구분합니다.",
+    "11월 2일은 확인한 보도일입니다. 담화 발표의 정확한 날짜·시각을 별도로 확정하지 않아 발생 시각은 미상으로 둡니다.",
+    "이 발언만으로 실제 군사작전·핵 배치·대응 행동의 변화를 확정하지 않습니다.",
+    "기사 후반의 미사일 시험은 기존 10월 31일 사건의 배경 설명이며, 11월 1일이나 2일의 새 발사로 중복 등록하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "JTBC · 조선중앙통신 담화 보도 인용",
+      "url": "https://news.jtbc.co.kr/article/NB12325986",
+      "published_at": "2026-11-02T02:28:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "JTBC는 조선중앙통신이 11월 2일 김정식 노동당 군수공업부 제1부부장의 담화를 보도했으며, 김정식이 한미 아이언메이스 연습을 비난하고 핵수단 강화를 주장했다고 전했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12325986"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T12:35:22Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 김정식 명의의 담화를 인용한 JTBC 원문과 게시일을 확인해 공식 발언 기록으로 등록했습니다. 담화 발표 시각은 미상으로 두며, 과거 미사일 시험 언급을 새 발사로 세지 않습니다."
+    }
+  ]
+}
