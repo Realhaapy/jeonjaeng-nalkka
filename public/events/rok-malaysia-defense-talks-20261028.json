@@ -1,0 +1,65 @@
+{
+  "id": "rok-malaysia-defense-talks-20261028",
+  "title": "10월 28일 한·말레이시아 국방장관회담…인적교류·연합훈련 협력 논의",
+  "summary": "국방부는 10월 28일 한·말레이시아 국방장관회담에서 인적교류와 연합훈련 등 국방협력 확대를 논의했다고 발표했습니다. FA-50 협력 언급은 기존 수출계약의 이행에 관한 내용입니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-27T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-27T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T16:33:42Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "언급된 FA-50 계약은 2023년에 체결된 기존 계약입니다. 이번 회담의 신규 계약·추가 수출 물량 확정·인도 완료로 해석하지 않습니다.",
+    "한국 국방부 원문과 첨부는 같은 발표입니다. 상대국의 별도 발표문은 확보하지 않았으며 독립 확인 횟수로 세지 않습니다.",
+    "자료에 언급된 9월 지뢰폭발과 북러 군사협력은 회담의 배경입니다. 10월 28일 새 지뢰 사건이나 미사일 발사로 세지 않습니다.",
+    "회담의 정확한 시각은 확인하지 못해 날짜만 표시합니다. 첨부의 배포 시각을 회담 시각으로 사용하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부 · 한·말레이시아 국방장관회담 발표",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786942",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부 · 10월 28일 배포 보도자료",
+      "url": "https://www.korea.kr/common/download.do?fileId=198579373&tblKey=GMN",
+      "published_at": "2026-10-27T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 10월 28일 한·말레이시아 국방장관이 회담을 열고 인적교류·연합훈련 등 국방협력 확대에 뜻을 모았다고 발표했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786942",
+        "https://www.korea.kr/common/download.do?fileId=198579373&tblKey=GMN"
+      ]
+    },
+    {
+      "text": "한국 측은 기존 FA-50 수출계약의 이행 진전을 평가하고 향후 방산협력 확대에 대한 관심을 요청했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786942",
+        "https://www.korea.kr/common/download.do?fileId=198579373&tblKey=GMN"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T16:33:42Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 공식 발표와 실제 발생 날짜를 대조해 과거 기록을 보완했습니다. 등록 날짜를 사건 발생 날짜로 사용하지 않습니다."
+    }
+  ]
+}

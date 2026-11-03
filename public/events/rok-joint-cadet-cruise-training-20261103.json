@@ -1,0 +1,63 @@
+{
+  "id": "rok-joint-cadet-cruise-training-20261103",
+  "title": "사관생도 합동순항훈련 출항…11월 20일까지 교육훈련 계획",
+  "summary": "해군 발표를 인용한 11월 3일 보도에 따르면 사관생도 합동순항훈련전단이 진해군항에서 출항해 교육훈련을 시작했습니다. 국방부는 11월 20일까지 실시할 계획이라고 밝혔습니다. 정례 사관생도 교육훈련으로 분류합니다.",
+  "kind": "exercise",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-02T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-02T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T16:33:44Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "출항·실제 시작은 해군 발표를 인용한 보도에서 확인했습니다. 국방부 공개 브리핑은 훈련 계획을 확인하는 자료이며 상세 해군 발표 원문은 확보하지 못했습니다.",
+    "정확한 출항 시각은 확인되지 않아 발생일만 표시합니다. 11월 20일 종료와 기항 계획을 이미 완료한 일정으로 표시하지 않습니다.",
+    "기사와 정부 브리핑을 서로 독립된 현장 검증으로 세지 않습니다. 사관생도 정례교육을 특정 북한 행동에 대한 대응이나 긴장 고조의 증거로 해석하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "뉴스토마토 · 해군 발표 인용",
+      "url": "https://www.newstomato.com/ReadNews.aspx?no=1319098",
+      "published_at": "2026-11-03T07:20:46Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "국방부 · 11월 3일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787708",
+      "published_at": "2026-11-02T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "뉴스토마토는 해군 발표를 인용해 합동순항훈련전단이 11월 3일 진해군항에서 출항했으며, 육·해·공군 및 간호사관학교 2학년 생도 741명이 참여한다고 보도했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.newstomato.com/ReadNews.aspx?no=1319098"
+      ]
+    },
+    {
+      "text": "국방부는 11월 3일 정례브리핑에서 합동순항훈련을 11월 20일까지 실시할 계획이라고 밝혔다. 보도는 이 훈련을 2018년 시작해 매년 진행하는 생도 교육훈련이라고 설명했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787708",
+        "https://www.newstomato.com/ReadNews.aspx?no=1319098"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T16:33:44Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 11월 3일 정부 브리핑의 계획과 해군 발표를 인용한 출항 보도를 대조했습니다. 한국 사관생도 정례 교육훈련으로 등록하고 북한 군사 활동과 구분합니다."
+    }
+  ]
+}

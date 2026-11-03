@@ -1,0 +1,57 @@
+{
+  "id": "cheorwon-boundary-access-investigation-20261025",
+  "title": "10월 25일 철원 군 경계시설 무단 접근…합참, 신병 확보 발표",
+  "summary": "합참은 10월 25일 강원 철원에서 군 경계시설에 무단 접근한 인원의 신병을 확보했다고 27일 브리핑에서 밝혔습니다. 당시 대공 혐의점은 없는 것으로 알고 있으며 관계기관이 경위를 조사 중이라고 설명했습니다.",
+  "kind": "other",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-24T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-26T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-03T16:33:44Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "발생 시각과 최종 조사 결과는 확인되지 않았습니다. 대공 혐의점에 관한 설명은 10월 27일 당시의 합참 입장입니다.",
+    "기자 질문에 등장하는 신원·철조망 훼손 등의 전제를 합참이 확인한 사실로 옮기지 않았습니다. GOP 방어선이 뚫렸다는 판단도 하지 않습니다.",
+    "군 경계시설 접근과 대응에 관한 과거 기록입니다. 11월 2일 철원 하사 사망 사건과 별개이며 군 사망·사고나 북한 군사 활동으로 분류하지 않습니다.",
+    "철원 지역만 확인했으며 정확한 시설 위치나 지도 좌표를 추정하지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부·합참 · 10월 27일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786626",
+      "published_at": "2026-10-26T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "합참은 10월 25일 강원도 철원 지역 GOP 남쪽·민간인통제선 북쪽의 군 경계시설에 무단 접근한 인원의 신병을 확보했다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786626"
+      ]
+    },
+    {
+      "text": "합참은 10월 27일 브리핑에서 당시 대공 혐의점은 없는 것으로 알고 있고 관계기관이 경위를 조사 중이라고 설명했다. 지상작전사령부는 전날인 10월 26일부터 해당 부대의 전반적인 경계작전 조사를 시작했다고 밝혔다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786626"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T16:33:44Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 공식 발표와 실제 발생 날짜를 대조해 과거 기록을 보완했습니다. 등록 날짜를 사건 발생 날짜로 사용하지 않습니다."
+    }
+  ]
+}
