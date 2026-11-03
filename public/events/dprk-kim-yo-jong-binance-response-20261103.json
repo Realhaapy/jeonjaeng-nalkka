@@ -1,0 +1,64 @@
+{
+  "id": "dprk-kim-yo-jong-binance-response-20261103",
+  "title": "김여정, 바이낸스 해킹 북한 배후 지목에 반박 담화",
+  "summary": "SBS는 김여정 노동당 총무부장이 11월 3일 담화에서 FBI의 바이낸스 해킹 북한 배후 지목을 반박했다고 보도했습니다. FBI가 10월 31일 공개한 원문도 대조했습니다. 북한의 반박 발언에 관한 기록이며, 11월 3일 새 해킹이 발생했다는 뜻은 아닙니다.",
+  "kind": "official_statement",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-02T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-03T13:38:28Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-03T14:29:27Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "김여정 담화 원문 자체는 확보하지 못했습니다. 발생일 11월 3일은 SBS가 전한 담화 날짜이며 정확한 발표 시각은 확인하지 못했습니다.",
+    "FBI 원문은 직접 확인했습니다. FBI의 북한 배후 지목과 북한의 반박은 상충하는 입장으로, 이 사이트가 실제 실행 주체를 독립 검증했다는 뜻은 아닙니다.",
+    "FBI 원문은 탈취 시점을 10월 29일 전후로 표현합니다. 정확한 사건 시각을 확정하거나 11월 3일의 새 공격으로 세지 않습니다.",
+    "FBI 출처의 10월 31일은 웹페이지에 표시된 날짜입니다. 원문에 게시 시각·시간대가 없어 한국 시각의 정확한 발표 시점을 확정하지 않습니다.",
+    "SBS 기사의 전문가 해석을 근거로 북미 대화 의도, 미국 개입 여부, 대미정책 변경을 확정하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "SBS · 김여정 담화 인용 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829060",
+      "published_at": "2026-11-03T13:38:28Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "FBI · 10월 31일 바이낸스 사건 관련 공식 발표",
+      "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+      "published_at": "2026-10-31T00:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS는 김여정이 11월 3일 담화에서 바이낸스 해킹 배후를 북한으로 지목한 FBI 발표를 반박했다고 보도했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829060"
+      ]
+    },
+    {
+      "text": "FBI는 10월 31일자로 공개한 자료에서 10월 29일 전후 바이낸스 가상자산 탈취의 배후를 북한으로 지목했다. 이는 11월 3일 담화의 배경에 해당하는 FBI 발표다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-03T14:29:27Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: SBS의 11월 3일 담화 보도와 FBI의 10월 31일 공식 원문을 대조했습니다. 반박 발언을 별도 공식 발언 기록으로 등록하며, 과거 탈취 배경을 새 군사행동이나 새 해킹으로 세지 않습니다."
+    }
+  ]
+}
