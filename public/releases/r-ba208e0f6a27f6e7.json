@@ -4,12 +4,12 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-04T03:17:03Z",
-  "generated_at": "2026-11-04T03:17:49+00:00",
-  "release_id": "r-c03c0d7f0e7162f1",
-  "snapshot_id": "s-bc8483c7d2d2e5ae",
+  "collection_checked_at": "2026-11-04T03:26:37Z",
+  "generated_at": "2026-11-04T03:27:23+00:00",
+  "release_id": "r-ba208e0f6a27f6e7",
+  "snapshot_id": "s-e75997ef4becfd57",
   "headline": "최근 발생한 사건과 발표·보도",
-  "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
+  "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 20,
+    "pending": 15,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:03Z",
-      "last_success_at": "2026-11-04T03:17:03Z",
-      "coverage_at": "2026-11-04T03:17:03Z",
+      "checked_at": "2026-11-04T03:26:37Z",
+      "last_success_at": "2026-11-04T03:26:37Z",
+      "coverage_at": "2026-11-04T03:26:37Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:03Z",
-      "last_success_at": "2026-11-04T03:17:03Z",
+      "checked_at": "2026-11-04T03:26:39Z",
+      "last_success_at": "2026-11-04T03:26:39Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:43Z",
-      "last_success_at": "2026-11-04T03:17:43Z",
-      "coverage_at": "2026-11-04T03:17:43Z",
+      "checked_at": "2026-11-04T03:27:18Z",
+      "last_success_at": "2026-11-04T03:27:18Z",
+      "coverage_at": "2026-11-04T03:27:18Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:45Z",
-      "last_success_at": "2026-11-04T03:17:45Z",
-      "coverage_at": "2026-11-04T03:17:45Z",
+      "checked_at": "2026-11-04T03:27:20Z",
+      "last_success_at": "2026-11-04T03:27:20Z",
+      "coverage_at": "2026-11-04T03:27:20Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:45Z",
-      "last_success_at": "2026-11-04T03:17:45Z",
-      "coverage_at": "2026-11-04T03:17:45Z",
+      "checked_at": "2026-11-04T03:27:20Z",
+      "last_success_at": "2026-11-04T03:27:20Z",
+      "coverage_at": "2026-11-04T03:27:20Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:45Z",
-      "last_success_at": "2026-11-04T03:17:45Z",
-      "coverage_at": "2026-11-04T03:17:45Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "coverage_at": "2026-11-04T03:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:46Z",
-      "last_success_at": "2026-11-04T03:17:46Z",
-      "coverage_at": "2026-11-04T03:17:46Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "coverage_at": "2026-11-04T03:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:46Z",
-      "last_success_at": "2026-11-04T03:17:46Z",
-      "coverage_at": "2026-11-04T03:17:46Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "coverage_at": "2026-11-04T03:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:47Z",
-      "last_success_at": "2026-11-04T03:17:47Z",
-      "coverage_at": "2026-11-04T03:17:47Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "coverage_at": "2026-11-04T03:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:37Z",
-      "last_success_at": "2026-11-04T03:17:37Z",
-      "coverage_at": "2026-11-04T03:17:37Z",
+      "checked_at": "2026-11-04T03:27:12Z",
+      "last_success_at": "2026-11-04T03:27:12Z",
+      "coverage_at": "2026-11-04T03:27:12Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:46Z",
-      "last_success_at": "2026-11-04T03:17:46Z",
-      "coverage_at": "2026-11-04T03:17:46Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "coverage_at": "2026-11-04T03:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:03Z",
-      "last_success_at": "2026-11-04T03:17:03Z",
-      "observed_at": "2026-11-04T03:17:03Z",
+      "checked_at": "2026-11-04T03:26:37Z",
+      "last_success_at": "2026-11-04T03:26:37Z",
+      "observed_at": "2026-11-04T03:26:37Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:46Z",
-      "last_success_at": "2026-11-04T03:17:46Z",
-      "observed_at": "2026-11-04T03:17:46Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "observed_at": "2026-11-04T03:27:21Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T03:17:47Z",
-      "last_success_at": "2026-11-04T03:17:47Z",
-      "observed_at": "2026-11-04T03:17:47Z",
+      "checked_at": "2026-11-04T03:27:21Z",
+      "last_success_at": "2026-11-04T03:27:21Z",
+      "observed_at": "2026-11-04T03:27:21Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-03T03:17:47Z",
-        "window_end": "2026-11-04T03:17:47Z",
+        "window_start": "2026-11-03T03:27:21Z",
+        "window_end": "2026-11-04T03:27:21Z",
         "total_count": 15,
         "matched_count": 0,
         "complete": true,
@@ -253,32 +253,32 @@
   "events": [
     {
       "id": "dprk-launch-20261104",
-      "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
-      "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
-      "kind": "nonroutine_military",
+      "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+      "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
+      "kind": "missile_test",
       "military_actor": "north_korea",
       "occurred_at": "2026-11-03T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-11-04T00:54:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-04T01:27:02Z",
+      "updated_at": "2026-11-04T03:26:29Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": true,
       "unknowns": [
-        "발사체가 탄도미사일인지, 순항미사일인지 또는 다른 종류인지는 이 원문들로 확인되지 않았습니다. 현재는 북한 군사 활동으로 분류하며 미사일 종류가 확인되면 같은 기록을 수정합니다.",
-        "발생은 11월 4일 오전까지만 확인했습니다. 기사 게시 시각을 발사 시각으로 사용하지 않습니다.",
-        "발사 수량, 정확한 발사 원점·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다. 지도에 임의 좌표를 넣지 않습니다.",
-        "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 독립 검증을 뜻하지 않습니다.",
-        "기사에 배경으로 소개된 10월 31일 시험은 별개의 과거 사건입니다. 사진 설명만으로 이번 발사체 종류를 확정하지 않습니다."
+        "미사일 여러 발이라는 합참 인용 보도를 확인했습니다. 탄도·순항 등 세부 종류와 기종, 정확한 발사 수량은 아직 확인되지 않았습니다.",
+        "발생은 11월 4일 오전까지만 확인했습니다. 최초 보도 09:54와 후속 수정 12:01은 발사 시각이 아닙니다.",
+        "선덕 일대라는 지역명만 확인했습니다. 정확한 발사 원점·좌표·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다.",
+        "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 여러 기사를 독립 확인 횟수로 세지 않습니다.",
+        "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "notable",
       "sources": [
         {
-          "name": "JTBC · 합참 인용 속보",
+          "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
           "url": "https://news.jtbc.co.kr/article/NB12326354",
           "published_at": "2026-11-04T00:54:00Z",
           "published_precision": "minute"
@@ -298,25 +298,25 @@
       ],
       "facts": [
         {
-          "text": "SBS는 합참 발표를 인용해 북한의 동해 방향 발사가 11월 4일 오전에 있었다고 보도했습니다.",
+          "text": "JTBC는 합참을 인용해 11월 4일 오전 북한 선덕 일대에서 동해 방향으로 발사된 미사일 여러 발을 군이 포착했다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         },
         {
-          "text": "SBS 후속 보도는 발사체의 종류를 미상으로 전하고, 군이 제원과 사거리를 분석 중이라고 설명했습니다.",
+          "text": "같은 보도에 따르면 합참은 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원을 정밀 분석 중이라고 설명했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         },
         {
-          "text": "JTBC와 SBS 속보도 합참을 인용해 같은 동해 방향 발사 소식을 전했습니다. 여러 기사를 별개의 발사나 독립 확인으로 세지 않습니다.",
+          "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.jtbc.co.kr/article/NB12326354",
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755"
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         }
       ],
@@ -326,33 +326,39 @@
           "at": "2026-11-04T01:27:02Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
+        },
+        {
+          "at": "2026-11-04T03:26:29Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
         }
       ]
     },
     {
       "id": "dprk-kim-yo-jong-binance-response-20261103",
-      "title": "김여정, 바이낸스 해킹 북한 배후 지목에 반박 담화",
-      "summary": "11월 3일 보도들은 김여정이 FBI의 바이낸스 해킹 북한 배후 지목을 반박한 담화를 전했습니다. 담화의 표기 날짜와 공개 시점에 관한 보도 표현이 달라 정확한 발표일은 확정하지 않고 보도 시각을 표시합니다. 새 해킹 발생 기록은 아닙니다.",
+      "title": "김여정, 해킹 배후 지목 반박…후속 담화서 대미 대화 입장 표명",
+      "summary": "11월 3일 보도들은 김여정이 바이낸스 해킹의 북한 배후 지목을 반박했다고 전했습니다. 이어 JTBC의 11월 4일 보도는 김여정이 3일 후속 담화를 내고, 미국의 적대시 정책 포기가 대화의 전제라는 입장을 밝혔다고 전했습니다. 같은 반박 사안의 후속으로 연결하며 새 해킹이나 협상 중단이 확인된 것으로 해석하지 않습니다.",
       "kind": "official_statement",
       "military_actor": "unknown",
       "occurred_at": null,
       "time_precision": "unknown",
       "reported_at": "2026-11-02T22:11:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-03T18:31:53Z",
+      "updated_at": "2026-11-04T03:26:30Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "북한 담화 원문을 확보하지 못했습니다. 11월 2일자 담화와 3일 새벽 발표라는 표현은 작성·공개·보도 시점의 차이일 수 있어, 서로 모순된다고 단정하지 않으며 정확한 작성·공개 시점을 확정하지 않습니다.",
+        "첫 담화의 북한 원문은 확보하지 못했습니다. 11월 2일자 담화와 3일 새벽 발표라는 표현은 작성·공개·보도 시점의 차이일 수 있어, 서로 모순된다고 단정하지 않으며 정확한 작성·공개 시점을 확정하지 않습니다.",
         "FBI 원문은 직접 확인했습니다. FBI의 북한 배후 지목과 북한의 반박은 상충하는 입장으로, 이 사이트가 실제 실행 주체를 독립 검증했다는 뜻은 아닙니다.",
         "FBI 원문은 탈취 시점을 10월 29일 전후로 표현합니다. 정확한 사건 시각을 확정하거나 11월 3일의 새 공격으로 세지 않습니다.",
         "FBI 출처의 10월 31일은 웹페이지에 표시된 날짜입니다. 원문에 게시 시각·시간대가 없어 한국 시각의 정확한 발표 시점을 확정하지 않습니다.",
         "SBS 기사의 전문가 해석을 근거로 북미 대화 의도, 미국 개입 여부, 대미정책 변경을 확정하지 않습니다.",
-        "발표·보도 시각은 이번에 대조한 기사 가운데 먼저 게시된 뉴스핌의 11월 3일 07:11입니다. 담화가 실제 공개된 정확한 시각이나 최초 보도 시각을 뜻하지 않습니다."
+        "발표·보도 시각은 이번에 대조한 기사 가운데 먼저 게시된 뉴스핌의 11월 3일 07:11입니다. 담화가 실제 공개된 정확한 시각이나 최초 보도 시각을 뜻하지 않습니다.",
+        "후속 담화의 날짜 11월 3일은 JTBC가 전한 조선중앙통신 보도에 따른 것입니다. 후속 담화 원문과 정확한 공개 시각은 확보하지 못했으며, 예정된 회담의 취소나 모든 대화의 영구 중단이 확인된 것은 아닙니다."
       ],
-      "revision": 2,
+      "revision": 3,
       "why_it_matters": "",
       "significance": "notable",
       "sources": [
@@ -379,6 +385,12 @@
           "url": "https://www.seoul.co.kr/news/politics/north/2026/11/03/20261103500279",
           "published_at": "2026-11-03T08:03:58Z",
           "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 조선중앙통신 인용 후속 담화 보도",
+          "url": "https://news.jtbc.co.kr/article/NB12326335",
+          "published_at": "2026-11-03T21:32:00Z",
+          "published_precision": "minute"
         }
       ],
       "facts": [
@@ -404,6 +416,20 @@
             "https://www.seoul.co.kr/news/politics/north/2026/11/03/20261103500279",
             "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829060"
           ]
+        },
+        {
+          "text": "JTBC는 11월 4일 조선중앙통신 보도를 인용해 김여정이 11월 3일 바이낸스 사태와 관련한 후속 담화를 냈다고 전했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326335"
+          ]
+        },
+        {
+          "text": "같은 보도에 따르면 김여정은 미국의 대북 적대시 정책 포기가 문제 해결의 전제라며, 그런 정책을 유지하는 상대와 대화할 필요가 없다는 입장을 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326335"
+          ]
         }
       ],
       "location": null,
@@ -417,6 +443,11 @@
           "at": "2026-11-03T18:31:53Z",
           "type": "correction",
           "text": "Codex 정기 원문 검토: 뉴스핌의 11월 2일자 담화, 서울신문의 2일 발표, SBS의 3일 새벽 발표 표현을 대조했습니다. 기존 발생일 11월 3일 확정 표시를 해제하고 보도일 기준으로 정정했습니다. 같은 담화 ID와 이전 기록을 보존하며 반박 내용을 새 사건으로 세지 않습니다."
+        },
+        {
+          "at": "2026-11-04T03:26:30Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 11월 4일 06:32 JTBC 보도의 실제 본문을 확인해, 11월 3일 후속 담화의 대미 대화 조건 관련 발언을 기존 반박 사안에 연결했습니다. 첫 담화의 작성·공개 시점 불확실성은 유지하며 보도일을 새 해킹 발생일이나 후속 담화 발생일로 바꾸지 않습니다."
         }
       ]
     },
@@ -2489,6 +2520,22 @@
   ],
   "changes": [
     {
+      "id": "c-d59f780401b5aeac7493",
+      "event_id": "dprk-kim-yo-jong-binance-response-20261103",
+      "at": "2026-11-04T03:26:30Z",
+      "type": "update",
+      "title": "김여정, 해킹 배후 지목 반박…후속 담화서 대미 대화 입장 표명",
+      "text": "Codex 정기 원문 검토: 11월 4일 06:32 JTBC 보도의 실제 본문을 확인해, 11월 3일 후속 담화의 대미 대화 조건 관련 발언을 기존 반박 사안에 연결했습니다. 첫 담화의 작성·공개 시점 불확실성은 유지하며 보도일을 새 해킹 발생일이나 후속 담화 발생일로 바꾸지 않습니다."
+    },
+    {
+      "id": "c-1f5a1a114d9530b98434",
+      "event_id": "dprk-launch-20261104",
+      "at": "2026-11-04T03:26:29Z",
+      "type": "update",
+      "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+      "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
+    },
+    {
       "id": "c-9db4625af9dd84139d37",
       "event_id": "dprk-launch-20261104",
       "at": "2026-11-04T01:27:02Z",
@@ -2977,26 +3024,6 @@
       "status": "reviewed"
     },
     {
-      "id": "doc-1d25e7d09c4f4186b681",
-      "title": "お知らせ（速報）｜令和8年10月12日（月）09:23",
-      "url": "https://www.mod.go.jp/j/press/news/2026/10/12a.html",
-      "source_name": "일본 방위성 · 북한 미사일 발표",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-bf1797cbb81f0c835c54",
-      "title": "お知らせ（ミサイル落下推定情報）｜令和8年10月12日（月）09:29",
-      "url": "https://www.mod.go.jp/j/press/news/2026/10/12b.html",
-      "source_name": "일본 방위성 · 북한 미사일 발표",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "pending"
-    },
-    {
       "id": "doc-135bd8224dcda2041aef",
       "title": "お知らせ（続報）｜令和8年10月12日（月）12:21",
       "url": "https://www.mod.go.jp/j/press/news/2026/10/12e.html",
@@ -3035,26 +3062,6 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-01T09:28:30Z",
       "status": "held"
-    },
-    {
-      "id": "doc-4602d7f55dd4af2fb449",
-      "title": "한-캐나다 외교장관통화(10.7.) 결과",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784493",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-06T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-611a38cfff82a86051e8",
-      "title": "외교전략정보본부장, 국제원자력기구(IAEA) 사무차장 접견(10.7.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784488",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-06T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "pending"
     },
     {
       "id": "doc-3a5dac34144c8d27dac9",
@@ -3125,17 +3132,57 @@
       "published_precision": "minute",
       "first_seen_at": "2026-11-01T07:20:34Z",
       "status": "pending"
+    },
+    {
+      "id": "doc-cfbe0689163ce5342cea",
+      "title": "Brunson Pays Tribute to Fallen Service Members During Gold Star Mothers Ceremony",
+      "url": "https://www.dvidshub.net/news/575846/brunson-pays-tribute-fallen-service-members-during-gold-star-mothers-ceremony",
+      "source_name": "주한미군 공식 발표 · DVIDS",
+      "published_at": "2026-09-29T04:40:32Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-01T07:20:34Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-0980bd405b22a933ad5a",
+      "title": "Feb 20 Press Release Regarding the FY 2025 Japan–U.S. Joint Integrated Air and Missile Defense (Defensive) Exercise",
+      "url": "https://www.mod.go.jp/js/pdf/2026/p20260220_01e.pdf",
+      "source_name": "일본 방위성 통합막료감부",
+      "published_at": "2026-02-19T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:12:06Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ec96639996457cf172ab",
+      "title": "Jul 16 Press Release United States–Japan-Republic of Korea Trilateral Chiefs of Defense Joint Press Statement",
+      "url": "https://www.mod.go.jp/js/pdf/2026/p20260716_01e.pdf",
+      "source_name": "일본 방위성 통합막료감부",
+      "published_at": "2026-07-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:12:06Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-07933ed385a58e8bb22c",
+      "title": "한-독일 외교장관회담(10.30.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-01T07:10:08Z",
+      "status": "held"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-04T03:17:49+00:00",
+    "as_of": "2026-11-04T03:27:23+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
-    "assessment_summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
+    "assessment_summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
     "brief": {
-      "recent": "검토된 기록 미사일 발사 1건 · 북한 군사 활동 1건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건 (최근 11/4)",
-      "recent_main": "검토된 기록 미사일 발사 1건 · 북한 군사 활동 1건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건",
+      "recent": "검토된 기록 미사일 발사 2건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건 (최근 11/4)",
+      "recent_main": "검토된 기록 미사일 발사 2건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건",
       "recent_note": "(최근 11/4)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 1건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 12건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 12건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -3143,7 +3190,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-04T03:17:47Z",
+          "observed_at": "2026-11-04T03:27:21Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -3151,8 +3198,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-03T03:17:47Z",
-          "window_end": "2026-11-04T03:17:47Z",
+          "window_start": "2026-11-03T03:27:21Z",
+          "window_end": "2026-11-04T03:27:21Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 15건 확인"
@@ -3161,7 +3208,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-04T03:17:46Z",
+          "observed_at": "2026-11-04T03:27:21Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -3179,7 +3226,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-04T03:17:03Z",
+          "observed_at": "2026-11-04T03:26:37Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -3199,32 +3246,32 @@
     "analysis_method": "reviewed_records",
     "lead_event": {
       "id": "dprk-launch-20261104",
-      "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
-      "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
-      "kind": "nonroutine_military",
+      "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+      "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
+      "kind": "missile_test",
       "military_actor": "north_korea",
       "occurred_at": "2026-11-03T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-11-04T00:54:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-04T01:27:02Z",
+      "updated_at": "2026-11-04T03:26:29Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": true,
       "unknowns": [
-        "발사체가 탄도미사일인지, 순항미사일인지 또는 다른 종류인지는 이 원문들로 확인되지 않았습니다. 현재는 북한 군사 활동으로 분류하며 미사일 종류가 확인되면 같은 기록을 수정합니다.",
-        "발생은 11월 4일 오전까지만 확인했습니다. 기사 게시 시각을 발사 시각으로 사용하지 않습니다.",
-        "발사 수량, 정확한 발사 원점·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다. 지도에 임의 좌표를 넣지 않습니다.",
-        "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 독립 검증을 뜻하지 않습니다.",
-        "기사에 배경으로 소개된 10월 31일 시험은 별개의 과거 사건입니다. 사진 설명만으로 이번 발사체 종류를 확정하지 않습니다."
+        "미사일 여러 발이라는 합참 인용 보도를 확인했습니다. 탄도·순항 등 세부 종류와 기종, 정확한 발사 수량은 아직 확인되지 않았습니다.",
+        "발생은 11월 4일 오전까지만 확인했습니다. 최초 보도 09:54와 후속 수정 12:01은 발사 시각이 아닙니다.",
+        "선덕 일대라는 지역명만 확인했습니다. 정확한 발사 원점·좌표·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다.",
+        "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 여러 기사를 독립 확인 횟수로 세지 않습니다.",
+        "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "notable",
       "sources": [
         {
-          "name": "JTBC · 합참 인용 속보",
+          "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
           "url": "https://news.jtbc.co.kr/article/NB12326354",
           "published_at": "2026-11-04T00:54:00Z",
           "published_precision": "minute"
@@ -3244,25 +3291,25 @@
       ],
       "facts": [
         {
-          "text": "SBS는 합참 발표를 인용해 북한의 동해 방향 발사가 11월 4일 오전에 있었다고 보도했습니다.",
+          "text": "JTBC는 합참을 인용해 11월 4일 오전 북한 선덕 일대에서 동해 방향으로 발사된 미사일 여러 발을 군이 포착했다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         },
         {
-          "text": "SBS 후속 보도는 발사체의 종류를 미상으로 전하고, 군이 제원과 사거리를 분석 중이라고 설명했습니다.",
+          "text": "같은 보도에 따르면 합참은 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원을 정밀 분석 중이라고 설명했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         },
         {
-          "text": "JTBC와 SBS 속보도 합참을 인용해 같은 동해 방향 발사 소식을 전했습니다. 여러 기사를 별개의 발사나 독립 확인으로 세지 않습니다.",
+          "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.jtbc.co.kr/article/NB12326354",
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755"
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
+            "https://news.jtbc.co.kr/article/NB12326354"
           ]
         }
       ],
@@ -3272,38 +3319,43 @@
           "at": "2026-11-04T01:27:02Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
+        },
+        {
+          "at": "2026-11-04T03:26:29Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
         }
       ]
     },
     "ordered_events": [
       {
         "id": "dprk-launch-20261104",
-        "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
-        "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
-        "kind": "nonroutine_military",
+        "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+        "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
+        "kind": "missile_test",
         "military_actor": "north_korea",
         "occurred_at": "2026-11-03T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-11-04T00:54:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-04T01:27:02Z",
+        "updated_at": "2026-11-04T03:26:29Z",
         "status": "reported",
         "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": true,
         "unknowns": [
-          "발사체가 탄도미사일인지, 순항미사일인지 또는 다른 종류인지는 이 원문들로 확인되지 않았습니다. 현재는 북한 군사 활동으로 분류하며 미사일 종류가 확인되면 같은 기록을 수정합니다.",
-          "발생은 11월 4일 오전까지만 확인했습니다. 기사 게시 시각을 발사 시각으로 사용하지 않습니다.",
-          "발사 수량, 정확한 발사 원점·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다. 지도에 임의 좌표를 넣지 않습니다.",
-          "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 독립 검증을 뜻하지 않습니다.",
-          "기사에 배경으로 소개된 10월 31일 시험은 별개의 과거 사건입니다. 사진 설명만으로 이번 발사체 종류를 확정하지 않습니다."
+          "미사일 여러 발이라는 합참 인용 보도를 확인했습니다. 탄도·순항 등 세부 종류와 기종, 정확한 발사 수량은 아직 확인되지 않았습니다.",
+          "발생은 11월 4일 오전까지만 확인했습니다. 최초 보도 09:54와 후속 수정 12:01은 발사 시각이 아닙니다.",
+          "선덕 일대라는 지역명만 확인했습니다. 정확한 발사 원점·좌표·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다.",
+          "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 여러 기사를 독립 확인 횟수로 세지 않습니다.",
+          "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "notable",
         "sources": [
           {
-            "name": "JTBC · 합참 인용 속보",
+            "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
             "url": "https://news.jtbc.co.kr/article/NB12326354",
             "published_at": "2026-11-04T00:54:00Z",
             "published_precision": "minute"
@@ -3323,25 +3375,25 @@
         ],
         "facts": [
           {
-            "text": "SBS는 합참 발표를 인용해 북한의 동해 방향 발사가 11월 4일 오전에 있었다고 보도했습니다.",
+            "text": "JTBC는 합참을 인용해 11월 4일 오전 북한 선덕 일대에서 동해 방향으로 발사된 미사일 여러 발을 군이 포착했다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           },
           {
-            "text": "SBS 후속 보도는 발사체의 종류를 미상으로 전하고, 군이 제원과 사거리를 분석 중이라고 설명했습니다.",
+            "text": "같은 보도에 따르면 합참은 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원을 정밀 분석 중이라고 설명했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           },
           {
-            "text": "JTBC와 SBS 속보도 합참을 인용해 같은 동해 방향 발사 소식을 전했습니다. 여러 기사를 별개의 발사나 독립 확인으로 세지 않습니다.",
+            "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326354",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755"
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           }
         ],
@@ -3351,33 +3403,39 @@
             "at": "2026-11-04T01:27:02Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
+          },
+          {
+            "at": "2026-11-04T03:26:29Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
           }
         ]
       },
       {
         "id": "dprk-kim-yo-jong-binance-response-20261103",
-        "title": "김여정, 바이낸스 해킹 북한 배후 지목에 반박 담화",
-        "summary": "11월 3일 보도들은 김여정이 FBI의 바이낸스 해킹 북한 배후 지목을 반박한 담화를 전했습니다. 담화의 표기 날짜와 공개 시점에 관한 보도 표현이 달라 정확한 발표일은 확정하지 않고 보도 시각을 표시합니다. 새 해킹 발생 기록은 아닙니다.",
+        "title": "김여정, 해킹 배후 지목 반박…후속 담화서 대미 대화 입장 표명",
+        "summary": "11월 3일 보도들은 김여정이 바이낸스 해킹의 북한 배후 지목을 반박했다고 전했습니다. 이어 JTBC의 11월 4일 보도는 김여정이 3일 후속 담화를 내고, 미국의 적대시 정책 포기가 대화의 전제라는 입장을 밝혔다고 전했습니다. 같은 반박 사안의 후속으로 연결하며 새 해킹이나 협상 중단이 확인된 것으로 해석하지 않습니다.",
         "kind": "official_statement",
         "military_actor": "unknown",
         "occurred_at": null,
         "time_precision": "unknown",
         "reported_at": "2026-11-02T22:11:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-03T18:31:53Z",
+        "updated_at": "2026-11-04T03:26:30Z",
         "status": "reported",
         "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "북한 담화 원문을 확보하지 못했습니다. 11월 2일자 담화와 3일 새벽 발표라는 표현은 작성·공개·보도 시점의 차이일 수 있어, 서로 모순된다고 단정하지 않으며 정확한 작성·공개 시점을 확정하지 않습니다.",
+          "첫 담화의 북한 원문은 확보하지 못했습니다. 11월 2일자 담화와 3일 새벽 발표라는 표현은 작성·공개·보도 시점의 차이일 수 있어, 서로 모순된다고 단정하지 않으며 정확한 작성·공개 시점을 확정하지 않습니다.",
           "FBI 원문은 직접 확인했습니다. FBI의 북한 배후 지목과 북한의 반박은 상충하는 입장으로, 이 사이트가 실제 실행 주체를 독립 검증했다는 뜻은 아닙니다.",
           "FBI 원문은 탈취 시점을 10월 29일 전후로 표현합니다. 정확한 사건 시각을 확정하거나 11월 3일의 새 공격으로 세지 않습니다.",
           "FBI 출처의 10월 31일은 웹페이지에 표시된 날짜입니다. 원문에 게시 시각·시간대가 없어 한국 시각의 정확한 발표 시점을 확정하지 않습니다.",
           "SBS 기사의 전문가 해석을 근거로 북미 대화 의도, 미국 개입 여부, 대미정책 변경을 확정하지 않습니다.",
-          "발표·보도 시각은 이번에 대조한 기사 가운데 먼저 게시된 뉴스핌의 11월 3일 07:11입니다. 담화가 실제 공개된 정확한 시각이나 최초 보도 시각을 뜻하지 않습니다."
+          "발표·보도 시각은 이번에 대조한 기사 가운데 먼저 게시된 뉴스핌의 11월 3일 07:11입니다. 담화가 실제 공개된 정확한 시각이나 최초 보도 시각을 뜻하지 않습니다.",
+          "후속 담화의 날짜 11월 3일은 JTBC가 전한 조선중앙통신 보도에 따른 것입니다. 후속 담화 원문과 정확한 공개 시각은 확보하지 못했으며, 예정된 회담의 취소나 모든 대화의 영구 중단이 확인된 것은 아닙니다."
         ],
-        "revision": 2,
+        "revision": 3,
         "why_it_matters": "",
         "significance": "notable",
         "sources": [
@@ -3404,6 +3462,12 @@
             "url": "https://www.seoul.co.kr/news/politics/north/2026/11/03/20261103500279",
             "published_at": "2026-11-03T08:03:58Z",
             "published_precision": "minute"
+          },
+          {
+            "name": "JTBC · 조선중앙통신 인용 후속 담화 보도",
+            "url": "https://news.jtbc.co.kr/article/NB12326335",
+            "published_at": "2026-11-03T21:32:00Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
@@ -3429,6 +3493,20 @@
               "https://www.seoul.co.kr/news/politics/north/2026/11/03/20261103500279",
               "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829060"
             ]
+          },
+          {
+            "text": "JTBC는 11월 4일 조선중앙통신 보도를 인용해 김여정이 11월 3일 바이낸스 사태와 관련한 후속 담화를 냈다고 전했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.jtbc.co.kr/article/NB12326335"
+            ]
+          },
+          {
+            "text": "같은 보도에 따르면 김여정은 미국의 대북 적대시 정책 포기가 문제 해결의 전제라며, 그런 정책을 유지하는 상대와 대화할 필요가 없다는 입장을 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.jtbc.co.kr/article/NB12326335"
+            ]
           }
         ],
         "location": null,
@@ -3442,6 +3520,11 @@
             "at": "2026-11-03T18:31:53Z",
             "type": "correction",
             "text": "Codex 정기 원문 검토: 뉴스핌의 11월 2일자 담화, 서울신문의 2일 발표, SBS의 3일 새벽 발표 표현을 대조했습니다. 기존 발생일 11월 3일 확정 표시를 해제하고 보도일 기준으로 정정했습니다. 같은 담화 ID와 이전 기록을 보존하며 반박 내용을 새 사건으로 세지 않습니다."
+          },
+          {
+            "at": "2026-11-04T03:26:30Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 11월 4일 06:32 JTBC 보도의 실제 본문을 확인해, 11월 3일 후속 담화의 대미 대화 조건 관련 발언을 기존 반박 사안에 연결했습니다. 첫 담화의 작성·공개 시점 불확실성은 유지하며 보도일을 새 해킹 발생일이나 후속 담화 발생일로 바꾸지 않습니다."
           }
         ]
       },
@@ -5805,7 +5888,7 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 4,
-      "changes_24h": 30,
+      "changes_24h": 32,
       "corrections_24h": 1,
       "active_major": 5
     },
@@ -5859,14 +5942,14 @@
           {
             "key": "missile",
             "label": "미사일 발사",
-            "current": 3,
+            "current": 4,
             "previous": 0,
             "delta": null
           },
           {
             "key": "military_north",
             "label": "북한 군사 활동",
-            "current": 1,
+            "current": 0,
             "previous": 0,
             "delta": null
           },
@@ -6078,14 +6161,14 @@
           {
             "key": "missile",
             "label": "미사일 발사",
-            "current": 4,
+            "current": 5,
             "previous": 1,
             "delta": null
           },
           {
             "key": "military_north",
             "label": "북한 군사 활동",
-            "current": 1,
+            "current": 0,
             "previous": 0,
             "delta": null
           },
@@ -6135,6 +6218,28 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-d59f780401b5aeac7493",
+        "event_id": "dprk-kim-yo-jong-binance-response-20261103",
+        "at": "2026-11-04T03:26:30Z",
+        "type": "update",
+        "title": "김여정, 해킹 배후 지목 반박…후속 담화서 대미 대화 입장 표명",
+        "text": "Codex 정기 원문 검토: 11월 4일 06:32 JTBC 보도의 실제 본문을 확인해, 11월 3일 후속 담화의 대미 대화 조건 관련 발언을 기존 반박 사안에 연결했습니다. 첫 담화의 작성·공개 시점 불확실성은 유지하며 보도일을 새 해킹 발생일이나 후속 담화 발생일로 바꾸지 않습니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.11.03 07:11 KST · 발표·게시 시각",
+        "registration_kind": null
+      },
+      {
+        "id": "c-1f5a1a114d9530b98434",
+        "event_id": "dprk-launch-20261104",
+        "at": "2026-11-04T03:26:29Z",
+        "type": "update",
+        "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+        "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.11.04 · 발생일",
+        "registration_kind": null
+      },
       {
         "id": "c-9db4625af9dd84139d37",
         "event_id": "dprk-launch-20261104",
@@ -6771,32 +6876,32 @@
       },
       {
         "id": "dprk-launch-20261104",
-        "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
-        "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
-        "kind": "nonroutine_military",
+        "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+        "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
+        "kind": "missile_test",
         "military_actor": "north_korea",
         "occurred_at": "2026-11-03T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-11-04T00:54:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-04T01:27:02Z",
+        "updated_at": "2026-11-04T03:26:29Z",
         "status": "reported",
         "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": true,
         "unknowns": [
-          "발사체가 탄도미사일인지, 순항미사일인지 또는 다른 종류인지는 이 원문들로 확인되지 않았습니다. 현재는 북한 군사 활동으로 분류하며 미사일 종류가 확인되면 같은 기록을 수정합니다.",
-          "발생은 11월 4일 오전까지만 확인했습니다. 기사 게시 시각을 발사 시각으로 사용하지 않습니다.",
-          "발사 수량, 정확한 발사 원점·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다. 지도에 임의 좌표를 넣지 않습니다.",
-          "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 독립 검증을 뜻하지 않습니다.",
-          "기사에 배경으로 소개된 10월 31일 시험은 별개의 과거 사건입니다. 사진 설명만으로 이번 발사체 종류를 확정하지 않습니다."
+          "미사일 여러 발이라는 합참 인용 보도를 확인했습니다. 탄도·순항 등 세부 종류와 기종, 정확한 발사 수량은 아직 확인되지 않았습니다.",
+          "발생은 11월 4일 오전까지만 확인했습니다. 최초 보도 09:54와 후속 수정 12:01은 발사 시각이 아닙니다.",
+          "선덕 일대라는 지역명만 확인했습니다. 정확한 발사 원점·좌표·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다.",
+          "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 여러 기사를 독립 확인 횟수로 세지 않습니다.",
+          "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "notable",
         "sources": [
           {
-            "name": "JTBC · 합참 인용 속보",
+            "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
             "url": "https://news.jtbc.co.kr/article/NB12326354",
             "published_at": "2026-11-04T00:54:00Z",
             "published_precision": "minute"
@@ -6816,25 +6921,25 @@
         ],
         "facts": [
           {
-            "text": "SBS는 합참 발표를 인용해 북한의 동해 방향 발사가 11월 4일 오전에 있었다고 보도했습니다.",
+            "text": "JTBC는 합참을 인용해 11월 4일 오전 북한 선덕 일대에서 동해 방향으로 발사된 미사일 여러 발을 군이 포착했다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           },
           {
-            "text": "SBS 후속 보도는 발사체의 종류를 미상으로 전하고, 군이 제원과 사거리를 분석 중이라고 설명했습니다.",
+            "text": "같은 보도에 따르면 합참은 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원을 정밀 분석 중이라고 설명했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           },
           {
-            "text": "JTBC와 SBS 속보도 합참을 인용해 같은 동해 방향 발사 소식을 전했습니다. 여러 기사를 별개의 발사나 독립 확인으로 세지 않습니다.",
+            "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326354",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755"
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
+              "https://news.jtbc.co.kr/article/NB12326354"
             ]
           }
         ],
@@ -6844,6 +6949,11 @@
             "at": "2026-11-04T01:27:02Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
+          },
+          {
+            "at": "2026-11-04T03:26:29Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
           }
         ]
       }
@@ -6853,9 +6963,10 @@
       {
         "key": "missile",
         "label": "미사일 발사",
-        "title": "북한, 11월 2일 순항미사일 시험 주장…합참 분석 중",
-        "text": "헤럴드경제는 11월 3일 북한 발표를 인용해 전날 순항미사일 시험을 했다고 보도했습니다. 합참은 이날 공식 브리핑에서 한미가 관련 동향을 정밀 분석 중이며 특정 발사체의 포착 여부는 공개하지 않겠다고 답했습니다. 한국군이 북한의 시험 내용이나 성능을 확인한 것으로 해석하지 않습니다.",
+        "title": "북한, 11월 4일 선덕 일대서 미사일 여러 발 발사",
+        "text": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
         "event_ids": [
+          "dprk-launch-20261104",
           "dprk-cruise-test-claim-20261102",
           "dprk-launch-20261031",
           "dprk-launch-20261029"
@@ -6865,12 +6976,10 @@
       {
         "key": "military_north",
         "label": "북한 군사 활동",
-        "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
-        "text": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
-        "event_ids": [
-          "dprk-launch-20261104"
-        ],
-        "state": "ongoing"
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
       },
       {
         "key": "military_south",
@@ -6903,8 +7012,8 @@
       {
         "key": "statement",
         "label": "공식 발언·조치",
-        "title": "김여정, 바이낸스 해킹 북한 배후 지목에 반박 담화",
-        "text": "11월 3일 보도들은 김여정이 FBI의 바이낸스 해킹 북한 배후 지목을 반박한 담화를 전했습니다. 담화의 표기 날짜와 공개 시점에 관한 보도 표현이 달라 정확한 발표일은 확정하지 않고 보도 시각을 표시합니다. 새 해킹 발생 기록은 아닙니다.",
+        "title": "김여정, 해킹 배후 지목 반박…후속 담화서 대미 대화 입장 표명",
+        "text": "11월 3일 보도들은 김여정이 바이낸스 해킹의 북한 배후 지목을 반박했다고 전했습니다. 이어 JTBC의 11월 4일 보도는 김여정이 3일 후속 담화를 내고, 미국의 적대시 정책 포기가 대화의 전제라는 입장을 밝혔다고 전했습니다. 같은 반박 사안의 후속으로 연결하며 새 해킹이나 협상 중단이 확인된 것으로 해석하지 않습니다.",
         "event_ids": [
           "dprk-kim-yo-jong-binance-response-20261103",
           "rok-seo-hui-launch-announcement-20261103",
@@ -6952,7 +7061,7 @@
       }
     ],
     "event_categories": {
-      "dprk-launch-20261104": "military_north",
+      "dprk-launch-20261104": "missile",
       "dprk-kim-yo-jong-binance-response-20261103": "statement",
       "rok-seo-hui-launch-announcement-20261103": "statement",
       "rok-presidential-flight-data-leak-inquiry-20261103": "statement",
@@ -6987,9 +7096,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-04T03:17:47+00:00"
+    "last_attempt_at": "2026-11-04T03:27:21+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-04T03:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-04T03:26:37Z"
 }
