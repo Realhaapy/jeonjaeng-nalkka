@@ -1,0 +1,64 @@
+{
+  "id": "rok-counterterror-joint-training-20261102",
+  "title": "군·경찰·해경, 11월 2~4일 포항서 대테러 합동훈련",
+  "summary": "국무조정실 대테러센터는 군·경찰·해경 소속 23개 부대가 11월 2~4일 포항에서 대테러 합동훈련을 실시했다고 4일 발표했습니다. 사격훈련과 기관 간 협조 절차를 점검한 한국 측 훈련 기록입니다.",
+  "kind": "exercise",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-01T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-03T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-04T09:31:57Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "ended",
+  "important": false,
+  "unknowns": [
+    "발생일은 훈련 시작일인 11월 2일이며 전체 기간은 2~4일입니다. 정확한 시작·종료 시각은 확인되지 않아 일 단위로 표시합니다.",
+    "웹 게시일은 11월 4일입니다. 첨부에 적힌 배포 시각 15:00을 웹 게시 시각으로 단정하지 않습니다.",
+    "공식 발표와 같은 자료의 첨부를 확인했습니다. 독립적인 현장 검증이나 별개 출처 두 곳의 확인을 뜻하지 않습니다.",
+    "한국 측 훈련으로 분류하며 북한 군사활동이나 군 사망·사고로 세지 않습니다. 특정 북한 행동에 대한 대응 강화로 판단할 근거는 확인하지 못했습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국무조정실 대테러센터 · 11월 4일 보도자료",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787943",
+      "published_at": "2026-11-03T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국무조정실 대테러센터 · 공식 보도자료 첨부",
+      "url": "https://www.korea.kr/common/download.do?fileId=198584124&tblKey=GMN",
+      "published_at": "2026-11-03T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국무조정실 대테러센터는 경찰청·해양경찰청·국방부 소속 23개 부대가 11월 2일부터 4일까지 경북 포항에서 합동훈련을 실시했다고 발표했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787943",
+        "https://www.korea.kr/common/download.do?fileId=198584124&tblKey=GMN"
+      ]
+    },
+    {
+      "text": "발표에 따르면 참가자들은 사격훈련을 진행하고 기관 간 협조 절차를 점검했다. 실제 테러나 교전 발생을 알리는 발표는 아니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/common/download.do?fileId=198584124&tblKey=GMN"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-04T09:31:57Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 11월 4일 국무조정실 발표와 공공누리 제1유형 공식 첨부를 대조해 11월 2~4일 실시한 훈련을 등록했습니다. 발생 기준은 시작일 11월 2일이며 게시·등록일과 구분합니다. 실제 테러나 새로운 사상자 발생으로 집계하지 않습니다."
+    }
+  ]
+}
