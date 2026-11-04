@@ -1,0 +1,67 @@
+{
+  "id": "dprk-nampo-shipyard-visit-20261102",
+  "title": "김정은, 11월 2일 남포조선소 시찰…함정 건조 점검 보도",
+  "summary": "11월 4일 연합뉴스와 뉴스토마토는 조선중앙통신을 인용해 김정은이 2일 남포조선소에서 현대화 사업과 신형 함정 건조 현황을 점검했다고 전했습니다. 조선소 현대화 지시와 관련한 보도로 기록하며, 함정의 완성·실전 배치를 확인한 것은 아닙니다.",
+  "kind": "official_statement",
+  "military_actor": "north_korea",
+  "occurred_at": "2026-11-01T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-03T22:40:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-04T15:28:30Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "발생일은 보도에서 전한 시찰일 11월 2일입니다. 정확한 시찰 시각은 확인되지 않았으며 11월 4일 보도·11월 5일 사이트 등록과 구분합니다.",
+    "조선중앙통신의 직접 원문은 확보하지 못했습니다. 두 매체가 같은 북한 발표를 인용하므로 독립 검증 두 건으로 세지 않습니다.",
+    "함종·배수량·무장·작전능력과 완성·진수·배치 시점은 확인되지 않았습니다. 1만톤급 순양함이라는 전문가 추정을 확정 제원으로 등록하지 않습니다.",
+    "생산능력 확충은 북한이 보도한 지시입니다. 실제 공정 진척이나 능력 향상을 독립적으로 확인한 것은 아닙니다.",
+    "남포조선소라는 공개 장소명만 확인했습니다. 정확한 시설 좌표를 추정해 지도에 표시하지 않습니다.",
+    "시찰과 발언을 공식 발언·조치 기록으로 분류합니다. 새로운 미사일 발사·군사 충돌·전쟁 위험 상승으로 세지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "연합뉴스 · 조선중앙통신 인용",
+      "url": "https://www.yna.co.kr/view/AKR20261104017500504",
+      "published_at": "2026-11-03T22:40:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "뉴스토마토 · 조선중앙통신 인용",
+      "url": "https://www.newstomato.com/ReadNews.aspx?no=1319177",
+      "published_at": "2026-11-04T00:46:01Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "연합뉴스와 뉴스토마토는 조선중앙통신의 11월 4일 보도를 인용해 김정은이 11월 2일 남포조선소를 방문하고 현대화 사업 및 신형 함정 건조 현황을 점검했다고 전했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261104017500504",
+        "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+      ]
+    },
+    {
+      "text": "두 보도에 따르면 김정은은 생산공정 자동화와 지상도크 추가 건설 등 조선소 현대화를 주문했다. 이는 보도된 지시이며 공사 완료나 새 함정 배치 확인과는 구분한다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261104017500504",
+        "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-04T15:28:30Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 11월 4일 연합뉴스·뉴스토마토 본문에서 조선중앙통신이 전한 11월 2일 남포조선소 시찰과 현대화 지시를 대조해 소급 등록했습니다. 시찰일·보도일·등록일을 분리하고, 과거 기록 추가로 표시합니다. 함정 제원 추정과 실제 전력화 완료는 확인 사실로 채택하지 않았습니다."
+    }
+  ]
+}

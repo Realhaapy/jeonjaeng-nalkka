@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-04T15:17:04Z",
-  "generated_at": "2026-11-04T15:17:53+00:00",
-  "release_id": "r-07f3e629b025e596",
-  "snapshot_id": "s-44dcc39c3aeca7b7",
+  "collection_checked_at": "2026-11-04T15:28:39Z",
+  "generated_at": "2026-11-04T15:29:24+00:00",
+  "release_id": "r-1927d9e9ca47dd05",
+  "snapshot_id": "s-67dcf1ca14239d22",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "11월 4일 오전 북한 선덕 일대에서 동해 방향으로 미사일 여러 발이 발사됐다는 합참 인용 보도입니다. JTBC는 이날 저녁 사거리 300km 미만·2~10발 범위를 보도했으나, 세부 종류와 제원은 분석 중이라고 전했습니다. 해당 수치는 보도된 범위이며 확정된 정확한 수량·제원으로 표시하지 않습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:04Z",
-      "last_success_at": "2026-11-04T15:17:04Z",
-      "coverage_at": "2026-11-04T15:17:04Z",
+      "checked_at": "2026-11-04T15:28:39Z",
+      "last_success_at": "2026-11-04T15:28:39Z",
+      "coverage_at": "2026-11-04T15:28:39Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:05Z",
-      "last_success_at": "2026-11-04T15:17:05Z",
+      "checked_at": "2026-11-04T15:28:39Z",
+      "last_success_at": "2026-11-04T15:28:39Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:47Z",
-      "last_success_at": "2026-11-04T15:17:47Z",
-      "coverage_at": "2026-11-04T15:17:47Z",
+      "checked_at": "2026-11-04T15:29:18Z",
+      "last_success_at": "2026-11-04T15:29:18Z",
+      "coverage_at": "2026-11-04T15:29:18Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:49Z",
-      "last_success_at": "2026-11-04T15:17:49Z",
-      "coverage_at": "2026-11-04T15:17:49Z",
+      "checked_at": "2026-11-04T15:29:21Z",
+      "last_success_at": "2026-11-04T15:29:21Z",
+      "coverage_at": "2026-11-04T15:29:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:49Z",
-      "last_success_at": "2026-11-04T15:17:49Z",
-      "coverage_at": "2026-11-04T15:17:49Z",
+      "checked_at": "2026-11-04T15:29:21Z",
+      "last_success_at": "2026-11-04T15:29:21Z",
+      "coverage_at": "2026-11-04T15:29:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:50Z",
-      "last_success_at": "2026-11-04T15:17:50Z",
-      "coverage_at": "2026-11-04T15:17:50Z",
+      "checked_at": "2026-11-04T15:29:21Z",
+      "last_success_at": "2026-11-04T15:29:21Z",
+      "coverage_at": "2026-11-04T15:29:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:50Z",
-      "last_success_at": "2026-11-04T15:17:50Z",
-      "coverage_at": "2026-11-04T15:17:50Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "coverage_at": "2026-11-04T15:29:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:50Z",
-      "last_success_at": "2026-11-04T15:17:50Z",
-      "coverage_at": "2026-11-04T15:17:50Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "coverage_at": "2026-11-04T15:29:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:51Z",
-      "last_success_at": "2026-11-04T15:17:51Z",
-      "coverage_at": "2026-11-04T15:17:51Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "coverage_at": "2026-11-04T15:29:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:40Z",
-      "last_success_at": "2026-11-04T15:17:40Z",
-      "coverage_at": "2026-11-04T15:17:40Z",
+      "checked_at": "2026-11-04T15:29:12Z",
+      "last_success_at": "2026-11-04T15:29:12Z",
+      "coverage_at": "2026-11-04T15:29:12Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:50Z",
-      "last_success_at": "2026-11-04T15:17:50Z",
-      "coverage_at": "2026-11-04T15:17:50Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "coverage_at": "2026-11-04T15:29:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:04Z",
-      "last_success_at": "2026-11-04T15:17:04Z",
-      "observed_at": "2026-11-04T15:17:04Z",
+      "checked_at": "2026-11-04T15:28:39Z",
+      "last_success_at": "2026-11-04T15:28:39Z",
+      "observed_at": "2026-11-04T15:28:39Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:50Z",
-      "last_success_at": "2026-11-04T15:17:50Z",
-      "observed_at": "2026-11-04T15:17:50Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "observed_at": "2026-11-04T15:29:22Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T15:17:51Z",
-      "last_success_at": "2026-11-04T15:17:51Z",
-      "observed_at": "2026-11-04T15:17:51Z",
+      "checked_at": "2026-11-04T15:29:22Z",
+      "last_success_at": "2026-11-04T15:29:22Z",
+      "observed_at": "2026-11-04T15:29:22Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-03T15:17:51Z",
-        "window_end": "2026-11-04T15:17:51Z",
+        "window_start": "2026-11-03T15:29:22Z",
+        "window_end": "2026-11-04T15:29:22Z",
         "total_count": 12,
         "matched_count": 0,
         "complete": true,
@@ -772,6 +772,73 @@
           "at": "2026-11-03T12:35:22Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 김정식 명의의 담화를 인용한 JTBC 원문과 게시일을 확인해 공식 발언 기록으로 등록했습니다. 담화 발표 시각은 미상으로 두며, 과거 미사일 시험 언급을 새 발사로 세지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "dprk-nampo-shipyard-visit-20261102",
+      "title": "김정은, 11월 2일 남포조선소 시찰…함정 건조 점검 보도",
+      "summary": "11월 4일 연합뉴스와 뉴스토마토는 조선중앙통신을 인용해 김정은이 2일 남포조선소에서 현대화 사업과 신형 함정 건조 현황을 점검했다고 전했습니다. 조선소 현대화 지시와 관련한 보도로 기록하며, 함정의 완성·실전 배치를 확인한 것은 아닙니다.",
+      "kind": "official_statement",
+      "military_actor": "north_korea",
+      "occurred_at": "2026-11-01T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-03T22:40:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-04T15:28:30Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "발생일은 보도에서 전한 시찰일 11월 2일입니다. 정확한 시찰 시각은 확인되지 않았으며 11월 4일 보도·11월 5일 사이트 등록과 구분합니다.",
+        "조선중앙통신의 직접 원문은 확보하지 못했습니다. 두 매체가 같은 북한 발표를 인용하므로 독립 검증 두 건으로 세지 않습니다.",
+        "함종·배수량·무장·작전능력과 완성·진수·배치 시점은 확인되지 않았습니다. 1만톤급 순양함이라는 전문가 추정을 확정 제원으로 등록하지 않습니다.",
+        "생산능력 확충은 북한이 보도한 지시입니다. 실제 공정 진척이나 능력 향상을 독립적으로 확인한 것은 아닙니다.",
+        "남포조선소라는 공개 장소명만 확인했습니다. 정확한 시설 좌표를 추정해 지도에 표시하지 않습니다.",
+        "시찰과 발언을 공식 발언·조치 기록으로 분류합니다. 새로운 미사일 발사·군사 충돌·전쟁 위험 상승으로 세지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "연합뉴스 · 조선중앙통신 인용",
+          "url": "https://www.yna.co.kr/view/AKR20261104017500504",
+          "published_at": "2026-11-03T22:40:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "뉴스토마토 · 조선중앙통신 인용",
+          "url": "https://www.newstomato.com/ReadNews.aspx?no=1319177",
+          "published_at": "2026-11-04T00:46:01Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "연합뉴스와 뉴스토마토는 조선중앙통신의 11월 4일 보도를 인용해 김정은이 11월 2일 남포조선소를 방문하고 현대화 사업 및 신형 함정 건조 현황을 점검했다고 전했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.yna.co.kr/view/AKR20261104017500504",
+            "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+          ]
+        },
+        {
+          "text": "두 보도에 따르면 김정은은 생산공정 자동화와 지상도크 추가 건설 등 조선소 현대화를 주문했다. 이는 보도된 지시이며 공사 완료나 새 함정 배치 확인과는 구분한다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.yna.co.kr/view/AKR20261104017500504",
+            "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-04T15:28:30Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 11월 4일 연합뉴스·뉴스토마토 본문에서 조선중앙통신이 전한 11월 2일 남포조선소 시찰과 현대화 지시를 대조해 소급 등록했습니다. 시찰일·보도일·등록일을 분리하고, 과거 기록 추가로 표시합니다. 함정 제원 추정과 실제 전력화 완료는 확인 사실로 채택하지 않았습니다."
         }
       ]
     },
@@ -2850,6 +2917,14 @@
   ],
   "changes": [
     {
+      "id": "c-2ec2e8ddb4477e3c8a02",
+      "event_id": "dprk-nampo-shipyard-visit-20261102",
+      "at": "2026-11-04T15:28:30Z",
+      "type": "new",
+      "title": "김정은, 11월 2일 남포조선소 시찰…함정 건조 점검 보도",
+      "text": "Codex 정기 원문 검토: 11월 4일 연합뉴스·뉴스토마토 본문에서 조선중앙통신이 전한 11월 2일 남포조선소 시찰과 현대화 지시를 대조해 소급 등록했습니다. 시찰일·보도일·등록일을 분리하고, 과거 기록 추가로 표시합니다. 함정 제원 추정과 실제 전력화 완료는 확인 사실로 채택하지 않았습니다."
+    },
+    {
       "id": "c-129c28fa6525af34f73d",
       "event_id": "rok-presidential-flight-data-leak-inquiry-20261103",
       "at": "2026-11-04T14:31:53Z",
@@ -3499,14 +3574,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-04T15:17:53+00:00",
+    "as_of": "2026-11-04T15:29:24+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "11월 4일 오전 북한 선덕 일대에서 동해 방향으로 미사일 여러 발이 발사됐다는 합참 인용 보도입니다. JTBC는 이날 저녁 사거리 300km 미만·2~10발 범위를 보도했으나, 세부 종류와 제원은 분석 중이라고 전했습니다. 해당 수치는 보도된 범위이며 확정된 정확한 수량·제원으로 표시하지 않습니다.",
     "brief": {
       "recent": "검토된 기록 미사일 발사 1건 · 한국·연합 군사 활동 1건 · 공식 발언·조치 3건 (최근 11/4)",
       "recent_main": "검토된 기록 미사일 발사 1건 · 한국·연합 군사 활동 1건 · 공식 발언·조치 3건",
       "recent_note": "(최근 11/4)",
-      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 13건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 9건 · 외교 대응 13건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -3514,7 +3589,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-04T15:17:51Z",
+          "observed_at": "2026-11-04T15:29:22Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -3522,8 +3597,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-03T15:17:51Z",
-          "window_end": "2026-11-04T15:17:51Z",
+          "window_start": "2026-11-03T15:29:22Z",
+          "window_end": "2026-11-04T15:29:22Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 12건 확인"
@@ -3532,7 +3607,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-04T15:17:50Z",
+          "observed_at": "2026-11-04T15:29:22Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -3550,7 +3625,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-04T15:17:04Z",
+          "observed_at": "2026-11-04T15:28:39Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4192,6 +4267,73 @@
             "at": "2026-11-03T12:35:22Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 김정식 명의의 담화를 인용한 JTBC 원문과 게시일을 확인해 공식 발언 기록으로 등록했습니다. 담화 발표 시각은 미상으로 두며, 과거 미사일 시험 언급을 새 발사로 세지 않습니다."
+          }
+        ]
+      },
+      {
+        "id": "dprk-nampo-shipyard-visit-20261102",
+        "title": "김정은, 11월 2일 남포조선소 시찰…함정 건조 점검 보도",
+        "summary": "11월 4일 연합뉴스와 뉴스토마토는 조선중앙통신을 인용해 김정은이 2일 남포조선소에서 현대화 사업과 신형 함정 건조 현황을 점검했다고 전했습니다. 조선소 현대화 지시와 관련한 보도로 기록하며, 함정의 완성·실전 배치를 확인한 것은 아닙니다.",
+        "kind": "official_statement",
+        "military_actor": "north_korea",
+        "occurred_at": "2026-11-01T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-03T22:40:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-04T15:28:30Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "발생일은 보도에서 전한 시찰일 11월 2일입니다. 정확한 시찰 시각은 확인되지 않았으며 11월 4일 보도·11월 5일 사이트 등록과 구분합니다.",
+          "조선중앙통신의 직접 원문은 확보하지 못했습니다. 두 매체가 같은 북한 발표를 인용하므로 독립 검증 두 건으로 세지 않습니다.",
+          "함종·배수량·무장·작전능력과 완성·진수·배치 시점은 확인되지 않았습니다. 1만톤급 순양함이라는 전문가 추정을 확정 제원으로 등록하지 않습니다.",
+          "생산능력 확충은 북한이 보도한 지시입니다. 실제 공정 진척이나 능력 향상을 독립적으로 확인한 것은 아닙니다.",
+          "남포조선소라는 공개 장소명만 확인했습니다. 정확한 시설 좌표를 추정해 지도에 표시하지 않습니다.",
+          "시찰과 발언을 공식 발언·조치 기록으로 분류합니다. 새로운 미사일 발사·군사 충돌·전쟁 위험 상승으로 세지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "연합뉴스 · 조선중앙통신 인용",
+            "url": "https://www.yna.co.kr/view/AKR20261104017500504",
+            "published_at": "2026-11-03T22:40:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "뉴스토마토 · 조선중앙통신 인용",
+            "url": "https://www.newstomato.com/ReadNews.aspx?no=1319177",
+            "published_at": "2026-11-04T00:46:01Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "연합뉴스와 뉴스토마토는 조선중앙통신의 11월 4일 보도를 인용해 김정은이 11월 2일 남포조선소를 방문하고 현대화 사업 및 신형 함정 건조 현황을 점검했다고 전했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.yna.co.kr/view/AKR20261104017500504",
+              "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+            ]
+          },
+          {
+            "text": "두 보도에 따르면 김정은은 생산공정 자동화와 지상도크 추가 건설 등 조선소 현대화를 주문했다. 이는 보도된 지시이며 공사 완료나 새 함정 배치 확인과는 구분한다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.yna.co.kr/view/AKR20261104017500504",
+              "https://www.newstomato.com/ReadNews.aspx?no=1319177"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-04T15:28:30Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 11월 4일 연합뉴스·뉴스토마토 본문에서 조선중앙통신이 전한 11월 2일 남포조선소 시찰과 현대화 지시를 대조해 소급 등록했습니다. 시찰일·보도일·등록일을 분리하고, 과거 기록 추가로 표시합니다. 함정 제원 추정과 실제 전력화 완료는 확인 사실로 채택하지 않았습니다."
           }
         ]
       },
@@ -6323,6 +6465,15 @@
         "is_new_record": false,
         "recency_label": ""
       },
+      "dprk-nampo-shipyard-visit-20261102": {
+        "date_label": "2026.11.02 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": true,
+        "registration_kind": "backfill",
+        "first_recorded_at": "2026-11-04T15:28:30+00:00",
+        "is_new_record": true,
+        "recency_label": ""
+      },
       "rok-counterterror-joint-training-20261102": {
         "date_label": "2026.11.02 · 발생일",
         "date_basis": "occurred",
@@ -6446,7 +6597,7 @@
         "is_backfill": true,
         "registration_kind": "backfill",
         "first_recorded_at": "2026-11-03T15:28:02+00:00",
-        "is_new_record": true,
+        "is_new_record": false,
         "recency_label": ""
       },
       "rok-us-defense-talks-20261028": {
@@ -6455,7 +6606,7 @@
         "is_backfill": true,
         "registration_kind": "backfill",
         "first_recorded_at": "2026-11-03T15:28:01+00:00",
-        "is_new_record": true,
+        "is_new_record": false,
         "recency_label": ""
       },
       "rok-philippines-defense-talks-20261028": {
@@ -6588,14 +6739,14 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 1,
-      "changes_24h": 26,
+      "changes_24h": 23,
       "corrections_24h": 1,
       "active_major": 5
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 15,
+        "current": 16,
         "previous": 12,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -6619,7 +6770,7 @@
           },
           {
             "date": "2026-11-02",
-            "count": 6,
+            "count": 7,
             "prior": null
           },
           {
@@ -6677,7 +6828,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 6,
+            "current": 7,
             "previous": 2,
             "delta": null
           },
@@ -6699,7 +6850,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 30,
+        "current": 31,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -6838,7 +6989,7 @@
           },
           {
             "date": "2026-11-02",
-            "count": 6,
+            "count": 7,
             "prior": null
           },
           {
@@ -6896,7 +7047,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 8,
+            "current": 9,
             "previous": 0,
             "delta": null
           },
@@ -6918,6 +7069,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-2ec2e8ddb4477e3c8a02",
+        "event_id": "dprk-nampo-shipyard-visit-20261102",
+        "at": "2026-11-04T15:28:30Z",
+        "type": "new",
+        "title": "김정은, 11월 2일 남포조선소 시찰…함정 건조 점검 보도",
+        "text": "Codex 정기 원문 검토: 11월 4일 연합뉴스·뉴스토마토 본문에서 조선중앙통신이 전한 11월 2일 남포조선소 시찰과 현대화 지시를 대조해 소급 등록했습니다. 시찰일·보도일·등록일을 분리하고, 과거 기록 추가로 표시합니다. 함정 제원 추정과 실제 전력화 완료는 확인 사실로 채택하지 않았습니다.",
+        "display_label": "과거 기록 추가",
+        "event_date_label": "2026.11.02 · 발생일",
+        "registration_kind": "backfill"
+      },
       {
         "id": "c-129c28fa6525af34f73d",
         "event_id": "rok-presidential-flight-data-leak-inquiry-20261103",
@@ -7156,50 +7318,6 @@
         "type": "new",
         "title": "10월 28일 한·필리핀 국방장관회담…국방·방산 협력 확대 협의",
         "text": "Codex 정기 원문 검토: 공식 발표와 실제 발생 날짜를 대조해 과거 기록을 보완했습니다. 등록 날짜를 사건 발생 날짜로 사용하지 않습니다.",
-        "display_label": "과거 기록 추가",
-        "event_date_label": "2026.10.28 · 발생일",
-        "registration_kind": "backfill"
-      },
-      {
-        "id": "c-342aab37da444887d6e0",
-        "event_id": "rok-military-talks-proposal-20261023",
-        "at": "2026-11-03T15:28:03Z",
-        "type": "update",
-        "title": "국방부, 군사분계선 협의 위한 남북 회담 제안",
-        "text": "Codex 정기 원문 검토: 10월 29일 당시 북한의 호응이 없었다는 국방부 후속 답변을 연결했습니다. 현재까지 무응답이라고 확대하지 않고 10월 23일 제안의 발생일을 유지합니다.",
-        "display_label": "후속 내용 추가",
-        "event_date_label": "2026.10.23 · 발생일",
-        "registration_kind": null
-      },
-      {
-        "id": "c-8ef9e3f839c2dc5182bd",
-        "event_id": "dmz-landmine-injuries-20260921",
-        "at": "2026-11-03T15:28:03Z",
-        "type": "update",
-        "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
-        "text": "Codex 정기 원문 검토: 10월 29일 공식 후속 답변을 보완했습니다. 원인 조사 결과와 의도 분석을 구분하고, 질문에 나온 부상 상태를 확인 사실로 옮기지 않았습니다. 9월 사고의 발생일은 유지합니다.",
-        "display_label": "후속 내용 추가",
-        "event_date_label": "2026.09.21 · 발생일",
-        "registration_kind": null
-      },
-      {
-        "id": "c-e9411a844c08bd070f30",
-        "event_id": "jcs-mdl-activity-briefing-20261029",
-        "at": "2026-11-03T15:28:02Z",
-        "type": "new",
-        "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
-        "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다.",
-        "display_label": "과거 기록 추가",
-        "event_date_label": "2026.10.29 · 발생일",
-        "registration_kind": "backfill"
-      },
-      {
-        "id": "c-ae18541dbfcafce4f653",
-        "event_id": "rok-us-defense-talks-20261028",
-        "at": "2026-11-03T15:28:01Z",
-        "type": "new",
-        "title": "10월 28일 한미 국방장관회담…12월 협의·2027년 초 SCM 계획",
-        "text": "Codex 정기 원문 검토: 10월 28일 회담 보도자료와 10월 29일 후속 브리핑을 대조해 과거 회담으로 등록했습니다. 미래 회의 계획과 개최 완료를 구분합니다.",
         "display_label": "과거 기록 추가",
         "event_date_label": "2026.10.28 · 발생일",
         "registration_kind": "backfill"
@@ -7673,6 +7791,7 @@
           "rok-seo-hui-launch-announcement-20261103",
           "rok-presidential-flight-data-leak-inquiry-20261103",
           "dprk-kim-jongsik-iron-mace-statement-20261102",
+          "dprk-nampo-shipyard-visit-20261102",
           "rok-defense-drone-headquarters-20261102",
           "rok-airforce-gathering-inquiry-20261102"
         ],
@@ -7718,6 +7837,7 @@
       "rok-presidential-flight-data-leak-inquiry-20261103": "statement",
       "rok-joint-cadet-cruise-training-20261103": "military_south",
       "dprk-kim-jongsik-iron-mace-statement-20261102": "statement",
+      "dprk-nampo-shipyard-visit-20261102": "statement",
       "rok-counterterror-joint-training-20261102": "military_south",
       "dprk-cruise-test-claim-20261102": "missile",
       "cheorwon-sergeant-death-20261102": "incident",
@@ -7750,9 +7870,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-04T15:17:51+00:00"
+    "last_attempt_at": "2026-11-04T15:29:22+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-04T15:17:04Z"
+  "snapshot_collection_checked_at": "2026-11-04T15:28:39Z"
 }
