@@ -1,0 +1,78 @@
+{
+  "id": "rok-us-intelligence-sharing-restriction-reports-20260421",
+  "title": "한미 일부 대북 정보 공유 제한 보도…정확한 시행일 미확인",
+  "summary": "미국의 일부 대북 정보 공유 제한은 4월 21일 군 관계자를 인용한 보도에서 확인됩니다. 뉴스1은 10월 8일 합참의장의 일부 제한 관련 답변을 전했고, JTBC는 11월 4일 기사에서 지속 중인 현안으로 설명했습니다. 과거 보도를 소급 등록한 기록이며, 정확한 시행일·현재 적용 범위·해소 여부는 확인하지 못했습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": null,
+  "time_precision": "unknown",
+  "reported_at": "2026-04-21T04:42:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-04T08:28:30Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "정확한 정보 공유 제한 개시일은 확인하지 못했습니다. 4월 초라는 관계자 설명을 특정 날짜로 바꾸지 않았으며 발생 시각은 미상으로 둡니다.",
+    "표시한 4월 21일 13:42는 이 기록에 수록한 근거 중 가장 이른 게시 시각입니다. 조치 발생일이나 전 세계 최초 보도 시각을 뜻하지 않습니다.",
+    "일부 대북 기술·북핵 관련 정보라는 보도이며 모든 군사정보 공유가 중단됐다는 뜻은 아닙니다. 구체적 대상 정보·적용 범위·현재 해소 여부는 확보하지 못했습니다.",
+    "미사일 정보 공유와 대비태세에 문제가 없다는 설명은 해당 시점 당국자의 평가입니다. 이를 현재 상황의 안전 판정으로 사용하지 않습니다.",
+    "미국의 조치 문서와 국회·합참의 해당 답변 원문은 직접 확보하지 못했습니다. 언론의 관계자 인용과 기사 서술을 확인한 상태이며 독립 검증이 아닙니다.",
+    "3월 장관 발언, 4월 관계자 설명, 10월 국감 답변과 11월 후속 기사 날짜를 구분합니다. 11월 4일 새로운 제한·확대가 발생했다고 계산하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "연합뉴스 · 4월 21일 군 관계자 인용 보도",
+      "url": "https://www.yna.co.kr/view/AKR20260420159251504",
+      "published_at": "2026-04-21T04:42:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "뉴스1 · 10월 8일 합참의장 답변 인용 (10월 11일 19:15 수정)",
+      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6315846",
+      "published_at": "2026-10-11T02:29:58Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "JTBC · 11월 4일 한미 현안 후속 보도",
+      "url": "https://news.jtbc.co.kr/article/NB12326418",
+      "published_at": "2026-11-04T06:48:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "연합뉴스는 4월 21일 군 고위 관계자를 인용해, 미국이 4월 초부터 위성으로 수집한 일부 대북 기술정보의 공유를 제한했다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20260420159251504"
+      ]
+    },
+    {
+      "text": "뉴스1의 10월 11일 보도에 따르면 진영승 합참의장은 10월 8일 국정감사에서 북핵 관련 정보가 일부 제한되지만 미사일 징후·궤적 정보는 공유되고 있다고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.news1.kr/diplomacy/defense-diplomacy/6315846"
+      ]
+    },
+    {
+      "text": "JTBC는 11월 4일 한미 현안 기사에서 북핵 관련 정보 공유 제한이 반년 이상 이어졌다고 서술했습니다. 이날 새 제한이 시행됐다고 보도한 내용은 아닙니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326418"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-04T08:28:30Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 보류 중인 11월 4일 기사에 대해 4월 21일 관계자 인용 보도와 10월 8일 합참의장 답변을 전한 10월 11일 기사를 대조해 과거 보도 기록으로 등록했습니다. 정확한 발생일은 미상으로 보존하고 수록 출처 중 가장 이른 4월 21일 게시 시각으로 정렬합니다. 새 제한·전면 중단·현재 대비태세 영향을 확정하지 않았습니다."
+    }
+  ]
+}

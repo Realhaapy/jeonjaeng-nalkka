@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-04T08:17:03Z",
-  "generated_at": "2026-11-04T08:17:48+00:00",
-  "release_id": "r-cc0719284b5f5c6c",
-  "snapshot_id": "s-a8327d0cf14d6c40",
+  "collection_checked_at": "2026-11-04T08:28:45Z",
+  "generated_at": "2026-11-04T08:29:32+00:00",
+  "release_id": "r-7d2e22911338a498",
+  "snapshot_id": "s-9a70b397e5137694",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 5,
+    "pending": 3,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:03Z",
-      "last_success_at": "2026-11-04T08:17:03Z",
-      "coverage_at": "2026-11-04T08:17:03Z",
+      "checked_at": "2026-11-04T08:28:45Z",
+      "last_success_at": "2026-11-04T08:28:45Z",
+      "coverage_at": "2026-11-04T08:28:45Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:03Z",
-      "last_success_at": "2026-11-04T08:17:03Z",
+      "checked_at": "2026-11-04T08:28:46Z",
+      "last_success_at": "2026-11-04T08:28:46Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다. 일부 상세 자료를 확인하지 못해 원문 링크만 저장했습니다.",
+      "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형 또는 제2유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:43Z",
-      "last_success_at": "2026-11-04T08:17:43Z",
-      "coverage_at": "2026-11-04T08:17:43Z",
+      "checked_at": "2026-11-04T08:29:26Z",
+      "last_success_at": "2026-11-04T08:29:26Z",
+      "coverage_at": "2026-11-04T08:29:26Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:29Z",
+      "last_success_at": "2026-11-04T08:29:29Z",
+      "coverage_at": "2026-11-04T08:29:29Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:29Z",
+      "last_success_at": "2026-11-04T08:29:29Z",
+      "coverage_at": "2026-11-04T08:29:29Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:29Z",
+      "last_success_at": "2026-11-04T08:29:29Z",
+      "coverage_at": "2026-11-04T08:29:29Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:29Z",
+      "last_success_at": "2026-11-04T08:29:29Z",
+      "coverage_at": "2026-11-04T08:29:29Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:30Z",
+      "last_success_at": "2026-11-04T08:29:30Z",
+      "coverage_at": "2026-11-04T08:29:30Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:47Z",
-      "last_success_at": "2026-11-04T08:17:47Z",
-      "coverage_at": "2026-11-04T08:17:47Z",
+      "checked_at": "2026-11-04T08:29:30Z",
+      "last_success_at": "2026-11-04T08:29:30Z",
+      "coverage_at": "2026-11-04T08:29:30Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:37Z",
-      "last_success_at": "2026-11-04T08:17:37Z",
-      "coverage_at": "2026-11-04T08:17:37Z",
+      "checked_at": "2026-11-04T08:29:19Z",
+      "last_success_at": "2026-11-04T08:29:19Z",
+      "coverage_at": "2026-11-04T08:29:19Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "coverage_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:30Z",
+      "last_success_at": "2026-11-04T08:29:30Z",
+      "coverage_at": "2026-11-04T08:29:30Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:03Z",
-      "last_success_at": "2026-11-04T08:17:03Z",
-      "observed_at": "2026-11-04T08:17:03Z",
+      "checked_at": "2026-11-04T08:28:45Z",
+      "last_success_at": "2026-11-04T08:28:45Z",
+      "observed_at": "2026-11-04T08:28:45Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:46Z",
-      "last_success_at": "2026-11-04T08:17:46Z",
-      "observed_at": "2026-11-04T08:17:46Z",
+      "checked_at": "2026-11-04T08:29:30Z",
+      "last_success_at": "2026-11-04T08:29:30Z",
+      "observed_at": "2026-11-04T08:29:30Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T08:17:47Z",
-      "last_success_at": "2026-11-04T08:17:47Z",
-      "observed_at": "2026-11-04T08:17:47Z",
+      "checked_at": "2026-11-04T08:29:30Z",
+      "last_success_at": "2026-11-04T08:29:30Z",
+      "observed_at": "2026-11-04T08:29:30Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-03T08:17:47Z",
-        "window_end": "2026-11-04T08:17:47Z",
-        "total_count": 16,
+        "window_start": "2026-11-03T08:29:30Z",
+        "window_end": "2026-11-04T08:29:30Z",
+        "total_count": 15,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -2633,9 +2633,95 @@
           "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
         }
       ]
+    },
+    {
+      "id": "rok-us-intelligence-sharing-restriction-reports-20260421",
+      "title": "한미 일부 대북 정보 공유 제한 보도…정확한 시행일 미확인",
+      "summary": "미국의 일부 대북 정보 공유 제한은 4월 21일 군 관계자를 인용한 보도에서 확인됩니다. 뉴스1은 10월 8일 합참의장의 일부 제한 관련 답변을 전했고, JTBC는 11월 4일 기사에서 지속 중인 현안으로 설명했습니다. 과거 보도를 소급 등록한 기록이며, 정확한 시행일·현재 적용 범위·해소 여부는 확인하지 못했습니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": null,
+      "time_precision": "unknown",
+      "reported_at": "2026-04-21T04:42:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-04T08:28:30Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "정확한 정보 공유 제한 개시일은 확인하지 못했습니다. 4월 초라는 관계자 설명을 특정 날짜로 바꾸지 않았으며 발생 시각은 미상으로 둡니다.",
+        "표시한 4월 21일 13:42는 이 기록에 수록한 근거 중 가장 이른 게시 시각입니다. 조치 발생일이나 전 세계 최초 보도 시각을 뜻하지 않습니다.",
+        "일부 대북 기술·북핵 관련 정보라는 보도이며 모든 군사정보 공유가 중단됐다는 뜻은 아닙니다. 구체적 대상 정보·적용 범위·현재 해소 여부는 확보하지 못했습니다.",
+        "미사일 정보 공유와 대비태세에 문제가 없다는 설명은 해당 시점 당국자의 평가입니다. 이를 현재 상황의 안전 판정으로 사용하지 않습니다.",
+        "미국의 조치 문서와 국회·합참의 해당 답변 원문은 직접 확보하지 못했습니다. 언론의 관계자 인용과 기사 서술을 확인한 상태이며 독립 검증이 아닙니다.",
+        "3월 장관 발언, 4월 관계자 설명, 10월 국감 답변과 11월 후속 기사 날짜를 구분합니다. 11월 4일 새로운 제한·확대가 발생했다고 계산하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "연합뉴스 · 4월 21일 군 관계자 인용 보도",
+          "url": "https://www.yna.co.kr/view/AKR20260420159251504",
+          "published_at": "2026-04-21T04:42:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "뉴스1 · 10월 8일 합참의장 답변 인용 (10월 11일 19:15 수정)",
+          "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6315846",
+          "published_at": "2026-10-11T02:29:58Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "JTBC · 11월 4일 한미 현안 후속 보도",
+          "url": "https://news.jtbc.co.kr/article/NB12326418",
+          "published_at": "2026-11-04T06:48:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "연합뉴스는 4월 21일 군 고위 관계자를 인용해, 미국이 4월 초부터 위성으로 수집한 일부 대북 기술정보의 공유를 제한했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.yna.co.kr/view/AKR20260420159251504"
+          ]
+        },
+        {
+          "text": "뉴스1의 10월 11일 보도에 따르면 진영승 합참의장은 10월 8일 국정감사에서 북핵 관련 정보가 일부 제한되지만 미사일 징후·궤적 정보는 공유되고 있다고 설명했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.news1.kr/diplomacy/defense-diplomacy/6315846"
+          ]
+        },
+        {
+          "text": "JTBC는 11월 4일 한미 현안 기사에서 북핵 관련 정보 공유 제한이 반년 이상 이어졌다고 서술했습니다. 이날 새 제한이 시행됐다고 보도한 내용은 아닙니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.jtbc.co.kr/article/NB12326418"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-04T08:28:30Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 보류 중인 11월 4일 기사에 대해 4월 21일 관계자 인용 보도와 10월 8일 합참의장 답변을 전한 10월 11일 기사를 대조해 과거 보도 기록으로 등록했습니다. 정확한 발생일은 미상으로 보존하고 수록 출처 중 가장 이른 4월 21일 게시 시각으로 정렬합니다. 새 제한·전면 중단·현재 대비태세 영향을 확정하지 않았습니다."
+        }
+      ]
     }
   ],
   "changes": [
+    {
+      "id": "c-0cc7c7cd9bbb2732bc3a",
+      "event_id": "rok-us-intelligence-sharing-restriction-reports-20260421",
+      "at": "2026-11-04T08:28:30Z",
+      "type": "new",
+      "title": "한미 일부 대북 정보 공유 제한 보도…정확한 시행일 미확인",
+      "text": "Codex 정기 원문 검토: 보류 중인 11월 4일 기사에 대해 4월 21일 관계자 인용 보도와 10월 8일 합참의장 답변을 전한 10월 11일 기사를 대조해 과거 보도 기록으로 등록했습니다. 정확한 발생일은 미상으로 보존하고 수록 출처 중 가장 이른 4월 21일 게시 시각으로 정렬합니다. 새 제한·전면 중단·현재 대비태세 영향을 확정하지 않았습니다."
+    },
     {
       "id": "c-f68f5057b20a64c35a9f",
       "event_id": "rok-airforce-gathering-inquiry-20261102",
@@ -3015,16 +3101,6 @@
   ],
   "notices": [
     {
-      "id": "doc-2c7680ab4fc325fa07bb",
-      "title": "고 안성호 이등중사 호국의 영웅 귀환 행사",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787800",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-04T08:17:37Z",
-      "status": "pending"
-    },
-    {
       "id": "doc-493a349fd71bd417714c",
       "title": "국방부 일일 정례 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786626",
@@ -3256,7 +3332,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-04T08:17:48+00:00",
+    "as_of": "2026-11-04T08:29:32+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
     "brief": {
@@ -3271,7 +3347,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-04T08:17:47Z",
+          "observed_at": "2026-11-04T08:29:30Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -3279,17 +3355,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-03T08:17:47Z",
-          "window_end": "2026-11-04T08:17:47Z",
+          "window_start": "2026-11-03T08:29:30Z",
+          "window_end": "2026-11-04T08:29:30Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 16건 확인"
+          "detail": "최근 24시간 · 전국 문자 15건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-04T08:17:46Z",
+          "observed_at": "2026-11-04T08:29:30Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -3307,7 +3383,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-04T08:17:03Z",
+          "observed_at": "2026-11-04T08:28:45Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -5791,6 +5867,84 @@
             "text": "새로 연결한 JTBC RSS에서 발견한 보도를 원문과 SBS 보도로 대조해 등록했습니다. 사고 발생일 9월 1일과 확인한 기사 게시일 11월 2일을 구분하며, 인명피해 없음과 기체 손상을 함께 표시합니다."
           }
         ]
+      },
+      {
+        "id": "rok-us-intelligence-sharing-restriction-reports-20260421",
+        "title": "한미 일부 대북 정보 공유 제한 보도…정확한 시행일 미확인",
+        "summary": "미국의 일부 대북 정보 공유 제한은 4월 21일 군 관계자를 인용한 보도에서 확인됩니다. 뉴스1은 10월 8일 합참의장의 일부 제한 관련 답변을 전했고, JTBC는 11월 4일 기사에서 지속 중인 현안으로 설명했습니다. 과거 보도를 소급 등록한 기록이며, 정확한 시행일·현재 적용 범위·해소 여부는 확인하지 못했습니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": null,
+        "time_precision": "unknown",
+        "reported_at": "2026-04-21T04:42:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-04T08:28:30Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "정확한 정보 공유 제한 개시일은 확인하지 못했습니다. 4월 초라는 관계자 설명을 특정 날짜로 바꾸지 않았으며 발생 시각은 미상으로 둡니다.",
+          "표시한 4월 21일 13:42는 이 기록에 수록한 근거 중 가장 이른 게시 시각입니다. 조치 발생일이나 전 세계 최초 보도 시각을 뜻하지 않습니다.",
+          "일부 대북 기술·북핵 관련 정보라는 보도이며 모든 군사정보 공유가 중단됐다는 뜻은 아닙니다. 구체적 대상 정보·적용 범위·현재 해소 여부는 확보하지 못했습니다.",
+          "미사일 정보 공유와 대비태세에 문제가 없다는 설명은 해당 시점 당국자의 평가입니다. 이를 현재 상황의 안전 판정으로 사용하지 않습니다.",
+          "미국의 조치 문서와 국회·합참의 해당 답변 원문은 직접 확보하지 못했습니다. 언론의 관계자 인용과 기사 서술을 확인한 상태이며 독립 검증이 아닙니다.",
+          "3월 장관 발언, 4월 관계자 설명, 10월 국감 답변과 11월 후속 기사 날짜를 구분합니다. 11월 4일 새로운 제한·확대가 발생했다고 계산하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "연합뉴스 · 4월 21일 군 관계자 인용 보도",
+            "url": "https://www.yna.co.kr/view/AKR20260420159251504",
+            "published_at": "2026-04-21T04:42:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "뉴스1 · 10월 8일 합참의장 답변 인용 (10월 11일 19:15 수정)",
+            "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6315846",
+            "published_at": "2026-10-11T02:29:58Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "JTBC · 11월 4일 한미 현안 후속 보도",
+            "url": "https://news.jtbc.co.kr/article/NB12326418",
+            "published_at": "2026-11-04T06:48:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "연합뉴스는 4월 21일 군 고위 관계자를 인용해, 미국이 4월 초부터 위성으로 수집한 일부 대북 기술정보의 공유를 제한했다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.yna.co.kr/view/AKR20260420159251504"
+            ]
+          },
+          {
+            "text": "뉴스1의 10월 11일 보도에 따르면 진영승 합참의장은 10월 8일 국정감사에서 북핵 관련 정보가 일부 제한되지만 미사일 징후·궤적 정보는 공유되고 있다고 설명했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.news1.kr/diplomacy/defense-diplomacy/6315846"
+            ]
+          },
+          {
+            "text": "JTBC는 11월 4일 한미 현안 기사에서 북핵 관련 정보 공유 제한이 반년 이상 이어졌다고 서술했습니다. 이날 새 제한이 시행됐다고 보도한 내용은 아닙니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.jtbc.co.kr/article/NB12326418"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-04T08:28:30Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 보류 중인 11월 4일 기사에 대해 4월 21일 관계자 인용 보도와 10월 8일 합참의장 답변을 전한 10월 11일 기사를 대조해 과거 보도 기록으로 등록했습니다. 정확한 발생일은 미상으로 보존하고 수록 출처 중 가장 이른 4월 21일 게시 시각으로 정렬합니다. 새 제한·전면 중단·현재 대비태세 영향을 확정하지 않았습니다."
+          }
+        ]
       }
     ],
     "event_timing": {
@@ -6090,12 +6244,21 @@
         "first_recorded_at": "2026-11-02T16:18:51+00:00",
         "is_new_record": false,
         "recency_label": ""
+      },
+      "rok-us-intelligence-sharing-restriction-reports-20260421": {
+        "date_label": "2026.04.21 13:42 KST · 발표·게시 시각",
+        "date_basis": "reported",
+        "is_backfill": false,
+        "registration_kind": "unknown",
+        "first_recorded_at": "2026-11-04T08:28:30+00:00",
+        "is_new_record": true,
+        "recency_label": ""
       }
     },
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 4,
-      "changes_24h": 35,
+      "changes_24h": 36,
       "corrections_24h": 1,
       "active_major": 5
     },
@@ -6425,6 +6588,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-0cc7c7cd9bbb2732bc3a",
+        "event_id": "rok-us-intelligence-sharing-restriction-reports-20260421",
+        "at": "2026-11-04T08:28:30Z",
+        "type": "new",
+        "title": "한미 일부 대북 정보 공유 제한 보도…정확한 시행일 미확인",
+        "text": "Codex 정기 원문 검토: 보류 중인 11월 4일 기사에 대해 4월 21일 관계자 인용 보도와 10월 8일 합참의장 답변을 전한 10월 11일 기사를 대조해 과거 보도 기록으로 등록했습니다. 정확한 발생일은 미상으로 보존하고 수록 출처 중 가장 이른 4월 21일 게시 시각으로 정렬합니다. 새 제한·전면 중단·현재 대비태세 영향을 확정하지 않았습니다.",
+        "display_label": "발생일 미상 기록",
+        "event_date_label": "2026.04.21 13:42 KST · 발표·게시 시각",
+        "registration_kind": "unknown"
+      },
       {
         "id": "c-f68f5057b20a64c35a9f",
         "event_id": "rok-airforce-gathering-inquiry-20261102",
@@ -7334,13 +7508,14 @@
       "dprk-launch-20261003": "missile",
       "trilateral-response-20261003": "diplomacy",
       "dmz-landmine-injuries-20260921": "incident",
-      "sacheon-kt1-collision-20260901": "incident"
+      "sacheon-kt1-collision-20260901": "incident",
+      "rok-us-intelligence-sharing-restriction-reports-20260421": "diplomacy"
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-04T08:17:47+00:00"
+    "last_attempt_at": "2026-11-04T08:29:30+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-04T08:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-04T08:28:45Z"
 }
