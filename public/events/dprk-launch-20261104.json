@@ -1,0 +1,78 @@
+{
+  "id": "dprk-launch-20261104",
+  "title": "북한, 11월 4일 동해 방향 미상 발사체 발사…합참 분석 중",
+  "summary": "SBS는 합참을 인용해 북한이 11월 4일 오전 동해 방향으로 종류가 확인되지 않은 발사체를 발사했다고 보도했습니다. 군은 제원과 사거리를 분석 중이라고 전했습니다. 정확한 발사 시각·수량·종류는 아직 확인되지 않았습니다.",
+  "kind": "nonroutine_military",
+  "military_actor": "north_korea",
+  "occurred_at": "2026-11-03T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-04T00:54:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-04T01:27:02Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": true,
+  "unknowns": [
+    "발사체가 탄도미사일인지, 순항미사일인지 또는 다른 종류인지는 이 원문들로 확인되지 않았습니다. 현재는 북한 군사 활동으로 분류하며 미사일 종류가 확인되면 같은 기록을 수정합니다.",
+    "발생은 11월 4일 오전까지만 확인했습니다. 기사 게시 시각을 발사 시각으로 사용하지 않습니다.",
+    "발사 수량, 정확한 발사 원점·낙하지점, 사거리·고도와 피해 여부는 확인하지 못했습니다. 지도에 임의 좌표를 넣지 않습니다.",
+    "합참의 공개 웹 원문은 확보하지 못했습니다. 언론의 합참 발표 인용을 확인한 상태이며 독립 검증을 뜻하지 않습니다.",
+    "기사에 배경으로 소개된 10월 31일 시험은 별개의 과거 사건입니다. 사진 설명만으로 이번 발사체 종류를 확정하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "JTBC · 합참 인용 속보",
+      "url": "https://news.jtbc.co.kr/article/NB12326354",
+      "published_at": "2026-11-04T00:54:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "SBS · 합참 인용 속보",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755",
+      "published_at": "2026-11-04T01:00:10Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "SBS · 합참 인용 후속 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
+      "published_at": "2026-11-04T01:06:14Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS는 합참 발표를 인용해 북한의 동해 방향 발사가 11월 4일 오전에 있었다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+      ]
+    },
+    {
+      "text": "SBS 후속 보도는 발사체의 종류를 미상으로 전하고, 군이 제원과 사거리를 분석 중이라고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816"
+      ]
+    },
+    {
+      "text": "JTBC와 SBS 속보도 합참을 인용해 같은 동해 방향 발사 소식을 전했습니다. 여러 기사를 별개의 발사나 독립 확인으로 세지 않습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326354",
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-04T01:27:02Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
+    }
+  ]
+}
