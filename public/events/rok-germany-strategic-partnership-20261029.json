@@ -1,0 +1,77 @@
+{
+  "id": "rok-germany-strategic-partnership-20261029",
+  "title": "한·독일, 10월 29일 강화된 전략적 동반자 관계 수립",
+  "summary": "독일 정부의 10월 29일 공동 기자회견 기록에 따르면 한·독 정상은 강화된 전략적 동반자 관계 수립에 합의했습니다. 국방·안보 협력 확대와 군사비밀 보호협정 추진을 설명했으며, 한국 외교부는 10월 30일 외교장관회담에서 관련 공동성명 이행을 논의했다고 밝혔습니다. 과거 외교 변화로 소급 등록합니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-10-28T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-10-28T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-04T06:25:16Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "발생일은 정상들이 관계 수립을 발표한 10월 29일입니다. 10월 30일 외교장관회담·10월 31일 한국 보도자료 게시일·이 사이트의 등록일과 구분합니다.",
+    "군사비밀 보호협정은 추진 단계로 설명됐습니다. 체결·발효 완료나 새로운 방산 계약·무기 인도·배치가 확인된 것은 아닙니다.",
+    "독일 정부 기록의 한국 대통령 발언은 동시통역을 바탕으로 작성됐습니다. 공동성명 채택은 양국 공식 발표로 확인했으나 성명 별도 전문과 실행 일정은 이번 검토에서 확보하지 못했습니다.",
+    "발생·발표의 정확한 시각은 확인하지 못했습니다. 관계 수립만으로 한반도 긴장이 낮아졌다고 판단하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "독일 연방정부 · 10월 29일 한독 정상 공동 기자회견 기록",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "대한민국 외교부 · 10월 30일 외교장관회담 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "대한민국 외교부 · 회담 결과 공식 첨부",
+      "url": "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN",
+      "published_at": "2026-10-30T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "독일 정부가 공개한 10월 29일 서울 공동 기자회견 기록에서 양국 정상은 강화된 전략적 동반자 관계 수립을 발표했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+      ]
+    },
+    {
+      "text": "같은 기록에서 한국 대통령은 국방·안보 교류를 강화하고 군사비밀 보호협정 체결을 추진한다고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+      ]
+    },
+    {
+      "text": "한국 외교부는 10월 30일 외교장관회담에서 방한 계기 채택한 공동성명을 바탕으로 국방·방산 등 협력을 강화하고 한반도 정세 공조를 지속하기로 했다고 10월 31일 발표했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+        "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-04T06:25:16Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토: 독일 정부의 10월 29일 공동 기자회견과 한국 외교부의 10월 31일 발표를 대조해 과거 외교 변화 1건을 소급 등록했습니다. 10월 30일 외교장관회담과 최초 수립일을 구분하고, 군사비밀 보호협정 추진을 체결 완료로 표현하지 않았습니다."
+    }
+  ]
+}

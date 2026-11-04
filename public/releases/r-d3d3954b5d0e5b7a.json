@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-04T06:17:03Z",
-  "generated_at": "2026-11-04T06:17:50+00:00",
-  "release_id": "r-7cf6daef26525295",
-  "snapshot_id": "s-ba9a6bb64d114aa6",
+  "collection_checked_at": "2026-11-04T06:25:25Z",
+  "generated_at": "2026-11-04T06:26:12+00:00",
+  "release_id": "r-d3d3954b5d0e5b7a",
+  "snapshot_id": "s-f9baece9b8a1caf4",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 7,
+    "pending": 3,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:03Z",
-      "last_success_at": "2026-11-04T06:17:03Z",
-      "coverage_at": "2026-11-04T06:17:03Z",
+      "checked_at": "2026-11-04T06:25:25Z",
+      "last_success_at": "2026-11-04T06:25:25Z",
+      "coverage_at": "2026-11-04T06:25:25Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:04Z",
-      "last_success_at": "2026-11-04T06:17:04Z",
+      "checked_at": "2026-11-04T06:25:26Z",
+      "last_success_at": "2026-11-04T06:25:26Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:44Z",
-      "last_success_at": "2026-11-04T06:17:44Z",
-      "coverage_at": "2026-11-04T06:17:44Z",
+      "checked_at": "2026-11-04T06:26:06Z",
+      "last_success_at": "2026-11-04T06:26:06Z",
+      "coverage_at": "2026-11-04T06:26:06Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:47Z",
-      "last_success_at": "2026-11-04T06:17:47Z",
-      "coverage_at": "2026-11-04T06:17:47Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:47Z",
-      "last_success_at": "2026-11-04T06:17:47Z",
-      "coverage_at": "2026-11-04T06:17:47Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:47Z",
-      "last_success_at": "2026-11-04T06:17:47Z",
-      "coverage_at": "2026-11-04T06:17:47Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "coverage_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "coverage_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "coverage_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:10Z",
+      "last_success_at": "2026-11-04T06:26:10Z",
+      "coverage_at": "2026-11-04T06:26:10Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:38Z",
-      "last_success_at": "2026-11-04T06:17:38Z",
-      "coverage_at": "2026-11-04T06:17:38Z",
+      "checked_at": "2026-11-04T06:26:00Z",
+      "last_success_at": "2026-11-04T06:26:00Z",
+      "coverage_at": "2026-11-04T06:26:00Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1·2유형이 확인된 발언록 텍스트만 분석합니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "coverage_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "coverage_at": "2026-11-04T06:26:09Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:03Z",
-      "last_success_at": "2026-11-04T06:17:03Z",
-      "observed_at": "2026-11-04T06:17:03Z",
+      "checked_at": "2026-11-04T06:25:25Z",
+      "last_success_at": "2026-11-04T06:25:25Z",
+      "observed_at": "2026-11-04T06:25:25Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "observed_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:09Z",
+      "last_success_at": "2026-11-04T06:26:09Z",
+      "observed_at": "2026-11-04T06:26:09Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-04T06:17:48Z",
-      "last_success_at": "2026-11-04T06:17:48Z",
-      "observed_at": "2026-11-04T06:17:48Z",
+      "checked_at": "2026-11-04T06:26:10Z",
+      "last_success_at": "2026-11-04T06:26:10Z",
+      "observed_at": "2026-11-04T06:26:10Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-03T06:17:48Z",
-        "window_end": "2026-11-04T06:17:48Z",
-        "total_count": 16,
+        "window_start": "2026-11-03T06:26:10Z",
+        "window_end": "2026-11-04T06:26:10Z",
+        "total_count": 15,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -1509,27 +1509,106 @@
       ]
     },
     {
+      "id": "rok-germany-strategic-partnership-20261029",
+      "title": "한·독일, 10월 29일 강화된 전략적 동반자 관계 수립",
+      "summary": "독일 정부의 10월 29일 공동 기자회견 기록에 따르면 한·독 정상은 강화된 전략적 동반자 관계 수립에 합의했습니다. 국방·안보 협력 확대와 군사비밀 보호협정 추진을 설명했으며, 한국 외교부는 10월 30일 외교장관회담에서 관련 공동성명 이행을 논의했다고 밝혔습니다. 과거 외교 변화로 소급 등록합니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": "2026-10-28T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-10-28T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-04T06:25:16Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "발생일은 정상들이 관계 수립을 발표한 10월 29일입니다. 10월 30일 외교장관회담·10월 31일 한국 보도자료 게시일·이 사이트의 등록일과 구분합니다.",
+        "군사비밀 보호협정은 추진 단계로 설명됐습니다. 체결·발효 완료나 새로운 방산 계약·무기 인도·배치가 확인된 것은 아닙니다.",
+        "독일 정부 기록의 한국 대통령 발언은 동시통역을 바탕으로 작성됐습니다. 공동성명 채택은 양국 공식 발표로 확인했으나 성명 별도 전문과 실행 일정은 이번 검토에서 확보하지 못했습니다.",
+        "발생·발표의 정확한 시각은 확인하지 못했습니다. 관계 수립만으로 한반도 긴장이 낮아졌다고 판단하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "독일 연방정부 · 10월 29일 한독 정상 공동 기자회견 기록",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098",
+          "published_at": "2026-10-28T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "대한민국 외교부 · 10월 30일 외교장관회담 결과",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+          "published_at": "2026-10-30T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "대한민국 외교부 · 회담 결과 공식 첨부",
+          "url": "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN",
+          "published_at": "2026-10-30T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "독일 정부가 공개한 10월 29일 서울 공동 기자회견 기록에서 양국 정상은 강화된 전략적 동반자 관계 수립을 발표했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+          ]
+        },
+        {
+          "text": "같은 기록에서 한국 대통령은 국방·안보 교류를 강화하고 군사비밀 보호협정 체결을 추진한다고 설명했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+          ]
+        },
+        {
+          "text": "한국 외교부는 10월 30일 외교장관회담에서 방한 계기 채택한 공동성명을 바탕으로 국방·방산 등 협력을 강화하고 한반도 정세 공조를 지속하기로 했다고 10월 31일 발표했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+            "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-04T06:25:16Z",
+          "type": "new",
+          "text": "Codex 정기 원문 검토: 독일 정부의 10월 29일 공동 기자회견과 한국 외교부의 10월 31일 발표를 대조해 과거 외교 변화 1건을 소급 등록했습니다. 10월 30일 외교장관회담과 최초 수립일을 구분하고, 군사비밀 보호협정 추진을 체결 완료로 표현하지 않았습니다."
+        }
+      ]
+    },
+    {
       "id": "jcs-mdl-activity-briefing-20261029",
-      "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
-      "summary": "합참은 10월 29일 브리핑에서 북한군의 군사분계선(MDL) 근접 활동이 지속되고 있으며 침범이 의심되는 지역을 유엔사와 협의 중이라고 설명했습니다. 한강 하구 중립수역 이북의 구형 자주포 노출도 언급했습니다. 새로운 침범이나 배치의 발생일을 확정한 기록이 아닙니다.",
+      "title": "합참 MDL 활동 설명…11월 3일 안보실 대응 발언 추가",
+      "summary": "합참은 10월 29일 북한군의 군사분계선(MDL) 근접 활동과 구형 자주포 노출을 설명했습니다. 11월 3일 강건작 국가안보실 1차장은 SBS 인터뷰에서 지뢰사고 이후 우리 군이 전방에서 경고방송·경고사격으로 대응했다고 말했습니다. 개별 대응의 날짜·장소·횟수를 확인한 기록은 아닙니다.",
       "kind": "official_statement",
       "military_actor": "unknown",
       "occurred_at": "2026-10-28T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-10-28T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-03T15:28:02Z",
+      "updated_at": "2026-11-04T06:25:15Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
         "발생일은 합참이 설명한 10월 29일입니다. 실제 활동 시작일·배치일·대수·개별 침범 시각은 공개 답변에서 확인하지 못했습니다.",
-        "경고방송·경고사격에 관한 답변은 대응 원칙 설명입니다. 10월 29일 새 교전이 발생했다는 확인으로 세지 않습니다.",
-        "공식 발언 기록으로 분류하며, 새 군사활동의 발생 건수나 위험 변화로 자동 계산하지 않습니다.",
+        "10월 29일 합참의 경고방송·경고사격 답변은 대응 원칙 설명입니다. 11월 3일 인터뷰는 그간의 대응에 관한 별도 발언이며, 개별 시행 날짜·장소·횟수는 확인되지 않았습니다.",
+        "인터뷰에 등장하는 방송·사격 횟수는 북한 측 발언을 인용한 부분입니다. 한국 정부가 독자 확인한 집계로 사용하지 않습니다.",
+        "북한 포 배치의 의도에 대한 인터뷰 발언은 발언자의 평가입니다. 실제 북한 의도나 긴장 완화를 확인한 사실로 등록하지 않습니다.",
+        "공식 발언과 인터뷰를 확인한 기록이며, 새로운 침범·경고사격·교전 발생 건수로 추가하지 않습니다.",
         "공개 원문에는 부처 요청에 따른 일부 삭제·수정 고지가 있습니다. 삭제된 내용이나 정확한 배치 좌표를 추정하지 않았습니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "notable",
       "sources": [
@@ -1538,6 +1617,12 @@
           "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
           "published_at": "2026-10-28T15:00:00Z",
           "published_precision": "day"
+        },
+        {
+          "name": "SBS 김태현의 정치쇼 · 강건작 국가안보실 1차장 인터뷰 전문",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517",
+          "published_at": "2026-11-03T00:40:15Z",
+          "published_precision": "minute"
         }
       ],
       "facts": [
@@ -1554,6 +1639,13 @@
           "evidence_urls": [
             "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
           ]
+        },
+        {
+          "text": "강건작 국가안보실 1차장은 11월 3일 SBS 라디오 인터뷰에서 지뢰사고 이후 우리 군이 전방에서 경고방송·경고사격 등으로 강하게 대응했다고 설명했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517"
+          ]
         }
       ],
       "location": null,
@@ -1562,6 +1654,11 @@
           "at": "2026-11-03T15:28:02Z",
           "type": "new",
           "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+        },
+        {
+          "at": "2026-11-04T06:25:15Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 11월 3일 SBS 인터뷰 전문의 경고방송·경고사격 대응 설명을 기존 MDL 활동 기록에 후속 발언으로 연결했습니다. 개별 행동 발생일과 횟수는 확인되지 않아 새 경고사격·교전 사건으로 만들지 않았습니다. 북한 측 횟수 주장과 의도에 관한 평가를 구분했습니다."
         }
       ]
     },
@@ -2520,6 +2617,22 @@
   ],
   "changes": [
     {
+      "id": "c-4392cc719da5b4a8830b",
+      "event_id": "rok-germany-strategic-partnership-20261029",
+      "at": "2026-11-04T06:25:16Z",
+      "type": "new",
+      "title": "한·독일, 10월 29일 강화된 전략적 동반자 관계 수립",
+      "text": "Codex 정기 원문 검토: 독일 정부의 10월 29일 공동 기자회견과 한국 외교부의 10월 31일 발표를 대조해 과거 외교 변화 1건을 소급 등록했습니다. 10월 30일 외교장관회담과 최초 수립일을 구분하고, 군사비밀 보호협정 추진을 체결 완료로 표현하지 않았습니다."
+    },
+    {
+      "id": "c-87bd288074ae5efac81c",
+      "event_id": "jcs-mdl-activity-briefing-20261029",
+      "at": "2026-11-04T06:25:15Z",
+      "type": "update",
+      "title": "합참 MDL 활동 설명…11월 3일 안보실 대응 발언 추가",
+      "text": "Codex 정기 원문 검토: 11월 3일 SBS 인터뷰 전문의 경고방송·경고사격 대응 설명을 기존 MDL 활동 기록에 후속 발언으로 연결했습니다. 개별 행동 발생일과 횟수는 확인되지 않아 새 경고사격·교전 사건으로 만들지 않았습니다. 북한 측 횟수 주장과 의도에 관한 평가를 구분했습니다."
+    },
+    {
       "id": "c-d59f780401b5aeac7493",
       "event_id": "dprk-kim-yo-jong-binance-response-20261103",
       "at": "2026-11-04T03:26:30Z",
@@ -3091,7 +3204,7 @@
       "published_at": "2026-10-30T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-01T07:10:08Z",
-      "status": "held"
+      "status": "reviewed"
     },
     {
       "id": "doc-3cf1de681d9342c45a19",
@@ -3105,14 +3218,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-04T06:17:50+00:00",
+    "as_of": "2026-11-04T06:26:12+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "JTBC는 11월 4일 12:01 수정 보도에서 합참을 인용해, 북한이 이날 오전 선덕 일대에서 동해 방향으로 미사일 여러 발을 발사했다고 전했습니다. 한미가 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 분석 중이라는 설명입니다. 초기 미상 발사체 기록에 후속 내용을 연결했습니다.",
     "brief": {
       "recent": "검토된 기록 미사일 발사 2건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건 (최근 11/4)",
       "recent_main": "검토된 기록 미사일 발사 2건 · 한국·연합 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 6건",
       "recent_note": "(최근 11/4)",
-      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 12건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 1건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 8건 · 외교 대응 13건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -3120,7 +3233,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-04T06:17:48Z",
+          "observed_at": "2026-11-04T06:26:10Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -3128,17 +3241,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-03T06:17:48Z",
-          "window_end": "2026-11-04T06:17:48Z",
+          "window_start": "2026-11-03T06:26:10Z",
+          "window_end": "2026-11-04T06:26:10Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 16건 확인"
+          "detail": "최근 24시간 · 전국 문자 15건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-04T06:17:48Z",
+          "observed_at": "2026-11-04T06:26:09Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -3156,7 +3269,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-04T06:17:03Z",
+          "observed_at": "2026-11-04T06:25:25Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4516,27 +4629,106 @@
         ]
       },
       {
+        "id": "rok-germany-strategic-partnership-20261029",
+        "title": "한·독일, 10월 29일 강화된 전략적 동반자 관계 수립",
+        "summary": "독일 정부의 10월 29일 공동 기자회견 기록에 따르면 한·독 정상은 강화된 전략적 동반자 관계 수립에 합의했습니다. 국방·안보 협력 확대와 군사비밀 보호협정 추진을 설명했으며, 한국 외교부는 10월 30일 외교장관회담에서 관련 공동성명 이행을 논의했다고 밝혔습니다. 과거 외교 변화로 소급 등록합니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-10-28T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-10-28T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-04T06:25:16Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "발생일은 정상들이 관계 수립을 발표한 10월 29일입니다. 10월 30일 외교장관회담·10월 31일 한국 보도자료 게시일·이 사이트의 등록일과 구분합니다.",
+          "군사비밀 보호협정은 추진 단계로 설명됐습니다. 체결·발효 완료나 새로운 방산 계약·무기 인도·배치가 확인된 것은 아닙니다.",
+          "독일 정부 기록의 한국 대통령 발언은 동시통역을 바탕으로 작성됐습니다. 공동성명 채택은 양국 공식 발표로 확인했으나 성명 별도 전문과 실행 일정은 이번 검토에서 확보하지 못했습니다.",
+          "발생·발표의 정확한 시각은 확인하지 못했습니다. 관계 수립만으로 한반도 긴장이 낮아졌다고 판단하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "독일 연방정부 · 10월 29일 한독 정상 공동 기자회견 기록",
+            "url": "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098",
+            "published_at": "2026-10-28T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "대한민국 외교부 · 10월 30일 외교장관회담 결과",
+            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+            "published_at": "2026-10-30T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "대한민국 외교부 · 회담 결과 공식 첨부",
+            "url": "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN",
+            "published_at": "2026-10-30T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "독일 정부가 공개한 10월 29일 서울 공동 기자회견 기록에서 양국 정상은 강화된 전략적 동반자 관계 수립을 발표했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+            ]
+          },
+          {
+            "text": "같은 기록에서 한국 대통령은 국방·안보 교류를 강화하고 군사비밀 보호협정 체결을 추진한다고 설명했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.bundesregierung.de/breg-de/aktuelles/pressekonferenzen/kanzler-pk-suedkorea-2459098"
+            ]
+          },
+          {
+            "text": "한국 외교부는 10월 30일 외교장관회담에서 방한 계기 채택한 공동성명을 바탕으로 국방·방산 등 협력을 강화하고 한반도 정세 공조를 지속하기로 했다고 10월 31일 발표했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
+              "https://www.korea.kr/common/download.do?fileId=198581734&tblKey=GMN"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-04T06:25:16Z",
+            "type": "new",
+            "text": "Codex 정기 원문 검토: 독일 정부의 10월 29일 공동 기자회견과 한국 외교부의 10월 31일 발표를 대조해 과거 외교 변화 1건을 소급 등록했습니다. 10월 30일 외교장관회담과 최초 수립일을 구분하고, 군사비밀 보호협정 추진을 체결 완료로 표현하지 않았습니다."
+          }
+        ]
+      },
+      {
         "id": "jcs-mdl-activity-briefing-20261029",
-        "title": "10월 29일 합참, 북한군 MDL 근접 활동·자주포 노출 설명",
-        "summary": "합참은 10월 29일 브리핑에서 북한군의 군사분계선(MDL) 근접 활동이 지속되고 있으며 침범이 의심되는 지역을 유엔사와 협의 중이라고 설명했습니다. 한강 하구 중립수역 이북의 구형 자주포 노출도 언급했습니다. 새로운 침범이나 배치의 발생일을 확정한 기록이 아닙니다.",
+        "title": "합참 MDL 활동 설명…11월 3일 안보실 대응 발언 추가",
+        "summary": "합참은 10월 29일 북한군의 군사분계선(MDL) 근접 활동과 구형 자주포 노출을 설명했습니다. 11월 3일 강건작 국가안보실 1차장은 SBS 인터뷰에서 지뢰사고 이후 우리 군이 전방에서 경고방송·경고사격으로 대응했다고 말했습니다. 개별 대응의 날짜·장소·횟수를 확인한 기록은 아닙니다.",
         "kind": "official_statement",
         "military_actor": "unknown",
         "occurred_at": "2026-10-28T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-10-28T15:00:00Z",
         "reported_precision": "day",
-        "updated_at": "2026-11-03T15:28:02Z",
+        "updated_at": "2026-11-04T06:25:15Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
           "발생일은 합참이 설명한 10월 29일입니다. 실제 활동 시작일·배치일·대수·개별 침범 시각은 공개 답변에서 확인하지 못했습니다.",
-          "경고방송·경고사격에 관한 답변은 대응 원칙 설명입니다. 10월 29일 새 교전이 발생했다는 확인으로 세지 않습니다.",
-          "공식 발언 기록으로 분류하며, 새 군사활동의 발생 건수나 위험 변화로 자동 계산하지 않습니다.",
+          "10월 29일 합참의 경고방송·경고사격 답변은 대응 원칙 설명입니다. 11월 3일 인터뷰는 그간의 대응에 관한 별도 발언이며, 개별 시행 날짜·장소·횟수는 확인되지 않았습니다.",
+          "인터뷰에 등장하는 방송·사격 횟수는 북한 측 발언을 인용한 부분입니다. 한국 정부가 독자 확인한 집계로 사용하지 않습니다.",
+          "북한 포 배치의 의도에 대한 인터뷰 발언은 발언자의 평가입니다. 실제 북한 의도나 긴장 완화를 확인한 사실로 등록하지 않습니다.",
+          "공식 발언과 인터뷰를 확인한 기록이며, 새로운 침범·경고사격·교전 발생 건수로 추가하지 않습니다.",
           "공개 원문에는 부처 요청에 따른 일부 삭제·수정 고지가 있습니다. 삭제된 내용이나 정확한 배치 좌표를 추정하지 않았습니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "notable",
         "sources": [
@@ -4545,6 +4737,12 @@
             "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
             "published_at": "2026-10-28T15:00:00Z",
             "published_precision": "day"
+          },
+          {
+            "name": "SBS 김태현의 정치쇼 · 강건작 국가안보실 1차장 인터뷰 전문",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517",
+            "published_at": "2026-11-03T00:40:15Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
@@ -4561,6 +4759,13 @@
             "evidence_urls": [
               "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101"
             ]
+          },
+          {
+            "text": "강건작 국가안보실 1차장은 11월 3일 SBS 라디오 인터뷰에서 지뢰사고 이후 우리 군이 전방에서 경고방송·경고사격 등으로 강하게 대응했다고 설명했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008827517"
+            ]
           }
         ],
         "location": null,
@@ -4569,6 +4774,11 @@
             "at": "2026-11-03T15:28:02Z",
             "type": "new",
             "text": "Codex 정기 원문 검토: 10월 29일 합참의 관측 설명을 공식 발언으로 소급 등록했습니다. 실제 활동 개시일이 없으므로 새 침범·배치·경고사격 사건으로 만들지 않았습니다."
+          },
+          {
+            "at": "2026-11-04T06:25:15Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 11월 3일 SBS 인터뷰 전문의 경고방송·경고사격 대응 설명을 기존 MDL 활동 기록에 후속 발언으로 연결했습니다. 개별 행동 발생일과 횟수는 확인되지 않아 새 경고사격·교전 사건으로 만들지 않았습니다. 북한 측 횟수 주장과 의도에 관한 평가를 구분했습니다."
           }
         ]
       },
@@ -5679,6 +5889,15 @@
         "is_new_record": true,
         "recency_label": ""
       },
+      "rok-germany-strategic-partnership-20261029": {
+        "date_label": "2026.10.29 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": true,
+        "registration_kind": "backfill",
+        "first_recorded_at": "2026-11-04T06:25:16+00:00",
+        "is_new_record": true,
+        "recency_label": ""
+      },
       "jcs-mdl-activity-briefing-20261029": {
         "date_label": "2026.10.29 · 발생일",
         "date_basis": "occurred",
@@ -5818,14 +6037,14 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 4,
-      "changes_24h": 32,
+      "changes_24h": 34,
       "corrections_24h": 1,
       "active_major": 5
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 18,
+        "current": 19,
         "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -5834,7 +6053,7 @@
         "days": [
           {
             "date": "2026-10-29",
-            "count": 4,
+            "count": 5,
             "prior": null
           },
           {
@@ -5914,7 +6133,7 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 5,
+            "current": 6,
             "previous": 5,
             "delta": null
           },
@@ -5929,7 +6148,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 28,
+        "current": 29,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -6053,7 +6272,7 @@
           },
           {
             "date": "2026-10-29",
-            "count": 4,
+            "count": 5,
             "prior": null
           },
           {
@@ -6133,7 +6352,7 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 12,
+            "current": 13,
             "previous": 1,
             "delta": null
           },
@@ -6148,6 +6367,28 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-4392cc719da5b4a8830b",
+        "event_id": "rok-germany-strategic-partnership-20261029",
+        "at": "2026-11-04T06:25:16Z",
+        "type": "new",
+        "title": "한·독일, 10월 29일 강화된 전략적 동반자 관계 수립",
+        "text": "Codex 정기 원문 검토: 독일 정부의 10월 29일 공동 기자회견과 한국 외교부의 10월 31일 발표를 대조해 과거 외교 변화 1건을 소급 등록했습니다. 10월 30일 외교장관회담과 최초 수립일을 구분하고, 군사비밀 보호협정 추진을 체결 완료로 표현하지 않았습니다.",
+        "display_label": "과거 기록 추가",
+        "event_date_label": "2026.10.29 · 발생일",
+        "registration_kind": "backfill"
+      },
+      {
+        "id": "c-87bd288074ae5efac81c",
+        "event_id": "jcs-mdl-activity-briefing-20261029",
+        "at": "2026-11-04T06:25:15Z",
+        "type": "update",
+        "title": "합참 MDL 활동 설명…11월 3일 안보실 대응 발언 추가",
+        "text": "Codex 정기 원문 검토: 11월 3일 SBS 인터뷰 전문의 경고방송·경고사격 대응 설명을 기존 MDL 활동 기록에 후속 발언으로 연결했습니다. 개별 행동 발생일과 횟수는 확인되지 않아 새 경고사격·교전 사건으로 만들지 않았습니다. 북한 측 횟수 주장과 의도에 관한 평가를 구분했습니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.10.29 · 발생일",
+        "registration_kind": null
+      },
       {
         "id": "c-d59f780401b5aeac7493",
         "event_id": "dprk-kim-yo-jong-binance-response-20261103",
@@ -6965,7 +7206,8 @@
           "trilateral-ministers-20261030",
           "trilateral-response-20261030",
           "rok-vietnam-defense-talks-20261029",
-          "rok-singapore-defense-talks-20261029"
+          "rok-singapore-defense-talks-20261029",
+          "rok-germany-strategic-partnership-20261029"
         ],
         "state": "recorded"
       },
@@ -7008,6 +7250,7 @@
       "dprk-launch-20261029": "missile",
       "rok-vietnam-defense-talks-20261029": "diplomacy",
       "rok-singapore-defense-talks-20261029": "diplomacy",
+      "rok-germany-strategic-partnership-20261029": "diplomacy",
       "jcs-mdl-activity-briefing-20261029": "statement",
       "rok-us-defense-talks-20261028": "diplomacy",
       "rok-philippines-defense-talks-20261028": "diplomacy",
@@ -7026,9 +7269,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-04T06:17:48+00:00"
+    "last_attempt_at": "2026-11-04T06:26:10+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-04T06:17:03Z"
+  "snapshot_collection_checked_at": "2026-11-04T06:25:25Z"
 }
