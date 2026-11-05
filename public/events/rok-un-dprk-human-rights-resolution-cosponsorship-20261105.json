@@ -1,0 +1,49 @@
+{
+  "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
+  "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
+  "summary": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": null,
+  "time_precision": "unknown",
+  "reported_at": "2026-11-05T06:51:07Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-05T07:37:57Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "11월 5일은 확인한 기사 보도일이며 공동제안 참여의 정확한 결정·제출·등록 시각은 확인하지 못했습니다. 발생 시각은 비워 둡니다.",
+    "외교부의 해당 공식 발표 원문과 유엔 결의안 원문은 이번 검토에서 확보하지 못했습니다. 외교부 발언은 SBS의 인용 보도에 귀속하며 독립 검증으로 표시하지 않습니다.",
+    "기사의 11월 18~19일 제3위원회 채택 전망은 예정·전망입니다. 최종 문안·표결·채택 완료 또는 납북·억류·국군포로 피해의 새 발생을 확인한 기록이 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "SBS · 외교부 설명 인용 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558",
+      "published_at": "2026-11-05T06:51:07Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS는 11월 5일 외교부의 설명을 인용해 정부가 5년 연속 유엔총회 북한인권결의안 공동제안국으로 참여했다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-05T07:37:57Z",
+      "type": "new",
+      "text": "Dot 정기 원문 검토: SBS 원문의 참여 설명과 채택 전망을 구분했습니다. 기존 사건·출처와 대조한 외교 기록으로 등록하며, 11월 5일을 실제 참여 결정일이나 새 군사행동 발생일로 확정하지 않습니다."
+    }
+  ]
+}
