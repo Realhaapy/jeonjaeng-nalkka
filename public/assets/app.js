@@ -58,6 +58,7 @@ const label=panel.querySelector('[data-tension-label]'),summary=panel.querySelec
 const staleNote=panel.querySelector('[data-tension-stale]');if(staleNote)staleNote.hidden=!unavailable;
 if(mascot&&!mascot.dataset.originalSrc){mascot.dataset.originalSrc=mascot.getAttribute('src');mascot.dataset.originalAlt=mascot.getAttribute('alt');}
 panel.dataset.tensionKey=unavailable?'unknown':panel.dataset.originalKey||panel.dataset.tensionKey;
+panel.querySelectorAll('[data-tension-step]').forEach(step=>step.setAttribute('aria-current',step.dataset.tensionStep===panel.dataset.tensionKey?'step':'false'));
 if(label)label.textContent=unavailable?'판단 보류':panel.dataset.tensionLabel;
 if(summary)summary.textContent=unavailable?(future?'기기의 날짜와 시간을 확인해 주세요.':'수집 확인이 지연되어 현재 상태를 판단하지 않습니다.'):panel.dataset.tensionSummary;
 if(mascot){mascot.src=unavailable?panel.dataset.unknownImage:mascot.dataset.originalSrc;mascot.alt=unavailable?'군모를 쓴 진돗개 · 판단 보류':mascot.dataset.originalAlt;}
