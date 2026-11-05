@@ -142,6 +142,7 @@ if(tabsEnabled)return;tabsEnabled=true;mobileHomeEnabled=media.matches;body.clas
 move('.atlas-hero',panel('overview'),panel('overview').querySelector('.mobile-overview-note'));
 if(mobileHomeEnabled)move('.headline-rail',document.querySelector('.atlas-hero'),document.querySelector('.hero-meta'));
 else move('.headline-rail',panel('overview'),panel('overview').querySelector('.mobile-overview-note'));
+move('.partner-banner',panel('overview'));
 move('#events',panel('news'));
 if(mobileHomeEnabled)move('.event-tools',home.querySelector('[data-mobile-search]'));
 move('.brief-official',home.querySelector('[data-mobile-official]'));
