@@ -48,8 +48,24 @@ let message=failed?(Number.isFinite(at)?'최근 확인 실패 · 마지막 확�
 node.textContent=message;node.hidden=!message;
 });
 }
+function tensionFreshness(){
+const panel=document.querySelector('[data-tension]');
+if(!panel||demo||body.dataset.snapshot==='true')return;
+const expires=Date.parse(panel.dataset.validUntil||''),generated=Date.parse(body.dataset.generatedAt||'');
+const future=Number.isFinite(generated)&&Date.now()<generated-60000;
+const unavailable=(!Number.isFinite(expires)&&panel.dataset.originalKey!=='unknown')||(Number.isFinite(expires)&&Date.now()>=expires)||future;
+const label=panel.querySelector('[data-tension-label]'),summary=panel.querySelector('[data-tension-summary]'),mascot=panel.querySelector('[data-tension-mascot]');
+const staleNote=panel.querySelector('[data-tension-stale]');if(staleNote)staleNote.hidden=!unavailable;
+if(mascot&&!mascot.dataset.originalSrc){mascot.dataset.originalSrc=mascot.getAttribute('src');mascot.dataset.originalAlt=mascot.getAttribute('alt');}
+panel.dataset.tensionKey=unavailable?'unknown':panel.dataset.originalKey||panel.dataset.tensionKey;
+if(label)label.textContent=unavailable?'판단 보류':panel.dataset.tensionLabel;
+if(summary)summary.textContent=unavailable?(future?'기기의 날짜와 시간을 확인해 주세요.':'수집 확인이 지연되어 현재 상태를 판단하지 않습니다.'):panel.dataset.tensionSummary;
+if(mascot){mascot.src=unavailable?panel.dataset.unknownImage:mascot.dataset.originalSrc;mascot.alt=unavailable?'군모를 쓴 진돗개 · 판단 보류':mascot.dataset.originalAlt;}
+}
+const tensionPanel=document.querySelector('[data-tension]');if(tensionPanel)tensionPanel.dataset.originalKey=tensionPanel.dataset.tensionKey;
 function freshness(){
 officialFreshness();
+tensionFreshness();
 const badge=document.querySelector('[data-freshness]');if(!badge)return;
 if(demo){badge.textContent='가상 데이터 · 실제 상황 아님';badge.classList.remove('is-old');return}
 if(body.dataset.snapshot==='true'){badge.textContent='보존본 · 실시간 갱신 아님';badge.classList.remove('is-old');return}
@@ -122,6 +138,7 @@ function navigate(hash){if(location.hash!==hash)history.pushState(null,'',hash);
 function enable(){
 if(mobileHomeEnabled)return;mobileHomeEnabled=true;body.classList.add('home-mobile');tablist.setAttribute('role','tablist');tabs.forEach(tab=>{tab.setAttribute('role','tab');tab.setAttribute('aria-controls','home-panel-'+tab.dataset.homeTab);});
 move('.atlas-hero',panel('overview'),panel('overview').querySelector('.mobile-overview-note'));
+move('.headline-rail',document.querySelector('.atlas-hero'),document.querySelector('.hero-meta'));
 move('#events',panel('news'));
 move('.event-tools',home.querySelector('[data-mobile-search]'));
 move('.brief-official',home.querySelector('[data-mobile-official]'));
@@ -143,4 +160,34 @@ window.addEventListener('hashchange',()=>activate(location.hash,true));window.ad
 if(media.addEventListener)media.addEventListener('change',sync);else media.addListener(sync);sync();
 }
 setupMobileHome();
+
+// The news rail advances only while nobody is reading or manipulating it.
+// A pointer, keyboard or focus interaction pauses it until explicitly restarted.
+function setupNewsCarousel(){
+const rail=document.querySelector('[data-news-carousel]');if(!rail)return;
+const track=rail.querySelector('[data-news-track]'),slides=[...rail.querySelectorAll('[data-news-slide]')],play=rail.querySelector('[data-news-play]'),position=rail.querySelector('[data-news-position]'),buttons=[...rail.querySelectorAll('[data-news-direction]')];
+if(!track||!slides.length){rail.querySelector('.headline-controls')?.setAttribute('hidden','');return;}
+let index=0,automatic=slides.length>1&&!reducedMotion.matches,scrollTimer;
+function renderControls(){
+if(position){position.textContent=(index+1)+' / '+slides.length;position.setAttribute('aria-live',automatic?'off':'polite');}
+if(play){play.disabled=slides.length<2||reducedMotion.matches;play.textContent=automatic?'정지':'자동';play.setAttribute('aria-pressed',String(automatic));play.setAttribute('aria-label',automatic?'뉴스 자동 넘김 일시정지':reducedMotion.matches?'동작 줄이기 설정으로 자동 넘김 꺼짐':'뉴스 자동 넘김 시작');}
+buttons.forEach(button=>button.disabled=slides.length<2);
+}
+function stop(){automatic=false;renderControls();}
+function go(next){
+index=(next+slides.length)%slides.length;
+track.scrollTo({left:slides[index].offsetLeft-slides[0].offsetLeft,behavior:reducedMotion.matches?'instant':'smooth'});renderControls();
+}
+buttons.forEach(button=>button.addEventListener('click',()=>{stop();go(index+(button.dataset.newsDirection==='next'?1:-1));}));
+play?.addEventListener('click',()=>{automatic=!automatic&&!reducedMotion.matches;renderControls();});
+track.addEventListener('pointerdown',stop,{passive:true});track.addEventListener('wheel',stop,{passive:true});
+track.addEventListener('focusin',stop);
+track.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=index+1;else if(event.key==='ArrowLeft')next=index-1;else if(event.key==='Home')next=0;else if(event.key==='End')next=slides.length-1;else return;event.preventDefault();stop();go(next);});
+track.addEventListener('scroll',()=>{clearTimeout(scrollTimer);scrollTimer=setTimeout(()=>{const origin=slides[0].offsetLeft;index=slides.reduce((nearest,slide,i)=>Math.abs(slide.offsetLeft-origin-track.scrollLeft)<Math.abs(slides[nearest].offsetLeft-origin-track.scrollLeft)?i:nearest,0);renderControls();},100);},{passive:true});
+const motionChanged=()=>{if(reducedMotion.matches)stop();else renderControls();};
+if(reducedMotion.addEventListener)reducedMotion.addEventListener('change',motionChanged);
+setInterval(()=>{if(!automatic||document.visibilityState==='hidden'||rail.closest('[hidden]')||track.contains(document.activeElement))return;go(index+1);},6000);
+renderControls();
+}
+setupNewsCarousel();
 })();
