@@ -1,0 +1,71 @@
+{
+  "id": "rok-cheonghae-expansion-proposal-20261105",
+  "title": "청해부대 파견 확대안 차관회의 통과 보도…국회 동의 절차 예정",
+  "summary": "청해부대의 작전구역과 인원·전력을 늘리는 파견 연장·확대 동의안이 11월 5일 차관회의를 통과했다고 JTBC가 보도했습니다. 오만 남방 해역까지 작전구역을 넓히는 방안으로, 국무회의·국회 절차를 거쳐 추가 투입을 추진할 계획입니다.",
+  "kind": "official_measure",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-04T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-05T01:33:02Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-05T02:19:27Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "국방부의 동의안 원문이나 차관회의 공식 자료는 직접 확보하지 못했습니다. 언론의 국방부 설명 인용을 확인한 상태이며 두 매체를 독립 확인 두 건으로 세지 않습니다.",
+    "발생일은 JTBC가 명시한 11월 5일 차관회의 통과일입니다. SBS가 전한 수정안 확정의 정확한 날짜·시각과 실제 추가 파견일은 확인되지 않았습니다.",
+    "395명 이내와 추가 전력은 계획상 규모입니다. 국무회의·국회 통과, 현지 협의 완료나 실제 배치 완료를 확인한 것은 아닙니다. 향후 심의·투입 일정은 바뀔 수 있습니다.",
+    "오만 남방 해역으로의 확대 계획을 호르무즈 해협 진입이나 이란 전쟁 개입 완료로 해석하지 않습니다. 전력 확대의 효과나 군사적 위험을 이 기록에서 판정하지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "SBS · 국방부 설명 인용",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
+      "published_at": "2026-11-05T01:33:02Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "JTBC · 국방부 설명·차관회의 통과 보도",
+      "url": "https://news.jtbc.co.kr/article/NB12326588",
+      "published_at": "2026-11-05T01:55:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "JTBC는 11월 5일 청해부대 파견 연장·작전구역 확대 동의안이 이날 차관회의를 통과했다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326588"
+      ]
+    },
+    {
+      "text": "SBS와 JTBC가 전한 계획에는 작전구역의 오만 남방 해역 확대와 해상초계기 1대·폭발물처리팀·무인 기뢰 제거장비 추가, 병력 395명 이내로의 확대가 포함됐습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
+        "https://news.jtbc.co.kr/article/NB12326588"
+      ]
+    },
+    {
+      "text": "JTBC는 국무회의 심의·대통령 재가·국회 동의 절차를 거친 뒤 현지 당국과의 협의가 완료되는 대로 추가 전력 투입을 추진할 예정이라고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.jtbc.co.kr/article/NB12326588"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-05T02:19:27Z",
+      "type": "new",
+      "text": "Codex 정기 원문 검토로 SBS·JTBC의 청해부대 파견 확대안 보도를 대조해 새 기록을 등록했습니다. 발생일은 11월 5일 차관회의 통과 보도 기준이며 국회 동의와 실제 추가 배치는 계획·미확인 상태로 구분했습니다."
+    }
+  ]
+}
