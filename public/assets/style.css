@@ -254,7 +254,7 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
 
 
 /* Phone home: one overview, then deliberate reading in four views.
-   Original sections are moved by JS and restored above 680px; no duplicate data. */
+   Original sections move between common tabs; phone-only controls adapt at 680px. */
 .mobile-home,.home-tabs,.mobile-home-guide,.mobile-map-close{display:none}
 .event-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}
 .event-pagination button{min-height:44px;min-width:72px;padding:8px 16px;background:transparent;border:1px solid var(--line-strong);font-size:1rem}
@@ -470,4 +470,33 @@ h1,h2,h3,p,dl,dd,figure{margin:0} h1,h2,h3{font-weight:700;line-height:1.25;lett
 @media print{
  .headline-controls{display:none!important}.headline-track{display:block;overflow:visible}.headline-slide{break-inside:avoid;margin-bottom:12px}
  .tension-evidence:not([open])>.tension-evidence-body{display:block!important}
+}
+
+
+/* A single overview on every screen; secondary reading lives in its own view. */
+.home-tabbed .mobile-home{display:block}
+.home-tabbed .records-grid,.home-tabbed .main-nav{display:none}
+.home-tabbed [data-home-panel][hidden]{display:none!important}
+@media(min-width:681px){
+ .home-tabbed .home-tabs{display:flex;gap:8px;margin-top:24px;border-bottom:1px solid var(--line-strong)}
+ .home-tabbed .home-tabs a{position:relative;display:flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;color:var(--muted);text-decoration:none;font-size:1rem}
+ .home-tabbed .home-tabs a[aria-selected="true"]{color:var(--ink);font-weight:700;background:var(--subtle)}
+ .home-tabbed .home-tabs a[aria-selected="true"]::after{content:'';position:absolute;left:24px;right:24px;bottom:-1px;height:2px;background:var(--ink)}
+ .home-tabbed .home-tabs a:hover{color:var(--ink);background:var(--subtle)}
+ .home-tabbed .home-panel{padding-block:28px;scroll-margin-top:24px}
+ .home-tabbed #home-panel-overview{padding-top:0}
+ .home-tabbed .mobile-overview-note{font-size:.875rem;color:var(--muted)}
+ .home-tabbed .mobile-panel-title{font-size:2rem;line-height:1.4;margin-bottom:24px}
+ .home-tabbed .mobile-official-wrap{margin:0;padding:24px 32px}
+ .home-tabbed .mobile-official-wrap .brief-lines>.brief-official{display:block;padding:0;border:0}
+ .home-tabbed .mobile-official-wrap .brief-official>dt{display:none}
+ .home-tabbed .mobile-record-content>.activity-summary{padding-top:0}
+ .home-tabbed .mobile-record-content>.changes-section{margin-top:40px}
+ .home-tabbed .mobile-record-tools{margin-top:32px;padding-top:24px;border-top:1px solid var(--line)}
+ .home-tabbed .mobile-record-footer{margin-top:24px;font-size:.875rem}
+ .home-tabbed .site-footer{margin-top:40px}
+}
+@media print{
+ .home-tabbed [data-home-panel][hidden],.home-tabbed .event-row[hidden]{display:block!important}
+ .home-tabbed .home-tabs{display:none!important}
 }

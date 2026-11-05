@@ -106,11 +106,12 @@ try{const prior=JSON.parse(localStorage.getItem(visitKey)||'null'),note=document
 document.querySelectorAll('[data-clear-visit]').forEach(btn=>btn.addEventListener('click',()=>{try{localStorage.removeItem('warwatch:last-visit:live');localStorage.removeItem('warwatch:last-visit:demo');toast('이 브라우저의 방문 비교 기록을 지웠습니다.')}catch{toast('이 브라우저에서는 방문 기록을 저장하지 않습니다.')}}));
 
 // Move the existing content, never clone event IDs or rewrite a saved briefing.
-// Without JS, or above the phone breakpoint, the complete original document remains.
+// All screen sizes share four views. Without JS the full static document remains.
 function setupMobileHome(){
 const home=document.querySelector('[data-mobile-home]');
 if(!home||typeof window==='undefined'||!window.matchMedia)return;
 const media=window.matchMedia('(max-width:680px)'),tablist=document.querySelector('[data-home-tabs]'),tabs=[...tablist.querySelectorAll('[data-home-tab]')],homePanels=[...home.querySelectorAll('[data-home-panel]')],placements=[];
+let tabsEnabled=false;
 const panel=name=>homePanels.find(item=>item.dataset.homePanel===name);
 function move(selector,target,before=null){const node=typeof selector==='string'?document.querySelector(selector):selector;if(!node||!target)return;const marker=document.createComment('mobile home section');node.before(marker);placements.push({node,marker});target.insertBefore(node,before);}
 function panelFor(hash){
@@ -121,7 +122,7 @@ if(['records','changes','sources','trend','brief-title','home-panel-records'].in
 const target=document.getElementById(id),owner=target?.closest('[data-home-panel]');return owner?.dataset.homePanel||'overview';
 }
 function activate(hash,scroll=false){
-if(!mobileHomeEnabled)return;
+if(!tabsEnabled)return;
 const active=panelFor(hash);body.dataset.homeTab=active;
 let targetId;try{targetId=decodeURIComponent(hash.replace(/^#/,''))}catch{targetId=''}
 const targetRecord=active==='news'&&targetId.startsWith('record-')?document.getElementById(targetId):null;
@@ -136,26 +137,27 @@ if(scroll){requestAnimationFrame(()=>{let id;try{id=decodeURIComponent(hash.repl
 }
 function navigate(hash){if(location.hash!==hash)history.pushState(null,'',hash);activate(hash,true);}
 function enable(){
-if(mobileHomeEnabled)return;mobileHomeEnabled=true;body.classList.add('home-mobile');tablist.setAttribute('role','tablist');tabs.forEach(tab=>{tab.setAttribute('role','tab');tab.setAttribute('aria-controls','home-panel-'+tab.dataset.homeTab);});
+if(tabsEnabled)return;tabsEnabled=true;mobileHomeEnabled=media.matches;body.classList.add('home-tabbed');body.classList.toggle('home-mobile',mobileHomeEnabled);tablist.setAttribute('role','tablist');tabs.forEach(tab=>{tab.setAttribute('role','tab');tab.setAttribute('aria-controls','home-panel-'+tab.dataset.homeTab);});
 move('.atlas-hero',panel('overview'),panel('overview').querySelector('.mobile-overview-note'));
-move('.headline-rail',document.querySelector('.atlas-hero'),document.querySelector('.hero-meta'));
+if(mobileHomeEnabled)move('.headline-rail',document.querySelector('.atlas-hero'),document.querySelector('.hero-meta'));
+else move('.headline-rail',panel('overview'),panel('overview').querySelector('.mobile-overview-note'));
 move('#events',panel('news'));
-move('.event-tools',home.querySelector('[data-mobile-search]'));
+if(mobileHomeEnabled)move('.event-tools',home.querySelector('[data-mobile-search]'));
 move('.brief-official',home.querySelector('[data-mobile-official]'));
-home.querySelectorAll('.official-row').forEach(row=>{const target=row.querySelector('[data-official-more-content]');row.querySelectorAll('.official-detail:not(.official-window),.official-meta:not(.official-observed),.official-messages').forEach(node=>move(node,target));});
+if(mobileHomeEnabled)home.querySelectorAll('.official-row').forEach(row=>{const target=row.querySelector('[data-official-more-content]');row.querySelectorAll('.official-detail:not(.official-window),.official-meta:not(.official-observed),.official-messages').forEach(node=>move(node,target));});
 const records=home.querySelector('[data-mobile-records]');
 ['.activity-summary','.brief.briefing-band','#changes','.fields-fold','#trend','#sources'].forEach(selector=>move(selector,records));
 move('.hero-actions',home.querySelector('[data-mobile-tools]'));move('.collection-note',home.querySelector('[data-mobile-tools]'));
 eventPage=1;applyEventFilters();activate(location.hash,Boolean(location.hash));
 }
 function disable(){
-if(!mobileHomeEnabled)return;mobileHomeEnabled=false;
+if(!tabsEnabled)return;tabsEnabled=false;mobileHomeEnabled=false;
 placements.reverse().forEach(({node,marker})=>{marker.replaceWith(node)});placements.length=0;
-body.classList.remove('home-mobile');delete body.dataset.homeTab;homePanels.forEach(item=>{item.hidden=false;});eventPage=1;applyEventFilters();
+body.classList.remove('home-mobile','home-tabbed');delete body.dataset.homeTab;homePanels.forEach(item=>{item.hidden=false;});eventPage=1;applyEventFilters();
 }
-function sync(){media.matches?enable():disable();}
-tabs.forEach((tab,index)=>{tab.addEventListener('click',event=>{if(!mobileHomeEnabled)return;event.preventDefault();navigate(tab.hash);});tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%tabs.length;else if(event.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=tabs.length-1;else return;event.preventDefault();tabs[next].focus();navigate(tabs[next].hash);});});
-document.addEventListener('click',event=>{if(!mobileHomeEnabled)return;const link=event.target.closest('a[href]');if(!link||link.closest('[data-home-tabs]')||link.target==='_blank'||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;const url=new URL(link.href,location.href);if(url.origin!==location.origin||url.pathname!==location.pathname||!url.hash)return;const id=url.hash.slice(1);if(!['overview','official','records'].includes(id)&&!document.getElementById(id))return;event.preventDefault();navigate(url.hash);});
+function sync(){disable();enable();}
+tabs.forEach((tab,index)=>{tab.addEventListener('click',event=>{if(!tabsEnabled)return;event.preventDefault();navigate(tab.hash);});tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%tabs.length;else if(event.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=tabs.length-1;else return;event.preventDefault();tabs[next].focus();navigate(tabs[next].hash);});});
+document.addEventListener('click',event=>{if(!tabsEnabled)return;const link=event.target.closest('a[href]');if(!link||link.closest('[data-home-tabs]')||link.target==='_blank'||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;const url=new URL(link.href,location.href);if(url.origin!==location.origin||url.pathname!==location.pathname||!url.hash)return;const id=url.hash.slice(1);if(!['overview','official','records'].includes(id)&&!document.getElementById(id))return;event.preventDefault();navigate(url.hash);});
 window.addEventListener('hashchange',()=>activate(location.hash,true));window.addEventListener('popstate',()=>activate(location.hash,true));
 if(media.addEventListener)media.addEventListener('change',sync);else media.addListener(sync);sync();
 }
