@@ -4,12 +4,12 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-06T06:17:04Z",
-  "generated_at": "2026-11-06T06:17:58+00:00",
-  "release_id": "r-8521de4c99b02018",
-  "snapshot_id": "s-50a1916774cecf02",
-  "headline": "최근 발표·보도 · 발생일 미상",
-  "summary": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
+  "collection_checked_at": "2026-11-06T06:35:22Z",
+  "generated_at": "2026-11-06T06:36:10+00:00",
+  "release_id": "r-0c1abe20c8ab3978",
+  "snapshot_id": "s-71a892b962fcba49",
+  "headline": "최근 발생한 사건과 발표·보도",
+  "summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:04Z",
-      "last_success_at": "2026-11-06T06:17:04Z",
-      "coverage_at": "2026-11-06T06:17:04Z",
+      "checked_at": "2026-11-06T06:35:22Z",
+      "last_success_at": "2026-11-06T06:35:22Z",
+      "coverage_at": "2026-11-06T06:35:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,8 +41,8 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:05Z",
-      "last_success_at": "2026-11-06T06:17:05Z",
+      "checked_at": "2026-11-06T06:35:23Z",
+      "last_success_at": "2026-11-06T06:35:23Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
       "error": "검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:50Z",
-      "last_success_at": "2026-11-06T06:17:50Z",
-      "coverage_at": "2026-11-06T06:17:50Z",
+      "checked_at": "2026-11-06T06:36:04Z",
+      "last_success_at": "2026-11-06T06:36:04Z",
+      "coverage_at": "2026-11-06T06:36:04Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:53Z",
-      "last_success_at": "2026-11-06T06:17:53Z",
-      "coverage_at": "2026-11-06T06:17:53Z",
+      "checked_at": "2026-11-06T06:36:06Z",
+      "last_success_at": "2026-11-06T06:36:06Z",
+      "coverage_at": "2026-11-06T06:36:06Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:06Z",
+      "last_success_at": "2026-11-06T06:36:06Z",
+      "coverage_at": "2026-11-06T06:36:06Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "coverage_at": "2026-11-06T06:36:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "coverage_at": "2026-11-06T06:36:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "coverage_at": "2026-11-06T06:36:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,9 +158,9 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "coverage_at": "2026-11-06T06:36:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
@@ -171,9 +171,9 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:43Z",
-      "last_success_at": "2026-11-06T06:17:43Z",
-      "coverage_at": "2026-11-06T06:17:43Z",
+      "checked_at": "2026-11-06T06:35:57Z",
+      "last_success_at": "2026-11-06T06:35:57Z",
+      "coverage_at": "2026-11-06T06:35:57Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "coverage_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "coverage_at": "2026-11-06T06:36:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:04Z",
-      "last_success_at": "2026-11-06T06:17:04Z",
-      "observed_at": "2026-11-06T06:17:04Z",
+      "checked_at": "2026-11-06T06:35:22Z",
+      "last_success_at": "2026-11-06T06:35:22Z",
+      "observed_at": "2026-11-06T06:35:22Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "observed_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "observed_at": "2026-11-06T06:36:07Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-06T06:17:54Z",
-      "last_success_at": "2026-11-06T06:17:54Z",
-      "observed_at": "2026-11-06T06:17:54Z",
+      "checked_at": "2026-11-06T06:36:07Z",
+      "last_success_at": "2026-11-06T06:36:07Z",
+      "observed_at": "2026-11-06T06:36:07Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-05T06:17:54Z",
-        "window_end": "2026-11-06T06:17:54Z",
+        "window_start": "2026-11-05T06:36:07Z",
+        "window_end": "2026-11-06T06:36:07Z",
         "total_count": 7,
         "matched_count": 0,
         "complete": true,
@@ -251,6 +251,63 @@
     }
   ],
   "events": [
+    {
+      "id": "dprk-fatf-response-20261106",
+      "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+      "summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
+      "kind": "official_statement",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-05T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-06T01:11:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-06T06:35:02Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "조선중앙통신과 북한 외무성의 공식 원문은 직접 확인하지 못했습니다. 조선비즈의 기관 인용 보도 수준으로 표시합니다.",
+        "FATF 공식 원문은 직접 확인하지 못했으며, 결정일과 유지 내용은 조선비즈 보도에 따릅니다.",
+        "북한의 반발 발표는 날짜만 확인했으며 정확한 문답 시각은 확인하지 못했습니다.",
+        "기존 바이낸스 해킹 배후 지목에 대한 반박과는 대상이 다른 발표로 구분합니다. 별도 군사행동·새 제재 시행·위험도 변화를 추정하지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "대북 금융규제에 대한 북한의 외교적 반응입니다. 명단 유지 결정과 북한의 반발 발표를 날짜별로 구분해 후속을 확인할 필요가 있습니다.",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "조선비즈 · 조선중앙통신 인용",
+          "url": "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/",
+          "published_at": "2026-11-06T01:11:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 기자 문답에서 FATF 총회 결정에 반발했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
+          ]
+        },
+        {
+          "text": "해당 보도에 따르면 FATF는 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 발표했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-06T06:35:02Z",
+          "type": "new",
+          "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다."
+        }
+      ]
+    },
     {
       "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
       "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
@@ -3297,6 +3354,14 @@
   ],
   "changes": [
     {
+      "id": "c-d7ed291b4aeedaf09d3d",
+      "event_id": "dprk-fatf-response-20261106",
+      "at": "2026-11-06T06:35:02Z",
+      "type": "new",
+      "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+      "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다."
+    },
+    {
       "id": "c-a1d3fb18f8bc101674f3",
       "event_id": "cheorwon-soldier-training-injury-20260309",
       "at": "2026-11-06T02:34:00Z",
@@ -4074,14 +4139,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-06T06:17:58+00:00",
-    "assessment_label": "최근 발표·보도 · 발생일 미상",
-    "assessment_summary": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
+    "as_of": "2026-11-06T06:36:10+00:00",
+    "assessment_label": "최근 발생한 사건과 발표·보도",
+    "assessment_summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
     "brief": {
-      "recent": "검토된 기록 미사일 발사 1건 · 공식 발언·조치 1건 · 외교 대응 2건 (최근 11/5)",
-      "recent_main": "검토된 기록 미사일 발사 1건 · 공식 발언·조치 1건 · 외교 대응 2건",
-      "recent_note": "(최근 11/5)",
-      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 10건 · 외교 대응 15건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 미사일 발사 1건 · 공식 발언·조치 2건 · 외교 대응 2건 (최근 11/6)",
+      "recent_main": "검토된 기록 미사일 발사 1건 · 공식 발언·조치 2건 · 외교 대응 2건",
+      "recent_note": "(최근 11/6)",
+      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 11건 · 외교 대응 15건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -4089,7 +4154,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-06T06:17:54Z",
+          "observed_at": "2026-11-06T06:36:07Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -4097,8 +4162,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-05T06:17:54Z",
-          "window_end": "2026-11-06T06:17:54Z",
+          "window_start": "2026-11-05T06:36:07Z",
+          "window_end": "2026-11-06T06:36:07Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 7건 확인"
@@ -4107,7 +4172,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-06T06:17:54Z",
+          "observed_at": "2026-11-06T06:36:07Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -4125,7 +4190,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-06T06:17:04Z",
+          "observed_at": "2026-11-06T06:35:22Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4144,51 +4209,59 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
-      "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
-      "summary": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
-      "kind": "diplomatic_change",
+      "id": "dprk-fatf-response-20261106",
+      "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+      "summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
+      "kind": "official_statement",
       "military_actor": "unknown",
-      "occurred_at": null,
-      "time_precision": "unknown",
-      "reported_at": "2026-11-05T06:51:07Z",
+      "occurred_at": "2026-11-05T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-06T01:11:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-05T07:37:57Z",
+      "updated_at": "2026-11-06T06:35:02Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "11월 5일은 확인한 기사 보도일이며 공동제안 참여의 정확한 결정·제출·등록 시각은 확인하지 못했습니다. 발생 시각은 비워 둡니다.",
-        "외교부의 해당 공식 발표 원문과 유엔 결의안 원문은 이번 검토에서 확보하지 못했습니다. 외교부 발언은 SBS의 인용 보도에 귀속하며 독립 검증으로 표시하지 않습니다.",
-        "기사의 11월 18~19일 제3위원회 채택 전망은 예정·전망입니다. 최종 문안·표결·채택 완료 또는 납북·억류·국군포로 피해의 새 발생을 확인한 기록이 아닙니다."
+        "조선중앙통신과 북한 외무성의 공식 원문은 직접 확인하지 못했습니다. 조선비즈의 기관 인용 보도 수준으로 표시합니다.",
+        "FATF 공식 원문은 직접 확인하지 못했으며, 결정일과 유지 내용은 조선비즈 보도에 따릅니다.",
+        "북한의 반발 발표는 날짜만 확인했으며 정확한 문답 시각은 확인하지 못했습니다.",
+        "기존 바이낸스 해킹 배후 지목에 대한 반박과는 대상이 다른 발표로 구분합니다. 별도 군사행동·새 제재 시행·위험도 변화를 추정하지 않습니다."
       ],
       "revision": 1,
-      "why_it_matters": "",
+      "why_it_matters": "대북 금융규제에 대한 북한의 외교적 반응입니다. 명단 유지 결정과 북한의 반발 발표를 날짜별로 구분해 후속을 확인할 필요가 있습니다.",
       "significance": "context",
       "sources": [
         {
-          "name": "SBS · 외교부 설명 인용 보도",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558",
-          "published_at": "2026-11-05T06:51:07Z",
+          "name": "조선비즈 · 조선중앙통신 인용",
+          "url": "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/",
+          "published_at": "2026-11-06T01:11:00Z",
           "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "SBS는 11월 5일 외교부의 설명을 인용해 정부가 5년 연속 유엔총회 북한인권결의안 공동제안국으로 참여했다고 전했습니다.",
+          "text": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 기자 문답에서 FATF 총회 결정에 반발했다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558"
+            "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
+          ]
+        },
+        {
+          "text": "해당 보도에 따르면 FATF는 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 발표했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-05T07:37:57Z",
+          "at": "2026-11-06T06:35:02Z",
           "type": "new",
-          "text": "Dot 정기 원문 검토: SBS 원문의 참여 설명과 채택 전망을 구분했습니다. 기존 사건·출처와 대조한 외교 기록으로 등록하며, 11월 5일을 실제 참여 결정일이나 새 군사행동 발생일로 확정하지 않습니다."
+          "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다."
         }
       ]
     },
@@ -4205,10 +4278,10 @@
           "date_label": "2026.11.04 · 발생일"
         }
       ],
-      "updated_at": "2026-11-06T06:17:58+00:00",
+      "updated_at": "2026-11-06T06:36:10+00:00",
       "method_version": "tension-observation-1",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-06T08:17:04+00:00",
+      "valid_until": "2026-11-06T08:35:22+00:00",
       "asset_key": "attention",
       "scope_limited": 1,
       "limitations": [
@@ -4222,6 +4295,63 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "dprk-fatf-response-20261106",
+        "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+        "summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
+        "kind": "official_statement",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-05T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-06T01:11:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-06T06:35:02Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "조선중앙통신과 북한 외무성의 공식 원문은 직접 확인하지 못했습니다. 조선비즈의 기관 인용 보도 수준으로 표시합니다.",
+          "FATF 공식 원문은 직접 확인하지 못했으며, 결정일과 유지 내용은 조선비즈 보도에 따릅니다.",
+          "북한의 반발 발표는 날짜만 확인했으며 정확한 문답 시각은 확인하지 못했습니다.",
+          "기존 바이낸스 해킹 배후 지목에 대한 반박과는 대상이 다른 발표로 구분합니다. 별도 군사행동·새 제재 시행·위험도 변화를 추정하지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "대북 금융규제에 대한 북한의 외교적 반응입니다. 명단 유지 결정과 북한의 반발 발표를 날짜별로 구분해 후속을 확인할 필요가 있습니다.",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "조선비즈 · 조선중앙통신 인용",
+            "url": "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/",
+            "published_at": "2026-11-06T01:11:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 기자 문답에서 FATF 총회 결정에 반발했다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
+            ]
+          },
+          {
+            "text": "해당 보도에 따르면 FATF는 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 발표했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-06T06:35:02Z",
+            "type": "new",
+            "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다."
+          }
+        ]
+      },
       {
         "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
         "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
@@ -4937,72 +5067,66 @@
             "text": "Codex 정기 원문 검토: SBS 11월 4일 20:34 게시·23:09 수정 본문에서 외부업체 경유 가능성과 다른 외교 문서의 과거 등록 흔적에 관한 보도를 기존 조사 기록에 연결했습니다. 최종 원인·책임이나 새 유출일을 확정하지 않았고, 유출된 개인정보·파일·검사 사이트를 수집하거나 링크하지 않았습니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "rok-joint-cadet-cruise-training-20261103",
-        "title": "사관생도 합동순항훈련 출항…11월 20일까지 교육훈련 계획",
-        "summary": "해군 발표를 인용한 11월 3일 보도에 따르면 사관생도 합동순항훈련전단이 진해군항에서 출항해 교육훈련을 시작했습니다. 국방부는 11월 20일까지 실시할 계획이라고 밝혔습니다. 정례 사관생도 교육훈련으로 분류합니다.",
-        "kind": "exercise",
-        "military_actor": "south_korea",
-        "occurred_at": "2026-11-02T15:00:00Z",
+        "id": "dprk-fatf-response-20261106",
+        "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+        "summary": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
+        "kind": "official_statement",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-05T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-02T15:00:00Z",
-        "reported_precision": "day",
-        "updated_at": "2026-11-03T16:33:44Z",
+        "reported_at": "2026-11-06T01:11:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-06T06:35:02Z",
         "status": "reported",
         "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "출항·실제 시작은 해군 발표를 인용한 보도에서 확인했습니다. 국방부 공개 브리핑은 훈련 계획을 확인하는 자료이며 상세 해군 발표 원문은 확보하지 못했습니다.",
-          "정확한 출항 시각은 확인되지 않아 발생일만 표시합니다. 11월 20일 종료와 기항 계획을 이미 완료한 일정으로 표시하지 않습니다.",
-          "기사와 정부 브리핑을 서로 독립된 현장 검증으로 세지 않습니다. 사관생도 정례교육을 특정 북한 행동에 대한 대응이나 긴장 고조의 증거로 해석하지 않습니다."
+          "조선중앙통신과 북한 외무성의 공식 원문은 직접 확인하지 못했습니다. 조선비즈의 기관 인용 보도 수준으로 표시합니다.",
+          "FATF 공식 원문은 직접 확인하지 못했으며, 결정일과 유지 내용은 조선비즈 보도에 따릅니다.",
+          "북한의 반발 발표는 날짜만 확인했으며 정확한 문답 시각은 확인하지 못했습니다.",
+          "기존 바이낸스 해킹 배후 지목에 대한 반박과는 대상이 다른 발표로 구분합니다. 별도 군사행동·새 제재 시행·위험도 변화를 추정하지 않습니다."
         ],
         "revision": 1,
-        "why_it_matters": "",
+        "why_it_matters": "대북 금융규제에 대한 북한의 외교적 반응입니다. 명단 유지 결정과 북한의 반발 발표를 날짜별로 구분해 후속을 확인할 필요가 있습니다.",
         "significance": "context",
         "sources": [
           {
-            "name": "뉴스토마토 · 해군 발표 인용",
-            "url": "https://www.newstomato.com/ReadNews.aspx?no=1319098",
-            "published_at": "2026-11-03T07:20:46Z",
+            "name": "조선비즈 · 조선중앙통신 인용",
+            "url": "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/",
+            "published_at": "2026-11-06T01:11:00Z",
             "published_precision": "minute"
-          },
-          {
-            "name": "국방부 · 11월 3일 정례브리핑",
-            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787708",
-            "published_at": "2026-11-02T15:00:00Z",
-            "published_precision": "day"
           }
         ],
         "facts": [
           {
-            "text": "뉴스토마토는 해군 발표를 인용해 합동순항훈련전단이 11월 3일 진해군항에서 출항했으며, 육·해·공군 및 간호사관학교 2학년 생도 741명이 참여한다고 보도했다.",
+            "text": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 기자 문답에서 FATF 총회 결정에 반발했다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.newstomato.com/ReadNews.aspx?no=1319098"
+              "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
             ]
           },
           {
-            "text": "국방부는 11월 3일 정례브리핑에서 합동순항훈련을 11월 20일까지 실시할 계획이라고 밝혔다. 보도는 이 훈련을 2018년 시작해 매년 진행하는 생도 교육훈련이라고 설명했다.",
+            "text": "해당 보도에 따르면 FATF는 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 발표했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787708",
-              "https://www.newstomato.com/ReadNews.aspx?no=1319098"
+              "https://biz.chosun.com/policy/policy_sub/2026/11/06/X5UHE5TGP5GLNBR2ZXKE673EOU/"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-03T16:33:44Z",
+            "at": "2026-11-06T06:35:02Z",
             "type": "new",
-            "text": "Codex 정기 원문 검토: 11월 3일 정부 브리핑의 계획과 해군 발표를 인용한 출항 보도를 대조했습니다. 한국 사관생도 정례 교육훈련으로 등록하고 북한 군사 활동과 구분합니다."
+            "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다."
           }
         ]
-      }
-    ],
-    "ordered_events": [
+      },
       {
         "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
         "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
@@ -8048,6 +8172,15 @@
       }
     ],
     "event_timing": {
+      "dprk-fatf-response-20261106": {
+        "date_label": "2026.11.06 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-06T06:35:02+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "rok-un-dprk-human-rights-resolution-cosponsorship-20261105": {
         "date_label": "2026.11.05 15:51 KST · 발표·게시 시각",
         "date_basis": "reported",
@@ -8411,7 +8544,7 @@
     },
     "metrics": {
       "events_24h": 1,
-      "events_24h_uncertain": 2,
+      "events_24h_uncertain": 3,
       "changes_24h": 4,
       "corrections_24h": 0,
       "active_major": 6
@@ -8419,7 +8552,7 @@
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 17,
+        "current": 18,
         "previous": 13,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -8458,7 +8591,7 @@
           },
           {
             "date": "2026-11-06",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -8501,7 +8634,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 8,
+            "current": 9,
             "previous": 2,
             "delta": null
           },
@@ -8523,7 +8656,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 34,
+        "current": 35,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -8677,7 +8810,7 @@
           },
           {
             "date": "2026-11-06",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -8720,7 +8853,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 10,
+            "current": 11,
             "previous": 0,
             "delta": null
           },
@@ -8742,6 +8875,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-d7ed291b4aeedaf09d3d",
+        "event_id": "dprk-fatf-response-20261106",
+        "at": "2026-11-06T06:35:02Z",
+        "type": "new",
+        "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+        "text": "Dot 정기 원문 검토: 조선비즈 원문과 날짜를 직접 확인해 11월 6일 북한 외무성 반발 보도를 등록했습니다. 10월 30일 명단 유지 결정과 분리하고, 공식 원문 미확인을 남긴 reported/quoted_only 기록입니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.06 · 발생일",
+        "registration_kind": "recent"
+      },
       {
         "id": "c-a1d3fb18f8bc101674f3",
         "event_id": "cheorwon-soldier-training-injury-20260309",
@@ -8774,17 +8918,6 @@
         "display_label": "발생일 미상 기록",
         "event_date_label": "2026.11.05 15:51 KST · 발표·게시 시각",
         "registration_kind": "unknown"
-      },
-      {
-        "id": "c-91bd3104f1d616d7de29",
-        "event_id": "dprk-kim-yo-jong-binance-response-20261103",
-        "at": "2026-11-05T06:22:11Z",
-        "type": "update",
-        "title": "바이낸스 해킹 배후 지목 공방…외교부, 추가 제재 내부 검토",
-        "text": "Dot 정기 원문 검토 · 인수 시험: 11월 5일 외교부 공식 브리핑의 바이낸스 관련 질의와 답변을 대조해 추가 제재 내부 검토·미확정 발언을 기존 사안에 연결했습니다. 새 해킹·새 제재 시행으로 세지 않고 기존 발생일·보도일과 수정 이력을 보존합니다.",
-        "display_label": "후속 내용 추가",
-        "event_date_label": "2026.11.03 07:11 KST · 발표·게시 시각",
-        "registration_kind": null
       }
     ],
     "important_events": [
@@ -9365,9 +9498,10 @@
       {
         "key": "statement",
         "label": "공식 발언·조치",
-        "title": "청해부대 파견 확대안 차관회의 통과 보도…국회 동의 절차 예정",
-        "text": "청해부대 파견 연장·확대 동의안이 11월 5일 차관회의를 통과했다고 JTBC가 보도했습니다. 국방부는 같은 날 브리핑에서 오만 남방 외해로 작전구역을 넓히는 안을 설명하고, 의결 절차를 거쳐 추진할 계획이라고 밝혔습니다. 실제 추가 파견 완료는 확인되지 않았습니다.",
+        "title": "북한 외무성, FATF 고위험국 지위 유지에 반발 보도",
+        "text": "조선비즈는 조선중앙통신을 인용해 북한 외무성 대변인이 11월 6일 FATF의 고위험국 지위 유지 결정에 반발했다고 보도했습니다. 같은 보도는 FATF가 10월 30일 북한의 고위험국 지위를 유지하기로 했다고 전했습니다.",
         "event_ids": [
+          "dprk-fatf-response-20261106",
           "rok-cheonghae-expansion-proposal-20261105",
           "dprk-kim-yo-jong-binance-response-20261103",
           "rok-seo-hui-launch-announcement-20261103",
@@ -9413,6 +9547,7 @@
       }
     ],
     "event_categories": {
+      "dprk-fatf-response-20261106": "statement",
       "rok-un-dprk-human-rights-resolution-cosponsorship-20261105": "diplomacy",
       "rok-cheonghae-expansion-proposal-20261105": "statement",
       "rok-uk-parliament-delegation-meeting-20261105": "diplomacy",
@@ -9456,9 +9591,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-06T06:17:54+00:00"
+    "last_attempt_at": "2026-11-06T06:36:07+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-06T06:17:04Z"
+  "snapshot_collection_checked_at": "2026-11-06T06:35:22Z"
 }
