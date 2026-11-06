@@ -1,0 +1,64 @@
+{
+  "id": "mnd-false-answer-sentence-deferral-20261106",
+  "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
+  "summary": "SBS는 11월 6일 서울중앙지법이 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했다고 보도했습니다. 같은 보도는 재판부가 개편안 폐기 등의 사정을 양형에 고려했다고 전했습니다.",
+  "kind": "official_measure",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-05T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-06T07:20:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-06T07:45:47Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "공식 판결문은 직접 확인하지 못했습니다. SBS가 인용한 재판부 판단 수준으로 표시합니다.",
+    "판결 확정 여부와 항소 여부는 확인하지 못했습니다. 보도된 선고유예를 무죄나 집행유예로 바꾸어 표시하지 않습니다.",
+    "수사외압이나 보복 동기 등 전체 사건 사실관계의 확정 여부는 이 기록에서 확인하지 못했습니다.",
+    "이 보도는 과거 국회 답변 관련 법원 조치입니다. 별도의 새 사망·부상 발생일이나 인원을 추가할 근거는 확인하지 못했습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "과거 군 사망사건과 관련된 국회 답변 책임에 대한 법원 조치 보도입니다. 판결문과 후속 절차에서 확인된 범위로 기록을 갱신할 필요가 있습니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "SBS · 서울중앙지법 판단 인용",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388",
+      "published_at": "2026-11-06T07:20:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS에 따르면 서울중앙지법은 11월 6일 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+      ]
+    },
+    {
+      "text": "해당 보도는 재판부가 2023년 8월 군 수사조직 개편 관련 국회 서면질의에 대한 허위답변 혐의를 유죄로 인정했다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+      ]
+    },
+    {
+      "text": "같은 보도에 따르면 재판부는 개편안이 내부 검토 끝에 폐기된 점 등의 사정을 양형에 고려했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-06T07:45:47Z",
+      "type": "new",
+      "text": "Dot 정기 원문 검토: 복구 수집 중 발견한 SBS 11월 6일 16:20 원문과 재판부 판단·양형 사유를 확인해 법원 조치 보도로 등록했습니다. 과거 사망사건을 현재 새 사망으로 세지 않고 판결문·확정 여부 미확인을 남겼습니다."
+    }
+  ]
+}
