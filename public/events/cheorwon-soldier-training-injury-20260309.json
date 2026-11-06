@@ -1,0 +1,57 @@
+{
+  "id": "cheorwon-soldier-training-injury-20260309",
+  "title": "3월 9일 철원 병사 부상…군 간부 가혹행위 혐의 기소 보도",
+  "summary": "SBS는 11월 6일 피해 병사 측을 인용해 3월 9일 철원에서 병사에게 강압적으로 팔굽혀펴기를 시켜 다치게 한 혐의로 육군 간부가 기소됐다고 보도했습니다. 과거 발생한 피해를 뒤늦게 등록한 기록이며, 기소는 유죄 확정이 아닙니다.",
+  "kind": "military_incident",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-03-08T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-06T01:59:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-06T02:34:00Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": true,
+  "unknowns": [
+    "군 검찰의 공개 기소 문서 원문은 확인하지 못했습니다. 피해 병사 측을 인용한 단일 보도로 구분합니다.",
+    "정확한 기소일과 재판 결과는 확인하지 못했습니다. 11월 6일은 보도일이며 기소일이나 유죄 확정일로 옮기지 않습니다.",
+    "기록의 발생일은 보도에 나온 3월 9일입니다. 부상 정도·진단 세부 사항·사건 원인을 추가로 추정하지 않습니다.",
+    "정확한 부대 위치나 지도 좌표는 등록하지 않습니다. 북한 관련 사건이나 11월 2일 철원 하사 사망 사건과 연결할 근거는 확인하지 못했습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "과거 군 인명피해 사건의 수사 후속입니다. 보도일을 새 부상 발생일로 계산하지 않으며, 형사 책임은 재판 결과와 구분해 확인해야 합니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "SBS · 피해 병사 측 인용 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833777",
+      "published_at": "2026-11-06T01:59:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS는 피해 병사 측을 인용해 3월 9일 철원에서 강압적 팔굽혀펴기로 다쳐 입원 치료를 받았다는 내용을 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833777"
+      ]
+    },
+    {
+      "text": "해당 보도는 군 검찰이 육군 간부를 직권남용가혹행위와 폭행치상 혐의로 기소했다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008833777"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-06T02:34:00Z",
+      "type": "new",
+      "text": "Dot 정기 원문 검토: 11월 6일 SBS 원문과 날짜를 직접 대조해 3월 9일 피해 및 기소 보도를 소급 등록했습니다. 오늘 발생한 새 부상으로 세지 않으며, 기소일·판결·유죄를 확정하지 않습니다."
+    }
+  ]
+}
