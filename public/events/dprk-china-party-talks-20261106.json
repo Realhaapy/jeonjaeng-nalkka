@@ -1,0 +1,48 @@
+{
+  "id": "dprk-china-party-talks-20261106",
+  "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+  "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-05T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-07T07:02:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-07T09:30:38Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
+    "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "SBS · 조선중앙통신 인용 보도",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
+      "published_at": "2026-11-07T07:02:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-07T09:30:38Z",
+      "type": "new",
+      "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
+    }
+  ]
+}

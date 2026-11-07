@@ -5,11 +5,11 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-07T01:26:10Z",
-  "generated_at": "2026-11-07T09:06:59+00:00",
-  "release_id": "r-8181da68153a056e",
-  "snapshot_id": "s-e959b11170e1e247",
+  "generated_at": "2026-11-07T09:31:23+00:00",
+  "release_id": "r-167e63760227f35b",
+  "snapshot_id": "s-adf57a0ced89653b",
   "headline": "최근 발생한 사건과 발표·보도",
-  "summary": "SBS는 11월 6일 서울중앙지법이 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했다고 보도했습니다. 같은 보도는 재판부가 개편안 폐기 등의 사정을 양형에 고려했다고 전했습니다.",
+  "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다.",
@@ -19,7 +19,7 @@
   "coverage": {
     "ok": 8,
     "total": 11,
-    "pending": 11,
+    "pending": 9,
     "status": "partial",
     "scope_limited": 0
   },
@@ -29,9 +29,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-07T08:46:31Z",
-      "last_success_at": "2026-11-07T08:46:31Z",
-      "coverage_at": "2026-11-07T08:46:31Z",
+      "checked_at": "2026-11-07T09:26:14Z",
+      "last_success_at": "2026-11-07T09:26:14Z",
+      "coverage_at": "2026-11-07T09:26:14Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -42,7 +42,7 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "failed",
-      "checked_at": "2026-11-07T08:46:38Z",
+      "checked_at": "2026-11-07T09:26:21Z",
       "last_success_at": "2026-11-07T01:26:10Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
@@ -68,9 +68,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-07T08:49:52Z",
-      "last_success_at": "2026-11-07T08:49:52Z",
-      "coverage_at": "2026-11-07T08:49:52Z",
+      "checked_at": "2026-11-07T09:29:31Z",
+      "last_success_at": "2026-11-07T09:29:31Z",
+      "coverage_at": "2026-11-07T09:29:31Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -94,9 +94,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:00Z",
-      "last_success_at": "2026-11-07T08:50:00Z",
-      "coverage_at": "2026-11-07T08:50:00Z",
+      "checked_at": "2026-11-07T09:29:36Z",
+      "last_success_at": "2026-11-07T09:29:36Z",
+      "coverage_at": "2026-11-07T09:29:36Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -107,9 +107,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:04Z",
-      "last_success_at": "2026-11-07T08:50:04Z",
-      "coverage_at": "2026-11-07T08:50:04Z",
+      "checked_at": "2026-11-07T09:29:39Z",
+      "last_success_at": "2026-11-07T09:29:39Z",
+      "coverage_at": "2026-11-07T09:29:39Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -120,9 +120,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:15Z",
-      "last_success_at": "2026-11-07T08:50:15Z",
-      "coverage_at": "2026-11-07T08:50:15Z",
+      "checked_at": "2026-11-07T09:29:43Z",
+      "last_success_at": "2026-11-07T09:29:43Z",
+      "coverage_at": "2026-11-07T09:29:43Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -133,9 +133,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:19Z",
-      "last_success_at": "2026-11-07T08:50:19Z",
-      "coverage_at": "2026-11-07T08:50:19Z",
+      "checked_at": "2026-11-07T09:29:46Z",
+      "last_success_at": "2026-11-07T09:29:46Z",
+      "coverage_at": "2026-11-07T09:29:46Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -146,9 +146,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:25Z",
-      "last_success_at": "2026-11-07T08:50:25Z",
-      "coverage_at": "2026-11-07T08:50:25Z",
+      "checked_at": "2026-11-07T09:29:54Z",
+      "last_success_at": "2026-11-07T09:29:54Z",
+      "coverage_at": "2026-11-07T09:29:54Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -159,7 +159,7 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "failed",
-      "checked_at": "2026-11-07T08:50:30Z",
+      "checked_at": "2026-11-07T09:29:58Z",
       "last_success_at": "2026-11-07T01:26:54Z",
       "coverage_at": "2026-11-07T01:26:54Z",
       "scope_complete": false,
@@ -172,7 +172,7 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "failed",
-      "checked_at": "2026-11-07T08:49:28Z",
+      "checked_at": "2026-11-07T09:29:09Z",
       "last_success_at": "2026-11-07T01:26:45Z",
       "coverage_at": "2026-11-07T01:26:45Z",
       "scope_complete": false,
@@ -185,9 +185,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:23Z",
-      "last_success_at": "2026-11-07T08:50:23Z",
-      "coverage_at": "2026-11-07T08:50:23Z",
+      "checked_at": "2026-11-07T09:29:50Z",
+      "last_success_at": "2026-11-07T09:29:50Z",
+      "coverage_at": "2026-11-07T09:29:50Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -200,9 +200,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-07T08:46:31Z",
-      "last_success_at": "2026-11-07T08:46:31Z",
-      "observed_at": "2026-11-07T08:46:31Z",
+      "checked_at": "2026-11-07T09:26:14Z",
+      "last_success_at": "2026-11-07T09:26:14Z",
+      "observed_at": "2026-11-07T09:26:14Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -217,9 +217,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-07T08:50:25Z",
-      "last_success_at": "2026-11-07T08:50:25Z",
-      "observed_at": "2026-11-07T08:50:25Z",
+      "checked_at": "2026-11-07T09:29:54Z",
+      "last_success_at": "2026-11-07T09:29:54Z",
+      "observed_at": "2026-11-07T09:29:54Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -235,7 +235,7 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "failed",
-      "checked_at": "2026-11-07T08:50:30Z",
+      "checked_at": "2026-11-07T09:29:58Z",
       "last_success_at": "2026-11-07T01:26:54Z",
       "observed_at": "2026-11-07T01:26:54Z",
       "observation": {
@@ -252,6 +252,54 @@
     }
   ],
   "events": [
+    {
+      "id": "dprk-china-party-talks-20261106",
+      "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+      "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-05T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-07T07:02:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-07T09:30:38Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
+        "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "SBS · 조선중앙통신 인용 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
+          "published_at": "2026-11-07T07:02:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-07T09:30:38Z",
+          "type": "new",
+          "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
+        }
+      ]
+    },
     {
       "id": "mnd-false-answer-sentence-deferral-20261106",
       "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
@@ -3419,6 +3467,14 @@
   ],
   "changes": [
     {
+      "id": "c-9ffc1f6a62a5462531d7",
+      "event_id": "dprk-china-party-talks-20261106",
+      "at": "2026-11-07T09:30:38Z",
+      "type": "new",
+      "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+      "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
+    },
+    {
       "id": "c-426e35e0fd5b4aff6923",
       "event_id": "mnd-false-answer-sentence-deferral-20261106",
       "at": "2026-11-06T07:45:47Z",
@@ -4212,14 +4268,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-07T09:06:59+00:00",
+    "as_of": "2026-11-07T09:31:23+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
-    "assessment_summary": "SBS는 11월 6일 서울중앙지법이 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했다고 보도했습니다. 같은 보도는 재판부가 개편안 폐기 등의 사정을 양형에 고려했다고 전했습니다.",
+    "assessment_summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
     "brief": {
-      "recent": "검토된 기록 공식 발언·조치 3건 · 외교 대응 2건 (최근 11/6)",
-      "recent_main": "검토된 기록 공식 발언·조치 3건 · 외교 대응 2건",
+      "recent": "검토된 기록 공식 발언·조치 3건 · 외교 대응 3건 (최근 11/6)",
+      "recent_main": "검토된 기록 공식 발언·조치 3건 · 외교 대응 3건",
       "recent_note": "(최근 11/6)",
-      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 12건 · 외교 대응 15건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 12건 · 외교 대응 16건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -4245,7 +4301,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-07T08:50:25Z",
+          "observed_at": "2026-11-07T09:29:54Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -4263,7 +4319,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-07T08:46:31Z",
+          "observed_at": "2026-11-07T09:26:14Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4282,66 +4338,50 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "mnd-false-answer-sentence-deferral-20261106",
-      "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
-      "summary": "SBS는 11월 6일 서울중앙지법이 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했다고 보도했습니다. 같은 보도는 재판부가 개편안 폐기 등의 사정을 양형에 고려했다고 전했습니다.",
-      "kind": "official_measure",
+      "id": "dprk-china-party-talks-20261106",
+      "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+      "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+      "kind": "diplomatic_change",
       "military_actor": "unknown",
       "occurred_at": "2026-11-05T15:00:00Z",
       "time_precision": "day",
-      "reported_at": "2026-11-06T07:20:00Z",
+      "reported_at": "2026-11-07T07:02:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-06T07:45:47Z",
+      "updated_at": "2026-11-07T09:30:38Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "공식 판결문은 직접 확인하지 못했습니다. SBS가 인용한 재판부 판단 수준으로 표시합니다.",
-        "판결 확정 여부와 항소 여부는 확인하지 못했습니다. 보도된 선고유예를 무죄나 집행유예로 바꾸어 표시하지 않습니다.",
-        "수사외압이나 보복 동기 등 전체 사건 사실관계의 확정 여부는 이 기록에서 확인하지 못했습니다.",
-        "이 보도는 과거 국회 답변 관련 법원 조치입니다. 별도의 새 사망·부상 발생일이나 인원을 추가할 근거는 확인하지 못했습니다."
+        "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
+        "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
       ],
       "revision": 1,
-      "why_it_matters": "과거 군 사망사건과 관련된 국회 답변 책임에 대한 법원 조치 보도입니다. 판결문과 후속 절차에서 확인된 범위로 기록을 갱신할 필요가 있습니다.",
+      "why_it_matters": "",
       "significance": "context",
       "sources": [
         {
-          "name": "SBS · 서울중앙지법 판단 인용",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388",
-          "published_at": "2026-11-06T07:20:00Z",
+          "name": "SBS · 조선중앙통신 인용 보도",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
+          "published_at": "2026-11-07T07:02:00Z",
           "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "SBS에 따르면 서울중앙지법은 11월 6일 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했습니다.",
+          "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
-          ]
-        },
-        {
-          "text": "해당 보도는 재판부가 2023년 8월 군 수사조직 개편 관련 국회 서면질의에 대한 허위답변 혐의를 유죄로 인정했다고 전했습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
-          ]
-        },
-        {
-          "text": "같은 보도에 따르면 재판부는 개편안이 내부 검토 끝에 폐기된 점 등의 사정을 양형에 고려했습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-06T07:45:47Z",
+          "at": "2026-11-07T09:30:38Z",
           "type": "new",
-          "text": "Dot 정기 원문 검토: 복구 수집 중 발견한 SBS 11월 6일 16:20 원문과 재판부 판단·양형 사유를 확인해 법원 조치 보도로 등록했습니다. 과거 사망사건을 현재 새 사망으로 세지 않고 판결문·확정 여부 미확인을 남겼습니다."
+          "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
         }
       ]
     },
@@ -4351,7 +4391,7 @@
       "summary": "수집 실패 또는 확인 지연으로 현재 분류를 보류합니다.",
       "short_summary": "수집 실패·지연 · 확인 필요",
       "basis": [],
-      "updated_at": "2026-11-07T09:06:59+00:00",
+      "updated_at": "2026-11-07T09:31:23+00:00",
       "method_version": "tension-observation-1",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
       "valid_until": "2026-11-07T03:26:10+00:00",
@@ -4368,6 +4408,54 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "dprk-china-party-talks-20261106",
+        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+        "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-05T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-07T07:02:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-07T09:30:38Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
+          "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "SBS · 조선중앙통신 인용 보도",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
+            "published_at": "2026-11-07T07:02:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-07T09:30:38Z",
+            "type": "new",
+            "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
+          }
+        ]
+      },
       {
         "id": "mnd-false-answer-sentence-deferral-20261106",
         "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
@@ -5012,93 +5100,57 @@
             "text": "Dot 정기 원문 검토 · 인수 시험: 11월 5일 외교부 공식 브리핑의 바이낸스 관련 질의와 답변을 대조해 추가 제재 내부 검토·미확정 발언을 기존 사안에 연결했습니다. 새 해킹·새 제재 시행으로 세지 않고 기존 발생일·보도일과 수정 이력을 보존합니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "rok-seo-hui-launch-announcement-20261103",
-        "title": "서희함 진수 보도 확인…2028년 해군 인도 예정",
-        "summary": "해군·방위사업청이 예고했던 3,600톤급 디젤잠수함 서희함 진수식이 11월 3일 거제 옥포조선소에서 열렸다고 후속 보도가 전했습니다. 기존 진수 계획 기록에 개최 보도를 연결했습니다. 시운전 뒤 2028년 인도할 계획이며 취역·실전 배치 완료를 뜻하지 않습니다.",
-        "kind": "official_measure",
-        "military_actor": "south_korea",
-        "occurred_at": "2026-11-02T15:00:00Z",
+        "id": "dprk-china-party-talks-20261106",
+        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+        "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-05T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-02T15:00:00Z",
-        "reported_precision": "day",
-        "updated_at": "2026-11-03T17:27:25Z",
+        "reported_at": "2026-11-07T07:02:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-07T09:30:38Z",
         "status": "reported",
         "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "공식 공동보도자료는 진수식 개최를 예고한 자료입니다. 실제 개최는 기관 발표를 인용한 후속 보도로 확인했으며, 정확한 행사 시각과 별도의 사후 공식 발표 원문은 확보하지 못했습니다.",
-          "2028년 인도와 이후 실전 배치는 계획입니다. 취역이나 작전 투입 완료로 기록하지 않습니다.",
-          "자료의 성능·우수성 평가는 기관의 설명이며 독립적인 성능 검증으로 사용하지 않습니다.",
-          "게시 페이지와 첨부파일은 하나의 공동자료입니다. 장소는 거제로 공개됐으나 지도 좌표는 임의로 넣지 않았습니다.",
-          "진수 계획과 개최 보도는 같은 함정·행사의 후속 기록입니다. 별도 사건이나 독립 성능 검증으로 세지 않습니다."
+          "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
+          "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
         ],
-        "revision": 2,
+        "revision": 1,
         "why_it_matters": "",
-        "significance": "notable",
+        "significance": "context",
         "sources": [
           {
-            "name": "방위사업청·해군 공동보도자료 · 정책브리핑",
-            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
-            "published_at": "2026-11-02T15:00:00Z",
-            "published_precision": "day"
-          },
-          {
-            "name": "방위사업청·해군 · 서희함 진수 보도자료 첨부",
-            "url": "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN",
-            "published_at": "2026-11-02T15:00:00Z",
-            "published_precision": "day"
-          },
-          {
-            "name": "뉴스핌 · 해군·방사청 인용, 11월 3일 16:58 수정 본문",
-            "url": "https://member.newspim.com/news/view/20261103000783",
-            "published_at": "2026-11-03T04:52:00Z",
+            "name": "SBS · 조선중앙통신 인용 보도",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
+            "published_at": "2026-11-07T07:02:00Z",
             "published_precision": "minute"
           }
         ],
         "facts": [
           {
-            "text": "해군·방위사업청은 11월 3일 공동보도자료에서 장보고-Ⅲ Batch-Ⅱ 두 번째 함정인 서희함의 진수식을 당일 오후 거제 옥포조선소에서 연다고 밝혔다.",
+            "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
-              "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN"
-            ]
-          },
-          {
-            "text": "공동자료는 서희함이 시운전 뒤 2028년 해군에 인도되고, 이후 전력화 과정을 거쳐 실전 배치될 예정이라고 설명했다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787670",
-              "https://www.korea.kr/common/download.do?fileId=198582978&tblKey=GMN"
-            ]
-          },
-          {
-            "text": "뉴스핌은 11월 3일 16:58 수정 보도에서 해군과 방위사업청이 당일 오후 거제 옥포조선소에서 서희함 진수식을 거행했다고 전했다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://member.newspim.com/news/view/20261103000783"
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-03T13:35:13Z",
+            "at": "2026-11-07T09:30:38Z",
             "type": "new",
-            "text": "Codex 정기 원문 검토: 공식 공동보도자료와 첨부 원문을 확인해 진수 계획 발표로 등록했습니다. 실제 행사 완료·취역·실전 배치는 확인된 사실로 쓰지 않았습니다."
-          },
-          {
-            "at": "2026-11-03T17:27:25Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 3일 오후 진수식 개최를 전한 후속 보도를 기존 계획 기록에 연결했습니다. 발생일을 11월 3일로 보완하고, 실제 개최는 기관 인용 보도 확인으로 구분했습니다. 2028년 인도·전력화는 계획으로 유지합니다."
+            "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
           }
         ]
-      }
-    ],
-    "ordered_events": [
+      },
       {
         "id": "mnd-false-answer-sentence-deferral-20261106",
         "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
@@ -8265,6 +8317,15 @@
       }
     ],
     "event_timing": {
+      "dprk-china-party-talks-20261106": {
+        "date_label": "2026.11.06 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-07T09:30:38+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "mnd-false-answer-sentence-deferral-20261106": {
         "date_label": "2026.11.06 · 발생일",
         "date_basis": "occurred",
@@ -8646,15 +8707,15 @@
     },
     "metrics": {
       "events_24h": 0,
-      "events_24h_uncertain": 2,
-      "changes_24h": 0,
+      "events_24h_uncertain": 3,
+      "changes_24h": 1,
       "corrections_24h": 0,
       "active_major": 6
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 17,
+        "current": 18,
         "previous": 15,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -8688,7 +8749,7 @@
           },
           {
             "date": "2026-11-06",
-            "count": 2,
+            "count": 3,
             "prior": null
           },
           {
@@ -8743,7 +8804,7 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 2,
+            "current": 3,
             "previous": 10,
             "delta": null
           },
@@ -8758,7 +8819,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 36,
+        "current": 37,
         "previous": 3,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -8907,7 +8968,7 @@
           },
           {
             "date": "2026-11-06",
-            "count": 2,
+            "count": 3,
             "prior": null
           },
           {
@@ -8962,7 +9023,7 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 15,
+            "current": 16,
             "previous": 1,
             "delta": null
           },
@@ -8976,7 +9037,19 @@
         ]
       }
     },
-    "recent_changes": [],
+    "recent_changes": [
+      {
+        "id": "c-9ffc1f6a62a5462531d7",
+        "event_id": "dprk-china-party-talks-20261106",
+        "at": "2026-11-07T09:30:38Z",
+        "type": "new",
+        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+        "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.06 · 발생일",
+        "registration_kind": "recent"
+      }
+    ],
     "important_events": [
       {
         "id": "dprk-launch-20261029",
@@ -9523,9 +9596,10 @@
       {
         "key": "diplomacy",
         "label": "외교 대응",
-        "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
-        "text": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
+        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
+        "text": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
         "event_ids": [
+          "dprk-china-party-talks-20261106",
           "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
           "rok-uk-parliament-delegation-meeting-20261105"
         ],
@@ -9553,6 +9627,7 @@
       }
     ],
     "event_categories": {
+      "dprk-china-party-talks-20261106": "diplomacy",
       "mnd-false-answer-sentence-deferral-20261106": "statement",
       "dprk-fatf-response-20261106": "statement",
       "rok-un-dprk-human-rights-resolution-cosponsorship-20261105": "diplomacy",
@@ -9598,7 +9673,7 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-07T08:50:30+00:00"
+    "last_attempt_at": "2026-11-07T09:29:58+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
