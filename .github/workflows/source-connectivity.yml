@@ -1,0 +1,48 @@
+name: Official source connectivity diagnostic
+on:
+  push:
+    branches: [ops/source-connectivity-20261107]
+    paths: [.github/workflows/source-connectivity.yml]
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check official sources without saving content
+        shell: python
+        run: |
+          import urllib.request, urllib.error, json, hashlib, time
+          from concurrent.futures import ThreadPoolExecutor
+          targets = [
+              ("korea-briefing", "https://www.korea.kr/briefing/pressReleaseList.do"),
+              ("korea-ministry-briefings", "https://www.korea.kr/briefing/policyBriefingList.do"),
+              ("korea-disaster-messages", "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"),
+              ("mnd-press", "https://www.mnd.go.kr/mnd/167/subview.do"),
+              ("army-rss", "https://www.army.mil.kr/bbs/army/3/rssList.do?row=50"),
+              ("unikorea-rss", "https://unikorea.go.kr/web/unikorea/rss/bbs_0000000000000004"),
+          ]
+          def probe(item):
+              source, url = item
+              result = {"source": source, "url": url}
+              started = time.monotonic()
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "JeonjaengNalkka/0.1 (+https://war.pebbleroom.kr; source-connectivity-check)"})
+                  try:
+                      response = urllib.request.urlopen(req, timeout=20)
+                  except urllib.error.HTTPError as error:
+                      response = error
+                  with response:
+                      body = response.read(3000000)
+                      result.update(status=response.status, content_type=response.headers.get("Content-Type"),
+                          server=response.headers.get("Server"), via=response.headers.get("Via"),
+                          retry_after=response.headers.get("Retry-After"), bytes=len(body),
+                          sha256=hashlib.sha256(body).hexdigest(),
+                          has_html=b"<html" in body.lower(), has_rss=b"<rss" in body.lower())
+              except Exception as error:
+                  result["error_type"] = type(error).__name__
+              result["seconds"] = round(time.monotonic()-started, 2)
+              return result
+          with ThreadPoolExecutor(max_workers=3) as executor:
+              for result in executor.map(probe, targets):
+                  print(json.dumps(result, ensure_ascii=False), flush=True)
