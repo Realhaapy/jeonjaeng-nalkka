@@ -16,6 +16,15 @@ FILE = "encrypted/latest.json"
 API = f"https://api.github.com/repos/{REPOSITORY}/contents/{FILE}"
 
 
+def unique_object(pairs):
+    value = {}
+    for key, item in pairs:
+        if key in value:
+            raise ValueError("Duplicate envelope fields are forbidden")
+        value[key] = item
+    return value
+
+
 def request(method, url, token, body=None):
     headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
                "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "JeonjaengNalkka-source-relay"}
@@ -37,7 +46,7 @@ def main():
     raw = args.envelope.read_bytes()
     if not 100 < len(raw) <= 4 * 1024 * 1024:
         raise ValueError("Invalid encrypted envelope size")
-    envelope = json.loads(raw)
+    envelope = json.loads(raw, object_pairs_hook=unique_object)
     fields = {"format", "version", "recipient_key_id", "ephemeral_public_key", "salt", "nonce", "ciphertext"}
     if (not isinstance(envelope, dict) or set(envelope) != fields
             or envelope.get("format") != "warwatch-source-relay"
@@ -50,6 +59,7 @@ def main():
             raise ValueError("Invalid encrypted envelope parameter")
     if not 16 <= len(base64.b64decode(envelope["ciphertext"], validate=True)) <= 3 * 1024 * 1024 + 16:
         raise ValueError("Invalid ciphertext size")
+    raw = json.dumps(envelope, ensure_ascii=True, sort_keys=True, separators=(",", ":"), allow_nan=False).encode("ascii")
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         raise ValueError("Built-in repository token is unavailable")
@@ -73,3 +83,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
