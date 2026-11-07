@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "id": "korea-briefing",
+      "name": "대한민국 정책브리핑",
+      "url": "https://www.korea.kr/briefing/pressReleaseList.do",
+      "fetch_url": "https://www.korea.kr/briefing/pressReleaseList.do",
+      "parser": "korea_history",
+      "enabled": true,
+      "required": true,
+      "permissions": {
+        "fetch": "allowed",
+        "llm": "unknown",
+        "summary": "unknown",
+        "retention": "metadata_only"
+      },
+      "terms_url": "https://www.korea.kr/etc/copyright.do",
+      "terms_checked_at": "2026-11-01",
+      "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
+      "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다.",
+      "retention_days": 30,
+      "per_document_rights": "kogl_text",
+      "queries": [
+        "북한",
+        "한미",
+        "훈련",
+        "미사일",
+        "장병",
+        "사망",
+        "부상",
+        "지뢰",
+        "접경"
+      ],
+      "history_pages": 2,
+      "max_documents": 40,
+      "priority_document_slots": 10,
+      "lookback_days": 30
+    },
+    {
+      "id": "korea-ministry-briefings",
+      "name": "대한민국 정책브리핑 · 부처 브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingList.do",
+      "fetch_url": "https://www.korea.kr/briefing/policyBriefingList.do",
+      "parser": "korea_briefings",
+      "enabled": true,
+      "required": true,
+      "permissions": {
+        "fetch": "allowed",
+        "llm": "unknown",
+        "summary": "unknown",
+        "retention": "metadata_only"
+      },
+      "per_document_rights": "kogl_text",
+      "terms_url": "https://www.korea.kr/etc/copyright.do",
+      "terms_checked_at": "2026-11-03",
+      "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
+      "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다.",
+      "history_pages": 2,
+      "max_documents": 20,
+      "lookback_days": 7,
+      "agencies": [
+        "국방부",
+        "통일부",
+        "외교부"
+      ],
+      "retention_days": 30
+    },
+    {
+      "id": "korea-disaster-messages",
+      "name": "행정안전부 국민안전24 · 재난문자",
+      "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+      "fetch_url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+      "parser": "korean_alerts",
+      "enabled": true,
+      "required": true,
+      "monitor": true,
+      "lookback_hours": 24,
+      "max_pages": 10,
+      "permissions": {
+        "fetch": "allowed",
+        "llm": "not_used",
+        "summary": "allowed",
+        "retention": "metadata_only"
+      },
+      "terms_url": "https://www.mois.go.kr/frt/sub/a08/copyrightPolicy/screen.do",
+      "terms_checked_at": "2026-11-03",
+      "retention_days": 0,
+      "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
+      "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
+    }
+  ]
+}
