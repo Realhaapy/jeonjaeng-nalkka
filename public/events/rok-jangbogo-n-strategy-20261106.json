@@ -1,0 +1,55 @@
+{
+  "id": "rok-jangbogo-n-strategy-20261106",
+  "title": "방추위, 핵추진잠수함 장보고 N사업 기본전략 의결 보도",
+  "summary": "뉴시스는 방위사업청이 11월 6일 방위사업추진위원회에서 장보고 N사업 기본전략을 의결했다고 보도했습니다. 사업 착수는 2027년, 전력화는 2030년대 후반 이후를 목표로 한다는 설명으로, 현재 잠수함 배치가 이뤄졌다는 뜻은 아닙니다.",
+  "kind": "official_measure",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-05T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-06T08:19:17Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-07T11:31:24Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "방위사업청 발표 원문은 별도로 확보하지 못했으며 언론의 기관 인용을 확인했습니다.",
+    "계획 의결과 실제 계약·건조·배치 완료는 구분합니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "뉴시스 · 방위사업추진위원회 의결 보도",
+      "url": "https://www.newsis.com/view/NISX20261106_0003858462",
+      "published_at": "2026-11-06T08:19:17Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "뉴시스는 방위사업청이 11월 6일 제179회 방위사업추진위원회에서 장보고 N사업 기본전략을 의결했다고 보도했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858462"
+      ]
+    },
+    {
+      "text": "보도에서 방위사업청은 2027년 사업 착수와 2030년대 후반 이후 전력화를 목표로 제시했다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.newsis.com/view/NISX20261106_0003858462"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-07T11:31:24Z",
+      "type": "new",
+      "text": "아리 클라우드 원문 검토: 뉴시스 11월 6일 보도를 확인해 사업 기본전략 의결을 공식 조치로 기록합니다. 현재 전력화나 새 군사행동으로 세지 않으며 공식 원문 미확보를 명시합니다."
+    }
+  ]
+}
