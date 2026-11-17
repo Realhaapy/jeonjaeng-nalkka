@@ -1,22 +1,22 @@
 {
   "id": "rok-kadiz-russia-reported-20261117",
   "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
-  "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+  "summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
   "kind": "nonroutine_military",
   "military_actor": "unknown",
   "occurred_at": "2026-11-16T15:00:00Z",
   "time_precision": "day",
   "reported_at": "2026-11-17T12:08:00Z",
   "reported_precision": "minute",
-  "updated_at": "2026-11-17T15:29:34Z",
+  "updated_at": "2026-11-17T16:28:49Z",
   "status": "reported",
   "primary_status": "quoted_only",
-  "lifecycle": "unknown",
+  "lifecycle": "ended",
   "important": false,
   "unknowns": [
     "합참 발표 원문은 직접 확인하지 못했습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "notable",
   "sources": [
@@ -24,6 +24,12 @@
       "name": "SBS · 합동참모본부 설명 인용",
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
       "published_at": "2026-11-17T12:08:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "경향신문 · 합동참모본부 설명 인용",
+      "url": "https://www.khan.co.kr/article/202611170705001",
+      "published_at": "2026-11-16T22:05:00Z",
       "published_precision": "minute"
     }
   ],
@@ -34,6 +40,13 @@
       "evidence_urls": [
         "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
       ]
+    },
+    {
+      "text": "합참은 러시아 군용기가 한국 방공식별구역에서 이탈했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.khan.co.kr/article/202611170705001"
+      ]
     }
   ],
   "location": null,
@@ -42,6 +55,11 @@
       "at": "2026-11-17T15:29:34Z",
       "type": "new",
       "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+    },
+    {
+      "at": "2026-11-17T16:28:49Z",
+      "type": "update",
+      "text": "합참 설명을 인용한 경향신문 원문에서 군용기가 방공식별구역을 이탈했다는 점을 확인해 이 건을 종료로 표시했습니다. 새 사건으로 추가하지 않았습니다."
     }
   ]
 }
