@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, ops/source-relay-20261107]
-    paths: ['.ops/relay/**', '.github/workflows/source-relay.yml']
+    paths: ['.ops/relay/**', '.github/workflows/source-relay.yml', 'public/latest.json']
 
 permissions:
   contents: write
