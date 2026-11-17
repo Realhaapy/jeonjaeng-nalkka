@@ -4,12 +4,12 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-07T11:22:25Z",
-  "generated_at": "2026-11-07T11:31:51+00:00",
-  "release_id": "r-2ecfaa7b1bbf6af7",
-  "snapshot_id": "s-a26f6ebed08bc61d",
+  "collection_checked_at": "2026-11-17T14:24:15Z",
+  "generated_at": "2026-11-17T15:29:53+00:00",
+  "release_id": "r-6e6d2f34a89120f1",
+  "snapshot_id": "s-d5b4a473a8ef4b49",
   "headline": "최근 발생한 사건과 발표·보도",
-  "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+  "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 9,
+    "pending": 49,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-07T11:28:15Z",
-      "last_success_at": "2026-11-07T11:28:15Z",
-      "coverage_at": "2026-11-07T11:28:15Z",
+      "checked_at": "2026-11-17T15:25:19Z",
+      "last_success_at": "2026-11-17T15:25:19Z",
+      "coverage_at": "2026-11-17T15:25:19Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-07T11:22:25Z",
-      "last_success_at": "2026-11-07T11:22:25Z",
+      "checked_at": "2026-11-17T14:24:15Z",
+      "last_success_at": "2026-11-17T14:24:15Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-07T11:22:25Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-17T14:24:15Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:14Z",
-      "last_success_at": "2026-11-07T11:29:14Z",
-      "coverage_at": "2026-11-07T11:29:14Z",
+      "checked_at": "2026-11-17T15:26:12Z",
+      "last_success_at": "2026-11-17T15:26:12Z",
+      "coverage_at": "2026-11-17T15:26:12Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:19Z",
-      "last_success_at": "2026-11-07T11:29:19Z",
-      "coverage_at": "2026-11-07T11:29:19Z",
+      "checked_at": "2026-11-17T15:26:17Z",
+      "last_success_at": "2026-11-17T15:26:17Z",
+      "coverage_at": "2026-11-17T15:26:17Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:22Z",
-      "last_success_at": "2026-11-07T11:29:22Z",
-      "coverage_at": "2026-11-07T11:29:22Z",
+      "checked_at": "2026-11-17T15:26:20Z",
+      "last_success_at": "2026-11-17T15:26:20Z",
+      "coverage_at": "2026-11-17T15:26:20Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:26Z",
-      "last_success_at": "2026-11-07T11:29:26Z",
-      "coverage_at": "2026-11-07T11:29:26Z",
+      "checked_at": "2026-11-17T15:26:24Z",
+      "last_success_at": "2026-11-17T15:26:24Z",
+      "coverage_at": "2026-11-17T15:26:24Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:30Z",
-      "last_success_at": "2026-11-07T11:29:30Z",
-      "coverage_at": "2026-11-07T11:29:30Z",
+      "checked_at": "2026-11-17T15:26:30Z",
+      "last_success_at": "2026-11-17T15:26:30Z",
+      "coverage_at": "2026-11-17T15:26:30Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:40Z",
-      "last_success_at": "2026-11-07T11:29:40Z",
-      "coverage_at": "2026-11-07T11:29:40Z",
+      "checked_at": "2026-11-17T15:26:36Z",
+      "last_success_at": "2026-11-17T15:26:36Z",
+      "coverage_at": "2026-11-17T15:26:36Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,11 +158,11 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-07T11:22:44Z",
-      "last_success_at": "2026-11-07T11:22:44Z",
-      "coverage_at": "2026-11-07T11:22:44Z",
+      "checked_at": "2026-11-17T14:24:38Z",
+      "last_success_at": "2026-11-17T14:24:38Z",
+      "coverage_at": "2026-11-17T14:24:38Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-07T11:22:44Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-17T14:24:38Z에 수집한 자료를 사용했습니다.",
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
       "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
     },
@@ -171,11 +171,11 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-07T11:22:40Z",
-      "last_success_at": "2026-11-07T11:22:40Z",
-      "coverage_at": "2026-11-07T11:22:40Z",
+      "checked_at": "2026-11-17T14:24:34Z",
+      "last_success_at": "2026-11-17T14:24:34Z",
+      "coverage_at": "2026-11-17T14:24:34Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-07T11:22:40Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-17T14:24:34Z에 수집한 자료를 사용했습니다.",
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
       "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다."
     },
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:35Z",
-      "last_success_at": "2026-11-07T11:29:35Z",
-      "coverage_at": "2026-11-07T11:29:35Z",
+      "checked_at": "2026-11-17T15:26:33Z",
+      "last_success_at": "2026-11-17T15:26:33Z",
+      "coverage_at": "2026-11-17T15:26:33Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-07T11:28:15Z",
-      "last_success_at": "2026-11-07T11:28:15Z",
-      "observed_at": "2026-11-07T11:28:15Z",
+      "checked_at": "2026-11-17T15:25:19Z",
+      "last_success_at": "2026-11-17T15:25:19Z",
+      "observed_at": "2026-11-17T15:25:19Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-07T11:29:40Z",
-      "last_success_at": "2026-11-07T11:29:40Z",
-      "observed_at": "2026-11-07T11:29:40Z",
+      "checked_at": "2026-11-17T15:26:36Z",
+      "last_success_at": "2026-11-17T15:26:36Z",
+      "observed_at": "2026-11-17T15:26:36Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-07T11:22:44Z",
-      "last_success_at": "2026-11-07T11:22:44Z",
-      "observed_at": "2026-11-07T11:22:44Z",
+      "checked_at": "2026-11-17T14:24:38Z",
+      "last_success_at": "2026-11-17T14:24:38Z",
+      "observed_at": "2026-11-17T14:24:38Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-06T11:22:40Z",
-        "window_end": "2026-11-07T11:22:40Z",
-        "total_count": 24,
+        "window_start": "2026-11-16T14:24:34Z",
+        "window_end": "2026-11-17T14:24:34Z",
+        "total_count": 11,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -251,6 +251,100 @@
     }
   ],
   "events": [
+    {
+      "id": "rok-kadiz-russia-reported-20261117",
+      "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+      "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+      "kind": "nonroutine_military",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-16T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-17T12:08:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-17T15:29:34Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "합참 발표 원문은 직접 확인하지 못했습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "SBS · 합동참모본부 설명 인용",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
+          "published_at": "2026-11-17T12:08:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-17T15:29:34Z",
+          "type": "new",
+          "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+        }
+      ]
+    },
+    {
+      "id": "eas-korean-dialogue-appeal-20261117",
+      "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+      "summary": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+      "kind": "diplomatic_change",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-16T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-17T10:53:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-17T15:29:34Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "실제 남북대화 재개나 합의를 확인한 기록은 아닙니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "SBS · 청와대 브리핑 인용",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489",
+          "published_at": "2026-11-17T10:53:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-17T15:29:34Z",
+          "type": "new",
+          "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+        }
+      ]
+    },
     {
       "id": "dprk-china-party-talks-20261106",
       "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
@@ -3521,6 +3615,22 @@
   ],
   "changes": [
     {
+      "id": "c-d9036d7321913f93c9fb",
+      "event_id": "eas-korean-dialogue-appeal-20261117",
+      "at": "2026-11-17T15:29:34Z",
+      "type": "new",
+      "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+      "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+    },
+    {
+      "id": "c-d2b60b3913abf486a60f",
+      "event_id": "rok-kadiz-russia-reported-20261117",
+      "at": "2026-11-17T15:29:34Z",
+      "type": "new",
+      "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+      "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+    },
+    {
       "id": "c-3460f49dfea6d98fa580",
       "event_id": "rok-jangbogo-n-strategy-20261106",
       "at": "2026-11-07T11:31:24Z",
@@ -4059,6 +4169,296 @@
   ],
   "notices": [
     {
+      "id": "doc-20a6aebaede68408b214",
+      "title": "ROK-U.S. Combined Forces Command Marks 48 Years of Combined Defense",
+      "url": "https://www.dvidshub.net/news/578914/rok-us-combined-forces-command-marks-48-years-combined-defense",
+      "source_name": "주한미군 공식 발표 · DVIDS",
+      "published_at": "2026-11-08T23:21:12Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-17T15:26:17Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ce6a35779c9c671469db",
+      "title": "ROK-U.S. Alliance Strengthened Through Sportsmanship and Camaraderie",
+      "url": "https://www.dvidshub.net/news/579155/rok-us-alliance-strengthened-through-sportsmanship-and-camaraderie",
+      "source_name": "주한미군 공식 발표 · DVIDS",
+      "published_at": "2026-11-12T06:29:30Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-17T15:26:17Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-e9b922aba21f9570196a",
+      "title": "Brunson tells Civil Affairs Soldiers their work starts before the fight",
+      "url": "https://www.dvidshub.net/news/579393/brunson-tells-civil-affairs-soldiers-their-work-starts-before-fight",
+      "source_name": "주한미군 공식 발표 · DVIDS",
+      "published_at": "2026-11-16T06:04:34Z",
+      "published_precision": "minute",
+      "first_seen_at": "2026-11-17T15:26:17Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-04304c9b2e1efab65aba",
+      "title": "국방부 일일 정례 브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788556",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-09T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-6c9df07a65782cdae8bb",
+      "title": "외교부 대변인 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788596",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-09T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-919d35fb949148d11dbe",
+      "title": "국방부 일일 정례 브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788928",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-7bab0ff1b65d6704ed0f",
+      "title": "외교부 대변인 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788957",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-d260b53aed8fc4756f2b",
+      "title": "통일부 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789148",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-0f02a992d400836659f0",
+      "title": "국방부 일일 정례 브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789337",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-212b018b28e43960e7e1",
+      "title": "통일부 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789336",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-e2488c3dd2c84831d742",
+      "title": "국방부 일일 정례 브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789541",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-16T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-98283cf8bb20b93ee8ac",
+      "title": "외교부 대변인 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156789605",
+      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
+      "published_at": "2026-11-16T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:26:12Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ca43536a2c5c055020a3",
+      "title": "제179회 방위사업추진위원회 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788370",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-08T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-23192f39a1d69ef78b19",
+      "title": "「한반도 평화관광협력 국제세미나」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788454",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-08T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-b1a7b039440ba8b15c8c",
+      "title": "제16차 한-카리브 고위급 포럼 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788597",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-09T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-3185c18e3c81029d69dd",
+      "title": "외교전략정보본부장, 국제원자력기구(IAEA) 사무총장 면담(11.9.)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788509",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-09T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-f1c99ac0c23aea3d8bae",
+      "title": "한미 외교장관 환담(11.10.) 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788654",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-09T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-e90589da870506389632",
+      "title": "제25차 한-유엔 군축·비확산회의 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788979",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-1d12c6373932addde416",
+      "title": "국방 분야 혁신제품 최초 지정, 민간 혁신기술의 군 활용 확대",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788921",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-662405a8e032676bfa7c",
+      "title": "구축함(KDDX) 전투체계 육상체계통합시험장 개소",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788855",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-b28ddb6dc68df469fe95",
+      "title": "「2026 인도-인권 상호대화」 3차 행사 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788919",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-d833b74e8f879865494a",
+      "title": "하나원, 지역주민 건강지원 및 무료 이발 봉사 추진",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788950",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-11T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-d24b424d14cbc6b98a48",
+      "title": "국방홍보원, 「창간 62주년 국방일보 보도사진전」 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789190",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-273f3f1342ada71bca11",
+      "title": "김진아 외교부 2차관, 유엔 정무평화구축국 사무차장 면담",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789231",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-ee66a484569b48545116",
+      "title": "한중 외교장관 회담 및 만찬 결과",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789234",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-12T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-d6c0cc35447fecd02ca1",
+      "title": "「북한인권의 실질적 진전을 위한 인도적 협력 포럼」 개최(11.16.)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789440",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-15T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-7dd9ef843c099e43d0fe",
+      "title": "김진아 외교부 2차관, 美 국무부 경제차관 면담 및 「팍스 실리카 리트리트」 참석",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789507",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-16T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-8e8f1639ef47e25b0d34",
+      "title": "고 정춘이 일병 호국의 영웅 귀환 행사",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789543",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-16T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
+      "id": "doc-c7c9f3f765617a152503",
+      "title": "국립평화통일민주교육원, 해외 전문가 특강 및 세미나 개최",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789599",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-16T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-17T15:25:52Z",
+      "status": "pending"
+    },
+    {
       "id": "doc-d33f868bf8d208ea1537",
       "title": "강신철 국방부장관 제13차 아세안 확대 국방장관회의(ADMM-Plus) 참가",
       "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787126",
@@ -4067,277 +4467,17 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-06T05:26:04Z",
       "status": "held"
-    },
-    {
-      "id": "doc-d0ac45abbb20ac904f25",
-      "title": "차관보, 영국 의회 대표단 면담(11.5.)",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788155",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-04T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-05T11:17:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-44f422bfce4ded2716fb",
-      "title": "외교부 대변인 정례브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788095",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-04T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-05T06:12:05Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-1c4de352dab6c16c3af3",
-      "title": "국방부 일일 정례 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-04T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-05T05:17:46Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-493a349fd71bd417714c",
-      "title": "국방부 일일 정례 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156786626",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-10-26T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-9d7502d90e823a50c512",
-      "title": "국방부 일일 정례 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787101",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-10-28T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-5a9562d2e8c1166fe1b0",
-      "title": "통일부 정례브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787261",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-10-29T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "held"
-    },
-    {
-      "id": "doc-f3e0b0504fe0e0bf824e",
-      "title": "국방부 일일 정례 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787549",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-01T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-e38ae6835936a7fce223",
-      "title": "통일부 정례브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-01T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-ba36767a3da2dab93a9c",
-      "title": "외교부 현안 관련 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787725",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-8b6766bbcb724faaedaf",
-      "title": "국방부 일일 정례 브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787708",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-158c8767ab72f5668076",
-      "title": "외교부 대변인 정례브리핑",
-      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787797",
-      "source_name": "대한민국 정책브리핑 · 부처 브리핑",
-      "published_at": "2026-11-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-03T08:31:37Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-52ad360f7cf46a43fe5c",
-      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한·베트남 국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787566",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-01T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-02T04:17:33Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-f8b5945d63235d3d2b8f",
-      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한-싱가포르 국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787567",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-01T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-02T04:17:33Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-866866ac42e96369fe3b",
-      "title": "お知らせ（続報）｜令和8年10月3日（土）08:15",
-      "url": "https://www.mod.go.jp/j/press/news/2026/10/03d.html",
-      "source_name": "일본 방위성 · 북한 미사일 발표",
-      "published_at": "2026-10-02T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-135bd8224dcda2041aef",
-      "title": "お知らせ（続報）｜令和8年10月12日（月）12:21",
-      "url": "https://www.mod.go.jp/j/press/news/2026/10/12e.html",
-      "source_name": "일본 방위성 · 북한 미사일 발표",
-      "published_at": "2026-10-11T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-4155a6c8aeb097e75191",
-      "title": "お知らせ（続報）｜令和8年10月29日（木）14:21",
-      "url": "https://www.mod.go.jp/j/press/news/2026/10/29d.html",
-      "source_name": "일본 방위성 · 북한 미사일 발표",
-      "published_at": "2026-10-28T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:32Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-3a5dac34144c8d27dac9",
-      "title": "비무장지대 군사분계선 관련 군사당국회담 제안을 위한 담화",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786306",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-22T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-63eadbe9b60686ff3a1b",
-      "title": "아세안 확대 국방장관회의 계기한미국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786906",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-27T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-50276418faf4dee5fad1",
-      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한·호주 국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786938",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-27T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-6e6bb99c842463e19f76",
-      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한-말레이시아 국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786942",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-27T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-089f82c11b837f747b58",
-      "title": "아세안 확대 국방장관회의(ADMM-Plus) 계기 한·필리핀 국방장관회담 개최",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786944",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-27T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-c7ce3e8c1cf24af9a5a8",
-      "title": "한미일 외교장관회의(10.30.) 결과",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787391",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-30T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T09:28:30Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-0980bd405b22a933ad5a",
-      "title": "Feb 20 Press Release Regarding the FY 2025 Japan–U.S. Joint Integrated Air and Missile Defense (Defensive) Exercise",
-      "url": "https://www.mod.go.jp/js/pdf/2026/p20260220_01e.pdf",
-      "source_name": "일본 방위성 통합막료감부",
-      "published_at": "2026-02-19T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T07:12:06Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-ec96639996457cf172ab",
-      "title": "Jul 16 Press Release United States–Japan-Republic of Korea Trilateral Chiefs of Defense Joint Press Statement",
-      "url": "https://www.mod.go.jp/js/pdf/2026/p20260716_01e.pdf",
-      "source_name": "일본 방위성 통합막료감부",
-      "published_at": "2026-07-15T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T07:12:06Z",
-      "status": "pending"
-    },
-    {
-      "id": "doc-07933ed385a58e8bb22c",
-      "title": "한-독일 외교장관회담(10.30.) 결과",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787402",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-30T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T07:10:08Z",
-      "status": "reviewed"
-    },
-    {
-      "id": "doc-3cf1de681d9342c45a19",
-      "title": "한국-영국 외교장관 회담(10.31.) 결과",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787404",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-10-31T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-01T07:10:08Z",
-      "status": "reviewed"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-07T11:31:51+00:00",
+    "as_of": "2026-11-17T15:29:53+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
-    "assessment_summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+    "assessment_summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
     "brief": {
-      "recent": "검토된 기록 공식 발언·조치 4건 · 외교 대응 3건 (최근 11/6)",
-      "recent_main": "검토된 기록 공식 발언·조치 4건 · 외교 대응 3건",
-      "recent_note": "(최근 11/6)",
-      "period": "미사일 발사 5건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 0건 · 군 사망·사고 1건 · 공식 발언·조치 13건 · 외교 대응 16건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 주체 미확인 군사 활동 1건 · 외교 대응 1건 (최근 11/17)",
+      "recent_main": "검토된 기록 주체 미확인 군사 활동 1건 · 외교 대응 1건",
+      "recent_note": "(최근 11/17)",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 13건 · 외교 대응 15건 · 그 밖의 기록 1건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -4345,7 +4485,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-07T11:22:44Z",
+          "observed_at": "2026-11-17T14:24:38Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -4353,17 +4493,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-06T11:22:40Z",
-          "window_end": "2026-11-07T11:22:40Z",
+          "window_start": "2026-11-16T14:24:34Z",
+          "window_end": "2026-11-17T14:24:34Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 24건 확인"
+          "detail": "최근 24시간 · 전국 문자 11건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-07T11:29:40Z",
+          "observed_at": "2026-11-17T15:26:36Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -4381,7 +4521,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-07T11:28:15Z",
+          "observed_at": "2026-11-17T15:25:19Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4400,50 +4540,49 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "dprk-china-party-talks-20261106",
-      "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
-      "summary": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
-      "kind": "diplomatic_change",
+      "id": "rok-kadiz-russia-reported-20261117",
+      "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+      "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+      "kind": "nonroutine_military",
       "military_actor": "unknown",
-      "occurred_at": "2026-11-05T15:00:00Z",
+      "occurred_at": "2026-11-16T15:00:00Z",
       "time_precision": "day",
-      "reported_at": "2026-11-07T07:02:00Z",
+      "reported_at": "2026-11-17T12:08:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-07T09:30:38Z",
+      "updated_at": "2026-11-17T15:29:34Z",
       "status": "reported",
       "primary_status": "quoted_only",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "북한 발표 원문을 직접 확인하지 못했습니다. 언론의 인용 보도이며 독립 검증이 아닙니다.",
-        "구체적인 군사 조치나 새 인명피해를 확인한 기록이 아닙니다."
+        "합참 발표 원문은 직접 확인하지 못했습니다."
       ],
       "revision": 1,
       "why_it_matters": "",
-      "significance": "context",
+      "significance": "notable",
       "sources": [
         {
-          "name": "SBS · 조선중앙통신 인용 보도",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161",
-          "published_at": "2026-11-07T07:02:00Z",
+          "name": "SBS · 합동참모본부 설명 인용",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
+          "published_at": "2026-11-17T12:08:00Z",
           "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "SBS는 김성남과 류하이싱이 11월 6일 베이징에서 회담했다는 조선중앙통신 보도를 전했다.",
+          "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008835161"
+            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-07T09:30:38Z",
+          "at": "2026-11-17T15:29:34Z",
           "type": "new",
-          "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다."
+          "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
         }
       ]
     },
@@ -4453,6 +4592,12 @@
       "summary": "기존 군사행동 기록의 발생일·근거·종료 여부에 대한 후속 확인이 필요합니다.",
       "short_summary": "발생일·원문·종료 여부 확인 필요",
       "basis": [
+        {
+          "event_id": "rok-kadiz-russia-reported-20261117",
+          "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+          "url": "events/rok-kadiz-russia-reported-20261117/",
+          "date_label": "2026.11.17 · 발생일"
+        },
         {
           "event_id": "dprk-launch-20261104",
           "title": "11월 4일 북한 미사일 발사…북한, 대공 시험·순항 훈련 주장",
@@ -4464,18 +4609,12 @@
           "title": "북한, 11월 2일 순항미사일 시험 주장…합참 분석 중",
           "url": "events/dprk-cruise-test-claim-20261102/",
           "date_label": "2026.11.02 · 발생일"
-        },
-        {
-          "event_id": "dprk-launch-20261031",
-          "title": "10월 31일 북한 미사일 시험 보도…합참은 감시·추적 설명",
-          "url": "events/dprk-launch-20261031/",
-          "date_label": "2026.10.31 · 발생일"
         }
       ],
-      "updated_at": "2026-11-07T11:31:51+00:00",
+      "updated_at": "2026-11-17T15:29:53+00:00",
       "method_version": "tension-observation-1",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-07T13:22:25+00:00",
+      "valid_until": "2026-11-17T16:24:15+00:00",
       "asset_key": "observe",
       "scope_limited": 1,
       "limitations": [
@@ -4489,6 +4628,100 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "rok-kadiz-russia-reported-20261117",
+        "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+        "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+        "kind": "nonroutine_military",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-16T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-17T12:08:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-17T15:29:34Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "합참 발표 원문은 직접 확인하지 못했습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "SBS · 합동참모본부 설명 인용",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
+            "published_at": "2026-11-17T12:08:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-17T15:29:34Z",
+            "type": "new",
+            "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+          }
+        ]
+      },
+      {
+        "id": "eas-korean-dialogue-appeal-20261117",
+        "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+        "summary": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-16T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-17T10:53:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-17T15:29:34Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "실제 남북대화 재개나 합의를 확인한 기록은 아닙니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "SBS · 청와대 브리핑 인용",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489",
+            "published_at": "2026-11-17T10:53:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-17T15:29:34Z",
+            "type": "new",
+            "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+          }
+        ]
+      },
       {
         "id": "dprk-china-party-talks-20261106",
         "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
@@ -4857,251 +5090,103 @@
             "text": "Codex 정기 원문 검토: 11월 5일 국방부 공식 답변을 연결해 의결 후 추진, 오만 남방 외해, 추가 활동의 전제 조건과 전쟁 비개입 원칙을 보완했습니다. 차관회의 통과는 기존 보도에 귀속하고 국회 의결·실제 추가 파견 완료로 바꾸지 않았습니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "rok-uk-parliament-delegation-meeting-20261105",
-        "title": "외교부 차관보, 영국 의회 대표단과 한반도 정세 논의",
-        "summary": "외교부는 정의혜 차관보가 11월 5일 오후 영국 의회 대표단을 만나 양국 관계와 한반도·우크라이나·호르무즈 해협 정세를 논의했다고 발표했습니다. 방산·공급망 등 협력 심화에 대한 기대와 국제무대 공조 의사를 설명한 면담 기록입니다.",
-        "kind": "diplomatic_change",
+        "id": "rok-kadiz-russia-reported-20261117",
+        "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+        "summary": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+        "kind": "nonroutine_military",
         "military_actor": "unknown",
-        "occurred_at": "2026-11-04T15:00:00Z",
+        "occurred_at": "2026-11-16T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-04T15:00:00Z",
-        "reported_precision": "day",
-        "updated_at": "2026-11-05T11:36:10Z",
+        "reported_at": "2026-11-17T12:08:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-17T15:29:34Z",
         "status": "reported",
-        "primary_status": "primary_seen",
+        "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "공식 보도자료는 면담일을 11월 5일 오후로 설명합니다. 정확한 면담·배포 시각은 확인되지 않아 날짜 수준으로 표시합니다.",
-          "공식 발표와 같은 발표의 첨부 원문을 직접 확인했습니다. 두 URL을 별개의 독립 근거로 세거나 면담 내용을 독립 검증한 것으로 표시하지 않습니다.",
-          "협력 심화와 FTA 개선협정의 조속한 서명을 기대한다는 발언이 실제 새 방산 계약·FTA 서명·군사 배치 완료를 뜻하지 않습니다.",
-          "면담 자료에 있는 DMZ 부상 장병의 회복 기원은 새 부상 발생의 근거가 아닙니다. 특정 기존 사고의 발생일·경위를 추가로 확정하는 자료로도 세지 않습니다.",
-          "원문이 언급한 기존 G20 계기 외교장관 회담과 이번 의회 대표단 면담은 구분하며, 같은 나라라는 이유로 다른 날짜·참석 주체의 행사를 합치지 않습니다."
+          "합참 발표 원문은 직접 확인하지 못했습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "SBS · 합동참모본부 설명 인용",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
+            "published_at": "2026-11-17T12:08:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-17T15:29:34Z",
+            "type": "new",
+            "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+          }
+        ]
+      },
+      {
+        "id": "eas-korean-dialogue-appeal-20261117",
+        "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+        "summary": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+        "kind": "diplomatic_change",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-16T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-17T10:53:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-17T15:29:34Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "실제 남북대화 재개나 합의를 확인한 기록은 아닙니다."
         ],
         "revision": 1,
         "why_it_matters": "",
         "significance": "context",
         "sources": [
           {
-            "name": "대한민국 외교부 · 정책브리핑 전재",
-            "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788155",
-            "published_at": "2026-11-04T15:00:00Z",
-            "published_precision": "day"
-          },
-          {
-            "name": "외교부 보도자료 HWPX · 같은 발표의 공식 첨부",
-            "url": "https://www.korea.kr/common/download.do?fileId=198585152&tblKey=GMN",
-            "published_at": "2026-11-04T15:00:00Z",
-            "published_precision": "day"
+            "name": "SBS · 청와대 브리핑 인용",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489",
+            "published_at": "2026-11-17T10:53:00Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
           {
-            "text": "외교부는 정의혜 차관보가 11월 5일 오후 알리샤 컨스 하원의원을 비롯한 영국 의회 대표단을 면담하고 양국 관계와 주요 지역 정세에 관해 의견을 교환했다고 발표했습니다.",
+            "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788155",
-              "https://www.korea.kr/common/download.do?fileId=198585152&tblKey=GMN"
-            ]
-          },
-          {
-            "text": "공식 자료는 양측이 한반도·우크라이나·호르무즈 해협 정세를 논의하고 G20 등 국제무대에서 긴밀히 공조해 나가기로 했다고 설명했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/common/download.do?fileId=198585152&tblKey=GMN"
-            ]
-          },
-          {
-            "text": "외교부 차관보는 경제·방산·공급망 등 분야의 협력이 더 심화되기를 기대한다고 밝혔습니다. 이는 새로운 방산 계약이나 군사 조치의 시행 완료를 확인한 내용은 아닙니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/common/download.do?fileId=198585152&tblKey=GMN"
+              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-05T11:36:10Z",
+            "at": "2026-11-17T15:29:34Z",
             "type": "new",
-            "text": "Dot 정기 원문 검토: 11월 5일 외교부 발표와 공식 첨부에서 면담일·참석자·논의 주제를 대조했습니다. 실제 의회 대표단 면담을 외교 기록으로 등록하며, 위문 발언을 새 군 사상자로 계산하지 않습니다."
+            "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
           }
         ]
       },
-      {
-        "id": "dprk-launch-20261104",
-        "title": "11월 4일 북한 미사일 발사…북한, 대공 시험·순항 훈련 주장",
-        "summary": "합참은 11월 5일 브리핑에서 전날 오전 선덕 일대의 미사일 여러 발을 포착했다고 밝혔습니다. 북한은 4일 대공미사일 시험과 순항미사일 훈련을 했다고 주장했습니다. 두 활동과 한국군 포착 내용의 정확한 대응 관계 및 제원은 확인되지 않았습니다.",
-        "kind": "missile_test",
-        "military_actor": "north_korea",
-        "occurred_at": "2026-11-03T15:00:00Z",
-        "time_precision": "day",
-        "reported_at": "2026-11-04T00:54:00Z",
-        "reported_precision": "minute",
-        "updated_at": "2026-11-05T05:21:27Z",
-        "status": "reported",
-        "primary_status": "primary_seen",
-        "lifecycle": "unknown",
-        "important": true,
-        "unknowns": [
-          "11월 5일 합참 공식 답변에서도 정확한 종류·제원은 분석 중입니다. JTBC 저녁 보도의 2~10발은 범위이며 정확한 수량을 확정한 값이 아닙니다. 북한의 무기 종류 설명을 한국군의 확인으로 바꾸지 않습니다.",
-          "한국군이 포착했다고 보도된 발사는 11월 4일 오전까지 확인했습니다. 북한이 설명한 두 활동의 정확한 시각은 알 수 없습니다. 11월 5일 07:01은 후속 기사 게시 시각이며 새 발사가 발생한 시각이 아닙니다.",
-          "선덕 일대라는 지역명만 확인했습니다. JTBC가 사거리 300km 미만을 보도했으나 확인된 실제 비행거리와 동일하게 취급하지 않습니다. 정확한 발사 원점·좌표·낙하지점·고도와 피해 여부는 확인하지 못했습니다.",
-          "11월 5일 정책브리핑에서 합참 공보실장의 공개 답변을 확인했습니다. 공식 발표 확인은 발사 제원의 독립 검증과 다르며, 같은 발표를 인용한 여러 기사를 독립 확인 횟수로 세지 않습니다.",
-          "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다.",
-          "저녁 기사는 합참을 근거로 알려졌다는 간접 서술입니다. 공식 제원 자료를 직접 확보하지 못했으며, 미국 선거에 맞춘 발사 의도나 특정 공격 목적을 확인한 사실로 등록하지 않습니다.",
-          "미국 측 평가는 A News에 실린 Anadolu 통신의 성명 인용을 확인한 것입니다. 연결된 사령부 공식 웹 원문은 HTTP 403으로 읽지 못했습니다. 기사 게시 시각은 성명 발표 시각이 아니며, 시간대가 명시되지 않은 요일 표현으로 정확한 발표 시각을 추정하지 않습니다.",
-          "즉각적인 위협이 아니라는 설명은 당시 해당 발사에 대한 미 사령부의 평가입니다. 한반도 전반의 안전이나 앞으로의 전쟁 가능성에 대한 서비스의 판단이 아닙니다.",
-          "북한이 설명한 대공미사일 시험과 순항미사일 훈련이 합참의 선덕 일대 포착 내용 중 각각 어느 발사에 해당하는지는 확인되지 않았습니다. 관련 발표를 함께 연결했으며, 같은 활동으로 확정 합치거나 별개의 추가 발사 건수로 세지 않습니다. 선덕·300km 미만·2~10발을 순항미사일 훈련의 확인된 제원으로 적용하지 않습니다.",
-          "북한의 조선중앙통신 원문은 직접 확보하지 못했습니다. JTBC와 SBS가 같은 발표를 인용한 것이므로 독립 확인 두 건이 아닙니다. 기술 검증·가상 표적 타격 성공과 실제 배치 여부는 독립 검증되지 않았으며, 11월 2일 순항미사일 시험 주장과도 날짜가 다른 내용입니다."
-        ],
-        "revision": 6,
-        "why_it_matters": "",
-        "significance": "notable",
-        "sources": [
-          {
-            "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
-            "url": "https://news.jtbc.co.kr/article/NB12326354",
-            "published_at": "2026-11-04T00:54:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 합참 인용 속보",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755",
-            "published_at": "2026-11-04T01:00:10Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 합참 인용 후속 보도",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
-            "published_at": "2026-11-04T01:06:14Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 11월 4일 19:47 후속 보도",
-            "url": "https://news.jtbc.co.kr/article/NB12326476",
-            "published_at": "2026-11-04T10:47:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "A News · Anadolu 통신의 미 태평양사령부 성명 인용",
-            "url": "https://www.anews.com.tr/world/2026/11/04/us-pacific-command-says-north-korean-missile-launches-pose-no-immediate-threat",
-            "published_at": "2026-11-04T06:02:41Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 11월 5일 조선중앙통신 인용 후속",
-            "url": "https://news.jtbc.co.kr/article/NB12326554",
-            "published_at": "2026-11-04T22:01:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 11월 5일 조선중앙통신 인용 후속",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375",
-            "published_at": "2026-11-04T22:01:03Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "국방부 11월 5일 정례브리핑 · 정책브리핑",
-            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-            "published_at": "2026-11-04T15:00:00Z",
-            "published_precision": "day"
-          }
-        ],
-        "facts": [
-          {
-            "text": "합참 공보실장은 11월 5일 국방부 브리핑에서 전날 오전 북한 선덕 일대에서 동해상으로 발사된 미사일 여러 발을 포착했다고 밝혔습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-              "https://news.jtbc.co.kr/article/NB12326354"
-            ]
-          },
-          {
-            "text": "같은 답변에서 한미가 발사 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 계속 분석 중이라고 설명했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-              "https://news.jtbc.co.kr/article/NB12326354"
-            ]
-          },
-          {
-            "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
-              "https://news.jtbc.co.kr/article/NB12326354"
-            ]
-          },
-          {
-            "text": "JTBC는 11월 4일 19:47 후속 기사에서 합참을 근거로 사거리 300km 미만의 미사일 2~10발이 발사된 것으로 알려졌다고 보도했다. 군은 탄도미사일·지대공미사일 등의 가능성을 두고 제원을 분석 중이라고 전했다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326476"
-            ]
-          },
-          {
-            "text": "Anadolu 통신을 실은 A News는 미 태평양사령부가 한국시간 11월 4일 발사를 인지하고 동맹·협력국과 협의 중이라고 밝혔다고 보도했습니다. 사령부는 당시 평가상 이번 발사가 미국 인력·영토 및 동맹국에 즉각적인 위협은 아니라고 설명했다고 전했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.anews.com.tr/world/2026/11/04/us-pacific-command-says-north-korean-missile-launches-pose-no-immediate-threat"
-            ]
-          },
-          {
-            "text": "JTBC와 SBS는 11월 5일 조선중앙통신을 인용해 북한 미사일총국이 전날인 4일 신형 지대공미사일의 시험발사를 했다고 주장했다고 보도했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326554",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375"
-            ]
-          },
-          {
-            "text": "같은 북한 발표에는 11월 4일 동부지구 장거리 전략순항미사일 부대의 시범화력훈련도 진행했다는 설명이 포함됐습니다. 가상 비행장 표적 타격 성공은 북한 측 주장으로 보도됐습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326554",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375"
-            ]
-          }
-        ],
-        "location": null,
-        "changes": [
-          {
-            "at": "2026-11-04T01:27:02Z",
-            "type": "new",
-            "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
-          },
-          {
-            "at": "2026-11-04T03:26:29Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
-          },
-          {
-            "at": "2026-11-04T14:31:51Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: JTBC 11월 4일 19:47 후속 본문의 사거리·수량 범위와 종류 분석 중이라는 보도를 같은 발사 기록에 연결했습니다. 사거리 300km 미만·2~10발은 보도 귀속 범위로 표시하고 확정 제원·정확 수량으로 바꾸지 않았습니다. 같은 사건 ID와 발생일을 유지합니다."
-          },
-          {
-            "at": "2026-11-04T22:21:11Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: A News에 실린 Anadolu 통신의 11월 4일 15:02 KST 보도를 대조해 미 태평양사령부의 동맹 협의 및 해당 발사에 대한 당시 평가를 연결했습니다. 공식 원문 접근 실패를 밝히고 발표·보도 확인 상태를 유지합니다. 같은 발사이며 발생일·사건 수를 바꾸지 않습니다."
-          },
-          {
-            "at": "2026-11-04T23:19:23Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 5일 07:01 JTBC·SBS 본문에서 전날 대공미사일 시험 및 순항미사일 훈련을 했다는 북한 발표 인용을 확인했습니다. 기존 11월 4일 포착 기록에 관련 발표로 연결하고 정확한 대응 관계는 미확인으로 남겼습니다. 한국군의 기종 확인이나 추가 발사 건수로 환산하지 않으며, 발생일과 새 보도일을 구분합니다."
-          },
-          {
-            "at": "2026-11-05T05:21:27Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 5일 국방부 브리핑의 합참 답변 원문을 연결해 포착·감시·추적 설명의 직접 근거를 보완했습니다. 제원 분석과 북한 주장 활동의 대응 관계는 미확인이며 11월 4일 발생일·사건 수를 유지합니다."
-          }
-        ]
-      }
-    ],
-    "ordered_events": [
       {
         "id": "dprk-china-party-talks-20261106",
         "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
@@ -8371,14 +8456,32 @@
       }
     ],
     "event_timing": {
+      "rok-kadiz-russia-reported-20261117": {
+        "date_label": "2026.11.17 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-17T15:29:34+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
+      "eas-korean-dialogue-appeal-20261117": {
+        "date_label": "2026.11.17 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-17T15:29:34+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "dprk-china-party-talks-20261106": {
         "date_label": "2026.11.06 · 발생일",
         "date_basis": "occurred",
         "is_backfill": false,
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-07T09:30:38+00:00",
-        "is_new_record": true,
-        "recency_label": "최근 발생"
+        "is_new_record": false,
+        "recency_label": ""
       },
       "rok-jangbogo-n-strategy-20261106": {
         "date_label": "2026.11.06 · 발생일",
@@ -8386,8 +8489,8 @@
         "is_backfill": false,
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-07T11:31:24+00:00",
-        "is_new_record": true,
-        "recency_label": "최근 발생"
+        "is_new_record": false,
+        "recency_label": ""
       },
       "mnd-false-answer-sentence-deferral-20261106": {
         "date_label": "2026.11.06 · 발생일",
@@ -8396,7 +8499,7 @@
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-06T07:45:47+00:00",
         "is_new_record": false,
-        "recency_label": "최근 발생"
+        "recency_label": ""
       },
       "dprk-fatf-response-20261106": {
         "date_label": "2026.11.06 · 발생일",
@@ -8405,7 +8508,7 @@
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-06T06:35:02+00:00",
         "is_new_record": false,
-        "recency_label": "최근 발생"
+        "recency_label": ""
       },
       "rok-un-dprk-human-rights-resolution-cosponsorship-20261105": {
         "date_label": "2026.11.05 15:51 KST · 발표·게시 시각",
@@ -8414,7 +8517,7 @@
         "registration_kind": "unknown",
         "first_recorded_at": "2026-11-05T07:37:57+00:00",
         "is_new_record": false,
-        "recency_label": "최근 발표"
+        "recency_label": ""
       },
       "rok-cheonghae-expansion-proposal-20261105": {
         "date_label": "2026.11.05 · 발생일",
@@ -8423,7 +8526,7 @@
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-05T02:19:27+00:00",
         "is_new_record": false,
-        "recency_label": "최근 발생"
+        "recency_label": ""
       },
       "rok-uk-parliament-delegation-meeting-20261105": {
         "date_label": "2026.11.05 · 발생일",
@@ -8432,7 +8535,7 @@
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-05T11:36:10+00:00",
         "is_new_record": false,
-        "recency_label": "최근 발생"
+        "recency_label": ""
       },
       "dprk-launch-20261104": {
         "date_label": "2026.11.04 · 발생일",
@@ -8770,7 +8873,7 @@
     },
     "metrics": {
       "events_24h": 0,
-      "events_24h_uncertain": 4,
+      "events_24h_uncertain": 2,
       "changes_24h": 2,
       "corrections_24h": 0,
       "active_major": 6
@@ -8778,45 +8881,45 @@
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 19,
-        "previous": 15,
+        "current": 2,
+        "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
-        "start": "2026-11-01",
-        "end": "2026-11-07",
+        "start": "2026-11-12",
+        "end": "2026-11-18",
         "days": [
           {
-            "date": "2026-11-01",
+            "date": "2026-11-12",
             "count": 0,
             "prior": null
           },
           {
-            "date": "2026-11-02",
-            "count": 7,
+            "date": "2026-11-13",
+            "count": 0,
             "prior": null
           },
           {
-            "date": "2026-11-03",
-            "count": 4,
+            "date": "2026-11-14",
+            "count": 0,
             "prior": null
           },
           {
-            "date": "2026-11-04",
-            "count": 1,
+            "date": "2026-11-15",
+            "count": 0,
             "prior": null
           },
           {
-            "date": "2026-11-05",
-            "count": 3,
+            "date": "2026-11-16",
+            "count": 0,
             "prior": null
           },
           {
-            "date": "2026-11-06",
-            "count": 4,
+            "date": "2026-11-17",
+            "count": 2,
             "prior": null
           },
           {
-            "date": "2026-11-07",
+            "date": "2026-11-18",
             "count": 0,
             "prior": null
           }
@@ -8825,8 +8928,8 @@
           {
             "key": "missile",
             "label": "미사일 발사",
-            "current": 2,
-            "previous": 2,
+            "current": 0,
+            "previous": 0,
             "delta": null
           },
           {
@@ -8839,111 +8942,56 @@
           {
             "key": "military_south",
             "label": "한국·연합 군사 활동",
-            "current": 2,
+            "current": 0,
             "previous": 0,
             "delta": null
           },
           {
             "key": "military_unknown",
             "label": "주체 미확인 군사 활동",
-            "current": 0,
+            "current": 1,
             "previous": 0,
             "delta": null
           },
           {
             "key": "incident",
             "label": "군 사망·사고",
-            "current": 1,
+            "current": 0,
             "previous": 0,
             "delta": null
           },
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 11,
-            "previous": 2,
+            "current": 0,
+            "previous": 4,
             "delta": null
           },
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 3,
-            "previous": 10,
+            "current": 1,
+            "previous": 3,
             "delta": null
           },
           {
             "key": "other",
             "label": "그 밖의 기록",
             "current": 0,
-            "previous": 1,
+            "previous": 0,
             "delta": null
           }
         ]
       },
       "30": {
         "label": "최근 30일",
-        "current": 38,
-        "previous": 3,
+        "current": 37,
+        "previous": 6,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
-        "start": "2026-10-09",
-        "end": "2026-11-07",
+        "start": "2026-10-20",
+        "end": "2026-11-18",
         "days": [
-          {
-            "date": "2026-10-09",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-10",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-11",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-12",
-            "count": 1,
-            "prior": null
-          },
-          {
-            "date": "2026-10-13",
-            "count": 1,
-            "prior": null
-          },
-          {
-            "date": "2026-10-14",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-15",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-16",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-17",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-18",
-            "count": 0,
-            "prior": null
-          },
-          {
-            "date": "2026-10-19",
-            "count": 1,
-            "prior": null
-          },
           {
             "date": "2026-10-20",
             "count": 0,
@@ -9038,14 +9086,69 @@
             "date": "2026-11-07",
             "count": 0,
             "prior": null
+          },
+          {
+            "date": "2026-11-08",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-09",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-10",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-11",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-12",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-13",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-14",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-15",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-16",
+            "count": 0,
+            "prior": null
+          },
+          {
+            "date": "2026-11-17",
+            "count": 2,
+            "prior": null
+          },
+          {
+            "date": "2026-11-18",
+            "count": 0,
+            "prior": null
           }
         ],
         "categories": [
           {
             "key": "missile",
             "label": "미사일 발사",
-            "current": 5,
-            "previous": 1,
+            "current": 4,
+            "previous": 2,
             "delta": null
           },
           {
@@ -9065,7 +9168,7 @@
           {
             "key": "military_unknown",
             "label": "주체 미확인 군사 활동",
-            "current": 0,
+            "current": 1,
             "previous": 0,
             "delta": null
           },
@@ -9086,8 +9189,8 @@
           {
             "key": "diplomacy",
             "label": "외교 대응",
-            "current": 16,
-            "previous": 1,
+            "current": 15,
+            "previous": 3,
             "delta": null
           },
           {
@@ -9102,25 +9205,25 @@
     },
     "recent_changes": [
       {
-        "id": "c-3460f49dfea6d98fa580",
-        "event_id": "rok-jangbogo-n-strategy-20261106",
-        "at": "2026-11-07T11:31:24Z",
+        "id": "c-d9036d7321913f93c9fb",
+        "event_id": "eas-korean-dialogue-appeal-20261117",
+        "at": "2026-11-17T15:29:34Z",
         "type": "new",
-        "title": "방추위, 핵추진잠수함 장보고 N사업 기본전략 의결 보도",
-        "text": "아리 클라우드 원문 검토: 뉴시스 11월 6일 보도를 확인해 사업 기본전략 의결을 공식 조치로 기록합니다. 현재 전력화나 새 군사행동으로 세지 않으며 공식 원문 미확보를 명시합니다.",
+        "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+        "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다.",
         "display_label": "최근 발생 기록",
-        "event_date_label": "2026.11.06 · 발생일",
+        "event_date_label": "2026.11.17 · 발생일",
         "registration_kind": "recent"
       },
       {
-        "id": "c-9ffc1f6a62a5462531d7",
-        "event_id": "dprk-china-party-talks-20261106",
-        "at": "2026-11-07T09:30:38Z",
+        "id": "c-d2b60b3913abf486a60f",
+        "event_id": "rok-kadiz-russia-reported-20261117",
+        "at": "2026-11-17T15:29:34Z",
         "type": "new",
-        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
-        "text": "아리 클라우드 정기 원문 검토: SBS 원문에서 회담 날짜와 당사자를 확인했습니다. 발표일과 실제 회담일을 구분하며 reported·quoted_only로 기록합니다.",
+        "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+        "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다.",
         "display_label": "최근 발생 기록",
-        "event_date_label": "2026.11.06 · 발생일",
+        "event_date_label": "2026.11.17 · 발생일",
         "registration_kind": "recent"
       }
     ],
@@ -9603,13 +9706,10 @@
       {
         "key": "missile",
         "label": "미사일 발사",
-        "title": "11월 4일 북한 미사일 발사…북한, 대공 시험·순항 훈련 주장",
-        "text": "합참은 11월 5일 브리핑에서 전날 오전 선덕 일대의 미사일 여러 발을 포착했다고 밝혔습니다. 북한은 4일 대공미사일 시험과 순항미사일 훈련을 했다고 주장했습니다. 두 활동과 한국군 포착 내용의 정확한 대응 관계 및 제원은 확인되지 않았습니다.",
-        "event_ids": [
-          "dprk-launch-20261104",
-          "dprk-cruise-test-claim-20261102"
-        ],
-        "state": "ongoing"
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
       },
       {
         "key": "military_north",
@@ -9622,61 +9722,44 @@
       {
         "key": "military_south",
         "label": "한국·연합 군사 활동",
-        "title": "사관생도 합동순항훈련 출항…11월 20일까지 교육훈련 계획",
-        "text": "해군 발표를 인용한 11월 3일 보도에 따르면 사관생도 합동순항훈련전단이 진해군항에서 출항해 교육훈련을 시작했습니다. 국방부는 11월 20일까지 실시할 계획이라고 밝혔습니다. 정례 사관생도 교육훈련으로 분류합니다.",
-        "event_ids": [
-          "rok-joint-cadet-cruise-training-20261103",
-          "rok-counterterror-joint-training-20261102"
-        ],
-        "state": "recorded"
-      },
-      {
-        "key": "military_unknown",
-        "label": "주체 미확인 군사 활동",
         "title": "최근 7일 검토 기록 없음",
         "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
         "event_ids": [],
         "state": "unobserved"
       },
       {
-        "key": "incident",
-        "label": "군 사망·사고",
-        "title": "철원 전방부대 하사 1명 사망…군·경 경위 조사",
-        "text": "11월 2일 강원 철원군의 육군 전방부대에서 하사 1명이 사망했다고 육군 발표를 인용한 보도가 나왔습니다. 군과 민간 수사기관이 정확한 원인과 경위를 조사하고 있습니다. SBS 후속 보도는 육군이 당시까지 대북 용의점이 없는 것으로 보고 있다고 전했습니다.",
+        "key": "military_unknown",
+        "label": "주체 미확인 군사 활동",
+        "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
+        "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
         "event_ids": [
-          "cheorwon-sergeant-death-20261102"
-        ],
-        "state": "ongoing"
-      },
-      {
-        "key": "statement",
-        "label": "공식 발언·조치",
-        "title": "방추위, 핵추진잠수함 장보고 N사업 기본전략 의결 보도",
-        "text": "뉴시스는 방위사업청이 11월 6일 방위사업추진위원회에서 장보고 N사업 기본전략을 의결했다고 보도했습니다. 사업 착수는 2027년, 전력화는 2030년대 후반 이후를 목표로 한다는 설명으로, 현재 잠수함 배치가 이뤄졌다는 뜻은 아닙니다.",
-        "event_ids": [
-          "rok-jangbogo-n-strategy-20261106",
-          "mnd-false-answer-sentence-deferral-20261106",
-          "dprk-fatf-response-20261106",
-          "rok-cheonghae-expansion-proposal-20261105",
-          "dprk-kim-yo-jong-binance-response-20261103",
-          "rok-seo-hui-launch-announcement-20261103",
-          "rok-presidential-flight-data-leak-inquiry-20261103",
-          "dprk-kim-jongsik-iron-mace-statement-20261102",
-          "dprk-nampo-shipyard-visit-20261102",
-          "rok-defense-drone-headquarters-20261102",
-          "rok-airforce-gathering-inquiry-20261102"
+          "rok-kadiz-russia-reported-20261117"
         ],
         "state": "recorded"
       },
       {
+        "key": "incident",
+        "label": "군 사망·사고",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      },
+      {
+        "key": "statement",
+        "label": "공식 발언·조치",
+        "title": "최근 7일 검토 기록 없음",
+        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
+        "event_ids": [],
+        "state": "unobserved"
+      },
+      {
         "key": "diplomacy",
         "label": "외교 대응",
-        "title": "북중 당 관계자, 11월 6일 베이징 회담 보도",
-        "text": "SBS는 조선중앙통신을 인용해 김성남 북한 노동당 국제비서와 류하이싱 중국 공산당 대외연락부장이 11월 6일 베이징에서 회담했다고 보도했습니다. 11월 7일 보도와 실제 회담일을 구분한 외교 배경 기록입니다.",
+        "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+        "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
         "event_ids": [
-          "dprk-china-party-talks-20261106",
-          "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
-          "rok-uk-parliament-delegation-meeting-20261105"
+          "eas-korean-dialogue-appeal-20261117"
         ],
         "state": "recorded"
       },
@@ -9702,6 +9785,8 @@
       }
     ],
     "event_categories": {
+      "rok-kadiz-russia-reported-20261117": "military_unknown",
+      "eas-korean-dialogue-appeal-20261117": "diplomacy",
       "dprk-china-party-talks-20261106": "diplomacy",
       "rok-jangbogo-n-strategy-20261106": "statement",
       "mnd-false-answer-sentence-deferral-20261106": "statement",
@@ -9749,9 +9834,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-07T11:29:40+00:00"
+    "last_attempt_at": "2026-11-17T15:26:36+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-07T11:22:25Z"
+  "snapshot_collection_checked_at": "2026-11-17T14:24:15Z"
 }

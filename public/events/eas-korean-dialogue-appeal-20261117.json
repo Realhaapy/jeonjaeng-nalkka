@@ -1,0 +1,47 @@
+{
+  "id": "eas-korean-dialogue-appeal-20261117",
+  "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
+  "summary": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-16T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-17T10:53:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-17T15:29:34Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "실제 남북대화 재개나 합의를 확인한 기록은 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "SBS · 청와대 브리핑 인용",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489",
+      "published_at": "2026-11-17T10:53:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-17T15:29:34Z",
+      "type": "new",
+      "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
+    }
+  ]
+}
