@@ -1,0 +1,34 @@
+name: Stage Ari public briefing
+on:
+  push:
+    branches: [ari-publication-inbox-v1]
+    paths: ['.ops/publication/incoming.json']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ari-publication-inbox
+  cancel-in-progress: false
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 2
+      - name: Verify that only the inbox file changed
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -eu
+          test "$(git rev-parse HEAD)" = "$AFTER"
+          test "$(git show -s --format=%P HEAD)" = "$BEFORE"
+          test "$(git diff-tree --no-renames --no-commit-id --name-only -r "$BEFORE" "$AFTER")" = '.ops/publication/incoming.json'
+          test "$(git ls-tree HEAD -- .ops/publication/incoming.json | cut -f1 | cut -d' ' -f1)" = 100644
+      - name: Validate the public bundle and create its ready branch
+        run: python -I .ops/publication/stage.py
