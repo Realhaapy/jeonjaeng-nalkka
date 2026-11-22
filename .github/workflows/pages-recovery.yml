@@ -1,0 +1,105 @@
+name: Recover missing Pages artifact
+on:
+  workflow_dispatch:
+    inputs:
+      expected_sha:
+        description: Full current main commit to deploy
+        required: true
+        type: string
+  workflow_run:
+    workflows: ['Publish static briefing']
+    branches: [main]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  inspect:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      (github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      github.event.workflow_run.path == '.github/workflows/pages.yml' &&
+      (github.event.workflow_run.event == 'push' || github.event.workflow_run.event == 'workflow_dispatch'))
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      checks: read
+      contents: read
+    outputs:
+      eligible: ${{ steps.check.outputs.eligible }}
+      commit: ${{ steps.check.outputs.commit }}
+    steps:
+      - name: Check the failed attempt and current branch
+        id: check
+        uses: actions/github-script@v8
+        with:
+          retries: 3
+          script: |
+            const run = context.payload.workflow_run;
+            const repo = context.repo;
+            const head = (await github.rest.git.getRef({ ...repo, ref: 'heads/main' })).data.object.sha;
+            if (context.eventName === 'workflow_dispatch') {
+              if (context.ref !== 'refs/heads/main' || context.payload.inputs.expected_sha !== context.sha ||
+                  head !== context.sha) throw new Error('Select main and supply its exact current commit');
+              core.setOutput('commit', head);
+              core.setOutput('eligible', 'true');
+              return;
+            }
+            if (head !== run.head_sha) return;
+            const { data } = await github.rest.actions.listJobsForWorkflowRunAttempt({
+              ...repo, run_id: run.id, attempt_number: run.run_attempt
+            });
+            const job = data.jobs.find(j => j.name === 'deploy' && j.conclusion === 'failure');
+            if (!job || !job.steps.some(s => s.name === 'Deploy' && s.conclusion === 'failure') ||
+                !job.steps.some(s => s.name.includes('actions/upload-pages-artifact@') && s.conclusion === 'success')) return;
+            const name = 'github-pages-' + run.id + '-' + run.run_attempt;
+            const missing = 'No artifacts named "' + name + '" were found for this workflow run.';
+            for (let attempt = 1; attempt <= 6; attempt++) {
+              const annotations = await github.rest.checks.listAnnotations({ ...repo, check_run_id: job.id });
+              if (annotations.data.some(a => a.annotation_level === 'failure' && a.message.includes(missing))) {
+                core.setOutput('commit', head);
+                core.setOutput('eligible', 'true');
+                return;
+              }
+              if (attempt < 6) await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+
+  recover:
+    needs: inspect
+    if: needs.inspect.outputs.eligible == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: pages-artifact-recovery-${{ needs.inspect.outputs.commit }}
+      cancel-in-progress: false
+    permissions:
+      actions: read
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://war.pebbleroom.kr/
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.inspect.outputs.commit }}
+          persist-credentials: false
+      - name: Verify public entry point
+        run: test -f public/index.html && test -f public/latest.json
+      - name: Package the published commit
+        id: upload
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+          name: pages-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Deploy the exact uploaded artifact
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+          PAGES_COMMIT: ${{ needs.inspect.outputs.commit }}
+          PAGES_RECOVERY_RUN: ${{ github.event.workflow_run.id }}
+          PAGES_RECOVERY_ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+        with:
+          script: await require('./.github/scripts/deploy-pages-by-id.cjs')({ github, context, core });
