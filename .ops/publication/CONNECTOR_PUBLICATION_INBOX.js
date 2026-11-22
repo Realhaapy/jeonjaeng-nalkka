@@ -42,6 +42,12 @@ const PATH = DIR + '/incoming.json';
 const SHA = /^[0-9a-f]{40}$/;
 const DIGEST = /^[0-9a-f]{64}$/;
 const MAX_BYTES = 1_000_000;
+const PRODUCER = {
+  path: '.ops/publication/connector-inbox-export.py',
+  sha256: 'c5a97adf6bc3e329352864f8cbbf3c045ab1d3cae8a48dfa0dc544890667cf8a',
+  blob: '29ef42f968a781088f721a4c0f5ffd0ecd8cd183',
+  bytes: 16143,
+};
 const quote = value => "'" + String(value).replace(/'/g, "'\\''") + "'";
 
 const EXEC_DISCONNECTED = 'exec_command failed: CreateProcess { message: "Rejected(\\"Failed to create unified exec process: exec-server transport disconnected\\")" }';
@@ -88,7 +94,7 @@ function githubTool(suffix, fields) {
   return tools[matches[0].name];
 }
 
-async function command(args, budget = 50_000, timeout = 180_000) {
+async function command(args, budget = 50_000, timeout = 180_000, expectedAsciiBytes = 0) {
   const deadline = Date.now() + timeout;
   async function shell(tool, parameters) {
     try { return await tool(parameters); }
@@ -104,6 +110,15 @@ async function command(args, budget = 50_000, timeout = 180_000) {
     ensure(output.length <= 256 * 1024, 'Ari shell exceeded its response bound');
     if (part.exit_code != null) {
       ensure(part.exit_code === 0, 'Ari shell exited with code ' + part.exit_code + '; inspect the run receipt');
+      if (expectedAsciiBytes) {
+        // Python print appends one newline. All envelope bytes are printable ASCII.
+        const bytes = output.replace(/\r?\n$/, '');
+        if (bytes.length === expectedAsciiBytes && /^[\x20-\x7e]+$/.test(bytes)) return bytes;
+        const clipped = bytes.length < expectedAsciiBytes || /(?:tokens?|output)\s+truncated|truncated\s+output/i.test(bytes);
+        const error = new Error(clipped ? 'Full public packet output was truncated' : 'Unexpected full public packet framing');
+        error.truncatedPublicPacket = clipped;
+        throw error;
+      }
       try { return JSON.parse(output); } catch (_) { throw new Error('Ari shell returned incomplete JSON'); }
     }
     ensure(Number.isInteger(part.session_id) && (session == null || session === part.session_id), 'Lost Ari shell session');
@@ -124,7 +139,18 @@ async function publishInbox() {
   }
   ensure(typeof plan === 'string' && /^\/workspace\/shared\/jeonjaeng-nalkka-live\/data\/cloud-publication-plans\/[0-9a-f]{32}\.json$/.test(plan),
          'An existing immutable canonical plan is required');
-  const exporter = [PYTHON,'-B', ROOT + '/scripts/connector-inbox-export.py','--root',ROOT,'--plan',plan];
+  let entry = [ROOT + '/scripts/connector-inbox-export.py'];
+  if (config.opsCommit !== undefined) {
+    ensure(typeof config.opsCommit === 'string' && SHA.test(config.opsCommit), 'A full pinned operations commit is required');
+    const fetchSource = githubTool('_fetch_file',['ref','repository_full_name','path','encoding']);
+    const file = unpack(await fetchSource({repository_full_name:REPO,ref:config.opsCommit,
+                                           path:PRODUCER.path,encoding:'utf-8'}), 'GitHub source read');
+    ensure(file?.sha === PRODUCER.blob && file.encoding === 'utf-8' &&
+           typeof file.content === 'string' && file.content.length === PRODUCER.bytes &&
+           sha256Ascii(file.content) === PRODUCER.sha256, 'Pinned public exporter source failed integrity verification');
+    entry = ['-c',file.content];
+  }
+  const exporter = [PYTHON,'-B',...entry,'--root',ROOT,'--plan',plan];
   const read = (mode, ...args) => command([...exporter,'--mode',mode,...args]);
   const bound = await read('bound');
   const run = bound.run_id, base = bound.base_commit_sha, tree = bound.expected_tree_sha;
@@ -184,7 +210,7 @@ async function publishInbox() {
   async function finalize(commit) {
     ensure(await head('main') === commit, 'Main changed before finalization');
     if (bound.verified_commit === commit) return {...receipt, stage:'verified', commit};
-    if (!write) return {...receipt, stage:'main_verified_awaiting_finalize', commit};
+    if (!write || config.externalFinalize === true) return {...receipt,stage:'main_verified_awaiting_finalize',commit,plan};
     const summarize = [
       'import json,subprocess,sys',
       'p=subprocess.run([sys.executable,"-B","scripts/cloud-run.py","--finalize-connector-publish",sys.argv[1],"--commit-sha",sys.argv[2]],capture_output=True)',
@@ -212,23 +238,34 @@ async function publishInbox() {
     ensure(proof.bytes === meta.bytes && proof.sha256 === meta.sha256 && proof.blob_sha === meta.blob_sha &&
            await head('main') === base, 'Canonical preflight changed');
   }
+  async function packetBytes() {
+    if (meta.bytes <= 96_000) {
+      try {
+        // Capture exact public bytes at the tool boundary, without re-serializing or printing them.
+        return await command([...exporter,'--mode','full'],50_000,180_000,meta.bytes);
+      } catch (error) {
+        if (error.truncatedPublicPacket !== true) throw error;
+      }
+    }
+    const slices = [];
+    for (let first = 0; first < meta.bytes; first += meta.chunk_chars * 4) {
+      const offsets = Array.from({length:Math.min(4, Math.ceil((meta.bytes-first)/meta.chunk_chars))}, (_,i) => first+i*meta.chunk_chars);
+      const parts = await Promise.all(offsets.map(offset => read('chunk','--offset',String(offset),'--sha256',meta.sha256)));
+      parts.forEach((part,i) => {
+        const length = Math.min(meta.chunk_chars,meta.bytes-offsets[i]);
+        ensure(part.offset===offsets[i] && part.bytes===length && typeof part.chunk==='string' &&
+               part.chunk.length===length && sha256Ascii(part.chunk)===part.sha256, 'Truncated or changed inbox slice');
+        slices.push(part.chunk);
+      });
+    }
+    return slices.join('');
+  }
   if (!candidate) {
     const inboxHead = await head(BRANCH);
     const before = await inboxBlob(inboxHead);
     if (before !== meta.blob_sha) {
       if (!write) return {...receipt, stage:'ready_to_submit', bytes:meta.bytes};
-      const slices = [];
-      for (let first = 0; first < meta.bytes; first += meta.chunk_chars * 4) {
-        const offsets = Array.from({length:Math.min(4, Math.ceil((meta.bytes-first)/meta.chunk_chars))}, (_,i) => first+i*meta.chunk_chars);
-        const parts = await Promise.all(offsets.map(offset => read('chunk','--offset',String(offset),'--sha256',meta.sha256)));
-        parts.forEach((part,i) => {
-          const length = Math.min(meta.chunk_chars,meta.bytes-offsets[i]);
-          ensure(part.offset===offsets[i] && part.bytes===length && typeof part.chunk==='string' &&
-                 part.chunk.length===length && sha256Ascii(part.chunk)===part.sha256, 'Truncated or changed inbox slice');
-          slices.push(part.chunk);
-        });
-      }
-      const content = slices.join('');
+      const content = await packetBytes();
       ensure(content.length === meta.bytes && sha256Ascii(content) === meta.sha256, 'Envelope byte digest mismatch');
       const envelope = JSON.parse(content);
       ensure(Object.keys(envelope).sort().join() === 'base_commit_sha,bundle_base64,bundle_sha256,expected_tree_sha,generated_at,protocol,release_id,run_id' &&
