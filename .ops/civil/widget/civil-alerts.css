@@ -1,0 +1,32 @@
+.civil-alerts {
+  background: var(--surface, #fff);
+  border-block: 1px solid var(--line, #cdd2c7);
+  border-inline-start: 3px solid var(--ink, #20241f);
+  color: var(--ink, #20241f);
+  margin-block: 1rem;
+  padding: .75rem 1rem;
+  overflow-wrap: anywhere;
+}
+.civil-alerts header { display: flex; align-items: baseline; justify-content: space-between; gap: .5rem 1rem; flex-wrap: wrap; }
+.civil-alerts h2 { margin: 0; font-size: 1.125rem; line-height: 1.35; letter-spacing: -.025em; }
+.civil-alerts a { color: inherit; text-underline-offset: .16em; }
+.civil-alerts header a, .civil-alerts summary { font-size: .875rem; padding-block: .3rem; }
+.civil-alerts ol { margin: .35rem 0; padding: 0; list-style: none; }
+.civil-alerts li { display: flex; align-items: baseline; flex-wrap: wrap; gap: .12rem 1.1rem; padding: .4rem 0; }
+.civil-alerts li + li { border-top: 1px solid var(--line, #cdd2c7); }
+.civil-alerts li a { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: .15rem .55rem; text-decoration: none; }
+.civil-alerts li a span { text-decoration: underline; text-decoration-color: var(--line-strong, #909888); }
+.civil-alerts li[data-status="issued"] strong { color: #784132; }
+.civil-alerts small, .civil-alerts .civil-tail { color: var(--muted, #62685d); font-size: .8125rem; line-height: 1.45; }
+.civil-alerts .civil-tail { margin: .35rem 0 0; font-variant-numeric: tabular-nums; }
+.civil-alerts details { margin: .15rem 0; }
+.civil-alerts summary { width: fit-content; cursor: pointer; }
+.civil-alerts [data-civil-official] { margin-top: .4rem; }
+.civil-alerts [data-civil-official][hidden] { display: none; }
+.civil-alerts iframe { width: 100%; height: clamp(22rem, 60vh, 36rem); margin-top: .55rem; border: 1px solid var(--line, #cdd2c7); }
+.civil-alerts :is(a, summary):focus-visible { outline: 2px solid var(--ink, #20241f); outline-offset: 3px; }
+@media (max-width: 640px) {
+  .civil-alerts { padding: .65rem .75rem; margin-block: .65rem; }
+  .civil-alerts li { display: block; }
+  .civil-alerts small { display: block; margin-top: .1rem; }
+}

@@ -88,6 +88,8 @@ jobs:
           persist-credentials: false
       - name: Verify public entry point
         run: test -f public/index.html && test -f public/latest.json
+      - name: Include current civil notices on the homepage
+        run: node .ops/civil/install-panel.cjs
       - name: Package the published commit
         id: upload
         uses: actions/upload-pages-artifact@v4

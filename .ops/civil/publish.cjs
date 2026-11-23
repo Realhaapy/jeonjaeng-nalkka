@@ -8,8 +8,9 @@ module.exports = async function publish({ github, context, core }) {
   const file = 'alerts.json';
   const next = JSON.parse(await fs.readFile(path.join(process.env.RUNNER_TEMP, 'civil-notices.json'), 'utf8'));
   const checked = Date.parse(next.checked_at);
-  if (next.schema !== 1 || !Array.isArray(next.items) || !Number.isFinite(checked) || !next.complete) {
-    throw new Error('Incomplete source result. The previous public snapshot is preserved.');
+  if (next.schema !== 1 || !Array.isArray(next.items) || !Number.isFinite(checked) ||
+      !Number.isFinite(Date.parse(next.window_start)) || typeof next.complete !== 'boolean') {
+    throw new Error('Invalid source result. The previous public snapshot is preserved.');
   }
 
   let head;
@@ -24,7 +25,15 @@ module.exports = async function publish({ github, context, core }) {
     const prior = JSON.parse(Buffer.from(content.data.content, 'base64').toString('utf8'));
     const age = checked - Date.parse(prior.checked_at);
     if (age <= 0) return core.info('Kept a newer snapshot.');
-    if (age < 10 * 60 * 1000 && JSON.stringify(prior.items) === JSON.stringify(next.items)) {
+    if (!next.complete) {
+      const seen = new Set(next.items.map(item => item.id));
+      const start = Date.parse(next.window_start);
+      const retained = prior.items.filter(item => !seen.has(item.id) && Date.parse(item.issued_at) >= start);
+      next.items.push(...retained);
+      next.items.sort((a, b) => Date.parse(b.issued_at) - Date.parse(a.issued_at) || b.id.localeCompare(a.id));
+    }
+    if (age < 10 * 60 * 1000 && prior.complete === next.complete &&
+        JSON.stringify(prior.items) === JSON.stringify(next.items)) {
       return core.info('Official list checked, no changes since the last snapshot.');
     }
   }
