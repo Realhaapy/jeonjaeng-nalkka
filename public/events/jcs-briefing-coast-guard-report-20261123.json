@@ -8,7 +8,7 @@
   "time_precision": "day",
   "reported_at": "2026-11-22T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-23T17:37:42Z",
+  "updated_at": "2026-11-23T17:44:54Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
@@ -16,7 +16,7 @@
   "unknowns": [
     "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "context",
   "sources": [
@@ -29,7 +29,7 @@
     {
       "name": "중앙일보 원보도",
       "url": "https://www.joongang.co.kr/article/25480930",
-      "published_at": "2026-11-22T11:00:00Z",
+      "published_at": "2026-11-22T20:00:02Z",
       "published_precision": "minute"
     }
   ],
@@ -55,6 +55,11 @@
       "at": "2026-11-23T17:37:42Z",
       "type": "new",
       "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+    },
+    {
+      "at": "2026-11-23T17:44:54Z",
+      "type": "correction",
+      "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
     }
   ]
 }

@@ -5,9 +5,9 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-23T16:33:19Z",
-  "generated_at": "2026-11-23T17:40:51+00:00",
-  "release_id": "r-e3cca2cd1630be8d",
-  "snapshot_id": "s-1bf55e1469784ee4",
+  "generated_at": "2026-11-23T17:45:19+00:00",
+  "release_id": "r-d79184555e9c65b2",
+  "snapshot_id": "s-4448d7efd2f2e3ab",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -261,7 +261,7 @@
       "time_precision": "day",
       "reported_at": "2026-11-22T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-23T17:37:42Z",
+      "updated_at": "2026-11-23T17:44:54Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
@@ -269,7 +269,7 @@
       "unknowns": [
         "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "context",
       "sources": [
@@ -282,7 +282,7 @@
         {
           "name": "중앙일보 원보도",
           "url": "https://www.joongang.co.kr/article/25480930",
-          "published_at": "2026-11-22T11:00:00Z",
+          "published_at": "2026-11-22T20:00:02Z",
           "published_precision": "minute"
         }
       ],
@@ -308,6 +308,11 @@
           "at": "2026-11-23T17:37:42Z",
           "type": "new",
           "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+        },
+        {
+          "at": "2026-11-23T17:44:54Z",
+          "type": "correction",
+          "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
         }
       ]
     },
@@ -3712,6 +3717,14 @@
   ],
   "changes": [
     {
+      "id": "c-e0dc02e5522124d8730e",
+      "event_id": "jcs-briefing-coast-guard-report-20261123",
+      "at": "2026-11-23T17:44:54Z",
+      "type": "correction",
+      "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+      "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
+    },
+    {
       "id": "c-0a42fb985456ccd3a102",
       "event_id": "jcs-briefing-coast-guard-report-20261123",
       "at": "2026-11-23T17:37:42Z",
@@ -4591,7 +4604,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-23T17:40:51+00:00",
+    "as_of": "2026-11-23T17:45:19+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
     "brief": {
@@ -4670,7 +4683,7 @@
       "time_precision": "day",
       "reported_at": "2026-11-22T15:00:00Z",
       "reported_precision": "day",
-      "updated_at": "2026-11-23T17:37:42Z",
+      "updated_at": "2026-11-23T17:44:54Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
@@ -4678,7 +4691,7 @@
       "unknowns": [
         "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
       ],
-      "revision": 1,
+      "revision": 2,
       "why_it_matters": "",
       "significance": "context",
       "sources": [
@@ -4691,7 +4704,7 @@
         {
           "name": "중앙일보 원보도",
           "url": "https://www.joongang.co.kr/article/25480930",
-          "published_at": "2026-11-22T11:00:00Z",
+          "published_at": "2026-11-22T20:00:02Z",
           "published_precision": "minute"
         }
       ],
@@ -4717,6 +4730,11 @@
           "at": "2026-11-23T17:37:42Z",
           "type": "new",
           "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+        },
+        {
+          "at": "2026-11-23T17:44:54Z",
+          "type": "correction",
+          "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
         }
       ]
     },
@@ -4739,7 +4757,7 @@
           "date_label": "2026.09.21 · 발생일"
         }
       ],
-      "updated_at": "2026-11-23T17:40:51+00:00",
+      "updated_at": "2026-11-23T17:45:19+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
       "valid_until": "2026-11-23T18:33:19+00:00",
@@ -4767,7 +4785,7 @@
         "time_precision": "day",
         "reported_at": "2026-11-22T15:00:00Z",
         "reported_precision": "day",
-        "updated_at": "2026-11-23T17:37:42Z",
+        "updated_at": "2026-11-23T17:44:54Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
@@ -4775,7 +4793,7 @@
         "unknowns": [
           "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "context",
         "sources": [
@@ -4788,7 +4806,7 @@
           {
             "name": "중앙일보 원보도",
             "url": "https://www.joongang.co.kr/article/25480930",
-            "published_at": "2026-11-22T11:00:00Z",
+            "published_at": "2026-11-22T20:00:02Z",
             "published_precision": "minute"
           }
         ],
@@ -4814,6 +4832,11 @@
             "at": "2026-11-23T17:37:42Z",
             "type": "new",
             "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+          },
+          {
+            "at": "2026-11-23T17:44:54Z",
+            "type": "correction",
+            "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
           }
         ]
       },
@@ -5214,7 +5237,7 @@
         "time_precision": "day",
         "reported_at": "2026-11-22T15:00:00Z",
         "reported_precision": "day",
-        "updated_at": "2026-11-23T17:37:42Z",
+        "updated_at": "2026-11-23T17:44:54Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
@@ -5222,7 +5245,7 @@
         "unknowns": [
           "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
         ],
-        "revision": 1,
+        "revision": 2,
         "why_it_matters": "",
         "significance": "context",
         "sources": [
@@ -5235,7 +5258,7 @@
           {
             "name": "중앙일보 원보도",
             "url": "https://www.joongang.co.kr/article/25480930",
-            "published_at": "2026-11-22T11:00:00Z",
+            "published_at": "2026-11-22T20:00:02Z",
             "published_precision": "minute"
           }
         ],
@@ -5261,6 +5284,11 @@
             "at": "2026-11-23T17:37:42Z",
             "type": "new",
             "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+          },
+          {
+            "at": "2026-11-23T17:44:54Z",
+            "type": "correction",
+            "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
           }
         ]
       },
@@ -9091,8 +9119,8 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 1,
-      "changes_24h": 2,
-      "corrections_24h": 0,
+      "changes_24h": 3,
+      "corrections_24h": 1,
       "active_major": 6
     },
     "periods": {
@@ -9421,6 +9449,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-e0dc02e5522124d8730e",
+        "event_id": "jcs-briefing-coast-guard-report-20261123",
+        "at": "2026-11-23T17:44:54Z",
+        "type": "correction",
+        "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+        "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다.",
+        "display_label": "정정",
+        "event_date_label": "2026.11.23 · 발생일",
+        "registration_kind": null
+      },
       {
         "id": "c-0a42fb985456ccd3a102",
         "event_id": "jcs-briefing-coast-guard-report-20261123",

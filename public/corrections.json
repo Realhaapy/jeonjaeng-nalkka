@@ -1,5 +1,13 @@
 [
   {
+    "id": "c-e0dc02e5522124d8730e",
+    "event_id": "jcs-briefing-coast-guard-report-20261123",
+    "at": "2026-11-23T17:44:54Z",
+    "type": "correction",
+    "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+    "text": "중앙일보 원보도 시각을 원문 메타데이터에 따라 11월 23일 05:00(한국시간)으로 바로잡았습니다. 사건과 합참 브리핑 시각은 그대로입니다."
+  },
+  {
     "id": "c-a479a584836600340c3f",
     "event_id": "dprk-kim-yo-jong-binance-response-20261103",
     "at": "2026-11-03T18:31:53Z",
