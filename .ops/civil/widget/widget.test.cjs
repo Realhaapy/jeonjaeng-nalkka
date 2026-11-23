@@ -74,9 +74,10 @@ test('installed home does not alter surrounding public data or require a snapsho
 });
 
 test('official iframe loads only while open; closing or hiding the tab stops its 30s timer', () => {
-  let toggle, visibility, tick, frame;
+  let toggle, visibility, tick, frame, choose;
   const box = {appendChild(f) { frame = f; }};
-  const details = {hidden: true, open: false, querySelector: () => box,
+  const details = {hidden: true, open: false, querySelector: selector => selector === 'summary'
+    ? {addEventListener: (_, fn) => { choose = fn; }} : box,
     addEventListener: (event, fn) => { if (event === 'toggle') toggle = fn; }};
   const doc = {hidden: false, addEventListener: (event, fn) => { if (event === 'visibilitychange') visibility = fn; },
     createElement: () => ({setAttribute() {}, remove() { frame = null; }})};
@@ -85,15 +86,25 @@ test('official iframe loads only while open; closing or hiding the tab stops its
     global.document = doc;
     global.setInterval = (fn, ms) => { assert.equal(ms, 30000); tick = fn; return 1; };
     global.clearInterval = () => { tick = null; };
-    attachOfficialView({querySelector: () => details});
+    const preferDirect = attachOfficialView({querySelector: () => details});
     assert.equal(details.hidden, false); assert.equal(frame, undefined);
-    details.open = true; toggle();
+    preferDirect(sample, false, now + 29999); assert.equal(details.open, false);
+    preferDirect(sample, false, now + 30000); assert.equal(details.open, true); toggle();
+    preferDirect(sample, false, now); assert.equal(details.open, true);
     assert.equal(new URL(frame.src).hostname, 'www.safekorea.go.kr');
     assert.equal(new URL(frame.src).searchParams.get('dsstrSeId'), '40');
+    assert.equal(new URL(frame.src).hash, '#endDate');
     assert.equal(typeof tick, 'function');
     doc.hidden = true; visibility(); assert.equal(tick, null);
     doc.hidden = false; visibility(); assert.equal(typeof tick, 'function');
-    details.open = false; toggle(); assert.equal(tick, null); assert.equal(frame, null);
+    choose(); details.open = false; toggle(); assert.equal(tick, null); assert.equal(frame, null);
+    preferDirect(null, true, now); assert.equal(details.open, false);
+    const secondVisit = attachOfficialView({querySelector: () => details});
+    doc.hidden = true; secondVisit(null, true, now); assert.equal(details.open, false);
+    doc.hidden = false; secondVisit(null, false, now); assert.equal(details.open, true);
+    details.open = false;
+    const thirdVisit = attachOfficialView({querySelector: () => details});
+    thirdVisit(sample, true, now); assert.equal(details.open, true);
   } finally {
     global.setInterval = before.setInterval; global.clearInterval = before.clearInterval;
     if (before.document === undefined) delete global.document; else global.document = before.document;

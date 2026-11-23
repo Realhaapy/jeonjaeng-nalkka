@@ -127,9 +127,13 @@
   }
 
   function attachOfficialView(root) {
+    // The background feed can be delayed by its scheduler. Open the source
+    // after one reading interval while a cached export supplies the summary.
+    const directAfter = root.dataset?.backup ? 120000 : 30000;
     const view = root.querySelector('[data-civil-official]');
     const box = view.querySelector('[data-civil-frame]');
-    let frame, timer;
+    let frame, timer, userChose = false;
+    view.querySelector('summary').addEventListener('click', () => { userChose = true; });
     function refresh() {
       if (!view.open || document.hidden) return;
       if (!frame) {
@@ -141,6 +145,9 @@
         box.appendChild(frame);
       }
       const url = new URL(listUrl);
+      // The filter form is taller than a phone's iframe. The end of the date
+      // filter is the last stable official anchor immediately above the list.
+      url.hash = 'endDate';
       url.searchParams.set('_', String(Math.floor(Date.now() / 30000)));
       frame.src = url.href;
     }
@@ -157,6 +164,12 @@
     view.hidden = false;
     view.addEventListener('toggle', sync);
     document.addEventListener('visibilitychange', sync);
+    return function preferDirect(data, failed, now = Date.now()) {
+      if (!view.open && !userChose && !document.hidden &&
+          (failed || !data || !data.complete || now - timestamp(data.checked_at) >= directAfter)) {
+        view.open = true;
+      }
+    };
   }
 
   function attach(root) {
@@ -168,7 +181,7 @@
     const list = root.querySelector('[data-civil-rows]');
     const note = root.querySelector('[data-civil-stamp]');
     const urls = [...new Set([root.dataset.feed, root.dataset.backup].filter(Boolean))];
-    attachOfficialView(root);
+    const preferDirect = attachOfficialView(root);
     let busy = false;
     function redraw(data) {
       if (data === latest) return;
@@ -201,6 +214,7 @@
     }
     async function update() {
       if (busy || document.hidden) return;
+      preferDirect(latest, false);
       busy = true;
       let readOk = false;
       try {
@@ -209,12 +223,13 @@
             const value = await read(url);
             redraw(takeLatest(latest, value));
             readOk = true;
-            if (value.complete && Date.now() - timestamp(value.checked_at) <= staleAfter) break;
+            if (value.complete && Date.now() - timestamp(value.checked_at) < directAfter) break;
           } catch { /* Try the other authorized feed before reporting a delay. */ }
         }
       } finally {
         const text = stamp(latest, !readOk);
         if (note.innerHTML !== text) note.innerHTML = text;
+        preferDirect(latest, !readOk);
         busy = false;
       }
     }

@@ -35,10 +35,11 @@ function render(index, options, files, now = Date.now()) {
   const region = '<section class="civil-alerts" data-civil-alerts data-feed="' + escapeHtml(primary) +
     '" data-backup="' + escapeHtml(backup) + '" aria-labelledby="civil-alerts-title">' +
     '<header><h2 id="civil-alerts-title">민방공 재난문자</h2><a href="' + escapeHtml(listUrl) +
-    '">국민안전24 공식 목록</a></header><div data-civil-rows>' + rows(data) + '</div>' +
-    '<p class="civil-tail" data-civil-stamp role="status">' + stamp(data, false, now) + '</p>' +
+    '">국민안전24 공식 목록</a></header>' +
     '<details data-civil-official hidden><summary>국민안전24 실시간 목록</summary>' +
     '<p class="civil-tail">펼쳐 둔 동안 공식 페이지를 30초마다 다시 불러옵니다.</p><div data-civil-frame></div></details>' +
+    '<div data-civil-rows>' + rows(data) + '</div>' +
+    '<p class="civil-tail" data-civil-stamp role="status">' + stamp(data, false, now) + '</p>' +
     '<noscript><p class="civil-tail">최신 발송 내용은 국민안전24 공식 목록에서 확인하세요.</p></noscript>' + seed + '</section>';
   const assets = '<link rel="stylesheet" href="/assets/' + files.css + '">' +
     '<script defer src="/assets/' + files.js + '"></script>';
