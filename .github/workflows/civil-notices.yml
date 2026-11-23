@@ -1,0 +1,32 @@
+name: Refresh official civil notices
+on:
+  schedule:
+    - cron: '2-57/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.ops/civil/civil_feed.py', '.ops/civil/publish.cjs', '.github/workflows/civil-notices.yml']
+
+permissions: {}
+concurrency:
+  group: civil-notices-snapshot
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout: .ops/civil
+          persist-credentials: false
+      - name: Read the official civil-defence register
+        run: python3 .ops/civil/civil_feed.py --output "$RUNNER_TEMP/civil-notices.json"
+      - name: Publish the verified snapshot on the data branch
+        uses: actions/github-script@v8
+        with:
+          script: await require('./.ops/civil/publish.cjs')({ github, context, core });
