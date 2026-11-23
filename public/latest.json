@@ -5,11 +5,11 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-23T16:33:19Z",
-  "generated_at": "2026-11-23T17:26:19+00:00",
-  "release_id": "r-8f20ba7d50bf700e",
-  "snapshot_id": "s-1e1d11914ccde3aa",
-  "headline": "마지막으로 확인한 사건·발표",
-  "summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+  "generated_at": "2026-11-23T17:40:51+00:00",
+  "release_id": "r-e3cca2cd1630be8d",
+  "snapshot_id": "s-1bf55e1469784ee4",
+  "headline": "최근 발생한 사건과 발표·보도",
+  "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -251,6 +251,66 @@
     }
   ],
   "events": [
+    {
+      "id": "jcs-briefing-coast-guard-report-20261123",
+      "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+      "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+      "kind": "official_statement",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-22T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-22T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-23T17:37:42Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
+      "important": false,
+      "unknowns": [
+        "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "국방부 정례브리핑 · 합참 답변",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+          "published_at": "2026-11-22T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "중앙일보 원보도",
+          "url": "https://www.joongang.co.kr/article/25480930",
+          "published_at": "2026-11-22T11:00:00Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "중앙일보는 취재 사진에서 북한 선박의 ‘해양경찰’ 표기를 확인했다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.joongang.co.kr/article/25480930"
+          ]
+        },
+        {
+          "text": "합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않으며 관계기관에 문의할 사안이라고 답했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-23T17:37:42Z",
+          "type": "new",
+          "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+        }
+      ]
+    },
     {
       "id": "rok-kadiz-russia-reported-20261117",
       "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
@@ -3652,6 +3712,14 @@
   ],
   "changes": [
     {
+      "id": "c-0a42fb985456ccd3a102",
+      "event_id": "jcs-briefing-coast-guard-report-20261123",
+      "at": "2026-11-23T17:37:42Z",
+      "type": "new",
+      "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+      "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+    },
+    {
       "id": "c-621aa3ab8577cfe91203",
       "event_id": "dmz-landmine-injuries-20260921",
       "at": "2026-11-23T06:28:20Z",
@@ -4523,14 +4591,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-23T17:26:19+00:00",
-    "assessment_label": "마지막으로 확인한 사건·발표",
-    "assessment_summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+    "as_of": "2026-11-23T17:40:51+00:00",
+    "assessment_label": "최근 발생한 사건과 발표·보도",
+    "assessment_summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
     "brief": {
-      "recent": "검토된 기록 없음 · 마지막 기록 11/17 주체 미확인 군사 활동",
-      "recent_main": "검토된 기록 없음 · 마지막 기록 11/17 주체 미확인 군사 활동",
-      "recent_note": "",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 13건 · 외교 대응 14건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 공식 발언·조치 1건 (최근 11/23)",
+      "recent_main": "검토된 기록 공식 발언·조치 1건",
+      "recent_note": "(최근 11/23)",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 14건 · 외교 대응 14건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -4593,67 +4661,62 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "rok-kadiz-russia-reported-20261117",
-      "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
-      "summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
-      "kind": "nonroutine_military",
+      "id": "jcs-briefing-coast-guard-report-20261123",
+      "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+      "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+      "kind": "official_statement",
       "military_actor": "unknown",
-      "occurred_at": "2026-11-16T15:00:00Z",
+      "occurred_at": "2026-11-22T15:00:00Z",
       "time_precision": "day",
-      "reported_at": "2026-11-17T12:08:00Z",
-      "reported_precision": "minute",
-      "updated_at": "2026-11-17T16:28:49Z",
+      "reported_at": "2026-11-22T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-23T17:37:42Z",
       "status": "reported",
-      "primary_status": "quoted_only",
-      "lifecycle": "ended",
+      "primary_status": "primary_seen",
+      "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "합참 발표 원문은 직접 확인하지 못했습니다."
+        "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
       ],
-      "revision": 2,
+      "revision": 1,
       "why_it_matters": "",
-      "significance": "notable",
+      "significance": "context",
       "sources": [
         {
-          "name": "SBS · 합동참모본부 설명 인용",
-          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429",
-          "published_at": "2026-11-17T12:08:00Z",
-          "published_precision": "minute"
+          "name": "국방부 정례브리핑 · 합참 답변",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+          "published_at": "2026-11-22T15:00:00Z",
+          "published_precision": "day"
         },
         {
-          "name": "경향신문 · 합동참모본부 설명 인용",
-          "url": "https://www.khan.co.kr/article/202611170705001",
-          "published_at": "2026-11-16T22:05:00Z",
+          "name": "중앙일보 원보도",
+          "url": "https://www.joongang.co.kr/article/25480930",
+          "published_at": "2026-11-22T11:00:00Z",
           "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "SBS가 인용한 합참 설명에 따르면, 11월 17일 러시아 군용기가 한국 방공식별구역에 들어와 한국 공군이 대응 출격했습니다. 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
+          "text": "중앙일보는 취재 사진에서 북한 선박의 ‘해양경찰’ 표기를 확인했다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850429"
+            "https://www.joongang.co.kr/article/25480930"
           ]
         },
         {
-          "text": "합참은 러시아 군용기가 한국 방공식별구역에서 이탈했다고 밝혔습니다.",
+          "text": "합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않으며 관계기관에 문의할 사안이라고 답했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.khan.co.kr/article/202611170705001"
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-17T15:29:34Z",
+          "at": "2026-11-23T17:37:42Z",
           "type": "new",
-          "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
-        },
-        {
-          "at": "2026-11-17T16:28:49Z",
-          "type": "update",
-          "text": "합참 설명을 인용한 경향신문 원문에서 군용기가 방공식별구역을 이탈했다는 점을 확인해 이 건을 종료로 표시했습니다. 새 사건으로 추가하지 않았습니다."
+          "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
         }
       ]
     },
@@ -4664,13 +4727,19 @@
       "short_summary": "최근 기록 관찰 중 · 안전 판정 아님",
       "basis": [
         {
+          "event_id": "jcs-briefing-coast-guard-report-20261123",
+          "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+          "url": "events/jcs-briefing-coast-guard-report-20261123/",
+          "date_label": "2026.11.23 · 발생일"
+        },
+        {
           "event_id": "dmz-landmine-injuries-20260921",
           "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
           "url": "events/dmz-landmine-injuries-20260921/",
           "date_label": "2026.09.21 · 발생일"
         }
       ],
-      "updated_at": "2026-11-23T17:26:19+00:00",
+      "updated_at": "2026-11-23T17:40:51+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
       "valid_until": "2026-11-23T18:33:19+00:00",
@@ -4688,6 +4757,66 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "jcs-briefing-coast-guard-report-20261123",
+        "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+        "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+        "kind": "official_statement",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-22T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-22T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-23T17:37:42Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "unknown",
+        "important": false,
+        "unknowns": [
+          "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "국방부 정례브리핑 · 합참 답변",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+            "published_at": "2026-11-22T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "중앙일보 원보도",
+            "url": "https://www.joongang.co.kr/article/25480930",
+            "published_at": "2026-11-22T11:00:00Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "중앙일보는 취재 사진에서 북한 선박의 ‘해양경찰’ 표기를 확인했다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.joongang.co.kr/article/25480930"
+            ]
+          },
+          {
+            "text": "합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않으며 관계기관에 문의할 사안이라고 답했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-23T17:37:42Z",
+            "type": "new",
+            "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+          }
+        ]
+      },
       {
         "id": "rok-kadiz-russia-reported-20261117",
         "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
@@ -5072,105 +5201,69 @@
             "text": "Dot 정기 원문 검토: SBS 원문의 참여 설명과 채택 전망을 구분했습니다. 기존 사건·출처와 대조한 외교 기록으로 등록하며, 11월 5일을 실제 참여 결정일이나 새 군사행동 발생일로 확정하지 않습니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "rok-cheonghae-expansion-proposal-20261105",
-        "title": "청해부대 파견 확대안 차관회의 통과 보도…국회 동의 절차 예정",
-        "summary": "청해부대 파견 연장·확대 동의안이 11월 5일 차관회의를 통과했다고 JTBC가 보도했습니다. 국방부는 같은 날 브리핑에서 오만 남방 외해로 작전구역을 넓히는 안을 설명하고, 의결 절차를 거쳐 추진할 계획이라고 밝혔습니다. 실제 추가 파견 완료는 확인되지 않았습니다.",
-        "kind": "official_measure",
-        "military_actor": "south_korea",
-        "occurred_at": "2026-11-04T15:00:00Z",
+        "id": "jcs-briefing-coast-guard-report-20261123",
+        "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+        "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+        "kind": "official_statement",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-22T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-05T01:33:02Z",
-        "reported_precision": "minute",
-        "updated_at": "2026-11-05T05:21:28Z",
+        "reported_at": "2026-11-22T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-23T17:37:42Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "11월 5일 국방부 공식 브리핑은 확인했으나 동의안 본문과 차관회의록은 확보하지 못했습니다. 차관회의 통과는 JTBC 보도에 귀속하며, 브리핑의 제출 설명만으로 국회 제출 완료를 확정하지 않습니다. 같은 발표의 인용을 독립 확인으로 세지 않습니다.",
-          "발생일은 JTBC가 명시한 11월 5일 차관회의 통과일입니다. SBS가 전한 수정안 확정의 정확한 날짜·시각과 실제 추가 파견일은 확인되지 않았습니다.",
-          "395명 이내와 추가 전력은 계획상 규모입니다. 국무회의·국회 통과, 현지 협의 완료나 실제 배치 완료를 확인한 것은 아닙니다. 향후 심의·투입 일정은 바뀔 수 있습니다.",
-          "오만 남방 해역으로의 확대 계획을 호르무즈 해협 진입이나 이란 전쟁 개입 완료로 해석하지 않습니다. 전력 확대의 효과나 군사적 위험을 이 기록에서 판정하지 않습니다."
+          "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
         ],
-        "revision": 2,
+        "revision": 1,
         "why_it_matters": "",
-        "significance": "notable",
+        "significance": "context",
         "sources": [
           {
-            "name": "SBS · 국방부 설명 인용",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
-            "published_at": "2026-11-05T01:33:02Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 국방부 설명·차관회의 통과 보도",
-            "url": "https://news.jtbc.co.kr/article/NB12326588",
-            "published_at": "2026-11-05T01:55:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "국방부 11월 5일 정례브리핑 · 정책브리핑",
-            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-            "published_at": "2026-11-04T15:00:00Z",
+            "name": "국방부 정례브리핑 · 합참 답변",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+            "published_at": "2026-11-22T15:00:00Z",
             "published_precision": "day"
+          },
+          {
+            "name": "중앙일보 원보도",
+            "url": "https://www.joongang.co.kr/article/25480930",
+            "published_at": "2026-11-22T11:00:00Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
           {
-            "text": "JTBC는 11월 5일 청해부대 파견 연장·작전구역 확대 동의안이 이날 차관회의를 통과했다고 보도했습니다.",
+            "text": "중앙일보는 취재 사진에서 북한 선박의 ‘해양경찰’ 표기를 확인했다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326588"
+              "https://www.joongang.co.kr/article/25480930"
             ]
           },
           {
-            "text": "SBS와 JTBC가 전한 계획에는 작전구역의 오만 남방 해역 확대와 해상초계기 1대·폭발물처리팀·무인 기뢰 제거장비 추가, 병력 395명 이내로의 확대가 포함됐습니다.",
+            "text": "합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않으며 관계기관에 문의할 사안이라고 답했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
-              "https://news.jtbc.co.kr/article/NB12326588"
-            ]
-          },
-          {
-            "text": "JTBC는 국무회의 심의·대통령 재가·국회 동의 절차를 거친 뒤 현지 당국과의 협의가 완료되는 대로 추가 전력 투입을 추진할 예정이라고 보도했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326588"
-            ]
-          },
-          {
-            "text": "국방부는 11월 5일 브리핑에서 연장안을 이날 제출했으며 의결 절차에 따라 추진하겠다고 밝혔습니다. 확대 구역은 오만 남방 외해이며, 초계기와 폭발물처리반 추가 계획을 설명했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
-            ]
-          },
-          {
-            "text": "국방부는 호르무즈 해협 진입을 전제로 한 방안이 아니며, 추가 항행 자유 지원 활동에는 허용적 환경이 필요하다고 설명했습니다. 전쟁에 개입하지 않는 원칙으로 임무를 수행하겠다는 입장입니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-05T02:19:27Z",
+            "at": "2026-11-23T17:37:42Z",
             "type": "new",
-            "text": "Codex 정기 원문 검토로 SBS·JTBC의 청해부대 파견 확대안 보도를 대조해 새 기록을 등록했습니다. 발생일은 11월 5일 차관회의 통과 보도 기준이며 국회 동의와 실제 추가 배치는 계획·미확인 상태로 구분했습니다."
-          },
-          {
-            "at": "2026-11-05T05:21:28Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 5일 국방부 공식 답변을 연결해 의결 후 추진, 오만 남방 외해, 추가 활동의 전제 조건과 전쟁 비개입 원칙을 보완했습니다. 차관회의 통과는 기존 보도에 귀속하고 국회 의결·실제 추가 파견 완료로 바꾸지 않았습니다."
+            "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
           }
         ]
-      }
-    ],
-    "ordered_events": [
+      },
       {
         "id": "rok-kadiz-russia-reported-20261117",
         "title": "합참, 러시아 군용기 방공식별구역 진입에 공군 대응 출격 발표",
@@ -8571,6 +8664,15 @@
       }
     ],
     "event_timing": {
+      "jcs-briefing-coast-guard-report-20261123": {
+        "date_label": "2026.11.23 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-23T17:37:42+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "rok-kadiz-russia-reported-20261117": {
         "date_label": "2026.11.17 · 발생일",
         "date_basis": "occurred",
@@ -8988,15 +9090,15 @@
     },
     "metrics": {
       "events_24h": 0,
-      "events_24h_uncertain": 0,
-      "changes_24h": 1,
+      "events_24h_uncertain": 1,
+      "changes_24h": 2,
       "corrections_24h": 0,
       "active_major": 6
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 0,
+        "current": 1,
         "previous": 2,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -9030,7 +9132,7 @@
           },
           {
             "date": "2026-11-23",
-            "count": 0,
+            "count": 1,
             "prior": null
           },
           {
@@ -9078,7 +9180,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 0,
+            "current": 1,
             "previous": 0,
             "delta": null
           },
@@ -9100,7 +9202,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 35,
+        "current": 36,
         "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -9249,7 +9351,7 @@
           },
           {
             "date": "2026-11-23",
-            "count": 0,
+            "count": 1,
             "prior": null
           },
           {
@@ -9297,7 +9399,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 13,
+            "current": 14,
             "previous": 0,
             "delta": null
           },
@@ -9319,6 +9421,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-0a42fb985456ccd3a102",
+        "event_id": "jcs-briefing-coast-guard-report-20261123",
+        "at": "2026-11-23T17:37:42Z",
+        "type": "new",
+        "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+        "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.23 · 발생일",
+        "registration_kind": "recent"
+      },
       {
         "id": "c-621aa3ab8577cfe91203",
         "event_id": "dmz-landmine-injuries-20260921",
@@ -9869,10 +9982,12 @@
       {
         "key": "statement",
         "label": "공식 발언·조치",
-        "title": "최근 7일 검토 기록 없음",
-        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
-        "event_ids": [],
-        "state": "unobserved"
+        "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+        "text": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+        "event_ids": [
+          "jcs-briefing-coast-guard-report-20261123"
+        ],
+        "state": "recorded"
       },
       {
         "key": "diplomacy",
@@ -9904,6 +10019,7 @@
       }
     ],
     "event_categories": {
+      "jcs-briefing-coast-guard-report-20261123": "statement",
       "rok-kadiz-russia-reported-20261117": "military_unknown",
       "eas-korean-dialogue-appeal-20261117": "diplomacy",
       "dprk-china-party-talks-20261106": "diplomacy",

@@ -1,0 +1,60 @@
+{
+  "id": "jcs-briefing-coast-guard-report-20261123",
+  "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
+  "summary": "중앙일보는 북한 선박에 ‘해양경찰’이라는 표기가 있었다고 보도했습니다. 11월 23일 국방부 정례브리핑에서 합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않다고 답했습니다.",
+  "kind": "official_statement",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-22T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-22T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-23T17:37:42Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "표기만으로 북한 해양경찰 조직의 신설 여부, 소속 또는 기능이 공식 확인된 것은 아닙니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부 정례브리핑 · 합참 답변",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+      "published_at": "2026-11-22T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "중앙일보 원보도",
+      "url": "https://www.joongang.co.kr/article/25480930",
+      "published_at": "2026-11-22T11:00:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "중앙일보는 취재 사진에서 북한 선박의 ‘해양경찰’ 표기를 확인했다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.joongang.co.kr/article/25480930"
+      ]
+    },
+    {
+      "text": "합참은 북한의 내부 조직이나 제도 개편을 군이 평가하는 것은 적절하지 않으며 관계기관에 문의할 사안이라고 답했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-23T17:37:42Z",
+      "type": "new",
+      "text": "11월 23일 국방부 브리핑의 누락 문답을 중앙일보 원보도와 대조해 별도 안건으로 등록했습니다."
+    }
+  ]
+}
