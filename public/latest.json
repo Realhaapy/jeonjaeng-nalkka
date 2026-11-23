@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-23T04:34:55Z",
-  "generated_at": "2026-11-23T05:32:25+00:00",
-  "release_id": "r-8ba5c1d9efca19e7",
-  "snapshot_id": "s-fd8db15c6e81e247",
+  "collection_checked_at": "2026-11-23T05:35:48Z",
+  "generated_at": "2026-11-23T06:28:50+00:00",
+  "release_id": "r-deeed56ca555a9bb",
+  "snapshot_id": "s-4c540d6913d6803a",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -18,7 +18,7 @@
   "coverage": {
     "ok": 11,
     "total": 11,
-    "pending": 63,
+    "pending": 59,
     "status": "partial",
     "scope_limited": 1
   },
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-23T05:28:57Z",
-      "last_success_at": "2026-11-23T05:28:57Z",
-      "coverage_at": "2026-11-23T05:28:57Z",
+      "checked_at": "2026-11-23T06:25:33Z",
+      "last_success_at": "2026-11-23T06:25:33Z",
+      "coverage_at": "2026-11-23T06:25:33Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-23T04:34:55Z",
-      "last_success_at": "2026-11-23T04:34:55Z",
+      "checked_at": "2026-11-23T05:35:48Z",
+      "last_success_at": "2026-11-23T05:35:48Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-23T04:34:55Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-23T05:35:48Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:01Z",
-      "last_success_at": "2026-11-23T05:30:01Z",
-      "coverage_at": "2026-11-23T05:30:01Z",
+      "checked_at": "2026-11-23T06:26:42Z",
+      "last_success_at": "2026-11-23T06:26:42Z",
+      "coverage_at": "2026-11-23T06:26:42Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:10Z",
-      "last_success_at": "2026-11-23T05:30:10Z",
-      "coverage_at": "2026-11-23T05:30:10Z",
+      "checked_at": "2026-11-23T06:26:50Z",
+      "last_success_at": "2026-11-23T06:26:50Z",
+      "coverage_at": "2026-11-23T06:26:50Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:17Z",
-      "last_success_at": "2026-11-23T05:30:17Z",
-      "coverage_at": "2026-11-23T05:30:17Z",
+      "checked_at": "2026-11-23T06:26:56Z",
+      "last_success_at": "2026-11-23T06:26:56Z",
+      "coverage_at": "2026-11-23T06:26:56Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:23Z",
-      "last_success_at": "2026-11-23T05:30:23Z",
-      "coverage_at": "2026-11-23T05:30:23Z",
+      "checked_at": "2026-11-23T06:27:04Z",
+      "last_success_at": "2026-11-23T06:27:04Z",
+      "coverage_at": "2026-11-23T06:27:04Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:31Z",
-      "last_success_at": "2026-11-23T05:30:31Z",
-      "coverage_at": "2026-11-23T05:30:31Z",
+      "checked_at": "2026-11-23T06:27:10Z",
+      "last_success_at": "2026-11-23T06:27:10Z",
+      "coverage_at": "2026-11-23T06:27:10Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:53Z",
-      "last_success_at": "2026-11-23T05:30:53Z",
-      "coverage_at": "2026-11-23T05:30:53Z",
+      "checked_at": "2026-11-23T06:27:24Z",
+      "last_success_at": "2026-11-23T06:27:24Z",
+      "coverage_at": "2026-11-23T06:27:24Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,11 +158,11 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-23T04:35:16Z",
-      "last_success_at": "2026-11-23T04:35:16Z",
-      "coverage_at": "2026-11-23T04:35:16Z",
+      "checked_at": "2026-11-23T05:36:08Z",
+      "last_success_at": "2026-11-23T05:36:08Z",
+      "coverage_at": "2026-11-23T05:36:08Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-23T04:35:16Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-23T05:36:08Z에 수집한 자료를 사용했습니다.",
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
       "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
     },
@@ -171,11 +171,11 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-23T04:35:12Z",
-      "last_success_at": "2026-11-23T04:35:12Z",
-      "coverage_at": "2026-11-23T04:35:12Z",
+      "checked_at": "2026-11-23T05:36:04Z",
+      "last_success_at": "2026-11-23T05:36:04Z",
+      "coverage_at": "2026-11-23T05:36:04Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-23T04:35:12Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-23T05:36:04Z에 수집한 자료를 사용했습니다.",
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
       "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다."
     },
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:45Z",
-      "last_success_at": "2026-11-23T05:30:45Z",
-      "coverage_at": "2026-11-23T05:30:45Z",
+      "checked_at": "2026-11-23T06:27:18Z",
+      "last_success_at": "2026-11-23T06:27:18Z",
+      "coverage_at": "2026-11-23T06:27:18Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-23T05:28:57Z",
-      "last_success_at": "2026-11-23T05:28:57Z",
-      "observed_at": "2026-11-23T05:28:57Z",
+      "checked_at": "2026-11-23T06:25:33Z",
+      "last_success_at": "2026-11-23T06:25:33Z",
+      "observed_at": "2026-11-23T06:25:33Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-23T05:30:53Z",
-      "last_success_at": "2026-11-23T05:30:53Z",
-      "observed_at": "2026-11-23T05:30:53Z",
+      "checked_at": "2026-11-23T06:27:24Z",
+      "last_success_at": "2026-11-23T06:27:24Z",
+      "observed_at": "2026-11-23T06:27:24Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-23T04:35:16Z",
-      "last_success_at": "2026-11-23T04:35:16Z",
-      "observed_at": "2026-11-23T04:35:16Z",
+      "checked_at": "2026-11-23T05:36:08Z",
+      "last_success_at": "2026-11-23T05:36:08Z",
+      "observed_at": "2026-11-23T05:36:08Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-22T04:35:12Z",
-        "window_end": "2026-11-23T04:35:12Z",
-        "total_count": 19,
+        "window_start": "2026-11-22T05:36:04Z",
+        "window_end": "2026-11-23T05:36:04Z",
+        "total_count": 20,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -3287,14 +3287,14 @@
     {
       "id": "dmz-landmine-injuries-20260921",
       "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
-      "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다.",
+      "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다. 11월 23일 합참은 유엔군사령부 협의와 후속 조치가 진행 중이라고 밝혔습니다. 새 사고나 추가 피해 발표는 아닙니다.",
       "kind": "military_incident",
       "military_actor": "unknown",
       "occurred_at": "2026-09-20T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-10-05T10:13:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-03T19:36:35Z",
+      "updated_at": "2026-11-23T06:28:20Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
@@ -3305,9 +3305,10 @@
         "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
         "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
         "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다.",
-        "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다."
+        "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다.",
+        "11월 23일 합참 답변으로 후속 조치가 진행 중임은 확인했으나 세부 내용이나 완료 시점은 공개하지 않았습니다. 사고 자체의 발생일·상태는 변경하지 않습니다."
       ],
-      "revision": 5,
+      "revision": 6,
       "why_it_matters": "",
       "significance": "major",
       "sources": [
@@ -3340,6 +3341,12 @@
           "url": "https://www.yna.co.kr/view/AKR20261005044851504",
           "published_at": "2026-10-05T10:13:00Z",
           "published_precision": "minute"
+        },
+        {
+          "name": "국방부·합참 · 11월 23일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+          "published_at": "2026-11-22T15:00:00Z",
+          "published_precision": "day"
         }
       ],
       "facts": [
@@ -3391,6 +3398,13 @@
           "evidence_urls": [
             "https://www.yna.co.kr/view/AKR20261005044851504"
           ]
+        },
+        {
+          "text": "합참은 11월 23일 정례브리핑에서 9월 21일 지뢰 폭발과 관련한 유엔군사령부 협의와 후속 조치가 진행 중이라고 설명했다. 새로운 폭발이나 추가 피해를 발표한 것은 아니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+          ]
         }
       ],
       "location": null,
@@ -3419,6 +3433,11 @@
           "at": "2026-11-03T19:36:35Z",
           "type": "update",
           "text": "Codex 정기 원문 검토: 10월 5일 19:13 연합뉴스의 군 지뢰 제거 작전 보도를 기존 9월 21일 사고의 후속에 연결했습니다. 확인한 더 이른 보도 시각을 보완했으며 사건 발생일·기존 근거·이력은 유지합니다. 11월의 새 사고나 새 작전으로 세지 않습니다."
+        },
+        {
+          "at": "2026-11-23T06:28:20Z",
+          "type": "update",
+          "text": "Codex 정기 원문 검토: 11월 23일 합참 정례 브리핑의 실제 답변을 대조해 기존 9월 21일 사고에 후속 근거를 추가했습니다. 사고 발생일과 기존 이력을 보존하고 새 발생으로 집계하지 않습니다."
         }
       ]
     },
@@ -3632,6 +3651,14 @@
     }
   ],
   "changes": [
+    {
+      "id": "c-621aa3ab8577cfe91203",
+      "event_id": "dmz-landmine-injuries-20260921",
+      "at": "2026-11-23T06:28:20Z",
+      "type": "update",
+      "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+      "text": "Codex 정기 원문 검토: 11월 23일 합참 정례 브리핑의 실제 답변을 대조해 기존 9월 21일 사고에 후속 근거를 추가했습니다. 사고 발생일과 기존 이력을 보존하고 새 발생으로 집계하지 않습니다."
+    },
     {
       "id": "c-34ccc5125c89a43256eb",
       "event_id": "rok-kadiz-russia-reported-20261117",
@@ -4222,7 +4249,7 @@
       "published_at": "2026-11-22T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-23T03:25:11Z",
-      "status": "held"
+      "status": "reviewed"
     },
     {
       "id": "doc-2e277e90ea2d453de48f",
@@ -4233,16 +4260,6 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-23T02:26:43Z",
       "status": "held"
-    },
-    {
-      "id": "doc-4bcb73ba5630cdc2f6ab",
-      "title": "「동남아시아·동아시아·태평양 지역 스캠 대응 연락그룹회의 원칙 성명」 발표",
-      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789875",
-      "source_name": "대한민국 정책브리핑",
-      "published_at": "2026-11-18T15:00:00Z",
-      "published_precision": "day",
-      "first_seen_at": "2026-11-22T19:30:20Z",
-      "status": "pending"
     },
     {
       "id": "doc-709fc0cbe70ebfae83b9",
@@ -4292,7 +4309,7 @@
       "published_at": "2026-11-17T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-18T17:04:48Z",
-      "status": "pending"
+      "status": "held"
     },
     {
       "id": "doc-bc7ae14709d0501fce40",
@@ -4303,16 +4320,6 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-18T17:04:48Z",
       "status": "held"
-    },
-    {
-      "id": "doc-e9b922aba21f9570196a",
-      "title": "Brunson tells Civil Affairs Soldiers their work starts before the fight",
-      "url": "https://www.dvidshub.net/news/579393/brunson-tells-civil-affairs-soldiers-their-work-starts-before-fight",
-      "source_name": "주한미군 공식 발표 · DVIDS",
-      "published_at": "2026-11-16T06:04:34Z",
-      "published_precision": "minute",
-      "first_seen_at": "2026-11-17T15:26:17Z",
-      "status": "pending"
     },
     {
       "id": "doc-04304c9b2e1efab65aba",
@@ -4392,7 +4399,7 @@
       "published_at": "2026-11-16T15:00:00Z",
       "published_precision": "day",
       "first_seen_at": "2026-11-17T15:26:12Z",
-      "status": "pending"
+      "status": "held"
     },
     {
       "id": "doc-ca43536a2c5c055020a3",
@@ -4493,10 +4500,30 @@
       "published_precision": "day",
       "first_seen_at": "2026-11-17T15:25:52Z",
       "status": "pending"
+    },
+    {
+      "id": "doc-d33f868bf8d208ea1537",
+      "title": "강신철 국방부장관 제13차 아세안 확대 국방장관회의(ADMM-Plus) 참가",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156787126",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-10-28T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-06T05:26:04Z",
+      "status": "held"
+    },
+    {
+      "id": "doc-d0ac45abbb20ac904f25",
+      "title": "차관보, 영국 의회 대표단 면담(11.5.)",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156788155",
+      "source_name": "대한민국 정책브리핑",
+      "published_at": "2026-11-04T15:00:00Z",
+      "published_precision": "day",
+      "first_seen_at": "2026-11-05T11:17:37Z",
+      "status": "reviewed"
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-23T05:32:25+00:00",
+    "as_of": "2026-11-23T06:28:50+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "합참 설명을 인용한 언론 보도에 따르면, 11월 17일 러시아 군용기는 한국 방공식별구역에 들어왔다가 이탈했습니다. 한국 공군은 대응 출격했고, 합참은 한국 영공 침범은 없었다고 밝혔습니다.",
     "brief": {
@@ -4511,7 +4538,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-23T04:35:16Z",
+          "observed_at": "2026-11-23T05:36:08Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -4519,17 +4546,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-22T04:35:12Z",
-          "window_end": "2026-11-23T04:35:12Z",
+          "window_start": "2026-11-22T05:36:04Z",
+          "window_end": "2026-11-23T05:36:04Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 19건 확인"
+          "detail": "최근 24시간 · 전국 문자 20건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-23T05:30:53Z",
+          "observed_at": "2026-11-23T06:27:24Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -4547,7 +4574,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-23T05:28:57Z",
+          "observed_at": "2026-11-23T06:25:33Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -4631,15 +4658,22 @@
       ]
     },
     "tension": {
-      "key": "unrated",
-      "label": "자료 관찰 중 · 등급 미산정",
-      "summary": "수집은 유효하지만 한국시간 오늘과 앞선 이틀에 해당하는 검토·등록 사건이 없어 등급을 산정하지 않습니다. 안전하다는 뜻은 아닙니다.",
-      "short_summary": "최근 검토·등록 사건 없음 · 안전 판정 아님",
-      "basis": [],
-      "updated_at": "2026-11-23T05:32:25+00:00",
+      "key": "watch",
+      "label": "관찰",
+      "summary": "최근 공개 기록을 관찰 중입니다. 안전하다는 판정은 아닙니다.",
+      "short_summary": "최근 기록 관찰 중 · 안전 판정 아님",
+      "basis": [
+        {
+          "event_id": "dmz-landmine-injuries-20260921",
+          "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+          "url": "events/dmz-landmine-injuries-20260921/",
+          "date_label": "2026.09.21 · 발생일"
+        }
+      ],
+      "updated_at": "2026-11-23T06:28:50+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-23T06:34:55+00:00",
+      "valid_until": "2026-11-23T07:35:48+00:00",
       "asset_key": "observe",
       "scope_limited": 1,
       "limitations": [
@@ -8173,14 +8207,14 @@
       {
         "id": "dmz-landmine-injuries-20260921",
         "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
-        "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다.",
+        "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다. 11월 23일 합참은 유엔군사령부 협의와 후속 조치가 진행 중이라고 밝혔습니다. 새 사고나 추가 피해 발표는 아닙니다.",
         "kind": "military_incident",
         "military_actor": "unknown",
         "occurred_at": "2026-09-20T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-10-05T10:13:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-03T19:36:35Z",
+        "updated_at": "2026-11-23T06:28:20Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
@@ -8191,9 +8225,10 @@
           "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
           "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
           "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다.",
-          "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다."
+          "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다.",
+          "11월 23일 합참 답변으로 후속 조치가 진행 중임은 확인했으나 세부 내용이나 완료 시점은 공개하지 않았습니다. 사고 자체의 발생일·상태는 변경하지 않습니다."
         ],
-        "revision": 5,
+        "revision": 6,
         "why_it_matters": "",
         "significance": "major",
         "sources": [
@@ -8226,6 +8261,12 @@
             "url": "https://www.yna.co.kr/view/AKR20261005044851504",
             "published_at": "2026-10-05T10:13:00Z",
             "published_precision": "minute"
+          },
+          {
+            "name": "국방부·합참 · 11월 23일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+            "published_at": "2026-11-22T15:00:00Z",
+            "published_precision": "day"
           }
         ],
         "facts": [
@@ -8277,6 +8318,13 @@
             "evidence_urls": [
               "https://www.yna.co.kr/view/AKR20261005044851504"
             ]
+          },
+          {
+            "text": "합참은 11월 23일 정례브리핑에서 9월 21일 지뢰 폭발과 관련한 유엔군사령부 협의와 후속 조치가 진행 중이라고 설명했다. 새로운 폭발이나 추가 피해를 발표한 것은 아니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+            ]
           }
         ],
         "location": null,
@@ -8305,6 +8353,11 @@
             "at": "2026-11-03T19:36:35Z",
             "type": "update",
             "text": "Codex 정기 원문 검토: 10월 5일 19:13 연합뉴스의 군 지뢰 제거 작전 보도를 기존 9월 21일 사고의 후속에 연결했습니다. 확인한 더 이른 보도 시각을 보완했으며 사건 발생일·기존 근거·이력은 유지합니다. 11월의 새 사고나 새 작전으로 세지 않습니다."
+          },
+          {
+            "at": "2026-11-23T06:28:20Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 11월 23일 합참 정례 브리핑의 실제 답변을 대조해 기존 9월 21일 사고에 후속 근거를 추가했습니다. 사고 발생일과 기존 이력을 보존하고 새 발생으로 집계하지 않습니다."
           }
         ]
       },
@@ -8936,7 +8989,7 @@
     "metrics": {
       "events_24h": 0,
       "events_24h_uncertain": 0,
-      "changes_24h": 0,
+      "changes_24h": 1,
       "corrections_24h": 0,
       "active_major": 6
     },
@@ -9265,7 +9318,19 @@
         ]
       }
     },
-    "recent_changes": [],
+    "recent_changes": [
+      {
+        "id": "c-621aa3ab8577cfe91203",
+        "event_id": "dmz-landmine-injuries-20260921",
+        "at": "2026-11-23T06:28:20Z",
+        "type": "update",
+        "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
+        "text": "Codex 정기 원문 검토: 11월 23일 합참 정례 브리핑의 실제 답변을 대조해 기존 9월 21일 사고에 후속 근거를 추가했습니다. 사고 발생일과 기존 이력을 보존하고 새 발생으로 집계하지 않습니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.09.21 · 발생일",
+        "registration_kind": null
+      }
+    ],
     "important_events": [
       {
         "id": "dprk-launch-20261029",
@@ -9434,14 +9499,14 @@
       {
         "id": "dmz-landmine-injuries-20260921",
         "title": "9월 21일 DMZ 지뢰폭발…합참 10월 5일 조사 발표 소급 등록",
-        "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다.",
+        "summary": "지난 9월 21일 서부전선 비무장지대 지뢰 폭발로 장병 3명이 다쳤다는 보도입니다. 합참은 북한군이 매설한 지뢰를 원인으로 판단했다고 발표했고, 북한은 이를 부인하고 있다고 뉴시스가 전했습니다. 10월 22일 정부의 유엔 서한과 11월 3일 부상 장병 위문 보도를 후속 근거로 연결했습니다. 11월에 새로 발생한 사고가 아닙니다. 11월 23일 합참은 유엔군사령부 협의와 후속 조치가 진행 중이라고 밝혔습니다. 새 사고나 추가 피해 발표는 아닙니다.",
         "kind": "military_incident",
         "military_actor": "unknown",
         "occurred_at": "2026-09-20T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-10-05T10:13:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-03T19:36:35Z",
+        "updated_at": "2026-11-23T06:28:20Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
@@ -9452,9 +9517,10 @@
           "정확한 지뢰 매설일과 사건 위치 좌표는 확인하지 못해 추정하지 않았습니다. 사건 발생일과 사이트 등록일은 다릅니다.",
           "지뢰 매설 주체와 경위에 관한 남북 주장이 상충합니다. 정부의 유엔 서한 및 북한 측 서한 원문은 이번에 확보하지 못했으며, 각 입장의 보도 확인을 독립 검증으로 표시하지 않습니다.",
           "10월 29일 답변의 의도 분석 진행 상태를 이후 최종 결론으로 해석하지 않습니다. 기자가 질문에서 언급한 부상 상태는 기관이 확인한 사실로 추가하지 않았습니다.",
-          "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다."
+          "10월 5일 제거 작전 실시 보도가 지뢰지대 전체의 제거 완료를 뜻하지 않습니다. 이후 제거 범위·완료 여부나 현재 작전 진행 상태는 이 자료만으로 확인할 수 없습니다.",
+          "11월 23일 합참 답변으로 후속 조치가 진행 중임은 확인했으나 세부 내용이나 완료 시점은 공개하지 않았습니다. 사고 자체의 발생일·상태는 변경하지 않습니다."
         ],
-        "revision": 5,
+        "revision": 6,
         "why_it_matters": "",
         "significance": "major",
         "sources": [
@@ -9487,6 +9553,12 @@
             "url": "https://www.yna.co.kr/view/AKR20261005044851504",
             "published_at": "2026-10-05T10:13:00Z",
             "published_precision": "minute"
+          },
+          {
+            "name": "국방부·합참 · 11월 23일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335",
+            "published_at": "2026-11-22T15:00:00Z",
+            "published_precision": "day"
           }
         ],
         "facts": [
@@ -9538,6 +9610,13 @@
             "evidence_urls": [
               "https://www.yna.co.kr/view/AKR20261005044851504"
             ]
+          },
+          {
+            "text": "합참은 11월 23일 정례브리핑에서 9월 21일 지뢰 폭발과 관련한 유엔군사령부 협의와 후속 조치가 진행 중이라고 설명했다. 새로운 폭발이나 추가 피해를 발표한 것은 아니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790335"
+            ]
           }
         ],
         "location": null,
@@ -9566,6 +9645,11 @@
             "at": "2026-11-03T19:36:35Z",
             "type": "update",
             "text": "Codex 정기 원문 검토: 10월 5일 19:13 연합뉴스의 군 지뢰 제거 작전 보도를 기존 9월 21일 사고의 후속에 연결했습니다. 확인한 더 이른 보도 시각을 보완했으며 사건 발생일·기존 근거·이력은 유지합니다. 11월의 새 사고나 새 작전으로 세지 않습니다."
+          },
+          {
+            "at": "2026-11-23T06:28:20Z",
+            "type": "update",
+            "text": "Codex 정기 원문 검토: 11월 23일 합참 정례 브리핑의 실제 답변을 대조해 기존 9월 21일 사고에 후속 근거를 추가했습니다. 사고 발생일과 기존 이력을 보존하고 새 발생으로 집계하지 않습니다."
           }
         ]
       },
@@ -9873,9 +9957,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-23T05:30:53+00:00"
+    "last_attempt_at": "2026-11-23T06:27:24+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-23T04:34:55Z"
+  "snapshot_collection_checked_at": "2026-11-23T05:35:48Z"
 }
