@@ -1,0 +1,54 @@
+{
+  "id": "rok-mongolia-consular-agreement-20261123",
+  "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
+  "summary": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다. 양국은 상대국 국민이 체포·구금 등으로 자유를 잃은 경우 상대국에 알리고, 영사관원이 요청하면 접견을 주선하기로 했습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-22T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-22T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-23T18:33:05Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "외교부 보도자료에는 협정의 발효일이 나와 있지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "한국이나 몽골에서 상대국 국민이 구금됐을 때 영사 지원을 받을 수 있도록 양국 간 통보와 접견 절차를 정한 협정입니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "외교부 · 한-몽골 외교장관회담 결과",
+      "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803",
+      "published_at": "2026-11-22T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+      ]
+    },
+    {
+      "text": "외교부에 따르면 협정에는 체포·구금 등의 사실을 상대국에 통보하고, 영사관원의 요청 시 접견을 주선하는 내용이 담겼습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-23T18:33:05Z",
+      "type": "new",
+      "text": "외교부 공식 원문에서 영사협정 체결과 적용 내용을 대조해 등록했습니다. 발효일은 확인되지 않았습니다."
+    }
+  ]
+}
