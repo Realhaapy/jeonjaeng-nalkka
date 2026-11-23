@@ -5,11 +5,11 @@
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
   "collection_checked_at": "2026-11-23T22:31:43Z",
-  "generated_at": "2026-11-23T23:30:15+00:00",
-  "release_id": "r-69f4dd4999c6787d",
-  "snapshot_id": "s-dc0d1ae49e89de8e",
+  "generated_at": "2026-11-23T23:41:58+00:00",
+  "release_id": "r-16a0e6fd5d82942a",
+  "snapshot_id": "s-88d4c4256163529c",
   "headline": "최근 발생한 사건과 발표·보도",
-  "summary": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다. 양국은 상대국 국민이 체포·구금 등으로 자유를 잃은 경우 상대국에 알리고, 영사관원이 요청하면 접견을 주선하기로 했습니다.",
+  "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -251,6 +251,104 @@
     }
   ],
   "events": [
+    {
+      "id": "ulleung-civil-defense-alert-20261124",
+      "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+      "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+      "kind": "official_measure",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-23T22:52:00Z",
+      "time_precision": "minute",
+      "reported_at": "2026-11-23T22:53:05Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-23T23:41:22Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "ended",
+      "important": false,
+      "unknowns": [],
+      "revision": 2,
+      "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "국민안전24 · 행정안전부 경계경보 (270252)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+          "published_at": "2026-11-23T22:53:05Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+          "published_at": "2026-11-23T22:57:18Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 경상북도 해제 안내 (270254)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+          "published_at": "2026-11-23T23:00:13Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 재난문자 공식 목록",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+          "published_at": null,
+          "published_precision": "unknown"
+        },
+        {
+          "name": "국민안전24 · 경상북도 표현 정정 (270255)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
+          "published_at": "2026-11-23T23:39:24Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+          ]
+        },
+        {
+          "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+          ]
+        },
+        {
+          "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+          ]
+        },
+        {
+          "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-23T23:41:22Z",
+          "type": "new",
+          "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+        },
+        {
+          "at": "2026-11-23T23:41:22Z",
+          "type": "correction",
+          "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+        }
+      ]
+    },
     {
       "id": "rok-mongolia-consular-agreement-20261123",
       "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
@@ -3818,6 +3916,22 @@
   ],
   "changes": [
     {
+      "id": "c-926c455f4284e1f8f223",
+      "event_id": "ulleung-civil-defense-alert-20261124",
+      "at": "2026-11-23T23:41:22Z",
+      "type": "correction",
+      "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+      "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+    },
+    {
+      "id": "c-54390b31bf49d5205fd3",
+      "event_id": "ulleung-civil-defense-alert-20261124",
+      "at": "2026-11-23T23:41:22Z",
+      "type": "new",
+      "title": "울릉군 경계경보 발령 뒤 해제",
+      "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+    },
+    {
       "id": "c-638ff490e56f0adb6030",
       "event_id": "rok-foreign-unification-intelligence-nominations-20261123",
       "at": "2026-11-23T23:29:47Z",
@@ -4721,14 +4835,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-23T23:30:15+00:00",
+    "as_of": "2026-11-23T23:41:58+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
-    "assessment_summary": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다. 양국은 상대국 국민이 체포·구금 등으로 자유를 잃은 경우 상대국에 알리고, 영사관원이 요청하면 접견을 주선하기로 했습니다.",
+    "assessment_summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
     "brief": {
-      "recent": "검토된 기록 공식 발언·조치 2건 · 외교 대응 1건 (최근 11/23)",
-      "recent_main": "검토된 기록 공식 발언·조치 2건 · 외교 대응 1건",
-      "recent_note": "(최근 11/23)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 15건 · 외교 대응 15건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 공식 발언·조치 3건 · 외교 대응 1건 (최근 11/24)",
+      "recent_main": "검토된 기록 공식 발언·조치 3건 · 외교 대응 1건",
+      "recent_note": "(최근 11/24)",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 16건 · 외교 대응 15건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -4791,56 +4905,100 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "rok-mongolia-consular-agreement-20261123",
-      "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
-      "summary": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다. 양국은 상대국 국민이 체포·구금 등으로 자유를 잃은 경우 상대국에 알리고, 영사관원이 요청하면 접견을 주선하기로 했습니다.",
-      "kind": "diplomatic_change",
+      "id": "ulleung-civil-defense-alert-20261124",
+      "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+      "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+      "kind": "official_measure",
       "military_actor": "unknown",
-      "occurred_at": "2026-11-22T15:00:00Z",
-      "time_precision": "day",
-      "reported_at": "2026-11-22T15:00:00Z",
-      "reported_precision": "day",
-      "updated_at": "2026-11-23T18:33:05Z",
+      "occurred_at": "2026-11-23T22:52:00Z",
+      "time_precision": "minute",
+      "reported_at": "2026-11-23T22:53:05Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-23T23:41:22Z",
       "status": "reported",
       "primary_status": "primary_seen",
-      "lifecycle": "unknown",
+      "lifecycle": "ended",
       "important": false,
-      "unknowns": [
-        "외교부 보도자료에는 협정의 발효일이 나와 있지 않습니다."
-      ],
-      "revision": 1,
-      "why_it_matters": "한국이나 몽골에서 상대국 국민이 구금됐을 때 영사 지원을 받을 수 있도록 양국 간 통보와 접견 절차를 정한 협정입니다.",
+      "unknowns": [],
+      "revision": 2,
+      "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
       "significance": "context",
       "sources": [
         {
-          "name": "외교부 · 한-몽골 외교장관회담 결과",
-          "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803",
-          "published_at": "2026-11-22T15:00:00Z",
-          "published_precision": "day"
+          "name": "국민안전24 · 행정안전부 경계경보 (270252)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+          "published_at": "2026-11-23T22:53:05Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+          "published_at": "2026-11-23T22:57:18Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 경상북도 해제 안내 (270254)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+          "published_at": "2026-11-23T23:00:13Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "국민안전24 · 재난문자 공식 목록",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+          "published_at": null,
+          "published_precision": "unknown"
+        },
+        {
+          "name": "국민안전24 · 경상북도 표현 정정 (270255)",
+          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
+          "published_at": "2026-11-23T23:39:24Z",
+          "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다.",
+          "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
           ]
         },
         {
-          "text": "외교부에 따르면 협정에는 체포·구금 등의 사실을 상대국에 통보하고, 영사관원의 요청 시 접견을 주선하는 내용이 담겼습니다.",
+          "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+          ]
+        },
+        {
+          "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+          ]
+        },
+        {
+          "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-23T18:33:05Z",
+          "at": "2026-11-23T23:41:22Z",
           "type": "new",
-          "text": "외교부 공식 원문에서 영사협정 체결과 적용 내용을 대조해 등록했습니다. 발효일은 확인되지 않았습니다."
+          "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+        },
+        {
+          "at": "2026-11-23T23:41:22Z",
+          "type": "correction",
+          "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
         }
       ]
     },
@@ -4850,6 +5008,12 @@
       "summary": "최근 공개 기록을 관찰 중입니다. 안전하다는 판정은 아닙니다.",
       "short_summary": "최근 기록 관찰 중 · 안전 판정 아님",
       "basis": [
+        {
+          "event_id": "ulleung-civil-defense-alert-20261124",
+          "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+          "url": "events/ulleung-civil-defense-alert-20261124/",
+          "date_label": "2026.11.24 07:52 KST · 발생 시각"
+        },
         {
           "event_id": "rok-mongolia-consular-agreement-20261123",
           "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
@@ -4861,15 +5025,9 @@
           "title": "이 대통령, 외교·통일부 장관과 국정원장 후보자 지명",
           "url": "events/rok-foreign-unification-intelligence-nominations-20261123/",
           "date_label": "2026.11.23 · 발생일"
-        },
-        {
-          "event_id": "jcs-briefing-coast-guard-report-20261123",
-          "title": "북한 ‘해양경찰’ 표기 보도에 합참, 조직 개편 평가 유보",
-          "url": "events/jcs-briefing-coast-guard-report-20261123/",
-          "date_label": "2026.11.23 · 발생일"
         }
       ],
-      "updated_at": "2026-11-23T23:30:15+00:00",
+      "updated_at": "2026-11-23T23:41:58+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
       "valid_until": "2026-11-24T00:31:43+00:00",
@@ -4887,6 +5045,104 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "ulleung-civil-defense-alert-20261124",
+        "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+        "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+        "kind": "official_measure",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-23T22:52:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-11-23T22:53:05Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-23T23:41:22Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": false,
+        "unknowns": [],
+        "revision": 2,
+        "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "국민안전24 · 행정안전부 경계경보 (270252)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+            "published_at": "2026-11-23T22:53:05Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+            "published_at": "2026-11-23T22:57:18Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 경상북도 해제 안내 (270254)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+            "published_at": "2026-11-23T23:00:13Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 재난문자 공식 목록",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+            "published_at": null,
+            "published_precision": "unknown"
+          },
+          {
+            "name": "국민안전24 · 경상북도 표현 정정 (270255)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
+            "published_at": "2026-11-23T23:39:24Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-23T23:41:22Z",
+            "type": "new",
+            "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+          },
+          {
+            "at": "2026-11-23T23:41:22Z",
+            "type": "correction",
+            "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+          }
+        ]
+      },
       {
         "id": "rok-mongolia-consular-agreement-20261123",
         "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
@@ -5267,73 +5523,107 @@
             "text": "아리 클라우드 원문 검토: 뉴시스 11월 6일 보도를 확인해 사업 기본전략 의결을 공식 조치로 기록합니다. 현재 전력화나 새 군사행동으로 세지 않으며 공식 원문 미확보를 명시합니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "mnd-false-answer-sentence-deferral-20261106",
-        "title": "군 수사조직 개편 허위답변…전 국방부 간부 2명 선고유예 보도",
-        "summary": "SBS는 11월 6일 서울중앙지법이 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했다고 보도했습니다. 같은 보도는 재판부가 개편안 폐기 등의 사정을 양형에 고려했다고 전했습니다.",
+        "id": "ulleung-civil-defense-alert-20261124",
+        "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+        "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
         "kind": "official_measure",
         "military_actor": "unknown",
-        "occurred_at": "2026-11-05T15:00:00Z",
-        "time_precision": "day",
-        "reported_at": "2026-11-06T07:20:00Z",
+        "occurred_at": "2026-11-23T22:52:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-11-23T22:53:05Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-06T07:45:47Z",
+        "updated_at": "2026-11-23T23:41:22Z",
         "status": "reported",
-        "primary_status": "quoted_only",
-        "lifecycle": "unknown",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
         "important": false,
-        "unknowns": [
-          "공식 판결문은 직접 확인하지 못했습니다. SBS가 인용한 재판부 판단 수준으로 표시합니다.",
-          "판결 확정 여부와 항소 여부는 확인하지 못했습니다. 보도된 선고유예를 무죄나 집행유예로 바꾸어 표시하지 않습니다.",
-          "수사외압이나 보복 동기 등 전체 사건 사실관계의 확정 여부는 이 기록에서 확인하지 못했습니다.",
-          "이 보도는 과거 국회 답변 관련 법원 조치입니다. 별도의 새 사망·부상 발생일이나 인원을 추가할 근거는 확인하지 못했습니다."
-        ],
-        "revision": 1,
-        "why_it_matters": "과거 군 사망사건과 관련된 국회 답변 책임에 대한 법원 조치 보도입니다. 판결문과 후속 절차에서 확인된 범위로 기록을 갱신할 필요가 있습니다.",
+        "unknowns": [],
+        "revision": 2,
+        "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
         "significance": "context",
         "sources": [
           {
-            "name": "SBS · 서울중앙지법 판단 인용",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388",
-            "published_at": "2026-11-06T07:20:00Z",
+            "name": "국민안전24 · 행정안전부 경계경보 (270252)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+            "published_at": "2026-11-23T22:53:05Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+            "published_at": "2026-11-23T22:57:18Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 경상북도 해제 안내 (270254)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+            "published_at": "2026-11-23T23:00:13Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 재난문자 공식 목록",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+            "published_at": null,
+            "published_precision": "unknown"
+          },
+          {
+            "name": "국민안전24 · 경상북도 표현 정정 (270255)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
+            "published_at": "2026-11-23T23:39:24Z",
             "published_precision": "minute"
           }
         ],
         "facts": [
           {
-            "text": "SBS에 따르면 서울중앙지법은 11월 6일 국회 허위답변 관련 혐의로 기소된 전 국방부 간부 2명에 대해 징역형의 선고를 유예했습니다.",
+            "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
             ]
           },
           {
-            "text": "해당 보도는 재판부가 2023년 8월 군 수사조직 개편 관련 국회 서면질의에 대한 허위답변 혐의를 유죄로 인정했다고 전했습니다.",
+            "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
             ]
           },
           {
-            "text": "같은 보도에 따르면 재판부는 개편안이 내부 검토 끝에 폐기된 점 등의 사정을 양형에 고려했습니다.",
+            "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008834388"
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-06T07:45:47Z",
+            "at": "2026-11-23T23:41:22Z",
             "type": "new",
-            "text": "Dot 정기 원문 검토: 복구 수집 중 발견한 SBS 11월 6일 16:20 원문과 재판부 판단·양형 사유를 확인해 법원 조치 보도로 등록했습니다. 과거 사망사건을 현재 새 사망으로 세지 않고 판결문·확정 여부 미확인을 남겼습니다."
+            "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+          },
+          {
+            "at": "2026-11-23T23:41:22Z",
+            "type": "correction",
+            "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
           }
         ]
-      }
-    ],
-    "ordered_events": [
+      },
       {
         "id": "rok-mongolia-consular-agreement-20261123",
         "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
@@ -8900,6 +9190,15 @@
       }
     ],
     "event_timing": {
+      "ulleung-civil-defense-alert-20261124": {
+        "date_label": "2026.11.24 07:52 KST · 발생 시각",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-23T23:41:22+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "rok-mongolia-consular-agreement-20261123": {
         "date_label": "2026.11.23 · 발생일",
         "date_basis": "occurred",
@@ -9343,16 +9642,16 @@
       }
     },
     "metrics": {
-      "events_24h": 0,
+      "events_24h": 1,
       "events_24h_uncertain": 3,
-      "changes_24h": 5,
-      "corrections_24h": 1,
+      "changes_24h": 7,
+      "corrections_24h": 2,
       "active_major": 6
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 3,
+        "current": 4,
         "previous": 2,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -9391,7 +9690,7 @@
           },
           {
             "date": "2026-11-24",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -9434,7 +9733,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 2,
+            "current": 3,
             "previous": 0,
             "delta": null
           },
@@ -9456,7 +9755,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 38,
+        "current": 39,
         "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -9610,7 +9909,7 @@
           },
           {
             "date": "2026-11-24",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -9653,7 +9952,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 15,
+            "current": 16,
             "previous": 0,
             "delta": null
           },
@@ -9675,6 +9974,28 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-926c455f4284e1f8f223",
+        "event_id": "ulleung-civil-defense-alert-20261124",
+        "at": "2026-11-23T23:41:22Z",
+        "type": "correction",
+        "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+        "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다.",
+        "display_label": "정정",
+        "event_date_label": "2026.11.24 07:52 KST · 발생 시각",
+        "registration_kind": null
+      },
+      {
+        "id": "c-54390b31bf49d5205fd3",
+        "event_id": "ulleung-civil-defense-alert-20261124",
+        "at": "2026-11-23T23:41:22Z",
+        "type": "new",
+        "title": "울릉군 경계경보 발령 뒤 해제",
+        "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.24 07:52 KST · 발생 시각",
+        "registration_kind": "recent"
+      },
       {
         "id": "c-638ff490e56f0adb6030",
         "event_id": "rok-foreign-unification-intelligence-nominations-20261123",
@@ -10224,7 +10545,106 @@
         ]
       }
     ],
-    "recent_events": [],
+    "recent_events": [
+      {
+        "id": "ulleung-civil-defense-alert-20261124",
+        "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+        "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+        "kind": "official_measure",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-23T22:52:00Z",
+        "time_precision": "minute",
+        "reported_at": "2026-11-23T22:53:05Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-23T23:41:22Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": false,
+        "unknowns": [],
+        "revision": 2,
+        "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "국민안전24 · 행정안전부 경계경보 (270252)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+            "published_at": "2026-11-23T22:53:05Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+            "published_at": "2026-11-23T22:57:18Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 경상북도 해제 안내 (270254)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+            "published_at": "2026-11-23T23:00:13Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "국민안전24 · 재난문자 공식 목록",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
+            "published_at": null,
+            "published_precision": "unknown"
+          },
+          {
+            "name": "국민안전24 · 경상북도 표현 정정 (270255)",
+            "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
+            "published_at": "2026-11-23T23:39:24Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            ]
+          },
+          {
+            "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-23T23:41:22Z",
+            "type": "new",
+            "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
+          },
+          {
+            "at": "2026-11-23T23:41:22Z",
+            "type": "correction",
+            "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+          }
+        ]
+      }
+    ],
     "lanes": [
       {
         "key": "missile",
@@ -10269,9 +10689,10 @@
       {
         "key": "statement",
         "label": "공식 발언·조치",
-        "title": "이 대통령, 외교·통일부 장관과 국정원장 후보자 지명",
-        "text": "청와대는 이재명 대통령이 11월 23일 외교부 장관 후보자로 임웅순, 통일부 장관 후보자로 홍익표, 국가정보원장 후보자로 강금실을 지명했다고 밝혔습니다.",
+        "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+        "text": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
         "event_ids": [
+          "ulleung-civil-defense-alert-20261124",
           "rok-foreign-unification-intelligence-nominations-20261123",
           "jcs-briefing-coast-guard-report-20261123"
         ],
@@ -10309,6 +10730,7 @@
       }
     ],
     "event_categories": {
+      "ulleung-civil-defense-alert-20261124": "statement",
       "rok-mongolia-consular-agreement-20261123": "diplomacy",
       "rok-foreign-unification-intelligence-nominations-20261123": "statement",
       "jcs-briefing-coast-guard-report-20261123": "statement",

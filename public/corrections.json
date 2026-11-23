@@ -1,5 +1,13 @@
 [
   {
+    "id": "c-926c455f4284e1f8f223",
+    "event_id": "ulleung-civil-defense-alert-20261124",
+    "at": "2026-11-23T23:41:22Z",
+    "type": "correction",
+    "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
+    "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+  },
+  {
     "id": "c-e0dc02e5522124d8730e",
     "event_id": "jcs-briefing-coast-guard-report-20261123",
     "at": "2026-11-23T17:44:54Z",
