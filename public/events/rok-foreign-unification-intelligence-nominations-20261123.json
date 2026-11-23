@@ -1,0 +1,47 @@
+{
+  "id": "rok-foreign-unification-intelligence-nominations-20261123",
+  "title": "이 대통령, 외교·통일부 장관과 국정원장 후보자 지명",
+  "summary": "청와대는 이재명 대통령이 11월 23일 외교부 장관 후보자로 임웅순, 통일부 장관 후보자로 홍익표, 국가정보원장 후보자로 강금실을 지명했다고 밝혔습니다.",
+  "kind": "official_measure",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-22T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-22T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-23T23:29:47Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "이 발표에서 후보자 임명이나 새 대외·대북 정책의 시행은 확인되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "대외·대북 정책을 담당하는 부처의 인선 발표입니다. 후보자 지명은 임명이나 정책 변경을 뜻하지 않습니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "청와대 · 인선 관련 임광현 비서실장 브리핑",
+      "url": "https://www.korea.kr/briefing/presidentView.do?newsId=148976320",
+      "published_at": "2026-11-22T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "청와대는 외교부 장관 후보자로 임웅순, 통일부 장관 후보자로 홍익표, 국가정보원장 후보자로 강금실을 지명했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/presidentView.do?newsId=148976320"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-23T23:29:47Z",
+      "type": "new",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    }
+  ]
+}
