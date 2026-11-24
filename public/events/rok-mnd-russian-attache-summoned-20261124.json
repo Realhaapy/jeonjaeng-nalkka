@@ -1,0 +1,60 @@
+{
+  "id": "rok-mnd-russian-attache-summoned-20261124",
+  "title": "국방부, 주한 러시아 국방무관 초치해 항의",
+  "summary": "국방부는 11월 24일 오후 주한 러시아 국방무관을 불러 항의하고 재발 방지를 요구했다고 밝혔습니다. 앞선 정례브리핑에서는 초치 계획을 밝혔고, 이후 보도자료에서 실제로 이뤄졌다고 확인했습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-23T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-23T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-24T09:29:37Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "ended",
+  "important": false,
+  "unknowns": [
+    "국방부 보도자료는 초치 시점을 오후로 밝혔으며 정확한 시각은 명시하지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "국방부가 초치 방침을 공개한 데 이어 초치와 항의가 이뤄졌다고 확인한 사례입니다. 주민 대상 경보 발령이나 해제와는 별개의 외교 조치입니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부 · 초치 및 항의 결과 보도자료",
+      "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790588",
+      "published_at": "2026-11-23T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부 · 11월 24일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+      "published_at": "2026-11-23T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 11월 24일 오후 주한 러시아 국방무관을 초치해 항의하고 같은 일이 되풀이되지 않도록 요구했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790588"
+      ]
+    },
+    {
+      "text": "이날 앞서 국방부 대변인은 정례브리핑에서 초치 예정이라고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-24T09:29:37Z",
+      "type": "new",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    }
+  ]
+}
