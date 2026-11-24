@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-24T10:55:37Z",
-  "generated_at": "2026-11-24T11:29:42+00:00",
-  "release_id": "r-7bb6c0b41cef39b9",
-  "snapshot_id": "s-ed451a3a7a42ff76",
+  "collection_checked_at": "2026-11-24T11:34:03Z",
+  "generated_at": "2026-11-24T12:28:39+00:00",
+  "release_id": "r-d3f47a99746719e3",
+  "snapshot_id": "s-c00e19dbec790205",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-24T11:26:11Z",
-      "last_success_at": "2026-11-24T11:26:11Z",
-      "coverage_at": "2026-11-24T11:26:11Z",
+      "checked_at": "2026-11-24T12:26:15Z",
+      "last_success_at": "2026-11-24T12:26:15Z",
+      "coverage_at": "2026-11-24T12:26:15Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-24T10:55:37Z",
-      "last_success_at": "2026-11-24T10:55:37Z",
+      "checked_at": "2026-11-24T11:34:03Z",
+      "last_success_at": "2026-11-24T11:34:03Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-24T10:55:37Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-24T11:34:03Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:19Z",
-      "last_success_at": "2026-11-24T11:27:19Z",
-      "coverage_at": "2026-11-24T11:27:19Z",
+      "checked_at": "2026-11-24T12:27:07Z",
+      "last_success_at": "2026-11-24T12:27:07Z",
+      "coverage_at": "2026-11-24T12:27:07Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:27Z",
-      "last_success_at": "2026-11-24T11:27:27Z",
-      "coverage_at": "2026-11-24T11:27:27Z",
+      "checked_at": "2026-11-24T12:27:12Z",
+      "last_success_at": "2026-11-24T12:27:12Z",
+      "coverage_at": "2026-11-24T12:27:12Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:34Z",
-      "last_success_at": "2026-11-24T11:27:34Z",
-      "coverage_at": "2026-11-24T11:27:34Z",
+      "checked_at": "2026-11-24T12:27:16Z",
+      "last_success_at": "2026-11-24T12:27:16Z",
+      "coverage_at": "2026-11-24T12:27:16Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:41Z",
-      "last_success_at": "2026-11-24T11:27:41Z",
-      "coverage_at": "2026-11-24T11:27:41Z",
+      "checked_at": "2026-11-24T12:27:21Z",
+      "last_success_at": "2026-11-24T12:27:21Z",
+      "coverage_at": "2026-11-24T12:27:21Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:47Z",
-      "last_success_at": "2026-11-24T11:27:47Z",
-      "coverage_at": "2026-11-24T11:27:47Z",
+      "checked_at": "2026-11-24T12:27:24Z",
+      "last_success_at": "2026-11-24T12:27:24Z",
+      "coverage_at": "2026-11-24T12:27:24Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-24T11:28:02Z",
-      "last_success_at": "2026-11-24T11:28:02Z",
-      "coverage_at": "2026-11-24T11:28:02Z",
+      "checked_at": "2026-11-24T12:27:32Z",
+      "last_success_at": "2026-11-24T12:27:32Z",
+      "coverage_at": "2026-11-24T12:27:32Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,11 +158,11 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-24T10:55:59Z",
-      "last_success_at": "2026-11-24T10:55:59Z",
-      "coverage_at": "2026-11-24T10:55:59Z",
+      "checked_at": "2026-11-24T11:34:25Z",
+      "last_success_at": "2026-11-24T11:34:25Z",
+      "coverage_at": "2026-11-24T11:34:25Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-24T10:55:59Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-24T11:34:25Z에 수집한 자료를 사용했습니다.",
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
       "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
     },
@@ -171,11 +171,11 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-24T10:55:53Z",
-      "last_success_at": "2026-11-24T10:55:53Z",
-      "coverage_at": "2026-11-24T10:55:53Z",
+      "checked_at": "2026-11-24T11:34:19Z",
+      "last_success_at": "2026-11-24T11:34:19Z",
+      "coverage_at": "2026-11-24T11:34:19Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-24T10:55:53Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-24T11:34:19Z에 수집한 자료를 사용했습니다.",
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
       "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다."
     },
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-24T11:27:55Z",
-      "last_success_at": "2026-11-24T11:27:55Z",
-      "coverage_at": "2026-11-24T11:27:55Z",
+      "checked_at": "2026-11-24T12:27:29Z",
+      "last_success_at": "2026-11-24T12:27:29Z",
+      "coverage_at": "2026-11-24T12:27:29Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-24T11:26:11Z",
-      "last_success_at": "2026-11-24T11:26:11Z",
-      "observed_at": "2026-11-24T11:26:11Z",
+      "checked_at": "2026-11-24T12:26:15Z",
+      "last_success_at": "2026-11-24T12:26:15Z",
+      "observed_at": "2026-11-24T12:26:15Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-24T11:28:02Z",
-      "last_success_at": "2026-11-24T11:28:02Z",
-      "observed_at": "2026-11-24T11:28:02Z",
+      "checked_at": "2026-11-24T12:27:32Z",
+      "last_success_at": "2026-11-24T12:27:32Z",
+      "observed_at": "2026-11-24T12:27:32Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-24T10:55:59Z",
-      "last_success_at": "2026-11-24T10:55:59Z",
-      "observed_at": "2026-11-24T10:55:59Z",
+      "checked_at": "2026-11-24T11:34:25Z",
+      "last_success_at": "2026-11-24T11:34:25Z",
+      "observed_at": "2026-11-24T11:34:25Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-23T10:55:53Z",
-        "window_end": "2026-11-24T10:55:53Z",
+        "window_start": "2026-11-23T11:34:19Z",
+        "window_end": "2026-11-24T11:34:19Z",
         "total_count": 31,
         "matched_count": 4,
         "complete": true,
@@ -445,6 +445,67 @@
       "changes": [
         {
           "at": "2026-11-24T09:29:37Z",
+          "type": "new",
+          "text": "새 사건 기록을 검토해 등록했습니다."
+        }
+      ]
+    },
+    {
+      "id": "rok-cabinet-revokes-defense-decorations-20261124",
+      "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+      "summary": "국방부는 11월 24일 국무회의에서 과거 보안사의 녹화사업과 재심에서 무죄가 선고된 간첩사건을 공적으로 수여한 보국훈장 10점의 취소 안건이 의결됐다고 밝혔습니다.",
+      "kind": "official_measure",
+      "military_actor": "unknown",
+      "occurred_at": "2026-11-23T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-23T15:00:00Z",
+      "reported_precision": "day",
+      "updated_at": "2026-11-24T12:28:09Z",
+      "status": "reported",
+      "primary_status": "primary_seen",
+      "lifecycle": "ended",
+      "important": false,
+      "unknowns": [
+        "공식 보도자료에서 국무회의 의결의 정확한 시각은 확인되지 않았습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "과거 군 기관의 인권침해와 관련한 정부 포상을 바로잡은 행정 결정입니다. 과거 사건을 새로 발생한 것으로 집계하지 않습니다.",
+      "significance": "context",
+      "sources": [
+        {
+          "name": "국방부 · 보국훈장 취소 의결 결과",
+          "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541",
+          "published_at": "2026-11-23T15:00:00Z",
+          "published_precision": "day"
+        },
+        {
+          "name": "국방부 · 11월 24일 정례브리핑",
+          "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+          "published_at": "2026-11-23T15:00:00Z",
+          "published_precision": "day"
+        }
+      ],
+      "facts": [
+        {
+          "text": "국방부는 녹화사업 관련 훈장 1점과 재심 무죄 간첩사건 관련 수사관 7명에게 수여한 훈장 9점이 취소됐다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+          ]
+        },
+        {
+          "text": "국방부는 앞서 같은 날 정례브리핑에서 취소 안건이 국무회의에 오를 예정이라고 설명했고, 별도 보도자료에서 의결 결과를 공개했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+            "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-24T12:28:09Z",
           "type": "new",
           "text": "새 사건 기록을 검토해 등록했습니다."
         }
@@ -4071,6 +4132,14 @@
   ],
   "changes": [
     {
+      "id": "c-73025dd886f0218c51ea",
+      "event_id": "rok-cabinet-revokes-defense-decorations-20261124",
+      "at": "2026-11-24T12:28:09Z",
+      "type": "new",
+      "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    },
+    {
       "id": "c-9cf62ece7c1405fa53c5",
       "event_id": "rok-mnd-russian-attache-summoned-20261124",
       "at": "2026-11-24T09:29:37Z",
@@ -5006,14 +5075,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-24T11:29:42+00:00",
+    "as_of": "2026-11-24T12:28:39+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
     "brief": {
-      "recent": "검토된 기록 공식 발언·조치 3건 · 외교 대응 3건 (최근 11/24)",
-      "recent_main": "검토된 기록 공식 발언·조치 3건 · 외교 대응 3건",
+      "recent": "검토된 기록 공식 발언·조치 4건 · 외교 대응 3건 (최근 11/24)",
+      "recent_main": "검토된 기록 공식 발언·조치 4건 · 외교 대응 3건",
       "recent_note": "(최근 11/24)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 16건 · 외교 대응 17건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 17건 · 외교 대응 17건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 4건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -5021,7 +5090,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-24T10:55:59Z",
+          "observed_at": "2026-11-24T11:34:25Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -5074,8 +5143,8 @@
               "category_label": "민방공 발송기록"
             }
           ],
-          "window_start": "2026-11-23T10:55:53Z",
-          "window_end": "2026-11-24T10:55:53Z",
+          "window_start": "2026-11-23T11:34:19Z",
+          "window_end": "2026-11-24T11:34:19Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 4건",
           "detail": "최근 24시간 · 전국 문자 31건 확인"
@@ -5084,7 +5153,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-24T11:28:02Z",
+          "observed_at": "2026-11-24T12:27:32Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -5102,7 +5171,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-24T11:26:11Z",
+          "observed_at": "2026-11-24T12:26:15Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -5237,16 +5306,16 @@
           "date_label": "2026.11.24 · 발생일"
         },
         {
-          "event_id": "rok-mongolia-unification-minister-peace-talks-20261123",
-          "title": "통일부 장관, 몽골 외교장관에 한반도 평화 기여 요청",
-          "url": "events/rok-mongolia-unification-minister-peace-talks-20261123/",
-          "date_label": "2026.11.23 · 발생일"
+          "event_id": "rok-cabinet-revokes-defense-decorations-20261124",
+          "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+          "url": "events/rok-cabinet-revokes-defense-decorations-20261124/",
+          "date_label": "2026.11.24 · 발생일"
         }
       ],
-      "updated_at": "2026-11-24T11:29:42+00:00",
+      "updated_at": "2026-11-24T12:28:39+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-24T12:55:37+00:00",
+      "valid_until": "2026-11-24T13:34:03+00:00",
       "asset_key": "observe",
       "scope_limited": 1,
       "limitations": [
@@ -5414,6 +5483,67 @@
         "changes": [
           {
             "at": "2026-11-24T09:29:37Z",
+            "type": "new",
+            "text": "새 사건 기록을 검토해 등록했습니다."
+          }
+        ]
+      },
+      {
+        "id": "rok-cabinet-revokes-defense-decorations-20261124",
+        "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+        "summary": "국방부는 11월 24일 국무회의에서 과거 보안사의 녹화사업과 재심에서 무죄가 선고된 간첩사건을 공적으로 수여한 보국훈장 10점의 취소 안건이 의결됐다고 밝혔습니다.",
+        "kind": "official_measure",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-23T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-23T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-24T12:28:09Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": false,
+        "unknowns": [
+          "공식 보도자료에서 국무회의 의결의 정확한 시각은 확인되지 않았습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "과거 군 기관의 인권침해와 관련한 정부 포상을 바로잡은 행정 결정입니다. 과거 사건을 새로 발생한 것으로 집계하지 않습니다.",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "국방부 · 보국훈장 취소 의결 결과",
+            "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541",
+            "published_at": "2026-11-23T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "국방부 · 11월 24일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+            "published_at": "2026-11-23T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "국방부는 녹화사업 관련 훈장 1점과 재심 무죄 간첩사건 관련 수사관 7명에게 수여한 훈장 9점이 취소됐다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+            ]
+          },
+          {
+            "text": "국방부는 앞서 같은 날 정례브리핑에서 취소 안건이 국무회의에 오를 예정이라고 설명했고, 별도 보도자료에서 의결 결과를 공개했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+              "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-24T12:28:09Z",
             "type": "new",
             "text": "새 사건 기록을 검토해 등록했습니다."
           }
@@ -5703,53 +5833,6 @@
             "text": "합참 설명을 인용한 경향신문 원문에서 군용기가 방공식별구역을 이탈했다는 점을 확인해 이 건을 종료로 표시했습니다. 새 사건으로 추가하지 않았습니다."
           }
         ]
-      },
-      {
-        "id": "eas-korean-dialogue-appeal-20261117",
-        "title": "이 대통령, 동아시아 정상회의에서 남북대화 재개 협력 요청",
-        "summary": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
-        "kind": "diplomatic_change",
-        "military_actor": "unknown",
-        "occurred_at": "2026-11-16T15:00:00Z",
-        "time_precision": "day",
-        "reported_at": "2026-11-17T10:53:00Z",
-        "reported_precision": "minute",
-        "updated_at": "2026-11-17T15:29:34Z",
-        "status": "reported",
-        "primary_status": "quoted_only",
-        "lifecycle": "unknown",
-        "important": false,
-        "unknowns": [
-          "실제 남북대화 재개나 합의를 확인한 기록은 아닙니다."
-        ],
-        "revision": 1,
-        "why_it_matters": "",
-        "significance": "context",
-        "sources": [
-          {
-            "name": "SBS · 청와대 브리핑 인용",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489",
-            "published_at": "2026-11-17T10:53:00Z",
-            "published_precision": "minute"
-          }
-        ],
-        "facts": [
-          {
-            "text": "SBS가 인용한 청와대 브리핑에 따르면, 이재명 대통령은 11월 17일 동아시아 정상회의에서 남북대화가 재개될 수 있도록 역내 국가에 협력을 요청했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850489"
-            ]
-          }
-        ],
-        "location": null,
-        "changes": [
-          {
-            "at": "2026-11-17T15:29:34Z",
-            "type": "new",
-            "text": "아리 클라우드 정기 원문 검토: 언론 보도 원문에서 발생일과 기관에 귀속된 사실을 대조했습니다."
-          }
-        ]
       }
     ],
     "ordered_events": [
@@ -5906,6 +5989,67 @@
         "changes": [
           {
             "at": "2026-11-24T09:29:37Z",
+            "type": "new",
+            "text": "새 사건 기록을 검토해 등록했습니다."
+          }
+        ]
+      },
+      {
+        "id": "rok-cabinet-revokes-defense-decorations-20261124",
+        "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+        "summary": "국방부는 11월 24일 국무회의에서 과거 보안사의 녹화사업과 재심에서 무죄가 선고된 간첩사건을 공적으로 수여한 보국훈장 10점의 취소 안건이 의결됐다고 밝혔습니다.",
+        "kind": "official_measure",
+        "military_actor": "unknown",
+        "occurred_at": "2026-11-23T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-23T15:00:00Z",
+        "reported_precision": "day",
+        "updated_at": "2026-11-24T12:28:09Z",
+        "status": "reported",
+        "primary_status": "primary_seen",
+        "lifecycle": "ended",
+        "important": false,
+        "unknowns": [
+          "공식 보도자료에서 국무회의 의결의 정확한 시각은 확인되지 않았습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "과거 군 기관의 인권침해와 관련한 정부 포상을 바로잡은 행정 결정입니다. 과거 사건을 새로 발생한 것으로 집계하지 않습니다.",
+        "significance": "context",
+        "sources": [
+          {
+            "name": "국방부 · 보국훈장 취소 의결 결과",
+            "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541",
+            "published_at": "2026-11-23T15:00:00Z",
+            "published_precision": "day"
+          },
+          {
+            "name": "국방부 · 11월 24일 정례브리핑",
+            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+            "published_at": "2026-11-23T15:00:00Z",
+            "published_precision": "day"
+          }
+        ],
+        "facts": [
+          {
+            "text": "국방부는 녹화사업 관련 훈장 1점과 재심 무죄 간첩사건 관련 수사관 7명에게 수여한 훈장 9점이 취소됐다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+            ]
+          },
+          {
+            "text": "국방부는 앞서 같은 날 정례브리핑에서 취소 안건이 국무회의에 오를 예정이라고 설명했고, 별도 보도자료에서 의결 결과를 공개했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+              "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-24T12:28:09Z",
             "type": "new",
             "text": "새 사건 기록을 검토해 등록했습니다."
           }
@@ -9549,6 +9693,15 @@
         "is_new_record": true,
         "recency_label": "최근 발생"
       },
+      "rok-cabinet-revokes-defense-decorations-20261124": {
+        "date_label": "2026.11.24 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-24T12:28:09+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "rok-mongolia-unification-minister-peace-talks-20261123": {
         "date_label": "2026.11.23 · 발생일",
         "date_basis": "occurred",
@@ -10002,15 +10155,15 @@
     },
     "metrics": {
       "events_24h": 1,
-      "events_24h_uncertain": 5,
-      "changes_24h": 8,
+      "events_24h_uncertain": 6,
+      "changes_24h": 9,
       "corrections_24h": 2,
       "active_major": 6
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 6,
+        "current": 7,
         "previous": 2,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -10049,7 +10202,7 @@
           },
           {
             "date": "2026-11-24",
-            "count": 2,
+            "count": 3,
             "prior": null
           }
         ],
@@ -10092,7 +10245,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 3,
+            "current": 4,
             "previous": 0,
             "delta": null
           },
@@ -10114,7 +10267,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 41,
+        "current": 42,
         "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -10268,7 +10421,7 @@
           },
           {
             "date": "2026-11-24",
-            "count": 2,
+            "count": 3,
             "prior": null
           }
         ],
@@ -10311,7 +10464,7 @@
           {
             "key": "statement",
             "label": "공식 발언·조치",
-            "current": 16,
+            "current": 17,
             "previous": 0,
             "delta": null
           },
@@ -10333,6 +10486,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-73025dd886f0218c51ea",
+        "event_id": "rok-cabinet-revokes-defense-decorations-20261124",
+        "at": "2026-11-24T12:28:09Z",
+        "type": "new",
+        "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+        "text": "새 사건 기록을 검토해 등록했습니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.24 · 발생일",
+        "registration_kind": "recent"
+      },
       {
         "id": "c-9cf62ece7c1405fa53c5",
         "event_id": "rok-mnd-russian-attache-summoned-20261124",
@@ -11063,6 +11227,7 @@
         "text": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
         "event_ids": [
           "ulleung-civil-defense-alert-20261124",
+          "rok-cabinet-revokes-defense-decorations-20261124",
           "rok-foreign-unification-intelligence-nominations-20261123",
           "jcs-briefing-coast-guard-report-20261123"
         ],
@@ -11104,6 +11269,7 @@
     "event_categories": {
       "ulleung-civil-defense-alert-20261124": "statement",
       "rok-mnd-russian-attache-summoned-20261124": "diplomacy",
+      "rok-cabinet-revokes-defense-decorations-20261124": "statement",
       "rok-mongolia-unification-minister-peace-talks-20261123": "diplomacy",
       "rok-mongolia-consular-agreement-20261123": "diplomacy",
       "rok-foreign-unification-intelligence-nominations-20261123": "statement",
@@ -11157,9 +11323,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-24T11:28:02+00:00"
+    "last_attempt_at": "2026-11-24T12:27:32+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-24T10:55:37Z"
+  "snapshot_collection_checked_at": "2026-11-24T11:34:03Z"
 }

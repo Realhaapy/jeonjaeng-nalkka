@@ -1,0 +1,61 @@
+{
+  "id": "rok-cabinet-revokes-defense-decorations-20261124",
+  "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
+  "summary": "국방부는 11월 24일 국무회의에서 과거 보안사의 녹화사업과 재심에서 무죄가 선고된 간첩사건을 공적으로 수여한 보국훈장 10점의 취소 안건이 의결됐다고 밝혔습니다.",
+  "kind": "official_measure",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-23T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-23T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-24T12:28:09Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "ended",
+  "important": false,
+  "unknowns": [
+    "공식 보도자료에서 국무회의 의결의 정확한 시각은 확인되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "과거 군 기관의 인권침해와 관련한 정부 포상을 바로잡은 행정 결정입니다. 과거 사건을 새로 발생한 것으로 집계하지 않습니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부 · 보국훈장 취소 의결 결과",
+      "url": "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541",
+      "published_at": "2026-11-23T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "국방부 · 11월 24일 정례브리핑",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+      "published_at": "2026-11-23T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 녹화사업 관련 훈장 1점과 재심 무죄 간첩사건 관련 수사관 7명에게 수여한 훈장 9점이 취소됐다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+      ]
+    },
+    {
+      "text": "국방부는 앞서 같은 날 정례브리핑에서 취소 안건이 국무회의에 오를 예정이라고 설명했고, 별도 보도자료에서 의결 결과를 공개했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156790545",
+        "https://m.korea.kr/briefing/pressReleaseView.do?newsId=156790541"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-24T12:28:09Z",
+      "type": "new",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    }
+  ]
+}
