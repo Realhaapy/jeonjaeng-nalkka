@@ -1,0 +1,60 @@
+{
+  "id": "rok-mou-hongik-citizen-deliberation-pilot-20261124",
+  "title": "통일부, 평화·통일 시민대화용 ‘홍익’ 시범사업 소개",
+  "summary": "통일부는 11월 24일 국제학술회의에서 인공지능을 활용해 시민이 평화·통일정책을 토론할 수 있도록 하는 ‘홍익’ 시범사업을 소개했습니다. 정동영 통일부 장관은 시범 검증을 거친 이 도구를 시민 참여에 활용할 수 있도록 발전시키겠다고 밝혔습니다.",
+  "kind": "official_measure",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-23T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-24T08:43:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-24T22:28:38Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "일반 시민에게 공개되는 시점과 실제 정책 반영 여부는 확인되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "평화·통일정책에 시민 의견을 모으는 방식을 시험한 사업입니다. 남북 간 합의나 새 정책 시행을 발표한 것은 아닙니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "통일부 · 국제학술회의 사전 보도자료",
+      "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/60680",
+      "published_at": "2026-11-22T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "연합뉴스 · 국제학술회의 현장 보도",
+      "url": "https://www.yna.co.kr/view/AKR20261124164800504",
+      "published_at": "2026-11-24T08:43:00Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "통일부는 앞서 숙의대화, 일대일 대화, 대규모 공공토의 세 가지 방식을 개발하고 시범 적용을 통해 활용 가능성을 살폈다고 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/60680"
+      ]
+    },
+    {
+      "text": "연합뉴스는 11월 24일 회의에서 정 장관이 시범사업 경과와 시민 참여 확대 구상을 설명했다고 현장에서 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261124164800504"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-24T22:28:38Z",
+      "type": "new",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    }
+  ]
+}
