@@ -26,6 +26,17 @@ function clearBlock(html, name) {
   return html.slice(0, html.indexOf(begin)) + html.slice(html.indexOf(end) + end.length);
 }
 
+function labelHourlyCivilCount(html) {
+  // Match the source and the adjacent value in the hourly template. The
+  // displayed title, count, and publication/observation dates may all change.
+  const hourly = /(<a\b(?=[^>]*\bclass=["'][^"']*\bofficial-title\b[^"']*["'])(?=[^>]*\bhref=["']https:\/\/(?:www\.)?safekorea\.go\.kr\/safekorea-kor\/ctim\/cmsg\/calamitySms\.do(?:\?[^"']*)?["'])[^>]*>(?:(?!<\/a>)[\s\S])*<\/a>\s*<strong\b(?=[^>]*\bclass=["'][^"']*\bofficial-value\b[^"']*["'])[^>]*>)([\s\S]*?<\/strong>)/gi;
+  return html.replace(hourly, (match, before, value) => {
+    if (value.includes('data-civil-hourly')) return match;
+    return before + '<span data-civil-hourly>정시 수집 당시 · </span>' + value +
+      '<p class="official-detail official-window"><a href="#civil-alerts-title">최신 민방공 발송 기록</a></p>';
+  });
+}
+
 function render(index, options, files, now = Date.now()) {
   const primary = feedLocation(options.feedUrl);
   const backup = options.backupUrl ? feedLocation(options.backupUrl) : '';
@@ -34,7 +45,7 @@ function render(index, options, files, now = Date.now()) {
     JSON.stringify(data).replace(/</g, '\\u003c') + '</script>' : '';
   const region = '<section class="civil-alerts" data-civil-alerts data-feed="' + escapeHtml(primary) +
     '" data-backup="' + escapeHtml(backup) + '" aria-labelledby="civil-alerts-title">' +
-    '<header><h2 id="civil-alerts-title">민방공 재난문자</h2><a href="' + escapeHtml(listUrl) +
+    '<header><h2 id="civil-alerts-title" tabindex="-1">민방공 재난문자</h2><a href="' + escapeHtml(listUrl) +
     '">국민안전24 공식 목록</a></header>' +
     '<details data-civil-official hidden><summary>국민안전24 실시간 목록</summary>' +
     '<p class="civil-tail">펼쳐 둔 동안 공식 페이지를 30초마다 다시 불러옵니다.</p><div data-civil-frame></div></details>' +
@@ -49,7 +60,7 @@ function render(index, options, files, now = Date.now()) {
       !/<body\b[^>]*\bdata-mode=["']live["']/i.test(clean)) {
     throw new Error('Expected the live homepage with one main element');
   }
-  return clean.replace(/<\/head>/i, () => block('assets', assets) + '</head>')
+  return labelHourlyCivilCount(clean).replace(/<\/head>/i, () => block('assets', assets) + '</head>')
     .replace(main, match => match + block('panel', region));
 }
 

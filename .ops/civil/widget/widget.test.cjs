@@ -73,6 +73,21 @@ test('installed home does not alter surrounding public data or require a snapsho
   } finally { fs.rmSync(tmp,{recursive:true}); }
 });
 
+test('qualifies only the official hourly SMS row and keeps its original times and figures', () => {
+  const href = 'https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34';
+  const makeRow = url => '<li class="official-row"><a href="' + url +
+    '" class="official-title">발령기관이 바꾼 제목 <svg><path/></svg></a>\n' +
+    '<strong class="official-value">민방공 관련 0건</strong><p>전체 문자 40건 · 07:32 KST</p></li>';
+  const unrelated = makeRow('https://other.example.org/');
+  const opts = {feedUrl:'/feed.json'};
+  const output = render(home.replace('</main>', makeRow(href) + unrelated + '</main>'), opts, files);
+  assert.match(output,/정시 수집 당시 · <\/span>민방공 관련 0건/);
+  assert.match(output,/<a href="#civil-alerts-title">최신 민방공 발송 기록<\/a>/);
+  assert.equal(output.split('전체 문자 40건 · 07:32 KST').length, 3);
+  assert.ok(output.includes(unrelated));
+  assert.equal(render(output,opts,files), output);
+});
+
 test('official iframe loads only while open; closing or hiding the tab stops its 30s timer', () => {
   let toggle, visibility, tick, frame, choose;
   const box = {appendChild(f) { frame = f; }};
