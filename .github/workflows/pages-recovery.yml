@@ -51,13 +51,20 @@ jobs:
               ...repo, run_id: run.id, attempt_number: run.run_attempt
             });
             const job = data.jobs.find(j => j.name === 'deploy' && j.conclusion === 'failure');
-            if (!job || !job.steps.some(s => s.name === 'Deploy' && s.conclusion === 'failure') ||
-                !job.steps.some(s => s.name.includes('actions/upload-pages-artifact@') && s.conclusion === 'success')) return;
+            if (!job || !job.steps.some(s => s.name.includes('actions/upload-pages-artifact@') && s.conclusion === 'success')) return;
+            const legacy = job.steps.some(s => s.name === 'Deploy' && s.conclusion === 'failure');
+            const byId = job.steps.some(s => s.name === 'Deploy by uploaded artifact ID' && s.conclusion === 'failure');
+            if (!legacy && !byId) return;
             const name = 'github-pages-' + run.id + '-' + run.run_attempt;
             const missing = 'No artifacts named "' + name + '" were found for this workflow run.';
+            // Retry a bad upload receipt (before any POST) or a confirmed transient terminal result.
+            // A timeout or lost POST response must not trigger a second submission.
+            const retryable = ['Invalid Pages commit or upload receipt', ...['deployment_failed',
+              'deployment_cancelled', 'deployment_lost'].map(s => 'Pages reported ' + s + ' for ' + head)];
             for (let attempt = 1; attempt <= 6; attempt++) {
               const annotations = await github.rest.checks.listAnnotations({ ...repo, check_run_id: job.id });
-              if (annotations.data.some(a => a.annotation_level === 'failure' && a.message.includes(missing))) {
+              if (annotations.data.some(a => a.annotation_level === 'failure' &&
+                  ((legacy && a.message.includes(missing)) || (byId && retryable.some(m => a.message.includes(m)))))) {
                 core.setOutput('commit', head);
                 core.setOutput('eligible', 'true');
                 return;

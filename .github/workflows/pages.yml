@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -16,11 +17,15 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
+    concurrency:
+      group: pages-artifact-recovery-${{ github.sha }}
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://war.pebbleroom.kr/
     steps:
       - uses: actions/checkout@v6
       - uses: actions/configure-pages@v5
@@ -29,12 +34,15 @@ jobs:
       - name: Include current civil notices on the homepage
         run: node .ops/civil/install-panel.cjs
       - uses: actions/upload-pages-artifact@v4
+        id: upload
         with:
           path: public
           name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy by uploaded artifact ID
+        uses: actions/github-script@v8
+        env:
+          PAGES_ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+          PAGES_COMMIT: ${{ github.sha }}
         with:
-          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          script: await require('./.github/scripts/deploy-pages-by-id.cjs')({ github, context, core });
 
