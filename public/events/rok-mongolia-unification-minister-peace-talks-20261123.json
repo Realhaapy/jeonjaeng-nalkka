@@ -1,0 +1,54 @@
+{
+  "id": "rok-mongolia-unification-minister-peace-talks-20261123",
+  "title": "통일부 장관, 몽골 외교장관에 한반도 평화 기여 요청",
+  "summary": "통일부에 따르면 정동영 장관은 11월 23일 바트체첵 몽골 외교장관에게 남북 모두와 우호 관계를 맺고 있는 몽골이 한반도 평화와 안정에 기여해 달라고 요청했습니다. 두 장관은 소통을 이어가며 협력 방안을 논의하기로 했습니다.",
+  "kind": "diplomatic_change",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-22T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-22T15:00:00Z",
+  "reported_precision": "day",
+  "updated_at": "2026-11-24T01:29:28Z",
+  "status": "reported",
+  "primary_status": "primary_seen",
+  "lifecycle": "unknown",
+  "important": false,
+  "unknowns": [
+    "통일부 발표에는 구체적인 협력 조치나 일정이 나오지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "통일부 장관이 몽골과 한반도 평화 협력을 논의한 면담입니다. 양국 외교장관이 체결한 영사협정과는 별개입니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "통일부 · 통일부 장관, 몽골 외교장관 면담",
+      "url": "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/60682",
+      "published_at": "2026-11-22T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "정동영 통일부 장관은 11월 23일 바트체첵 몽골 외교장관과 면담하고 몽골에 한반도 평화와 안정에 기여해 달라고 요청했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/60682"
+      ]
+    },
+    {
+      "text": "통일부는 두 장관이 한반도와 동북아의 평화를 위해 앞으로도 소통하고 협력 방안을 논의하기로 했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.unikorea.go.kr/web/unikorea/bbs/bbs_0000000000000004/60682"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-24T01:29:28Z",
+      "type": "new",
+      "text": "새 사건 기록을 검토해 등록했습니다."
+    }
+  ]
+}
