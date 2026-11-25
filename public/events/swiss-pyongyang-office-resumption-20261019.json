@@ -1,14 +1,14 @@
 {
   "id": "swiss-pyongyang-office-resumption-20261019",
-  "title": "북한, 평양 스위스 외교사무소 폐쇄 요구 보도",
-  "summary": "스위스는 10월 19일부터 평양 외교사무소를 운영해 왔습니다. AP와 유로뉴스는 11월 25일 북한 관영매체를 인용해 북한 외무성이 사무소 폐쇄를 요구하고 대표에게 48시간 안에 출국하라고 통보했다고 전했습니다. 사무소가 실제로 폐쇄됐거나 대표가 출국했는지는 확인되지 않았습니다.",
+  "title": "스위스, 평양 외교사무소 폐쇄 통보에 유감…대표 귀환 준비",
+  "summary": "로이터와 연합뉴스에 따르면 스위스 외교부는 11월 25일 북한으로부터 평양 외교사무소 폐쇄를 통보받았다며 유감을 표하고 사무소 대표의 귀환을 준비 중이라고 밝혔습니다. 연합뉴스는 스위스 외교부가 대사관을 통한 양국 외교 관계는 유지된다고 밝혔다고 전했습니다. 사무소가 실제로 폐쇄됐거나 대표가 출국했는지는 확인되지 않았습니다.",
   "kind": "diplomatic_change",
   "military_actor": "unknown",
   "occurred_at": "2026-10-18T15:00:00Z",
   "time_precision": "day",
   "reported_at": "2026-10-30T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-25T08:26:17Z",
+  "updated_at": "2026-11-25T17:27:46Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
@@ -17,9 +17,9 @@
     "10월 19일은 스위스 공식 발표가 밝힌 사무소 운영 시작일입니다. 방북과 공식 재개방은 10월 29~30일 기간으로만 확인돼 개별 일자·시각을 확정하지 않습니다.",
     "스위스 외교부 발표일은 10월 31일이며 정확한 게시 시각은 확인하지 못했습니다. 통일부의 11월 2일 언급을 사무소 개설일로 사용하지 않습니다.",
     "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다.",
-    "북한 외무성 통보는 북한 관영매체를 인용한 보도에 근거하며, 통보 이후의 스위스 공식 답변과 실제 사무소 폐쇄·대표 출국은 확인되지 않았습니다."
+    "스위스 외교부의 통보 이후 입장은 성명을 인용한 보도로 확인했습니다. 성명 원문과 정확한 발표 시각, 실제 사무소 폐쇄 및 대표 출국은 직접 확인하지 못했습니다."
   ],
-  "revision": 3,
+  "revision": 4,
   "why_it_matters": "스위스가 한반도 관련 대화를 이어가기 위해 재개한 외교 창구에 대한 외교적 조치입니다. 북한 측의 통보를 전한 보도와 실제 이행 여부는 구분해야 합니다.",
   "significance": "notable",
   "sources": [
@@ -63,6 +63,18 @@
       "name": "유로뉴스 · 북한 외무성 통보 보도",
       "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close",
       "published_at": "2026-11-25T04:50:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "로이터 · 스위스 외교부 성명 보도 (Devdiscourse 전재)",
+      "url": "https://www.devdiscourse.com/article/international/4012124-swiss-express-regret-at-north-korea-decision-to-close-diplomatic-office-in-pyongyang",
+      "published_at": "2026-11-25T15:02:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "연합뉴스 · 스위스 외교부 성명과 외교관계 유지 보도",
+      "url": "https://www.yna.co.kr/amp/view/AKR20261125095351504",
+      "published_at": "2026-11-25T15:49:00Z",
       "published_precision": "minute"
     }
   ],
@@ -117,6 +129,21 @@
         "https://apnews.com/article/a39dbc92d195e69443ce66913a3dff7e",
         "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close"
       ]
+    },
+    {
+      "text": "로이터와 연합뉴스는 스위스 외교부 성명을 인용해 외교부가 11월 25일 폐쇄 결정을 통보받고 유감을 표했으며 대표의 귀환을 준비 중이라고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.devdiscourse.com/article/international/4012124-swiss-express-regret-at-north-korea-decision-to-close-diplomatic-office-in-pyongyang",
+        "https://www.yna.co.kr/amp/view/AKR20261125095351504"
+      ]
+    },
+    {
+      "text": "연합뉴스에 따르면 스위스 외교부는 대사관을 통한 양국 외교 관계는 유지된다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/amp/view/AKR20261125095351504"
+      ]
     }
   ],
   "location": null,
@@ -135,6 +162,11 @@
       "at": "2026-11-25T08:26:17Z",
       "type": "update",
       "text": "11월 25일 북한 외무성의 폐쇄 요구와 출국 통보를 전한 보도를 추가했습니다. 실제 이행 및 통보 이후 스위스 공식 답변은 미확인입니다."
+    },
+    {
+      "at": "2026-11-25T17:27:46Z",
+      "type": "update",
+      "text": "북한의 폐쇄 통보에 대한 스위스 외교부의 유감 표명과 대표 귀환 준비, 외교 관계 유지 입장을 추가했습니다. 실제 폐쇄·출국은 확인되지 않았습니다."
     }
   ]
 }
