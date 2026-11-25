@@ -1,0 +1,64 @@
+{
+  "id": "jinju-air-force-nco-death-20261125",
+  "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+  "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+  "kind": "military_incident",
+  "military_actor": "south_korea",
+  "occurred_at": "2026-11-24T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-25T06:07:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-25T09:33:47Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "unknown",
+  "important": true,
+  "unknowns": [
+    "사망 원인은 확인되지 않았습니다.",
+    "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+    "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
+  "significance": "notable",
+  "sources": [
+    {
+      "name": "연합뉴스 · 경찰 인용 보도",
+      "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+      "published_at": "2026-11-25T06:07:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "매일신문 · 경찰 인용 보도",
+      "url": "https://www.imaeil.com/page/view/2026112515315148198",
+      "published_at": "2026-11-25T06:31:59Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261125124700052",
+        "https://www.imaeil.com/page/view/2026112515315148198"
+      ]
+    },
+    {
+      "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261125124700052",
+        "https://www.imaeil.com/page/view/2026112515315148198"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-25T09:33:47Z",
+      "type": "new",
+      "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
+    }
+  ]
+}

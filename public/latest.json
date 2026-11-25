@@ -4,12 +4,12 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-25T07:30:37Z",
-  "generated_at": "2026-11-25T08:26:41+00:00",
-  "release_id": "r-7a29d3b6fff5d6b9",
-  "snapshot_id": "s-29d2464a2f9e015a",
+  "collection_checked_at": "2026-11-25T08:30:02Z",
+  "generated_at": "2026-11-25T09:34:21+00:00",
+  "release_id": "r-f1bc7a3b88fd0fca",
+  "snapshot_id": "s-5a630c2830531c88",
   "headline": "최근 발생한 사건과 발표·보도",
-  "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+  "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
   "unknowns": [
     "새 자료의 사건 해당 여부와 요약을 검토 중입니다."
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-25T08:24:20Z",
-      "last_success_at": "2026-11-25T08:24:20Z",
-      "coverage_at": "2026-11-25T08:24:20Z",
+      "checked_at": "2026-11-25T09:30:30Z",
+      "last_success_at": "2026-11-25T09:30:30Z",
+      "coverage_at": "2026-11-25T09:30:30Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-25T07:30:37Z",
-      "last_success_at": "2026-11-25T07:30:37Z",
+      "checked_at": "2026-11-25T08:30:02Z",
+      "last_success_at": "2026-11-25T08:30:02Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T07:30:37Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T08:30:02Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:12Z",
-      "last_success_at": "2026-11-25T08:25:12Z",
-      "coverage_at": "2026-11-25T08:25:12Z",
+      "checked_at": "2026-11-25T09:31:40Z",
+      "last_success_at": "2026-11-25T09:31:40Z",
+      "coverage_at": "2026-11-25T09:31:40Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:22Z",
-      "last_success_at": "2026-11-25T08:25:22Z",
-      "coverage_at": "2026-11-25T08:25:22Z",
+      "checked_at": "2026-11-25T09:31:49Z",
+      "last_success_at": "2026-11-25T09:31:49Z",
+      "coverage_at": "2026-11-25T09:31:49Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:24Z",
-      "last_success_at": "2026-11-25T08:25:24Z",
-      "coverage_at": "2026-11-25T08:25:24Z",
+      "checked_at": "2026-11-25T09:31:58Z",
+      "last_success_at": "2026-11-25T09:31:58Z",
+      "coverage_at": "2026-11-25T09:31:58Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:27Z",
-      "last_success_at": "2026-11-25T08:25:27Z",
-      "coverage_at": "2026-11-25T08:25:27Z",
+      "checked_at": "2026-11-25T09:32:06Z",
+      "last_success_at": "2026-11-25T09:32:06Z",
+      "coverage_at": "2026-11-25T09:32:06Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:31Z",
-      "last_success_at": "2026-11-25T08:25:31Z",
-      "coverage_at": "2026-11-25T08:25:31Z",
+      "checked_at": "2026-11-25T09:32:14Z",
+      "last_success_at": "2026-11-25T09:32:14Z",
+      "coverage_at": "2026-11-25T09:32:14Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:38Z",
-      "last_success_at": "2026-11-25T08:25:38Z",
-      "coverage_at": "2026-11-25T08:25:38Z",
+      "checked_at": "2026-11-25T09:32:31Z",
+      "last_success_at": "2026-11-25T09:32:31Z",
+      "coverage_at": "2026-11-25T09:32:31Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,11 +158,11 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-25T07:31:02Z",
-      "last_success_at": "2026-11-25T07:31:02Z",
-      "coverage_at": "2026-11-25T07:31:02Z",
+      "checked_at": "2026-11-25T08:30:24Z",
+      "last_success_at": "2026-11-25T08:30:24Z",
+      "coverage_at": "2026-11-25T08:30:24Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-25T07:31:02Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-25T08:30:24Z에 수집한 자료를 사용했습니다.",
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
       "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
     },
@@ -171,11 +171,11 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-25T07:30:54Z",
-      "last_success_at": "2026-11-25T07:30:54Z",
-      "coverage_at": "2026-11-25T07:30:54Z",
+      "checked_at": "2026-11-25T08:30:18Z",
+      "last_success_at": "2026-11-25T08:30:18Z",
+      "coverage_at": "2026-11-25T08:30:18Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T07:30:54Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T08:30:18Z에 수집한 자료를 사용했습니다.",
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
       "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다."
     },
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:35Z",
-      "last_success_at": "2026-11-25T08:25:35Z",
-      "coverage_at": "2026-11-25T08:25:35Z",
+      "checked_at": "2026-11-25T09:32:22Z",
+      "last_success_at": "2026-11-25T09:32:22Z",
+      "coverage_at": "2026-11-25T09:32:22Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-25T08:24:20Z",
-      "last_success_at": "2026-11-25T08:24:20Z",
-      "observed_at": "2026-11-25T08:24:20Z",
+      "checked_at": "2026-11-25T09:30:30Z",
+      "last_success_at": "2026-11-25T09:30:30Z",
+      "observed_at": "2026-11-25T09:30:30Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-25T08:25:38Z",
-      "last_success_at": "2026-11-25T08:25:38Z",
-      "observed_at": "2026-11-25T08:25:38Z",
+      "checked_at": "2026-11-25T09:32:31Z",
+      "last_success_at": "2026-11-25T09:32:31Z",
+      "observed_at": "2026-11-25T09:32:31Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,15 +234,15 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-25T07:31:02Z",
-      "last_success_at": "2026-11-25T07:31:02Z",
-      "observed_at": "2026-11-25T07:31:02Z",
+      "checked_at": "2026-11-25T08:30:24Z",
+      "last_success_at": "2026-11-25T08:30:24Z",
+      "observed_at": "2026-11-25T08:30:24Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-24T07:30:54Z",
-        "window_end": "2026-11-25T07:30:54Z",
+        "window_start": "2026-11-24T08:30:18Z",
+        "window_end": "2026-11-25T08:30:18Z",
         "total_count": 31,
         "matched_count": 0,
         "complete": true,
@@ -251,6 +251,70 @@
     }
   ],
   "events": [
+    {
+      "id": "jinju-air-force-nco-death-20261125",
+      "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+      "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+      "kind": "military_incident",
+      "military_actor": "south_korea",
+      "occurred_at": "2026-11-24T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-25T06:07:00Z",
+      "reported_precision": "minute",
+      "updated_at": "2026-11-25T09:33:47Z",
+      "status": "reported",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "사망 원인은 확인되지 않았습니다.",
+        "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+        "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
+      "significance": "notable",
+      "sources": [
+        {
+          "name": "연합뉴스 · 경찰 인용 보도",
+          "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+          "published_at": "2026-11-25T06:07:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "매일신문 · 경찰 인용 보도",
+          "url": "https://www.imaeil.com/page/view/2026112515315148198",
+          "published_at": "2026-11-25T06:31:59Z",
+          "published_precision": "minute"
+        }
+      ],
+      "facts": [
+        {
+          "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.yna.co.kr/view/AKR20261125124700052",
+            "https://www.imaeil.com/page/view/2026112515315148198"
+          ]
+        },
+        {
+          "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.yna.co.kr/view/AKR20261125124700052",
+            "https://www.imaeil.com/page/view/2026112515315148198"
+          ]
+        }
+      ],
+      "location": null,
+      "changes": [
+        {
+          "at": "2026-11-25T09:33:47Z",
+          "type": "new",
+          "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
+        }
+      ]
+    },
     {
       "id": "ulleung-civil-defense-alert-20261124",
       "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
@@ -4356,6 +4420,14 @@
   ],
   "changes": [
     {
+      "id": "c-6f4a6d49d1cb76c094e0",
+      "event_id": "jinju-air-force-nco-death-20261125",
+      "at": "2026-11-25T09:33:47Z",
+      "type": "new",
+      "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+      "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
+    },
+    {
       "id": "c-cbc526428544c8204aa9",
       "event_id": "swiss-pyongyang-office-resumption-20261019",
       "at": "2026-11-25T08:26:17Z",
@@ -5347,14 +5419,14 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-25T08:26:41+00:00",
+    "as_of": "2026-11-25T09:34:21+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
-    "assessment_summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
+    "assessment_summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
     "brief": {
-      "recent": "검토된 기록 공식 발언·조치 7건 · 외교 대응 3건 (최근 11/24)",
-      "recent_main": "검토된 기록 공식 발언·조치 7건 · 외교 대응 3건",
-      "recent_note": "(최근 11/24)",
-      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 1건 · 공식 발언·조치 20건 · 외교 대응 17건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
+      "recent": "검토된 기록 군 사망·사고 1건 · 공식 발언·조치 7건 · 외교 대응 3건 (최근 11/25)",
+      "recent_main": "검토된 기록 군 사망·사고 1건 · 공식 발언·조치 7건 · 외교 대응 3건",
+      "recent_note": "(최근 11/25)",
+      "period": "미사일 발사 4건 · 북한 군사 활동 0건 · 한국·연합 군사 활동 2건 · 주체 미확인 군사 활동 1건 · 군 사망·사고 2건 · 공식 발언·조치 20건 · 외교 대응 17건 · 그 밖의 기록 0건 · 이전 기간과 비교 불가",
       "official": "국내 · 재난문자 발송기록: 민방공 관련 0건 · 미국 · 한국 여행경보: 1단계 · 일반적인 주의 · 영국 · 한국 여행정보: 여행 안내 최신판 확인",
       "official_url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "official_items": [
@@ -5362,7 +5434,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-25T07:31:02Z",
+          "observed_at": "2026-11-25T08:30:24Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -5370,8 +5442,8 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-24T07:30:54Z",
-          "window_end": "2026-11-25T07:30:54Z",
+          "window_start": "2026-11-24T08:30:18Z",
+          "window_end": "2026-11-25T08:30:18Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
           "detail": "최근 24시간 · 전국 문자 31건 확인"
@@ -5380,7 +5452,7 @@
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-25T08:25:38Z",
+          "observed_at": "2026-11-25T09:32:31Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -5398,7 +5470,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-25T08:24:20Z",
+          "observed_at": "2026-11-25T09:30:30Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -5417,100 +5489,66 @@
     "assessment_note": "공개된 발표·보도를 검토해 정리한 상황 요약입니다. 전쟁 확률이나 안전 판정이 아닙니다.",
     "analysis_method": "reviewed_records",
     "lead_event": {
-      "id": "ulleung-civil-defense-alert-20261124",
-      "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
-      "summary": "11월 24일 오전 행정안전부가 울릉군 주민에게 경계경보와 대피를 안내한 뒤 해제 문자를 보냈습니다. 경상북도도 해제와 일상 복귀를 안내했습니다. 이미 해제된 경보의 경과입니다. 경상북도가 08:39 보낸 문자는 앞선 표현에 대한 정정으로, 경보를 다시 발령한 것이 아닙니다.",
-      "kind": "official_measure",
-      "military_actor": "unknown",
-      "occurred_at": "2026-11-23T22:52:00Z",
-      "time_precision": "minute",
-      "reported_at": "2026-11-23T22:53:05Z",
+      "id": "jinju-air-force-nco-death-20261125",
+      "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+      "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+      "kind": "military_incident",
+      "military_actor": "south_korea",
+      "occurred_at": "2026-11-24T15:00:00Z",
+      "time_precision": "day",
+      "reported_at": "2026-11-25T06:07:00Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-23T23:41:22Z",
+      "updated_at": "2026-11-25T09:33:47Z",
       "status": "reported",
-      "primary_status": "primary_seen",
-      "lifecycle": "ended",
-      "important": false,
-      "unknowns": [],
-      "revision": 2,
-      "why_it_matters": "주민에게 보낸 안내를 시간순으로 정리했습니다. 본문에 적힌 시각과 문자 발송 시각은 다릅니다. 시간은 모두 한국시간입니다.",
-      "significance": "context",
+      "primary_status": "quoted_only",
+      "lifecycle": "unknown",
+      "important": true,
+      "unknowns": [
+        "사망 원인은 확인되지 않았습니다.",
+        "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+        "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
+      ],
+      "revision": 1,
+      "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
+      "significance": "notable",
       "sources": [
         {
-          "name": "국민안전24 · 행정안전부 경계경보 (270252)",
-          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
-          "published_at": "2026-11-23T22:53:05Z",
+          "name": "연합뉴스 · 경찰 인용 보도",
+          "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+          "published_at": "2026-11-25T06:07:00Z",
           "published_precision": "minute"
         },
         {
-          "name": "국민안전24 · 행정안전부 해제 안내 (270253)",
-          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
-          "published_at": "2026-11-23T22:57:18Z",
-          "published_precision": "minute"
-        },
-        {
-          "name": "국민안전24 · 경상북도 해제 안내 (270254)",
-          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
-          "published_at": "2026-11-23T23:00:13Z",
-          "published_precision": "minute"
-        },
-        {
-          "name": "국민안전24 · 재난문자 공식 목록",
-          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "published_at": null,
-          "published_precision": "unknown"
-        },
-        {
-          "name": "국민안전24 · 경상북도 표현 정정 (270255)",
-          "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255",
-          "published_at": "2026-11-23T23:39:24Z",
+          "name": "매일신문 · 경찰 인용 보도",
+          "url": "https://www.imaeil.com/page/view/2026112515315148198",
+          "published_at": "2026-11-25T06:31:59Z",
           "published_precision": "minute"
         }
       ],
       "facts": [
         {
-          "text": "행정안전부는 07:53:05에 울릉군 주민에게 07:52 경계경보와 대피를 알렸습니다.",
+          "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270252",
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
+            "https://www.yna.co.kr/view/AKR20261125124700052",
+            "https://www.imaeil.com/page/view/2026112515315148198"
           ]
         },
         {
-          "text": "행정안전부는 07:57:18 발송 문자에서 07:55 경보 해제와 일상 복귀를 알렸습니다.",
+          "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270253",
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
-          ]
-        },
-        {
-          "text": "경상북도는 08:00:13 발송 문자에서 07:58 경보 해제와 일상 복귀를 알렸습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270254",
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34"
-          ]
-        },
-        {
-          "text": "경상북도는 08:39:24에 앞선 안내의 표현을 정정하는 문자를 보냈습니다. 해제 안내와 별개의 정정이며 새 대피 지시나 경보 재발령은 아니었습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySmsView.do?menuSn=34&smsTrsmSn=270255"
+            "https://www.yna.co.kr/view/AKR20261125124700052",
+            "https://www.imaeil.com/page/view/2026112515315148198"
           ]
         }
       ],
       "location": null,
       "changes": [
         {
-          "at": "2026-11-23T23:41:22Z",
+          "at": "2026-11-25T09:33:47Z",
           "type": "new",
-          "text": "국민안전24에서 울릉군 경계경보 1건과 이어진 해제 안내 2건의 발송 기록을 확인해 한 사건으로 등록했습니다."
-        },
-        {
-          "at": "2026-11-23T23:41:22Z",
-          "type": "correction",
-          "text": "08:39:24 경상북도 정정 문자(270255)를 같은 사건의 후속 이력에 추가했습니다. 기존 해제 상태는 유지했습니다."
+          "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
         }
       ]
     },
@@ -5520,6 +5558,12 @@
       "summary": "최근 공개 기록을 관찰 중입니다. 안전하다는 판정은 아닙니다.",
       "short_summary": "최근 기록 관찰 중 · 안전 판정 아님",
       "basis": [
+        {
+          "event_id": "jinju-air-force-nco-death-20261125",
+          "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+          "url": "events/jinju-air-force-nco-death-20261125/",
+          "date_label": "2026.11.25 · 발생일"
+        },
         {
           "event_id": "ulleung-civil-defense-alert-20261124",
           "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
@@ -5531,18 +5575,12 @@
           "title": "통일부, 평화·통일 시민대화용 ‘홍익’ 시범사업 소개",
           "url": "events/rok-mou-hongik-citizen-deliberation-pilot-20261124/",
           "date_label": "2026.11.24 · 발생일"
-        },
-        {
-          "event_id": "rok-mou-humanitarian-repatriation-procedure-20261124",
-          "title": "통일부, 표류 어선에서 구조된 북한 주민의 인도적 송환 절차 진행",
-          "url": "events/rok-mou-humanitarian-repatriation-procedure-20261124/",
-          "date_label": "2026.11.24 · 발생일"
         }
       ],
-      "updated_at": "2026-11-25T08:26:41+00:00",
+      "updated_at": "2026-11-25T09:34:21+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-25T09:30:37+00:00",
+      "valid_until": "2026-11-25T10:30:02+00:00",
       "asset_key": "observe",
       "scope_limited": 1,
       "limitations": [
@@ -5557,6 +5595,70 @@
       ]
     },
     "briefing_events": [
+      {
+        "id": "jinju-air-force-nco-death-20261125",
+        "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+        "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+        "kind": "military_incident",
+        "military_actor": "south_korea",
+        "occurred_at": "2026-11-24T15:00:00Z",
+        "time_precision": "day",
+        "reported_at": "2026-11-25T06:07:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-25T09:33:47Z",
+        "status": "reported",
+        "primary_status": "quoted_only",
+        "lifecycle": "unknown",
+        "important": true,
+        "unknowns": [
+          "사망 원인은 확인되지 않았습니다.",
+          "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+          "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
+        ],
+        "revision": 1,
+        "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
+        "significance": "notable",
+        "sources": [
+          {
+            "name": "연합뉴스 · 경찰 인용 보도",
+            "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+            "published_at": "2026-11-25T06:07:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "매일신문 · 경찰 인용 보도",
+            "url": "https://www.imaeil.com/page/view/2026112515315148198",
+            "published_at": "2026-11-25T06:31:59Z",
+            "published_precision": "minute"
+          }
+        ],
+        "facts": [
+          {
+            "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
+            ]
+          },
+          {
+            "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
+            ]
+          }
+        ],
+        "location": null,
+        "changes": [
+          {
+            "at": "2026-11-25T09:33:47Z",
+            "type": "new",
+            "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
+          }
+        ]
+      },
       {
         "id": "ulleung-civil-defense-alert-20261124",
         "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
@@ -6023,63 +6125,73 @@
             "text": "새 사건 기록을 검토해 등록했습니다."
           }
         ]
-      },
+      }
+    ],
+    "ordered_events": [
       {
-        "id": "rok-mongolia-consular-agreement-20261123",
-        "title": "한국·몽골, 체포·구금 통보와 영사 접견을 위한 협정 체결",
-        "summary": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다. 양국은 상대국 국민이 체포·구금 등으로 자유를 잃은 경우 상대국에 알리고, 영사관원이 요청하면 접견을 주선하기로 했습니다.",
-        "kind": "diplomatic_change",
-        "military_actor": "unknown",
-        "occurred_at": "2026-11-22T15:00:00Z",
+        "id": "jinju-air-force-nco-death-20261125",
+        "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+        "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+        "kind": "military_incident",
+        "military_actor": "south_korea",
+        "occurred_at": "2026-11-24T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-22T15:00:00Z",
-        "reported_precision": "day",
-        "updated_at": "2026-11-23T18:33:05Z",
+        "reported_at": "2026-11-25T06:07:00Z",
+        "reported_precision": "minute",
+        "updated_at": "2026-11-25T09:33:47Z",
         "status": "reported",
-        "primary_status": "primary_seen",
+        "primary_status": "quoted_only",
         "lifecycle": "unknown",
-        "important": false,
+        "important": true,
         "unknowns": [
-          "외교부 보도자료에는 협정의 발효일이 나와 있지 않습니다."
+          "사망 원인은 확인되지 않았습니다.",
+          "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+          "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
         ],
         "revision": 1,
-        "why_it_matters": "한국이나 몽골에서 상대국 국민이 구금됐을 때 영사 지원을 받을 수 있도록 양국 간 통보와 접견 절차를 정한 협정입니다.",
-        "significance": "context",
+        "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
+        "significance": "notable",
         "sources": [
           {
-            "name": "외교부 · 한-몽골 외교장관회담 결과",
-            "url": "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803",
-            "published_at": "2026-11-22T15:00:00Z",
-            "published_precision": "day"
+            "name": "연합뉴스 · 경찰 인용 보도",
+            "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+            "published_at": "2026-11-25T06:07:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "매일신문 · 경찰 인용 보도",
+            "url": "https://www.imaeil.com/page/view/2026112515315148198",
+            "published_at": "2026-11-25T06:31:59Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
           {
-            "text": "외교부는 한국과 몽골이 11월 23일 영사협정을 체결했다고 밝혔습니다.",
+            "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
             ]
           },
           {
-            "text": "외교부에 따르면 협정에는 체포·구금 등의 사실을 상대국에 통보하고, 영사관원의 요청 시 접견을 주선하는 내용이 담겼습니다.",
+            "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.mofa.go.kr/www/brd/m_4080/view.do?page=1&pitem=10&seq=377803"
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-23T18:33:05Z",
+            "at": "2026-11-25T09:33:47Z",
             "type": "new",
-            "text": "외교부 공식 원문에서 영사협정 체결과 적용 내용을 대조해 등록했습니다. 발효일은 확인되지 않았습니다."
+            "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
           }
         ]
-      }
-    ],
-    "ordered_events": [
+      },
       {
         "id": "ulleung-civil-defense-alert-20261124",
         "title": "울릉군 경계경보 해제…경북도, 이후 문자 표현 정정",
@@ -10184,6 +10296,15 @@
       }
     ],
     "event_timing": {
+      "jinju-air-force-nco-death-20261125": {
+        "date_label": "2026.11.25 · 발생일",
+        "date_basis": "occurred",
+        "is_backfill": false,
+        "registration_kind": "recent",
+        "first_recorded_at": "2026-11-25T09:33:47+00:00",
+        "is_new_record": true,
+        "recency_label": "최근 발생"
+      },
       "ulleung-civil-defense-alert-20261124": {
         "date_label": "2026.11.24 07:52 KST · 발생 시각",
         "date_basis": "occurred",
@@ -10217,7 +10338,7 @@
         "is_backfill": false,
         "registration_kind": "recent",
         "first_recorded_at": "2026-11-24T09:29:37+00:00",
-        "is_new_record": true,
+        "is_new_record": false,
         "recency_label": "최근 발생"
       },
       "rok-cabinet-revokes-defense-decorations-20261124": {
@@ -10691,15 +10812,15 @@
     },
     "metrics": {
       "events_24h": 0,
-      "events_24h_uncertain": 4,
+      "events_24h_uncertain": 5,
       "changes_24h": 8,
       "corrections_24h": 1,
-      "active_major": 6
+      "active_major": 7
     },
     "periods": {
       "7": {
         "label": "최근 7일",
-        "current": 10,
+        "current": 11,
         "previous": 2,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -10738,7 +10859,7 @@
           },
           {
             "date": "2026-11-25",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -10774,7 +10895,7 @@
           {
             "key": "incident",
             "label": "군 사망·사고",
-            "current": 0,
+            "current": 1,
             "previous": 0,
             "delta": null
           },
@@ -10803,7 +10924,7 @@
       },
       "30": {
         "label": "최근 30일",
-        "current": 45,
+        "current": 46,
         "previous": 7,
         "comparable": false,
         "reason": "이전 기간과 수집·검토 범위가 같다는 검증이 없어 증가율과 위험 추세는 계산하지 않습니다.",
@@ -10957,7 +11078,7 @@
           },
           {
             "date": "2026-11-25",
-            "count": 0,
+            "count": 1,
             "prior": null
           }
         ],
@@ -10993,7 +11114,7 @@
           {
             "key": "incident",
             "label": "군 사망·사고",
-            "current": 1,
+            "current": 2,
             "previous": 0,
             "delta": null
           },
@@ -11022,6 +11143,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-6f4a6d49d1cb76c094e0",
+        "event_id": "jinju-air-force-nco-death-20261125",
+        "at": "2026-11-25T09:33:47Z",
+        "type": "new",
+        "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+        "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다.",
+        "display_label": "최근 발생 기록",
+        "event_date_label": "2026.11.25 · 발생일",
+        "registration_kind": "recent"
+      },
       {
         "id": "c-cbc526428544c8204aa9",
         "event_id": "swiss-pyongyang-office-resumption-20261019",
@@ -11094,17 +11226,6 @@
         "at": "2026-11-24T12:28:09Z",
         "type": "new",
         "title": "국무회의, 과거 국가폭력 관련 보국훈장 10점 취소 의결",
-        "text": "새 사건 기록을 검토해 등록했습니다.",
-        "display_label": "최근 발생 기록",
-        "event_date_label": "2026.11.24 · 발생일",
-        "registration_kind": "recent"
-      },
-      {
-        "id": "c-9cf62ece7c1405fa53c5",
-        "event_id": "rok-mnd-russian-attache-summoned-20261124",
-        "at": "2026-11-24T09:29:37Z",
-        "type": "new",
-        "title": "국방부, 주한 러시아 국방무관 초치해 항의",
         "text": "새 사건 기록을 검토해 등록했습니다.",
         "display_label": "최근 발생 기록",
         "event_date_label": "2026.11.24 · 발생일",
@@ -11434,172 +11555,66 @@
         ]
       },
       {
-        "id": "dprk-launch-20261104",
-        "title": "11월 4일 북한 미사일 발사…북한, 대공 시험·순항 훈련 주장",
-        "summary": "합참은 11월 5일 브리핑에서 전날 오전 선덕 일대의 미사일 여러 발을 포착했다고 밝혔습니다. 북한은 4일 대공미사일 시험과 순항미사일 훈련을 했다고 주장했습니다. 두 활동과 한국군 포착 내용의 정확한 대응 관계 및 제원은 확인되지 않았습니다.",
-        "kind": "missile_test",
-        "military_actor": "north_korea",
-        "occurred_at": "2026-11-03T15:00:00Z",
+        "id": "jinju-air-force-nco-death-20261125",
+        "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+        "summary": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+        "kind": "military_incident",
+        "military_actor": "south_korea",
+        "occurred_at": "2026-11-24T15:00:00Z",
         "time_precision": "day",
-        "reported_at": "2026-11-04T00:54:00Z",
+        "reported_at": "2026-11-25T06:07:00Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-05T05:21:27Z",
+        "updated_at": "2026-11-25T09:33:47Z",
         "status": "reported",
-        "primary_status": "primary_seen",
+        "primary_status": "quoted_only",
         "lifecycle": "unknown",
         "important": true,
         "unknowns": [
-          "11월 5일 합참 공식 답변에서도 정확한 종류·제원은 분석 중입니다. JTBC 저녁 보도의 2~10발은 범위이며 정확한 수량을 확정한 값이 아닙니다. 북한의 무기 종류 설명을 한국군의 확인으로 바꾸지 않습니다.",
-          "한국군이 포착했다고 보도된 발사는 11월 4일 오전까지 확인했습니다. 북한이 설명한 두 활동의 정확한 시각은 알 수 없습니다. 11월 5일 07:01은 후속 기사 게시 시각이며 새 발사가 발생한 시각이 아닙니다.",
-          "선덕 일대라는 지역명만 확인했습니다. JTBC가 사거리 300km 미만을 보도했으나 확인된 실제 비행거리와 동일하게 취급하지 않습니다. 정확한 발사 원점·좌표·낙하지점·고도와 피해 여부는 확인하지 못했습니다.",
-          "11월 5일 정책브리핑에서 합참 공보실장의 공개 답변을 확인했습니다. 공식 발표 확인은 발사 제원의 독립 검증과 다르며, 같은 발표를 인용한 여러 기사를 독립 확인 횟수로 세지 않습니다.",
-          "이 기록의 미사일 발사 분류는 제원을 독립 검증했거나 시험·공격 목적을 확인했다는 뜻이 아닙니다. 10월 31일 시험은 별개의 과거 사건입니다.",
-          "저녁 기사는 합참을 근거로 알려졌다는 간접 서술입니다. 공식 제원 자료를 직접 확보하지 못했으며, 미국 선거에 맞춘 발사 의도나 특정 공격 목적을 확인한 사실로 등록하지 않습니다.",
-          "미국 측 평가는 A News에 실린 Anadolu 통신의 성명 인용을 확인한 것입니다. 연결된 사령부 공식 웹 원문은 HTTP 403으로 읽지 못했습니다. 기사 게시 시각은 성명 발표 시각이 아니며, 시간대가 명시되지 않은 요일 표현으로 정확한 발표 시각을 추정하지 않습니다.",
-          "즉각적인 위협이 아니라는 설명은 당시 해당 발사에 대한 미 사령부의 평가입니다. 한반도 전반의 안전이나 앞으로의 전쟁 가능성에 대한 서비스의 판단이 아닙니다.",
-          "북한이 설명한 대공미사일 시험과 순항미사일 훈련이 합참의 선덕 일대 포착 내용 중 각각 어느 발사에 해당하는지는 확인되지 않았습니다. 관련 발표를 함께 연결했으며, 같은 활동으로 확정 합치거나 별개의 추가 발사 건수로 세지 않습니다. 선덕·300km 미만·2~10발을 순항미사일 훈련의 확인된 제원으로 적용하지 않습니다.",
-          "북한의 조선중앙통신 원문은 직접 확보하지 못했습니다. JTBC와 SBS가 같은 발표를 인용한 것이므로 독립 확인 두 건이 아닙니다. 기술 검증·가상 표적 타격 성공과 실제 배치 여부는 독립 검증되지 않았으며, 11월 2일 순항미사일 시험 주장과도 날짜가 다른 내용입니다."
+          "사망 원인은 확인되지 않았습니다.",
+          "11월 25일은 발견일입니다. 사망 시각과 군 수사 결과는 확인되지 않았습니다.",
+          "경찰의 공개 원문은 확보하지 못했습니다. 같은 경찰 설명을 인용한 복수 보도를 독립적인 공식 확인으로 세지 않습니다."
         ],
-        "revision": 6,
-        "why_it_matters": "",
+        "revision": 1,
+        "why_it_matters": "군 인명피해의 경위와 후속 조사 결과를 확인할 사안입니다. 이 보도만으로 군사적 긴장 고조를 판단하지 않습니다.",
         "significance": "notable",
         "sources": [
           {
-            "name": "JTBC · 합참 인용 후속 보도 (11월 4일 12:01 수정)",
-            "url": "https://news.jtbc.co.kr/article/NB12326354",
-            "published_at": "2026-11-04T00:54:00Z",
+            "name": "연합뉴스 · 경찰 인용 보도",
+            "url": "https://www.yna.co.kr/view/AKR20261125124700052",
+            "published_at": "2026-11-25T06:07:00Z",
             "published_precision": "minute"
           },
           {
-            "name": "SBS · 합참 인용 속보",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829755",
-            "published_at": "2026-11-04T01:00:10Z",
+            "name": "매일신문 · 경찰 인용 보도",
+            "url": "https://www.imaeil.com/page/view/2026112515315148198",
+            "published_at": "2026-11-25T06:31:59Z",
             "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 합참 인용 후속 보도",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
-            "published_at": "2026-11-04T01:06:14Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 11월 4일 19:47 후속 보도",
-            "url": "https://news.jtbc.co.kr/article/NB12326476",
-            "published_at": "2026-11-04T10:47:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "A News · Anadolu 통신의 미 태평양사령부 성명 인용",
-            "url": "https://www.anews.com.tr/world/2026/11/04/us-pacific-command-says-north-korean-missile-launches-pose-no-immediate-threat",
-            "published_at": "2026-11-04T06:02:41Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "JTBC · 11월 5일 조선중앙통신 인용 후속",
-            "url": "https://news.jtbc.co.kr/article/NB12326554",
-            "published_at": "2026-11-04T22:01:00Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "SBS · 11월 5일 조선중앙통신 인용 후속",
-            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375",
-            "published_at": "2026-11-04T22:01:03Z",
-            "published_precision": "minute"
-          },
-          {
-            "name": "국방부 11월 5일 정례브리핑 · 정책브리핑",
-            "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-            "published_at": "2026-11-04T15:00:00Z",
-            "published_precision": "day"
           }
         ],
         "facts": [
           {
-            "text": "합참 공보실장은 11월 5일 국방부 브리핑에서 전날 오전 북한 선덕 일대에서 동해상으로 발사된 미사일 여러 발을 포착했다고 밝혔습니다.",
+            "text": "연합뉴스와 매일신문은 경찰을 인용해 11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-              "https://news.jtbc.co.kr/article/NB12326354"
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
             ]
           },
           {
-            "text": "같은 답변에서 한미가 발사 준비 단계부터 감시하고 발사 직후 탐지·추적했으며, 정확한 제원은 계속 분석 중이라고 설명했습니다.",
+            "text": "두 매체에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
-              "https://news.jtbc.co.kr/article/NB12326354"
-            ]
-          },
-          {
-            "text": "앞서 SBS의 초기 보도는 발사체를 미상으로 전했습니다. 이후 보도에서 확인한 내용은 같은 날의 기존 사건에 연결하며 별개의 추가 발사로 세지 않습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008829816",
-              "https://news.jtbc.co.kr/article/NB12326354"
-            ]
-          },
-          {
-            "text": "JTBC는 11월 4일 19:47 후속 기사에서 합참을 근거로 사거리 300km 미만의 미사일 2~10발이 발사된 것으로 알려졌다고 보도했다. 군은 탄도미사일·지대공미사일 등의 가능성을 두고 제원을 분석 중이라고 전했다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326476"
-            ]
-          },
-          {
-            "text": "Anadolu 통신을 실은 A News는 미 태평양사령부가 한국시간 11월 4일 발사를 인지하고 동맹·협력국과 협의 중이라고 밝혔다고 보도했습니다. 사령부는 당시 평가상 이번 발사가 미국 인력·영토 및 동맹국에 즉각적인 위협은 아니라고 설명했다고 전했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://www.anews.com.tr/world/2026/11/04/us-pacific-command-says-north-korean-missile-launches-pose-no-immediate-threat"
-            ]
-          },
-          {
-            "text": "JTBC와 SBS는 11월 5일 조선중앙통신을 인용해 북한 미사일총국이 전날인 4일 신형 지대공미사일의 시험발사를 했다고 주장했다고 보도했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326554",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375"
-            ]
-          },
-          {
-            "text": "같은 북한 발표에는 11월 4일 동부지구 장거리 전략순항미사일 부대의 시범화력훈련도 진행했다는 설명이 포함됐습니다. 가상 비행장 표적 타격 성공은 북한 측 주장으로 보도됐습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326554",
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831375"
+              "https://www.yna.co.kr/view/AKR20261125124700052",
+              "https://www.imaeil.com/page/view/2026112515315148198"
             ]
           }
         ],
         "location": null,
         "changes": [
           {
-            "at": "2026-11-04T01:27:02Z",
+            "at": "2026-11-25T09:33:47Z",
             "type": "new",
-            "text": "Codex 정기 원문 검토: 11월 4일 발사에 관한 SBS 본문과 JTBC 속보를 대조해 같은 사건 1건으로 등록했습니다. 발사체 종류는 미상이며 발표·보도 확인 상태입니다. SBS 후속 기사의 최초 게시 10:06과 수정 10:13을 구분했습니다."
-          },
-          {
-            "at": "2026-11-04T03:26:29Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: JTBC의 11월 4일 12:01 수정 본문에서 합참의 선덕 일대 미사일 여러 발 포착 설명을 확인했습니다. 기존 미상 발사체 기록의 분류를 북한 군사 활동에서 미사일 발사로 바꾸고 지역·수량 표현과 감시·추적 설명을 추가했습니다. 같은 사건 ID와 발생일을 유지하며 새 사건으로 더하지 않습니다."
-          },
-          {
-            "at": "2026-11-04T14:31:51Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: JTBC 11월 4일 19:47 후속 본문의 사거리·수량 범위와 종류 분석 중이라는 보도를 같은 발사 기록에 연결했습니다. 사거리 300km 미만·2~10발은 보도 귀속 범위로 표시하고 확정 제원·정확 수량으로 바꾸지 않았습니다. 같은 사건 ID와 발생일을 유지합니다."
-          },
-          {
-            "at": "2026-11-04T22:21:11Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: A News에 실린 Anadolu 통신의 11월 4일 15:02 KST 보도를 대조해 미 태평양사령부의 동맹 협의 및 해당 발사에 대한 당시 평가를 연결했습니다. 공식 원문 접근 실패를 밝히고 발표·보도 확인 상태를 유지합니다. 같은 발사이며 발생일·사건 수를 바꾸지 않습니다."
-          },
-          {
-            "at": "2026-11-04T23:19:23Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 5일 07:01 JTBC·SBS 본문에서 전날 대공미사일 시험 및 순항미사일 훈련을 했다는 북한 발표 인용을 확인했습니다. 기존 11월 4일 포착 기록에 관련 발표로 연결하고 정확한 대응 관계는 미확인으로 남겼습니다. 한국군의 기종 확인이나 추가 발사 건수로 환산하지 않으며, 발생일과 새 보도일을 구분합니다."
-          },
-          {
-            "at": "2026-11-05T05:21:27Z",
-            "type": "update",
-            "text": "Codex 정기 원문 검토: 11월 5일 국방부 브리핑의 합참 답변 원문을 연결해 포착·감시·추적 설명의 직접 근거를 보완했습니다. 제원 분석과 북한 주장 활동의 대응 관계는 미확인이며 11월 4일 발생일·사건 수를 유지합니다."
+            "text": "11월 25일 진주에서 발견된 공군 부사관 사망의 경찰 인용 보도 두 건을 대조해 최초 등록했습니다. 발견일과 사망 시각을 구분했습니다."
           }
         ]
       }
@@ -11641,10 +11656,12 @@
       {
         "key": "incident",
         "label": "군 사망·사고",
-        "title": "최근 7일 검토 기록 없음",
-        "text": "이 수집 범위에서 공개할 기록이 없다는 뜻이며, 실제 사건이 없었다는 판단은 아닙니다.",
-        "event_ids": [],
-        "state": "unobserved"
+        "title": "진주서 공군 부사관 숨진 채 발견…군 수사기관이 경위 조사 예정",
+        "text": "11월 25일 경남 진주에서 공군 부사관 1명이 숨진 채 발견됐다고 연합뉴스와 매일신문이 보도했습니다. 두 보도에 따르면 군 수사기관이 사망 경위를 조사할 예정입니다. 사망 원인은 확인되지 않았습니다.",
+        "event_ids": [
+          "jinju-air-force-nco-death-20261125"
+        ],
+        "state": "ongoing"
       },
       {
         "key": "statement",
@@ -11696,6 +11713,7 @@
       }
     ],
     "event_categories": {
+      "jinju-air-force-nco-death-20261125": "incident",
       "ulleung-civil-defense-alert-20261124": "statement",
       "rok-mou-hongik-citizen-deliberation-pilot-20261124": "statement",
       "rok-mou-humanitarian-repatriation-procedure-20261124": "statement",
@@ -11755,9 +11773,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-25T08:25:38+00:00"
+    "last_attempt_at": "2026-11-25T09:32:31+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-25T07:30:37Z"
+  "snapshot_collection_checked_at": "2026-11-25T08:30:02Z"
 }
