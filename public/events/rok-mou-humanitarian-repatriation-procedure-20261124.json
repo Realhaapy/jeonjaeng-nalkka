@@ -1,0 +1,69 @@
+{
+  "id": "rok-mou-humanitarian-repatriation-procedure-20261124",
+  "title": "통일부, 표류 어선에서 구조된 북한 주민의 인도적 송환 절차 진행",
+  "summary": "통일부는 11월 24일, 이달 초 표류 어선에서 구조된 북한 주민과 관련해 관계기관과 함께 인도적 송환 절차를 밟고 있다고 밝혔습니다. 송환이 끝났다는 공식 발표는 확인되지 않았습니다.",
+  "kind": "official_measure",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-23T15:00:00Z",
+  "time_precision": "day",
+  "reported_at": "2026-11-24T02:42:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-25T04:28:06Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "ongoing",
+  "important": false,
+  "unknowns": [
+    "송환 완료 여부와 실제 귀환 인원은 공식적으로 확인되지 않았습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "구조된 주민의 귀환과 관련한 인도적 조치입니다. 이번에 확인된 것은 송환을 위한 절차가 진행 중이라는 설명이며, 새로운 구조 사건이나 송환 완료를 뜻하지 않습니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "연합뉴스 · 통일부 당국자 발언 보도",
+      "url": "https://www.yna.co.kr/view/AKR20261124093000504",
+      "published_at": "2026-11-24T02:42:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "뉴스1 · 통일부 당국자 설명 보도",
+      "url": "https://www.news1.kr/nk/inter-korean/6364127",
+      "published_at": "2026-11-24T03:02:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "NK News · 통일부 대변인 답변 보도",
+      "url": "https://www.nknews.org/2026/11/seoul-preparing-to-repatriate-north-koreans-rescued-at-sea-earlier-this-month/",
+      "published_at": "2026-11-23T15:00:00Z",
+      "published_precision": "day"
+    }
+  ],
+  "facts": [
+    {
+      "text": "통일부는 11월 24일 관계기관과 협의하며 인도적 송환 절차를 진행 중이라고 취재진에 설명했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261124093000504",
+        "https://www.news1.kr/nk/inter-korean/6364127",
+        "https://www.nknews.org/2026/11/seoul-preparing-to-repatriate-north-koreans-rescued-at-sea-earlier-this-month/"
+      ]
+    },
+    {
+      "text": "이번 절차는 11월 3일 표류 어선에서 구조된 주민과 관련한 후속 조치입니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261124093000504",
+        "https://www.nknews.org/2026/11/seoul-preparing-to-repatriate-north-koreans-rescued-at-sea-earlier-this-month/"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-25T04:28:06Z",
+      "type": "new",
+      "text": "11월 24일 통일부의 인도적 송환 절차 진행 설명을 등록했습니다. 완료 여부와 인원은 확인되지 않았습니다."
+    }
+  ]
+}
