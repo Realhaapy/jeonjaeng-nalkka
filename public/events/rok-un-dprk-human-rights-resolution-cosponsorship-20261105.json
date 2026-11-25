@@ -1,24 +1,24 @@
 {
   "id": "rok-un-dprk-human-rights-resolution-cosponsorship-20261105",
-  "title": "정부, 유엔 북한인권결의안 공동제안국 참여 보도",
-  "summary": "SBS는 11월 5일 외교부 설명을 인용해 정부가 올해 유엔총회 북한인권결의안 공동제안국으로 참여했다고 보도했습니다. 정확한 참여 결정 시점과 결의안 원문은 이번 검토에서 확보하지 못했으며 결의안 채택 완료를 뜻하지 않습니다.",
+  "title": "유엔총회 제3위원회, 한국 공동제안 북한인권결의 채택",
+  "summary": "외교부는 현지시간 11월 18일 유엔총회 제3위원회가 한국이 공동제안한 북한인권결의안을 채택했다고 11월 19일 밝혔습니다. 외교부 발표에 따르면 표결은 찬성 95표, 반대 14표, 기권 58표였습니다. 제3위원회 단계이며 유엔총회 본회의 최종 채택은 확인되지 않았습니다.",
   "kind": "diplomatic_change",
   "military_actor": "unknown",
   "occurred_at": null,
   "time_precision": "unknown",
   "reported_at": "2026-11-05T06:51:07Z",
   "reported_precision": "minute",
-  "updated_at": "2026-11-05T07:37:57Z",
+  "updated_at": "2026-11-25T18:33:23Z",
   "status": "reported",
-  "primary_status": "quoted_only",
+  "primary_status": "primary_seen",
   "lifecycle": "unknown",
   "important": false,
   "unknowns": [
     "11월 5일은 확인한 기사 보도일이며 공동제안 참여의 정확한 결정·제출·등록 시각은 확인하지 못했습니다. 발생 시각은 비워 둡니다.",
-    "외교부의 해당 공식 발표 원문과 유엔 결의안 원문은 이번 검토에서 확보하지 못했습니다. 외교부 발언은 SBS의 인용 보도에 귀속하며 독립 검증으로 표시하지 않습니다.",
-    "기사의 11월 18~19일 제3위원회 채택 전망은 예정·전망입니다. 최종 문안·표결·채택 완료 또는 납북·억류·국군포로 피해의 새 발생을 확인한 기록이 아닙니다."
+    "외교부 발표 원문은 확인했으나 유엔 결의안 전문과 총회 본회의 최종 의결은 확인하지 못했습니다.",
+    "11월 18일 위원회 표결의 정확한 시각은 확인하지 못했습니다. 인도적 사안 관련 촉구는 신규 피해 발생이나 송환 완료를 뜻하지 않습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "context",
   "sources": [
@@ -27,6 +27,12 @@
       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558",
       "published_at": "2026-11-05T06:51:07Z",
       "published_precision": "minute"
+    },
+    {
+      "name": "외교부 · 유엔총회 제3위원회 북한인권결의 채택 발표",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789832",
+      "published_at": "2026-11-18T15:00:00Z",
+      "published_precision": "day"
     }
   ],
   "facts": [
@@ -36,6 +42,20 @@
       "evidence_urls": [
         "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832558"
       ]
+    },
+    {
+      "text": "외교부는 현지시간 11월 18일 제3위원회가 한국을 포함한 58개국이 공동제안한 결의안을 채택했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789832"
+      ]
+    },
+    {
+      "text": "외교부에 따르면 결의안에는 북한과의 대화 필요성과 납북자·억류자·국군포로·이산가족 등 인도적 사안의 진전을 촉구하는 내용이 포함됐습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156789832"
+      ]
     }
   ],
   "location": null,
@@ -44,6 +64,11 @@
       "at": "2026-11-05T07:37:57Z",
       "type": "new",
       "text": "Dot 정기 원문 검토: SBS 원문의 참여 설명과 채택 전망을 구분했습니다. 기존 사건·출처와 대조한 외교 기록으로 등록하며, 11월 5일을 실제 참여 결정일이나 새 군사행동 발생일로 확정하지 않습니다."
+    },
+    {
+      "at": "2026-11-25T18:33:23Z",
+      "type": "update",
+      "text": "11월 19일 외교부 발표를 확인해 현지시간 11월 18일 제3위원회 채택을 추가했습니다. 본회의 최종 채택은 미확인입니다."
     }
   ]
 }
