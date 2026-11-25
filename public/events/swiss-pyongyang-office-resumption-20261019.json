@@ -1,14 +1,14 @@
 {
   "id": "swiss-pyongyang-office-resumption-20261019",
   "title": "스위스 평양 외교사무소, 10월 19일부터 운영 재개",
-  "summary": "스위스 외교부는 평양 외교사무소가 10월 19일부터 운영 중이라고 10월 31일 발표했습니다. 카시스 외교장관은 10월 29~30일 평양을 방문해 사무소를 공식 재개방하고 북한 고위 인사들과 만났다고 설명했습니다. 11월에 새로 발생한 일이 아닌 과거 외교 변화 기록입니다.",
+  "summary": "스위스 외교부는 평양 외교사무소가 10월 19일부터 운영 중이라고 10월 31일 발표했습니다. 카시스 외교장관은 10월 29~30일 평양을 방문해 사무소를 공식 재개방하고 북한 고위 인사들과 만났다고 설명했습니다. 11월에 새로 발생한 일이 아닌 과거 외교 변화 기록입니다. 11월 24일 북한 김여정은 스위스의 제재에 반발해 평양 외교사무소 철수 검토를 북한 외무성에 권고하겠다고 밝혔습니다. 스위스 외교부는 당시 공식 연락을 받지 않았으며 대화를 이어가겠다고 밝혔습니다.",
   "kind": "diplomatic_change",
   "military_actor": "unknown",
   "occurred_at": "2026-10-18T15:00:00Z",
   "time_precision": "day",
   "reported_at": "2026-10-30T15:00:00Z",
   "reported_precision": "day",
-  "updated_at": "2026-11-03T21:34:41Z",
+  "updated_at": "2026-11-25T00:29:35Z",
   "status": "reported",
   "primary_status": "primary_seen",
   "lifecycle": "unknown",
@@ -16,9 +16,10 @@
   "unknowns": [
     "10월 19일은 스위스 공식 발표가 밝힌 사무소 운영 시작일입니다. 방북과 공식 재개방은 10월 29~30일 기간으로만 확인돼 개별 일자·시각을 확정하지 않습니다.",
     "스위스 외교부 발표일은 10월 31일이며 정확한 게시 시각은 확인하지 못했습니다. 통일부의 11월 2일 언급을 사무소 개설일로 사용하지 않습니다.",
-    "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다."
+    "북한 측 회담 원문이나 세부 합의문은 직접 확인하지 않았습니다. 외교 접촉 재개만으로 남북 간 대화 개시·구체적 군사 합의·긴장 완화를 확인한 것으로 해석하지 않습니다.",
+    "북한이 정식으로 철수를 요구했거나 평양 외교사무소가 실제 폐쇄됐는지는 확인되지 않았습니다."
   ],
-  "revision": 1,
+  "revision": 2,
   "why_it_matters": "",
   "significance": "notable",
   "sources": [
@@ -33,6 +34,24 @@
       "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539",
       "published_at": "2026-11-01T15:00:00Z",
       "published_precision": "day"
+    },
+    {
+      "name": "로이터 · 북한 담화 보도",
+      "url": "https://www.reuters.com/world/asia-pacific/north-korea-consider-shutting-down-swiss-diplomatic-office-pyongyang-kcna-says-2026-11-23/",
+      "published_at": "2026-11-23T21:24:51Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "Keystone-SDA / SWI swissinfo.ch · 스위스 외교부 답변",
+      "url": "https://www.swissinfo.ch/eng/foreign-affairs/despite-threats-from-north-korea-switzerland-remains-committed-to-dialogue/92430068",
+      "published_at": null,
+      "published_precision": "unknown"
+    },
+    {
+      "name": "연합뉴스 · 스위스 정부 후속 입장 보도",
+      "url": "https://www.yna.co.kr/view/AKR20261125001000082",
+      "published_at": "2026-11-24T15:58:00Z",
+      "published_precision": "minute"
     }
   ],
   "facts": [
@@ -56,6 +75,28 @@
       "evidence_urls": [
         "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156787539"
       ]
+    },
+    {
+      "text": "로이터는 북한 관영매체를 인용해 김여정이 스위스의 송도원국제소년단야영소 제재에 반발하며 평양 외교사무소 철수를 검토하도록 북한 외무성에 권고하겠다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.reuters.com/world/asia-pacific/north-korea-consider-shutting-down-swiss-diplomatic-office-pyongyang-kcna-says-2026-11-23/"
+      ]
+    },
+    {
+      "text": "스위스 외교부는 11월 24일 Keystone-SDA에 베이징 주재 대사관과 평양 현지 사무소 모두 그때까지 공식 연락을 받지 않았으며 북한과 대화를 이어가겠다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.swissinfo.ch/eng/foreign-affairs/despite-threats-from-north-korea-switzerland-remains-committed-to-dialogue/92430068",
+        "https://www.yna.co.kr/view/AKR20261125001000082"
+      ]
+    },
+    {
+      "text": "연합뉴스는 스위스 정부가 평양 외교사무소 운영과 제재는 별개이며 야영소에 대한 제재는 유지한다는 입장을 밝혔다고 전했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.yna.co.kr/view/AKR20261125001000082"
+      ]
     }
   ],
   "location": null,
@@ -64,6 +105,11 @@
       "at": "2026-11-03T21:34:41Z",
       "type": "new",
       "text": "Codex 정기 원문 검토: 앞서 날짜 확인을 보류한 스위스 평양 사무소 소식을 스위스 공식 발표와 통일부 답변으로 대조해 소급 등록했습니다. 운영 시작 10월 19일, 방북·공식 재개방 10월 29~30일, 발표 10월 31일을 구분하며 최근 발생 소식으로 표시하지 않습니다."
+    },
+    {
+      "at": "2026-11-25T00:29:35Z",
+      "type": "update",
+      "text": "11월 24일 북한의 철수 검토 권고 발언과 스위스 외교부 답변을 후속으로 추가했습니다. 기존 운영 재개 일자와 철수 미확인 상태는 유지했습니다."
     }
   ]
 }
