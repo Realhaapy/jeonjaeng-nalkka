@@ -1,0 +1,78 @@
+{
+  "id": "vn-war-remains-repatriation-20261125",
+  "title": "베트남전 전사자 안규태 병장 유해, 59년 만에 국내 봉환",
+  "summary": "1967년 베트남전에서 전사한 안규태 병장의 유해가 한미 당국의 신원 확인을 거쳐 국내로 돌아왔습니다. 한국일보와 뉴시스는 국방부를 인용해 11월 25일 유해 봉환식이 열렸다고 보도했습니다. 국방부가 예고한 안장식은 11월 26일 오후 3시입니다.",
+  "kind": "other",
+  "military_actor": "unknown",
+  "occurred_at": "2026-11-25T07:00:00Z",
+  "time_precision": "minute",
+  "reported_at": "2026-11-25T08:04:00Z",
+  "reported_precision": "minute",
+  "updated_at": "2026-11-25T10:29:02Z",
+  "status": "reported",
+  "primary_status": "quoted_only",
+  "lifecycle": "ended",
+  "important": false,
+  "unknowns": [
+    "11월 26일 안장식은 예정이며 실제 거행은 아직 확인되지 않았습니다.",
+    "국방부 공식 원문은 일정 공지입니다. 봉환식 거행은 행사 뒤 국방부 설명을 인용한 보도로 확인했습니다."
+  ],
+  "revision": 1,
+  "why_it_matters": "한미 당국이 협력해 해외에서 전사한 장병의 신원을 확인하고 유해를 가족에게 돌려보낸 사례입니다. 이번 기록은 봉환에 관한 것으로, 최근 군 사망이나 군사적 긴장 고조를 뜻하지 않습니다.",
+  "significance": "context",
+  "sources": [
+    {
+      "name": "국방부 · 일정 공지",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790641",
+      "published_at": "2026-11-24T15:00:00Z",
+      "published_precision": "day"
+    },
+    {
+      "name": "한국일보 · 봉환식 후 보도",
+      "url": "https://www.hankookilbo.com/news/article/amp/A2026112516200000585",
+      "published_at": "2026-11-25T08:04:00Z",
+      "published_precision": "minute"
+    },
+    {
+      "name": "뉴시스 · 봉환식 후 보도",
+      "url": "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261125_0003883309",
+      "published_at": "2026-11-25T08:23:12Z",
+      "published_precision": "minute"
+    }
+  ],
+  "facts": [
+    {
+      "text": "국방부는 베트남전에서 1967년 전사한 안규태 병장의 유해 신원을 한미 협력으로 확인했다고 밝혔습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790641",
+        "https://www.hankookilbo.com/news/article/amp/A2026112516200000585",
+        "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261125_0003883309"
+      ]
+    },
+    {
+      "text": "한국일보와 뉴시스가 국방부를 인용해 봉환식 거행을 보도했습니다. 뉴시스 보도와 국방부 공지에 따르면 봉환식은 11월 25일 오후 4시였습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.hankookilbo.com/news/article/amp/A2026112516200000585",
+        "https://mobile.newsis.com/view_amp.html?ar_id=NISX20261125_0003883309",
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790641"
+      ]
+    },
+    {
+      "text": "국방부는 11월 26일 오후 3시 대전현충원 안장식을 예고했습니다.",
+      "state": "reported",
+      "evidence_urls": [
+        "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156790641"
+      ]
+    }
+  ],
+  "location": null,
+  "changes": [
+    {
+      "at": "2026-11-25T10:29:02Z",
+      "type": "new",
+      "text": "국방부 공식 일정과 행사 이후 공개된 보도 두 건을 대조해 유해 봉환을 기록했습니다. 안장은 예정으로 구분했습니다."
+    }
+  ]
+}
