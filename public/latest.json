@@ -4,10 +4,10 @@
   "title": "전쟁 날까",
   "assessed_at": null,
   "coverage_as_of": "2026-11-01T14:17:05Z",
-  "collection_checked_at": "2026-11-25T09:38:00Z",
-  "generated_at": "2026-11-25T10:29:37+00:00",
-  "release_id": "r-40a15767084cee73",
-  "snapshot_id": "s-a3e4ba4cc6ed1f44",
+  "collection_checked_at": "2026-11-25T10:33:29Z",
+  "generated_at": "2026-11-25T11:28:18+00:00",
+  "release_id": "r-ee433f3bc16d5d27",
+  "snapshot_id": "s-1c4deced0f09aed8",
   "headline": "최근 발생한 사건과 발표·보도",
   "summary": "1967년 베트남전에서 전사한 안규태 병장의 유해가 한미 당국의 신원 확인을 거쳐 국내로 돌아왔습니다. 한국일보와 뉴시스는 국방부를 인용해 11월 25일 유해 봉환식이 열렸다고 보도했습니다. 국방부가 예고한 안장식은 11월 26일 오후 3시입니다.",
   "official_note": "확인한 자료원만 다룹니다. 여행정보·군사 발표·주민 경보는 서로 다른 제도입니다.",
@@ -28,9 +28,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-25T10:25:32Z",
-      "last_success_at": "2026-11-25T10:25:32Z",
-      "coverage_at": "2026-11-25T10:25:32Z",
+      "checked_at": "2026-11-25T11:25:32Z",
+      "last_success_at": "2026-11-25T11:25:32Z",
+      "coverage_at": "2026-11-25T11:25:32Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "GOV.UK 공개 API·OGL 자료. 제3자 권리가 있는 자료는 제외. 여행정보는 군사 경보와 다릅니다.",
@@ -41,11 +41,11 @@
       "name": "대한민국 정책브리핑",
       "url": "https://www.korea.kr/briefing/pressReleaseList.do",
       "status": "ok",
-      "checked_at": "2026-11-25T09:38:00Z",
-      "last_success_at": "2026-11-25T09:38:00Z",
+      "checked_at": "2026-11-25T10:33:29Z",
+      "last_success_at": "2026-11-25T10:33:29Z",
       "coverage_at": "2026-11-01T14:17:05Z",
       "scope_complete": false,
-      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T09:38:00Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
+      "error": "직접 연결 실패: 정책브리핑 검색 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T10:33:29Z에 수집한 자료를 사용했습니다. 검색 페이지 상한으로 목록 일부만 확인했습니다. 자료 처리 상한으로 일부 자료만 확인했습니다.",
       "permission_note": "개별 상세 페이지의 공공누리 제1유형을 확인한 텍스트만 원문 대조와 AI 분석에 사용합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 사진·이미지와 변경금지 유형은 제외합니다. 허용 표식을 찾지 못하면 링크만 남깁니다.",
       "scope_note": "최근 30일 정책브리핑의 북한·한미·훈련·미사일·장병·사망·부상·지뢰·접경 검색별 앞 2페이지, 국방·외교·통일·방위사업·각군 관련 최대 40건. 이 중 최대 10건은 인명피해·접경 제목을 우선하고 나머지는 최신순으로 확인합니다. 검색·처리 상한과 기관 발표 누락이 있어 전체 군사 사건을 포괄하지 않습니다."
     },
@@ -67,9 +67,9 @@
       "name": "주한미군 공식 발표 · DVIDS",
       "url": "https://www.dvidshub.net/unit/USFK",
       "status": "ok",
-      "checked_at": "2026-11-25T10:26:45Z",
-      "last_success_at": "2026-11-25T10:26:45Z",
-      "coverage_at": "2026-11-25T10:26:45Z",
+      "checked_at": "2026-11-25T11:26:26Z",
+      "last_success_at": "2026-11-25T11:26:26Z",
+      "coverage_at": "2026-11-25T11:26:26Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "USFK 공식 RSS에서 발견한 기사 중 개별 PUBLIC DOMAIN 표식이 확인된 기사 텍스트만 AI 분석에 사용합니다. 사진·영상·군 표장과 제3자 자료는 제외하며 미국 정부의 보증·후원을 뜻하지 않습니다.",
@@ -93,9 +93,9 @@
       "name": "일본 방위성 · 북한 미사일 발표",
       "url": "https://www.mod.go.jp/j/surround/northKorea/index.html",
       "status": "ok",
-      "checked_at": "2026-11-25T10:26:57Z",
-      "last_success_at": "2026-11-25T10:26:57Z",
-      "coverage_at": "2026-11-25T10:26:57Z",
+      "checked_at": "2026-11-25T11:26:32Z",
+      "last_success_at": "2026-11-25T11:26:32Z",
+      "coverage_at": "2026-11-25T11:26:32Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 북한 동향 목록의 최근 발표 링크를 확인합니다. 요청 환경에 따라 성공과 403 응답이 모두 관측되어 매번 상태를 확인합니다. 본문 자동 분석은 이용조건 확인 후 활성화하며, 실패를 숨기거나 우회하지 않습니다.",
@@ -106,9 +106,9 @@
       "name": "SBS 정치 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=01",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:06Z",
-      "last_success_at": "2026-11-25T10:27:06Z",
-      "coverage_at": "2026-11-25T10:27:06Z",
+      "checked_at": "2026-11-25T11:26:34Z",
+      "last_success_at": "2026-11-25T11:26:34Z",
+      "coverage_at": "2026-11-25T11:26:34Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -119,9 +119,9 @@
       "name": "SBS 사회 · 비공개 뉴스 발견",
       "url": "https://news.sbs.co.kr/news/newsSection.do?sectionType=03",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:16Z",
-      "last_success_at": "2026-11-25T10:27:16Z",
-      "coverage_at": "2026-11-25T10:27:16Z",
+      "checked_at": "2026-11-25T11:26:37Z",
+      "last_success_at": "2026-11-25T11:26:37Z",
+      "coverage_at": "2026-11-25T11:26:37Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -132,9 +132,9 @@
       "name": "JTBC 정치 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/politics",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:25Z",
-      "last_success_at": "2026-11-25T10:27:25Z",
-      "coverage_at": "2026-11-25T10:27:25Z",
+      "checked_at": "2026-11-25T11:26:40Z",
+      "last_success_at": "2026-11-25T11:26:40Z",
+      "coverage_at": "2026-11-25T11:26:40Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -145,9 +145,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:46Z",
-      "last_success_at": "2026-11-25T10:27:46Z",
-      "coverage_at": "2026-11-25T10:27:46Z",
+      "checked_at": "2026-11-25T11:26:46Z",
+      "last_success_at": "2026-11-25T11:26:46Z",
+      "coverage_at": "2026-11-25T11:26:46Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "미국 국무부 공식 RSS에서 한국 항목의 단계·제목·게시일과 공식 링크만 읽습니다. 본문·이미지는 저장하거나 GPT에 보내지 않습니다. 여행 주의등급은 전쟁 확률이나 국내 주민 경보가 아닙니다.",
@@ -158,11 +158,11 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-25T09:38:19Z",
-      "last_success_at": "2026-11-25T09:38:19Z",
-      "coverage_at": "2026-11-25T09:38:19Z",
+      "checked_at": "2026-11-25T10:33:48Z",
+      "last_success_at": "2026-11-25T10:33:48Z",
+      "coverage_at": "2026-11-25T10:33:48Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-25T09:38:19Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 자료원 응답 오류 (HTTP 503). 다음 점검 때 다시 확인합니다. GitHub 중계에서 2026-11-25T10:33:48Z에 수집한 자료를 사용했습니다.",
       "permission_note": "정부의 공개 재난문자 목록에서 발송일시·송출지역·재해구분과 민방공 관련 발송기록을 확인하고 원문 링크를 제공합니다. 다른 재난문자 본문은 저장하지 않으며 GPT를 사용하지 않습니다.",
       "scope_note": "최근 24시간 전국 재난문자 발송목록을 최대 10페이지 확인하고 민방공·공습·미사일 등 관련 문자를 구분합니다. 훈련·해제 안내도 발송기록에 포함되며 현재 발령 상태를 판정하지 않습니다. 페이지 상한·오류·사이트 등록 지연과 1시간 수집 간격이 있습니다. 휴대전화 재난문자 수신을 대체하지 않습니다."
     },
@@ -171,11 +171,11 @@
       "name": "대한민국 정책브리핑 · 부처 브리핑",
       "url": "https://www.korea.kr/briefing/policyBriefingList.do",
       "status": "ok",
-      "checked_at": "2026-11-25T09:38:13Z",
-      "last_success_at": "2026-11-25T09:38:13Z",
-      "coverage_at": "2026-11-25T09:38:13Z",
+      "checked_at": "2026-11-25T10:33:43Z",
+      "last_success_at": "2026-11-25T10:33:43Z",
+      "coverage_at": "2026-11-25T10:33:43Z",
       "scope_complete": true,
-      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T09:38:13Z에 수집한 자료를 사용했습니다.",
+      "error": "직접 연결 실패: 부처 브리핑 목록을 확인하지 못했습니다 (HTTP 503). GitHub 중계에서 2026-11-25T10:33:43Z에 수집한 자료를 사용했습니다.",
       "permission_note": "개별 브리핑의 공공누리 제1유형이 확인된 발언록 텍스트만 분석합니다. 제2유형은 제목·날짜·출처 링크만 남기며 본문을 저장하거나 AI 분석·요약 공개에 사용하지 않습니다. 영상·사진은 제외하고 기자 질문과 기관 답변을 구분합니다.",
       "scope_note": "최근 7일 부처 브리핑 목록 앞 2페이지 중 국방부·통일부·외교부 최대 20건. 제목에 군사 용어가 없어도 부처 기준으로 발견합니다. 검색·처리 상한 밖의 자료는 포함하지 않습니다."
     },
@@ -184,9 +184,9 @@
       "name": "JTBC 사회 · 비공개 뉴스 발견",
       "url": "https://news.jtbc.co.kr/section/society",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:36Z",
-      "last_success_at": "2026-11-25T10:27:36Z",
-      "coverage_at": "2026-11-25T10:27:36Z",
+      "checked_at": "2026-11-25T11:26:43Z",
+      "last_success_at": "2026-11-25T11:26:43Z",
+      "coverage_at": "2026-11-25T11:26:43Z",
       "scope_complete": true,
       "error": null,
       "permission_note": "공식 RSS의 개인 비상업 구독 허용 안내를 확인했습니다. 제목·링크·게시 시각만 운영자 비공개 발견함에 저장하며 기사 본문·요약·이미지는 수집하지 않고 GPT에 보내지 않습니다. RSS 제목의 공개 재배포 권한으로 해석하지 않습니다. 공개 사건은 원문을 별도로 검토한 사실과 출처 링크로 등록합니다.",
@@ -199,9 +199,9 @@
       "name": "영국 외무부 한국 여행정보",
       "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
       "status": "ok",
-      "checked_at": "2026-11-25T10:25:32Z",
-      "last_success_at": "2026-11-25T10:25:32Z",
-      "observed_at": "2026-11-25T10:25:32Z",
+      "checked_at": "2026-11-25T11:25:32Z",
+      "last_success_at": "2026-11-25T11:25:32Z",
+      "observed_at": "2026-11-25T11:25:32Z",
       "observation": {
         "kind": "travel_advice",
         "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
@@ -216,9 +216,9 @@
       "name": "미국 국무부 · 한국 여행경보",
       "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
       "status": "ok",
-      "checked_at": "2026-11-25T10:27:46Z",
-      "last_success_at": "2026-11-25T10:27:46Z",
-      "observed_at": "2026-11-25T10:27:46Z",
+      "checked_at": "2026-11-25T11:26:46Z",
+      "last_success_at": "2026-11-25T11:26:46Z",
+      "observed_at": "2026-11-25T11:26:46Z",
       "observation": {
         "kind": "travel_advisory",
         "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
@@ -234,16 +234,16 @@
       "name": "행정안전부 국민안전24 · 재난문자",
       "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
       "status": "ok",
-      "checked_at": "2026-11-25T09:38:19Z",
-      "last_success_at": "2026-11-25T09:38:19Z",
-      "observed_at": "2026-11-25T09:38:19Z",
+      "checked_at": "2026-11-25T10:33:48Z",
+      "last_success_at": "2026-11-25T10:33:48Z",
+      "observed_at": "2026-11-25T10:33:48Z",
       "observation": {
         "kind": "disaster_messages",
         "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
         "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
-        "window_start": "2026-11-24T09:38:13Z",
-        "window_end": "2026-11-25T09:38:13Z",
-        "total_count": 29,
+        "window_start": "2026-11-24T10:33:43Z",
+        "window_end": "2026-11-25T10:33:43Z",
+        "total_count": 26,
         "matched_count": 0,
         "complete": true,
         "items": []
@@ -1413,27 +1413,25 @@
     },
     {
       "id": "rok-cheonghae-expansion-proposal-20261105",
-      "title": "청해부대 파견 확대안 차관회의 통과 보도…국회 동의 절차 예정",
-      "summary": "청해부대 파견 연장·확대 동의안이 11월 5일 차관회의를 통과했다고 JTBC가 보도했습니다. 국방부는 같은 날 브리핑에서 오만 남방 외해로 작전구역을 넓히는 안을 설명하고, 의결 절차를 거쳐 추진할 계획이라고 밝혔습니다. 실제 추가 파견 완료는 확인되지 않았습니다.",
+      "title": "청해부대 파견 연장·확대안, 국회 국방위 소위 통과 보도",
+      "summary": "경향신문과 연합뉴스는 청해부대 파견 연장·확대 수정 동의안이 11월 25일 국회 국방위원회 법안심사소위원회를 통과했다고 보도했습니다. 두 매체에 따르면 이재명 대통령은 한국 선박과 해상수송로 보호를 위한 조치라며 전쟁 불개입 원칙을 재확인했습니다. 이 기록은 소위 단계까지이며 국회 최종 동의나 실제 추가 배치는 확인하지 못했습니다.",
       "kind": "official_measure",
       "military_actor": "south_korea",
       "occurred_at": "2026-11-04T15:00:00Z",
       "time_precision": "day",
       "reported_at": "2026-11-05T01:33:02Z",
       "reported_precision": "minute",
-      "updated_at": "2026-11-05T05:21:28Z",
+      "updated_at": "2026-11-25T11:27:45Z",
       "status": "reported",
       "primary_status": "primary_seen",
       "lifecycle": "unknown",
       "important": false,
       "unknowns": [
-        "11월 5일 국방부 공식 브리핑은 확인했으나 동의안 본문과 차관회의록은 확보하지 못했습니다. 차관회의 통과는 JTBC 보도에 귀속하며, 브리핑의 제출 설명만으로 국회 제출 완료를 확정하지 않습니다. 같은 발표의 인용을 독립 확인으로 세지 않습니다.",
-        "발생일은 JTBC가 명시한 11월 5일 차관회의 통과일입니다. SBS가 전한 수정안 확정의 정확한 날짜·시각과 실제 추가 파견일은 확인되지 않았습니다.",
-        "395명 이내와 추가 전력은 계획상 규모입니다. 국무회의·국회 통과, 현지 협의 완료나 실제 배치 완료를 확인한 것은 아닙니다. 향후 심의·투입 일정은 바뀔 수 있습니다.",
-        "오만 남방 해역으로의 확대 계획을 호르무즈 해협 진입이나 이란 전쟁 개입 완료로 해석하지 않습니다. 전력 확대의 효과나 군사적 위험을 이 기록에서 판정하지 않습니다."
+        "11월 5일 차관회의 통과 보도는 기존 출처에 귀속하며 발생일은 당시 날짜로 유지합니다.",
+        "11월 25일 대통령 게시글과 소위원회 의결의 직접 원문은 확보하지 못했습니다. 보도는 국회 최종 동의나 실제 추가 배치 완료를 입증하지 않습니다."
       ],
-      "revision": 2,
-      "why_it_matters": "",
+      "revision": 3,
+      "why_it_matters": "파견 연장·확대안의 국회 심사 진행 단계와 전쟁 불개입 방침을 구분해 볼 수 있습니다.",
       "significance": "notable",
       "sources": [
         {
@@ -1453,6 +1451,18 @@
           "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
           "published_at": "2026-11-04T15:00:00Z",
           "published_precision": "day"
+        },
+        {
+          "name": "경향신문 · 대통령 발언 인용 및 소위 의결 보도",
+          "url": "https://www.khan.co.kr/article/202611251813001/amp",
+          "published_at": "2026-11-25T09:13:00Z",
+          "published_precision": "minute"
+        },
+        {
+          "name": "연합뉴스 · 대통령 발언 인용 및 소위 의결 보도",
+          "url": "https://www.yna.co.kr/amp/view/AKR20261125168100001",
+          "published_at": "2026-11-25T09:43:00Z",
+          "published_precision": "minute"
         }
       ],
       "facts": [
@@ -1464,32 +1474,26 @@
           ]
         },
         {
-          "text": "SBS와 JTBC가 전한 계획에는 작전구역의 오만 남방 해역 확대와 해상초계기 1대·폭발물처리팀·무인 기뢰 제거장비 추가, 병력 395명 이내로의 확대가 포함됐습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
-            "https://news.jtbc.co.kr/article/NB12326588"
-          ]
-        },
-        {
-          "text": "JTBC는 국무회의 심의·대통령 재가·국회 동의 절차를 거친 뒤 현지 당국과의 협의가 완료되는 대로 추가 전력 투입을 추진할 예정이라고 보도했습니다.",
-          "state": "reported",
-          "evidence_urls": [
-            "https://news.jtbc.co.kr/article/NB12326588"
-          ]
-        },
-        {
-          "text": "국방부는 11월 5일 브리핑에서 연장안을 이날 제출했으며 의결 절차에 따라 추진하겠다고 밝혔습니다. 확대 구역은 오만 남방 외해이며, 초계기와 폭발물처리반 추가 계획을 설명했습니다.",
+          "text": "국방부는 11월 5일 정례브리핑에서 파견 연장·확대안을 의결 절차를 거쳐 추진할 계획이라고 설명했습니다.",
           "state": "reported",
           "evidence_urls": [
             "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
           ]
         },
         {
-          "text": "국방부는 호르무즈 해협 진입을 전제로 한 방안이 아니며, 추가 항행 자유 지원 활동에는 허용적 환경이 필요하다고 설명했습니다. 전쟁에 개입하지 않는 원칙으로 임무를 수행하겠다는 입장입니다.",
+          "text": "경향신문과 연합뉴스는 11월 25일 국회 국방위원회 법안심사소위가 수정 동의안을 의결했다고 보도했습니다.",
           "state": "reported",
           "evidence_urls": [
-            "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
+            "https://www.khan.co.kr/article/202611251813001/amp",
+            "https://www.yna.co.kr/amp/view/AKR20261125168100001"
+          ]
+        },
+        {
+          "text": "두 매체에 따르면 이재명 대통령은 같은 날 공개 글에서 한국 선박과 해상수송로 보호가 목적이며 전쟁에 개입하지 않는 원칙을 유지한다고 밝혔습니다.",
+          "state": "reported",
+          "evidence_urls": [
+            "https://www.khan.co.kr/article/202611251813001/amp",
+            "https://www.yna.co.kr/amp/view/AKR20261125168100001"
           ]
         }
       ],
@@ -1504,6 +1508,11 @@
           "at": "2026-11-05T05:21:28Z",
           "type": "update",
           "text": "Codex 정기 원문 검토: 11월 5일 국방부 공식 답변을 연결해 의결 후 추진, 오만 남방 외해, 추가 활동의 전제 조건과 전쟁 비개입 원칙을 보완했습니다. 차관회의 통과는 기존 보도에 귀속하고 국회 의결·실제 추가 파견 완료로 바꾸지 않았습니다."
+        },
+        {
+          "at": "2026-11-25T11:27:45Z",
+          "type": "update",
+          "text": "11월 25일 보도 두 건을 대조해 국회 소위원회 의결과 대통령의 전쟁 불개입 방침을 후속으로 기록했습니다. 기존 사건 ID와 발생일은 유지하고, 국회 최종 동의와 집행은 미확인으로 구분했습니다. 새 요약은 절차와 공개 방침으로 제한했습니다."
         }
       ]
     },
@@ -4498,6 +4507,14 @@
   ],
   "changes": [
     {
+      "id": "c-e43241f23a0abf00a14c",
+      "event_id": "rok-cheonghae-expansion-proposal-20261105",
+      "at": "2026-11-25T11:27:45Z",
+      "type": "update",
+      "title": "청해부대 파견 연장·확대안, 국회 국방위 소위 통과 보도",
+      "text": "11월 25일 보도 두 건을 대조해 국회 소위원회 의결과 대통령의 전쟁 불개입 방침을 후속으로 기록했습니다. 기존 사건 ID와 발생일은 유지하고, 국회 최종 동의와 집행은 미확인으로 구분했습니다. 새 요약은 절차와 공개 방침으로 제한했습니다."
+    },
+    {
       "id": "c-51036aaaf1a845a7f32f",
       "event_id": "vn-war-remains-repatriation-20261125",
       "at": "2026-11-25T10:29:02Z",
@@ -5505,7 +5522,7 @@
     }
   ],
   "dashboard": {
-    "as_of": "2026-11-25T10:29:37+00:00",
+    "as_of": "2026-11-25T11:28:18+00:00",
     "assessment_label": "최근 발생한 사건과 발표·보도",
     "assessment_summary": "1967년 베트남전에서 전사한 안규태 병장의 유해가 한미 당국의 신원 확인을 거쳐 국내로 돌아왔습니다. 한국일보와 뉴시스는 국방부를 인용해 11월 25일 유해 봉환식이 열렸다고 보도했습니다. 국방부가 예고한 안장식은 11월 26일 오후 3시입니다.",
     "brief": {
@@ -5520,7 +5537,7 @@
           "name": "행정안전부 국민안전24 · 재난문자",
           "kind": "disaster_messages",
           "url": "https://www.safekorea.go.kr/safekorea-kor/ctim/cmsg/calamitySms.do?menuSn=34",
-          "observed_at": "2026-11-25T09:38:19Z",
+          "observed_at": "2026-11-25T10:33:48Z",
           "published_at": null,
           "published_precision": "unknown",
           "status": "ok",
@@ -5528,17 +5545,17 @@
           "state": "",
           "note": "전국 재난문자 발송 기록을 최근 24시간 기준으로 조회합니다. 수집된 0건은 활성 경보가 없다는 뜻이 아닙니다. 휴대전화 재난문자와 발령기관 안내를 우선하세요.",
           "items": [],
-          "window_start": "2026-11-24T09:38:13Z",
-          "window_end": "2026-11-25T09:38:13Z",
+          "window_start": "2026-11-24T10:33:43Z",
+          "window_end": "2026-11-25T10:33:43Z",
           "title": "국내 · 재난문자 발송기록",
           "value": "민방공 관련 0건",
-          "detail": "최근 24시간 · 전국 문자 29건 확인"
+          "detail": "최근 24시간 · 전국 문자 26건 확인"
         },
         {
           "name": "미국 국무부 · 한국 여행경보",
           "kind": "travel_advisory",
           "url": "https://travel.state.gov/en/international-travel/travel-advisories/south-korea.html",
-          "observed_at": "2026-11-25T10:27:46Z",
+          "observed_at": "2026-11-25T11:26:46Z",
           "published_at": "2025-05-28T00:00:00Z",
           "published_precision": "day",
           "status": "ok",
@@ -5556,7 +5573,7 @@
           "name": "영국 외무부 한국 여행정보",
           "kind": "travel_advice",
           "url": "https://www.gov.uk/foreign-travel-advice/south-korea",
-          "observed_at": "2026-11-25T10:25:32Z",
+          "observed_at": "2026-11-25T11:25:32Z",
           "published_at": "2026-05-14T10:06:39Z",
           "published_precision": "minute",
           "status": "ok",
@@ -5677,10 +5694,10 @@
           "date_label": "2026.11.24 07:52 KST · 발생 시각"
         }
       ],
-      "updated_at": "2026-11-25T10:29:37+00:00",
+      "updated_at": "2026-11-25T11:28:18+00:00",
       "method_version": "tension-observation-2",
       "method_note": "공개 기록 유형에 따른 시험 분류 · 전쟁 확률이나 공식 경보가 아닙니다.",
-      "valid_until": "2026-11-25T11:38:00+00:00",
+      "valid_until": "2026-11-25T12:33:29+00:00",
       "asset_key": "observe",
       "scope_limited": 1,
       "limitations": [
@@ -7414,27 +7431,25 @@
       },
       {
         "id": "rok-cheonghae-expansion-proposal-20261105",
-        "title": "청해부대 파견 확대안 차관회의 통과 보도…국회 동의 절차 예정",
-        "summary": "청해부대 파견 연장·확대 동의안이 11월 5일 차관회의를 통과했다고 JTBC가 보도했습니다. 국방부는 같은 날 브리핑에서 오만 남방 외해로 작전구역을 넓히는 안을 설명하고, 의결 절차를 거쳐 추진할 계획이라고 밝혔습니다. 실제 추가 파견 완료는 확인되지 않았습니다.",
+        "title": "청해부대 파견 연장·확대안, 국회 국방위 소위 통과 보도",
+        "summary": "경향신문과 연합뉴스는 청해부대 파견 연장·확대 수정 동의안이 11월 25일 국회 국방위원회 법안심사소위원회를 통과했다고 보도했습니다. 두 매체에 따르면 이재명 대통령은 한국 선박과 해상수송로 보호를 위한 조치라며 전쟁 불개입 원칙을 재확인했습니다. 이 기록은 소위 단계까지이며 국회 최종 동의나 실제 추가 배치는 확인하지 못했습니다.",
         "kind": "official_measure",
         "military_actor": "south_korea",
         "occurred_at": "2026-11-04T15:00:00Z",
         "time_precision": "day",
         "reported_at": "2026-11-05T01:33:02Z",
         "reported_precision": "minute",
-        "updated_at": "2026-11-05T05:21:28Z",
+        "updated_at": "2026-11-25T11:27:45Z",
         "status": "reported",
         "primary_status": "primary_seen",
         "lifecycle": "unknown",
         "important": false,
         "unknowns": [
-          "11월 5일 국방부 공식 브리핑은 확인했으나 동의안 본문과 차관회의록은 확보하지 못했습니다. 차관회의 통과는 JTBC 보도에 귀속하며, 브리핑의 제출 설명만으로 국회 제출 완료를 확정하지 않습니다. 같은 발표의 인용을 독립 확인으로 세지 않습니다.",
-          "발생일은 JTBC가 명시한 11월 5일 차관회의 통과일입니다. SBS가 전한 수정안 확정의 정확한 날짜·시각과 실제 추가 파견일은 확인되지 않았습니다.",
-          "395명 이내와 추가 전력은 계획상 규모입니다. 국무회의·국회 통과, 현지 협의 완료나 실제 배치 완료를 확인한 것은 아닙니다. 향후 심의·투입 일정은 바뀔 수 있습니다.",
-          "오만 남방 해역으로의 확대 계획을 호르무즈 해협 진입이나 이란 전쟁 개입 완료로 해석하지 않습니다. 전력 확대의 효과나 군사적 위험을 이 기록에서 판정하지 않습니다."
+          "11월 5일 차관회의 통과 보도는 기존 출처에 귀속하며 발생일은 당시 날짜로 유지합니다.",
+          "11월 25일 대통령 게시글과 소위원회 의결의 직접 원문은 확보하지 못했습니다. 보도는 국회 최종 동의나 실제 추가 배치 완료를 입증하지 않습니다."
         ],
-        "revision": 2,
-        "why_it_matters": "",
+        "revision": 3,
+        "why_it_matters": "파견 연장·확대안의 국회 심사 진행 단계와 전쟁 불개입 방침을 구분해 볼 수 있습니다.",
         "significance": "notable",
         "sources": [
           {
@@ -7454,6 +7469,18 @@
             "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073",
             "published_at": "2026-11-04T15:00:00Z",
             "published_precision": "day"
+          },
+          {
+            "name": "경향신문 · 대통령 발언 인용 및 소위 의결 보도",
+            "url": "https://www.khan.co.kr/article/202611251813001/amp",
+            "published_at": "2026-11-25T09:13:00Z",
+            "published_precision": "minute"
+          },
+          {
+            "name": "연합뉴스 · 대통령 발언 인용 및 소위 의결 보도",
+            "url": "https://www.yna.co.kr/amp/view/AKR20261125168100001",
+            "published_at": "2026-11-25T09:43:00Z",
+            "published_precision": "minute"
           }
         ],
         "facts": [
@@ -7465,32 +7492,26 @@
             ]
           },
           {
-            "text": "SBS와 JTBC가 전한 계획에는 작전구역의 오만 남방 해역 확대와 해상초계기 1대·폭발물처리팀·무인 기뢰 제거장비 추가, 병력 395명 이내로의 확대가 포함됐습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.sbs.co.kr/news/endPage.do?news_id=N1008831821",
-              "https://news.jtbc.co.kr/article/NB12326588"
-            ]
-          },
-          {
-            "text": "JTBC는 국무회의 심의·대통령 재가·국회 동의 절차를 거친 뒤 현지 당국과의 협의가 완료되는 대로 추가 전력 투입을 추진할 예정이라고 보도했습니다.",
-            "state": "reported",
-            "evidence_urls": [
-              "https://news.jtbc.co.kr/article/NB12326588"
-            ]
-          },
-          {
-            "text": "국방부는 11월 5일 브리핑에서 연장안을 이날 제출했으며 의결 절차에 따라 추진하겠다고 밝혔습니다. 확대 구역은 오만 남방 외해이며, 초계기와 폭발물처리반 추가 계획을 설명했습니다.",
+            "text": "국방부는 11월 5일 정례브리핑에서 파견 연장·확대안을 의결 절차를 거쳐 추진할 계획이라고 설명했습니다.",
             "state": "reported",
             "evidence_urls": [
               "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
             ]
           },
           {
-            "text": "국방부는 호르무즈 해협 진입을 전제로 한 방안이 아니며, 추가 항행 자유 지원 활동에는 허용적 환경이 필요하다고 설명했습니다. 전쟁에 개입하지 않는 원칙으로 임무를 수행하겠다는 입장입니다.",
+            "text": "경향신문과 연합뉴스는 11월 25일 국회 국방위원회 법안심사소위가 수정 동의안을 의결했다고 보도했습니다.",
             "state": "reported",
             "evidence_urls": [
-              "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156788073"
+              "https://www.khan.co.kr/article/202611251813001/amp",
+              "https://www.yna.co.kr/amp/view/AKR20261125168100001"
+            ]
+          },
+          {
+            "text": "두 매체에 따르면 이재명 대통령은 같은 날 공개 글에서 한국 선박과 해상수송로 보호가 목적이며 전쟁에 개입하지 않는 원칙을 유지한다고 밝혔습니다.",
+            "state": "reported",
+            "evidence_urls": [
+              "https://www.khan.co.kr/article/202611251813001/amp",
+              "https://www.yna.co.kr/amp/view/AKR20261125168100001"
             ]
           }
         ],
@@ -7505,6 +7526,11 @@
             "at": "2026-11-05T05:21:28Z",
             "type": "update",
             "text": "Codex 정기 원문 검토: 11월 5일 국방부 공식 답변을 연결해 의결 후 추진, 오만 남방 외해, 추가 활동의 전제 조건과 전쟁 비개입 원칙을 보완했습니다. 차관회의 통과는 기존 보도에 귀속하고 국회 의결·실제 추가 파견 완료로 바꾸지 않았습니다."
+          },
+          {
+            "at": "2026-11-25T11:27:45Z",
+            "type": "update",
+            "text": "11월 25일 보도 두 건을 대조해 국회 소위원회 의결과 대통령의 전쟁 불개입 방침을 후속으로 기록했습니다. 기존 사건 ID와 발생일은 유지하고, 국회 최종 동의와 집행은 미확인으로 구분했습니다. 새 요약은 절차와 공개 방침으로 제한했습니다."
           }
         ]
       },
@@ -11024,7 +11050,7 @@
     "metrics": {
       "events_24h": 1,
       "events_24h_uncertain": 5,
-      "changes_24h": 9,
+      "changes_24h": 10,
       "corrections_24h": 1,
       "active_major": 7
     },
@@ -11354,6 +11380,17 @@
       }
     },
     "recent_changes": [
+      {
+        "id": "c-e43241f23a0abf00a14c",
+        "event_id": "rok-cheonghae-expansion-proposal-20261105",
+        "at": "2026-11-25T11:27:45Z",
+        "type": "update",
+        "title": "청해부대 파견 연장·확대안, 국회 국방위 소위 통과 보도",
+        "text": "11월 25일 보도 두 건을 대조해 국회 소위원회 의결과 대통령의 전쟁 불개입 방침을 후속으로 기록했습니다. 기존 사건 ID와 발생일은 유지하고, 국회 최종 동의와 집행은 미확인으로 구분했습니다. 새 요약은 절차와 공개 방침으로 제한했습니다.",
+        "display_label": "후속 내용 추가",
+        "event_date_label": "2026.11.05 · 발생일",
+        "registration_kind": null
+      },
       {
         "id": "c-51036aaaf1a845a7f32f",
         "event_id": "vn-war-remains-repatriation-20261125",
@@ -12077,9 +12114,9 @@
     },
     "data_note": "막대는 수집 기사 수가 아닌 검토·등록된 사건 기록 수입니다. 중복 등록이 확인되면 정정합니다. 발생일 미상은 게시일을 쓰며 오늘은 아직 끝나지 않은 기간입니다. 0건은 실제 활동이 없었다는 뜻이 아닙니다.",
     "coverage_start": null,
-    "last_attempt_at": "2026-11-25T10:27:46+00:00"
+    "last_attempt_at": "2026-11-25T11:26:46+00:00"
   },
   "demo_enabled": true,
   "snapshot_coverage_as_of": "2026-11-01T14:17:05Z",
-  "snapshot_collection_checked_at": "2026-11-25T09:38:00Z"
+  "snapshot_collection_checked_at": "2026-11-25T10:33:29Z"
 }
